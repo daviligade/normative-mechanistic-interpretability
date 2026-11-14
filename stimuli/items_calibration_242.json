@@ -1,0 +1,1696 @@
+[
+ {
+  "id": "m_v01",
+  "category": "moral",
+  "subtype": "care",
+  "perm_stem": "Comforting a crying child at the playground",
+  "rest_stem": "Mocking a crying child at the playground"
+ },
+ {
+  "id": "m_v02",
+  "category": "moral",
+  "subtype": "care",
+  "perm_stem": "Petting a stray dog outside the station",
+  "rest_stem": "Kicking a stray dog outside the station"
+ },
+ {
+  "id": "m_v03",
+  "category": "moral",
+  "subtype": "care",
+  "perm_stem": "Aiding an elderly man on the stairs",
+  "rest_stem": "Tripping an elderly man on the stairs"
+ },
+ {
+  "id": "m_v04",
+  "category": "moral",
+  "subtype": "care",
+  "perm_stem": "Praising the nurse who treated your mother",
+  "rest_stem": "Slapping the nurse who treated your mother"
+ },
+ {
+  "id": "m_v05",
+  "category": "moral",
+  "subtype": "care",
+  "perm_stem": "Welcoming a shy classmate in front of others",
+  "rest_stem": "Shaming a shy classmate in front of others"
+ },
+ {
+  "id": "m_v06",
+  "category": "moral",
+  "subtype": "care",
+  "perm_stem": "Treating an injured hiker on the trail",
+  "rest_stem": "Leaving an injured hiker on the trail"
+ },
+ {
+  "id": "m_v07",
+  "category": "moral",
+  "subtype": "honesty",
+  "perm_stem": "Returning the extra change a cashier gave you by mistake",
+  "rest_stem": "Keeping the extra change a cashier gave you by mistake"
+ },
+ {
+  "id": "m_v08",
+  "category": "moral",
+  "subtype": "honesty",
+  "perm_stem": "Disclosing a serious safety defect in the product",
+  "rest_stem": "Denying a serious safety defect in the product"
+ },
+ {
+  "id": "m_v09",
+  "category": "moral",
+  "subtype": "property",
+  "perm_stem": "Guarding the funds of a children's charity",
+  "rest_stem": "Looting the funds of a children's charity"
+ },
+ {
+  "id": "m_v10",
+  "category": "moral",
+  "subtype": "loyalty",
+  "perm_stem": "Keeping a promise to visit your sick grandmother",
+  "rest_stem": "Breaking a promise to visit your sick grandmother"
+ },
+ {
+  "id": "m_v11",
+  "category": "moral",
+  "subtype": "care",
+  "perm_stem": "Guiding a blind passenger across the busy street",
+  "rest_stem": "Shoving a blind passenger across the busy street"
+ },
+ {
+  "id": "m_v12",
+  "category": "moral",
+  "subtype": "care",
+  "perm_stem": "Assisting a lost tourist who asks for directions",
+  "rest_stem": "Robbing a lost tourist who asks for directions"
+ },
+ {
+  "id": "m_v13",
+  "category": "moral",
+  "subtype": "care",
+  "perm_stem": "Consoling your younger brother when he fails a test",
+  "rest_stem": "Beating your younger brother when he fails a test"
+ },
+ {
+  "id": "m_v14",
+  "category": "moral",
+  "subtype": "property",
+  "perm_stem": "Reporting a wallet that you found on the train",
+  "rest_stem": "Keeping a wallet that you found on the train"
+ },
+ {
+  "id": "m_v15",
+  "category": "moral",
+  "subtype": "care",
+  "perm_stem": "Delivering water to a family stranded in the desert",
+  "rest_stem": "Refusing water to a family stranded in the desert"
+ },
+ {
+  "id": "m_v16",
+  "category": "moral",
+  "subtype": "honesty",
+  "perm_stem": "Informing the police about what you saw at the accident",
+  "rest_stem": "Misleading the police about what you saw at the accident"
+ },
+ {
+  "id": "m_v17",
+  "category": "moral",
+  "subtype": "care",
+  "perm_stem": "Saving a drowning swimmer near the pier",
+  "rest_stem": "Ignoring a drowning swimmer near the pier"
+ },
+ {
+  "id": "m_f01",
+  "category": "moral",
+  "subtype": "consent",
+  "perm_stem": "Reading your sister's diary with her permission",
+  "rest_stem": "Reading your sister's diary without her permission"
+ },
+ {
+  "id": "m_f02",
+  "category": "moral",
+  "subtype": "consent",
+  "perm_stem": "Borrowing a neighbor's car with his consent",
+  "rest_stem": "Borrowing a neighbor's car without his consent"
+ },
+ {
+  "id": "m_f03",
+  "category": "moral",
+  "subtype": "consent",
+  "perm_stem": "Photographing strangers at the beach with their consent",
+  "rest_stem": "Photographing strangers at the beach without their consent"
+ },
+ {
+  "id": "m_f04",
+  "category": "moral",
+  "subtype": "consent",
+  "perm_stem": "Sharing a friend's medical records with her approval",
+  "rest_stem": "Sharing a friend's medical records without her approval"
+ },
+ {
+  "id": "m_f05",
+  "category": "moral",
+  "subtype": "honesty",
+  "perm_stem": "Selling a used car after disclosing its defects",
+  "rest_stem": "Selling a used car without disclosing its defects"
+ },
+ {
+  "id": "m_f06",
+  "category": "moral",
+  "subtype": "consent",
+  "perm_stem": "Testing a new drug on patients with informed consent",
+  "rest_stem": "Testing a new drug on patients without informed consent"
+ },
+ {
+  "id": "m_f07",
+  "category": "moral",
+  "subtype": "honesty",
+  "perm_stem": "Using a coworker's idea while giving her credit",
+  "rest_stem": "Using a coworker's idea without giving her credit"
+ },
+ {
+  "id": "m_f08",
+  "category": "moral",
+  "subtype": "care",
+  "perm_stem": "Leaving the scene of an accident after helping the injured",
+  "rest_stem": "Leaving the scene of an accident without helping the injured"
+ },
+ {
+  "id": "m_f09",
+  "category": "moral",
+  "subtype": "fairness",
+  "perm_stem": "Parking in a disabled spot with a valid permit",
+  "rest_stem": "Parking in a disabled spot without a valid permit"
+ },
+ {
+  "id": "m_f10",
+  "category": "moral",
+  "subtype": "property",
+  "perm_stem": "Withdrawing money from your grandfather's account at his request",
+  "rest_stem": "Withdrawing money from your grandfather's account against his request"
+ },
+ {
+  "id": "m_f11",
+  "category": "moral",
+  "subtype": "consent",
+  "perm_stem": "Asking for a patient's consent before the operation",
+  "rest_stem": "Asking for a patient's consent after the operation"
+ },
+ {
+  "id": "m_f12",
+  "category": "moral",
+  "subtype": "care",
+  "perm_stem": "Warning the residents before demolishing the building",
+  "rest_stem": "Warning the residents after demolishing the building"
+ },
+ {
+  "id": "m_f13",
+  "category": "moral",
+  "subtype": "fairness",
+  "perm_stem": "Paying workers more than the legal minimum wage",
+  "rest_stem": "Paying workers less than the legal minimum wage"
+ },
+ {
+  "id": "m_f14",
+  "category": "moral",
+  "subtype": "honesty",
+  "perm_stem": "Giving all of the donated money to the flood victims",
+  "rest_stem": "Giving none of the donated money to the flood victims"
+ },
+ {
+  "id": "m_f15",
+  "category": "moral",
+  "subtype": "care",
+  "perm_stem": "Treating the sickest patients first in the emergency room",
+  "rest_stem": "Treating the sickest patients last in the emergency room"
+ },
+ {
+  "id": "m_f16",
+  "category": "moral",
+  "subtype": "honesty",
+  "perm_stem": "Yelling fire in a crowded theater when there is a fire",
+  "rest_stem": "Yelling fire in a crowded theater when there is no fire"
+ },
+ {
+  "id": "m_f17",
+  "category": "moral",
+  "subtype": "honesty",
+  "perm_stem": "Reporting all of your income on the tax return",
+  "rest_stem": "Reporting none of your income on the tax return"
+ },
+ {
+  "id": "m_f18",
+  "category": "moral",
+  "subtype": "consent",
+  "perm_stem": "Entering a tenant's apartment after giving notice",
+  "rest_stem": "Entering a tenant's apartment without giving notice"
+ },
+ {
+  "id": "m_p01",
+  "category": "moral",
+  "subtype": "loyalty",
+  "perm_stem": "Revealing a friend's secret to protect her",
+  "rest_stem": "Revealing a friend's secret to embarrass her"
+ },
+ {
+  "id": "m_p02",
+  "category": "moral",
+  "subtype": "care",
+  "perm_stem": "Reading a child's messages to protect her",
+  "rest_stem": "Reading a child's messages to blackmail her"
+ },
+ {
+  "id": "m_p03",
+  "category": "moral",
+  "subtype": "care",
+  "perm_stem": "Pointing out a coworker's error to help him",
+  "rest_stem": "Pointing out a coworker's error to shame him"
+ },
+ {
+  "id": "m_p04",
+  "category": "moral",
+  "subtype": "care",
+  "perm_stem": "Waking the neighbors at night to warn them",
+  "rest_stem": "Waking the neighbors at night to annoy them"
+ },
+ {
+  "id": "m_p05",
+  "category": "moral",
+  "subtype": "honesty",
+  "perm_stem": "Pretending to be a doctor to entertain children",
+  "rest_stem": "Pretending to be a doctor to treat patients"
+ },
+ {
+  "id": "m_p06",
+  "category": "moral",
+  "subtype": "care",
+  "perm_stem": "Pulling the emergency brake on a train to save a life",
+  "rest_stem": "Pulling the emergency brake on a train to skip a stop"
+ },
+ {
+  "id": "m_p07",
+  "category": "moral",
+  "subtype": "care",
+  "perm_stem": "Calling an ambulance for a collapsed stranger",
+  "rest_stem": "Calling an ambulance for a funny prank"
+ },
+ {
+  "id": "m_p08",
+  "category": "moral",
+  "subtype": "fairness",
+  "perm_stem": "Punishing a child for hitting his sister",
+  "rest_stem": "Punishing a child for helping his sister"
+ },
+ {
+  "id": "m_p09",
+  "category": "moral",
+  "subtype": "fairness",
+  "perm_stem": "Rewarding an employee for reporting safety violations",
+  "rest_stem": "Rewarding an employee for hiding safety violations"
+ },
+ {
+  "id": "m_p10",
+  "category": "moral",
+  "subtype": "fairness",
+  "perm_stem": "Expelling a student for cheating during the exam",
+  "rest_stem": "Expelling a student for smiling during the exam"
+ },
+ {
+  "id": "m_p11",
+  "category": "moral",
+  "subtype": "fairness",
+  "perm_stem": "Fining a driver for speeding on the highway",
+  "rest_stem": "Fining a driver for singing on the highway"
+ },
+ {
+  "id": "m_p12",
+  "category": "moral",
+  "subtype": "fairness",
+  "perm_stem": "Firing an employee for repeated theft",
+  "rest_stem": "Firing an employee for being pregnant"
+ },
+ {
+  "id": "m_p13",
+  "category": "moral",
+  "subtype": "fairness",
+  "perm_stem": "Refusing to serve a customer because of his violence",
+  "rest_stem": "Refusing to serve a customer because of his religion"
+ },
+ {
+  "id": "m_p14",
+  "category": "moral",
+  "subtype": "fairness",
+  "perm_stem": "Rejecting a job applicant because of her grades",
+  "rest_stem": "Rejecting a job applicant because of her gender"
+ },
+ {
+  "id": "m_p15",
+  "category": "moral",
+  "subtype": "fairness",
+  "perm_stem": "Promoting an employee because of her results",
+  "rest_stem": "Promoting an employee because of her looks"
+ },
+ {
+  "id": "m_p16",
+  "category": "moral",
+  "subtype": "care",
+  "perm_stem": "Euthanizing a dog because it is suffering",
+  "rest_stem": "Euthanizing a dog because it is shedding"
+ },
+ {
+  "id": "m_p17",
+  "category": "moral",
+  "subtype": "fairness",
+  "perm_stem": "Winning an election by convincing voters",
+  "rest_stem": "Winning an election by threatening voters"
+ },
+ {
+  "id": "m_p18",
+  "category": "moral",
+  "subtype": "fairness",
+  "perm_stem": "Winning a race by training for months",
+  "rest_stem": "Winning a race by doping for months"
+ },
+ {
+  "id": "m_p19",
+  "category": "moral",
+  "subtype": "honesty",
+  "perm_stem": "Earning a degree by writing your thesis",
+  "rest_stem": "Earning a degree by buying your thesis"
+ },
+ {
+  "id": "m_p21",
+  "category": "moral",
+  "subtype": "fairness",
+  "perm_stem": "Competing for a promotion by working harder",
+  "rest_stem": "Competing for a promotion by spreading lies"
+ },
+ {
+  "id": "m_p22",
+  "category": "moral",
+  "subtype": "care",
+  "perm_stem": "Coaching a youth team by encouraging the weaker players",
+  "rest_stem": "Coaching a youth team by humiliating the weaker players"
+ },
+ {
+  "id": "m_p23",
+  "category": "moral",
+  "subtype": "fairness",
+  "perm_stem": "Awarding the city contract based on merit",
+  "rest_stem": "Awarding the city contract based on bribery"
+ },
+ {
+  "id": "m_p24",
+  "category": "moral",
+  "subtype": "fairness",
+  "perm_stem": "Grading a student's essay based on her arguments",
+  "rest_stem": "Grading a student's essay based on her surname"
+ },
+ {
+  "id": "m_p25",
+  "category": "moral",
+  "subtype": "care",
+  "perm_stem": "Leaving your lifeguard post to rescue a child",
+  "rest_stem": "Leaving your lifeguard post to take a nap"
+ },
+ {
+  "id": "m_p26",
+  "category": "moral",
+  "subtype": "property",
+  "perm_stem": "Breaking a car window to rescue a dog",
+  "rest_stem": "Breaking a car window to steal a bag"
+ },
+ {
+  "id": "m_p27",
+  "category": "moral",
+  "subtype": "care",
+  "perm_stem": "Shouting at a child to alert her",
+  "rest_stem": "Shouting at a child to scare her"
+ },
+ {
+  "id": "m_p28",
+  "category": "moral",
+  "subtype": "property",
+  "perm_stem": "Taking a colleague's laptop to repair it",
+  "rest_stem": "Taking a colleague's laptop to sell it"
+ },
+ {
+  "id": "m_o01",
+  "category": "moral",
+  "subtype": "care",
+  "perm_stem": "Selling alcohol to adults at the festival",
+  "rest_stem": "Selling alcohol to minors at the festival"
+ },
+ {
+  "id": "m_o02",
+  "category": "moral",
+  "subtype": "honesty",
+  "perm_stem": "Testifying honestly against a neighbor in court",
+  "rest_stem": "Testifying falsely against a neighbor in court"
+ },
+ {
+  "id": "m_o03",
+  "category": "moral",
+  "subtype": "honesty",
+  "perm_stem": "Posting honest reviews about a rival's restaurant",
+  "rest_stem": "Posting fake reviews about a rival's restaurant"
+ },
+ {
+  "id": "m_o04",
+  "category": "moral",
+  "subtype": "honesty",
+  "perm_stem": "Submitting your own essay for the scholarship",
+  "rest_stem": "Submitting a stolen essay for the scholarship"
+ },
+ {
+  "id": "m_o06",
+  "category": "moral",
+  "subtype": "honesty",
+  "perm_stem": "Claiming a tax deduction for a real charitable donation",
+  "rest_stem": "Claiming a tax deduction for a fake charitable donation"
+ },
+ {
+  "id": "m_o07",
+  "category": "moral",
+  "subtype": "honesty",
+  "perm_stem": "Filing a police report about a real burglary",
+  "rest_stem": "Filing a police report about a staged burglary"
+ },
+ {
+  "id": "m_o08",
+  "category": "moral",
+  "subtype": "care",
+  "perm_stem": "Leaving a sleeping baby alone in the crib",
+  "rest_stem": "Leaving a sleeping baby alone in the car"
+ },
+ {
+  "id": "m_o09",
+  "category": "moral",
+  "subtype": "care",
+  "perm_stem": "Dumping used motor oil at a recycling center",
+  "rest_stem": "Dumping used motor oil at a nearby creek"
+ },
+ {
+  "id": "m_o10",
+  "category": "moral",
+  "subtype": "fairness",
+  "perm_stem": "Charging tourists normal prices at the market",
+  "rest_stem": "Charging tourists triple prices at the market"
+ },
+ {
+  "id": "m_o11",
+  "category": "moral",
+  "subtype": "fairness",
+  "perm_stem": "Lending money to a friend at zero interest",
+  "rest_stem": "Lending money to a friend at crushing interest"
+ },
+ {
+  "id": "m_o12",
+  "category": "moral",
+  "subtype": "care",
+  "perm_stem": "Breeding dogs in spacious kennels for profit",
+  "rest_stem": "Breeding dogs in filthy kennels for profit"
+ },
+ {
+  "id": "m_o13",
+  "category": "moral",
+  "subtype": "honesty",
+  "perm_stem": "Telling a buyer everything about the car's accident history",
+  "rest_stem": "Telling a buyer nothing about the car's accident history"
+ },
+ {
+  "id": "m_o14",
+  "category": "moral",
+  "subtype": "property",
+  "perm_stem": "Using the company credit card for a client dinner",
+  "rest_stem": "Using the company credit card for a family vacation"
+ },
+ {
+  "id": "m_o15",
+  "category": "moral",
+  "subtype": "care",
+  "perm_stem": "Driving a school bus while sober",
+  "rest_stem": "Driving a school bus while drunk"
+ },
+ {
+  "id": "m_o16",
+  "category": "moral",
+  "subtype": "care",
+  "perm_stem": "Disciplining a toddler by taking away a toy",
+  "rest_stem": "Disciplining a toddler by taking away her meals"
+ },
+ {
+  "id": "m_o17",
+  "category": "moral",
+  "subtype": "fairness",
+  "perm_stem": "Hiring workers at fair wages for the harvest",
+  "rest_stem": "Hiring workers at starvation wages for the harvest"
+ },
+ {
+  "id": "m_o18",
+  "category": "moral",
+  "subtype": "care",
+  "perm_stem": "Serving restaurant customers fresh seafood",
+  "rest_stem": "Serving restaurant customers rotten seafood"
+ },
+ {
+  "id": "m_o19",
+  "category": "moral",
+  "subtype": "honesty",
+  "perm_stem": "Selling a genuine painting as an original Picasso",
+  "rest_stem": "Selling a forged painting as an original Picasso"
+ },
+ {
+  "id": "m_o20",
+  "category": "moral",
+  "subtype": "honesty",
+  "perm_stem": "Advertising a proven cure for cancer to patients",
+  "rest_stem": "Advertising a fake cure for cancer to patients"
+ },
+ {
+  "id": "m_o21",
+  "category": "moral",
+  "subtype": "honesty",
+  "perm_stem": "Giving accurate directions to a lost driver",
+  "rest_stem": "Giving misleading directions to a lost driver"
+ },
+ {
+  "id": "m_o22",
+  "category": "moral",
+  "subtype": "honesty",
+  "perm_stem": "Writing a truthful reference letter for a former employee",
+  "rest_stem": "Writing a malicious reference letter for a former employee"
+ },
+ {
+  "id": "m_o23",
+  "category": "moral",
+  "subtype": "care",
+  "perm_stem": "Feeding your children regular meals every day",
+  "rest_stem": "Feeding your children no meals every day"
+ },
+ {
+  "id": "m_o24",
+  "category": "moral",
+  "subtype": "care",
+  "perm_stem": "Hitting a pillow to release your anger",
+  "rest_stem": "Hitting a sibling to release your anger"
+ },
+ {
+  "id": "pr_v01",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Budgeting your monthly expenses before renting an apartment",
+  "rest_stem": "Guessing your monthly expenses before renting an apartment"
+ },
+ {
+  "id": "pr_v02",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Measuring the window before ordering custom curtains",
+  "rest_stem": "Estimating the window before ordering custom curtains"
+ },
+ {
+  "id": "pr_v05",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Inspecting the tent before the first camping trip",
+  "rest_stem": "Forgetting the tent before the first camping trip"
+ },
+ {
+  "id": "pr_f05",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Buying a used car with an independent inspection",
+  "rest_stem": "Buying a used car without an independent inspection"
+ },
+ {
+  "id": "pr_f09",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Assembling the bookshelf after reading the instructions",
+  "rest_stem": "Assembling the bookshelf without reading the instructions"
+ },
+ {
+  "id": "pr_f10",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Setting an alarm before an early flight",
+  "rest_stem": "Setting no alarm before an early flight"
+ },
+ {
+  "id": "pr_f11",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Saving the document often while writing a long report",
+  "rest_stem": "Saving the document never while writing a long report"
+ },
+ {
+  "id": "pr_f12",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Spending less than you earn each month",
+  "rest_stem": "Spending more than you earn each month"
+ },
+ {
+  "id": "pr_p01",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Choosing a phone plan based on your usage",
+  "rest_stem": "Choosing a phone plan based on your mood"
+ },
+ {
+  "id": "pr_p02",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Picking a university based on its programs",
+  "rest_stem": "Picking a university based on its mascot"
+ },
+ {
+  "id": "pr_p04",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Choosing running shoes based on their fit",
+  "rest_stem": "Choosing running shoes based on their logo"
+ },
+ {
+  "id": "pr_p05",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Learning a language by practicing every day",
+  "rest_stem": "Learning a language by wishing every day"
+ },
+ {
+  "id": "pr_p06",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Preparing for a marathon by training daily",
+  "rest_stem": "Preparing for a marathon by watching videos"
+ },
+ {
+  "id": "pr_p07",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Saving for retirement by investing steadily",
+  "rest_stem": "Saving for retirement by gambling weekly"
+ },
+ {
+  "id": "pr_p09",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Cooling a hot room by opening the windows at night",
+  "rest_stem": "Cooling a hot room by sealing the windows at night"
+ },
+ {
+  "id": "pr_o01",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Using a sharp saw to cut hardwood planks",
+  "rest_stem": "Using a dull saw to cut hardwood planks"
+ },
+ {
+  "id": "pr_o04",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Washing a wool sweater in cold water",
+  "rest_stem": "Washing a wool sweater in boiling water"
+ },
+ {
+  "id": "pr_o07",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Planting tomatoes in a sunny corner of the garden",
+  "rest_stem": "Planting tomatoes in a shady corner of the garden"
+ },
+ {
+  "id": "pr_o10",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Practicing the presentation twice before the big meeting",
+  "rest_stem": "Practicing the presentation never before the big meeting"
+ },
+ {
+  "id": "pr_o11",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Starting to study for the final exam a month before it",
+  "rest_stem": "Starting to study for the final exam a minute before it"
+ },
+ {
+  "id": "pr_o14",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Keeping your passport in a safe place while traveling",
+  "rest_stem": "Keeping your passport in a random place while traveling"
+ },
+ {
+  "id": "et_v02",
+  "category": "norm",
+  "subtype": "etiquette",
+  "perm_stem": "Greeting the host when you arrive at a party",
+  "rest_stem": "Avoiding the host when you arrive at a party"
+ },
+ {
+  "id": "et_v04",
+  "category": "norm",
+  "subtype": "etiquette",
+  "perm_stem": "Silencing your phone during a theater performance",
+  "rest_stem": "Answering your phone during a theater performance"
+ },
+ {
+  "id": "et_v05",
+  "category": "norm",
+  "subtype": "etiquette",
+  "perm_stem": "Listening during a classical music concert",
+  "rest_stem": "Talking during a classical music concert"
+ },
+ {
+  "id": "et_v06",
+  "category": "norm",
+  "subtype": "etiquette",
+  "perm_stem": "Standing when the judge enters the courtroom",
+  "rest_stem": "Talking when the judge enters the courtroom"
+ },
+ {
+  "id": "et_f02",
+  "category": "norm",
+  "subtype": "etiquette",
+  "perm_stem": "Cutting the wedding cake after the newlyweds do",
+  "rest_stem": "Cutting the wedding cake before the newlyweds do"
+ },
+ {
+  "id": "et_f03",
+  "category": "norm",
+  "subtype": "etiquette",
+  "perm_stem": "Serving the guests before yourself at your own dinner",
+  "rest_stem": "Serving the guests after yourself at your own dinner"
+ },
+ {
+  "id": "et_f06",
+  "category": "norm",
+  "subtype": "etiquette",
+  "perm_stem": "Asking questions after the speaker finishes",
+  "rest_stem": "Asking questions before the speaker finishes"
+ },
+ {
+  "id": "et_f07",
+  "category": "norm",
+  "subtype": "etiquette",
+  "perm_stem": "Chewing with your mouth closed at a dinner party",
+  "rest_stem": "Chewing with your mouth open at a dinner party"
+ },
+ {
+  "id": "et_f10",
+  "category": "norm",
+  "subtype": "etiquette",
+  "perm_stem": "Yawning with your mouth covered in a meeting",
+  "rest_stem": "Yawning with your mouth uncovered in a meeting"
+ },
+ {
+  "id": "et_p01",
+  "category": "norm",
+  "subtype": "etiquette",
+  "perm_stem": "Bowing to greet a business partner in Japan",
+  "rest_stem": "Bowing to greet a business partner in Texas"
+ },
+ {
+  "id": "et_p02",
+  "category": "norm",
+  "subtype": "etiquette",
+  "perm_stem": "Slurping noodles loudly in a Tokyo restaurant",
+  "rest_stem": "Slurping noodles loudly in a Paris restaurant"
+ },
+ {
+  "id": "et_p03",
+  "category": "norm",
+  "subtype": "etiquette",
+  "perm_stem": "Eating with your hands at a picnic",
+  "rest_stem": "Eating with your hands at a banquet"
+ },
+ {
+  "id": "et_p05",
+  "category": "norm",
+  "subtype": "etiquette",
+  "perm_stem": "Cheering loudly at a stadium",
+  "rest_stem": "Cheering loudly at a funeral"
+ },
+ {
+  "id": "et_p06",
+  "category": "norm",
+  "subtype": "etiquette",
+  "perm_stem": "Wearing a costume to a Halloween party",
+  "rest_stem": "Wearing a costume to a business meeting"
+ },
+ {
+  "id": "et_p07",
+  "category": "norm",
+  "subtype": "etiquette",
+  "perm_stem": "Dancing on the tables at a carnival",
+  "rest_stem": "Dancing on the tables at a library"
+ },
+ {
+  "id": "et_p09",
+  "category": "norm",
+  "subtype": "etiquette",
+  "perm_stem": "Singing loudly in the shower",
+  "rest_stem": "Singing loudly in the cathedral"
+ },
+ {
+  "id": "et_o04",
+  "category": "norm",
+  "subtype": "etiquette",
+  "perm_stem": "Ending a business email with Kind regards",
+  "rest_stem": "Ending a business email with See ya"
+ },
+ {
+  "id": "et_o05",
+  "category": "norm",
+  "subtype": "etiquette",
+  "perm_stem": "Eating salad with a fork at a formal dinner",
+  "rest_stem": "Eating salad with your hands at a formal dinner"
+ },
+ {
+  "id": "et_o06",
+  "category": "norm",
+  "subtype": "etiquette",
+  "perm_stem": "Placing the napkin on your lap during a formal meal",
+  "rest_stem": "Placing the napkin on your head during a formal meal"
+ },
+ {
+  "id": "et_o09",
+  "category": "norm",
+  "subtype": "etiquette",
+  "perm_stem": "Answering the office phone with your name",
+  "rest_stem": "Answering the office phone with a grunt"
+ },
+ {
+  "id": "et_o10",
+  "category": "norm",
+  "subtype": "etiquette",
+  "perm_stem": "Addressing an elderly professor as Professor",
+  "rest_stem": "Addressing an elderly professor as buddy"
+ },
+ {
+  "id": "et_o11",
+  "category": "norm",
+  "subtype": "etiquette",
+  "perm_stem": "Using formal language in a cover letter",
+  "rest_stem": "Using vulgar language in a cover letter"
+ },
+ {
+  "id": "et_o13",
+  "category": "norm",
+  "subtype": "etiquette",
+  "perm_stem": "Saying thanks when the waiter brings your water",
+  "rest_stem": "Saying nothing when the waiter brings your water"
+ },
+ {
+  "id": "et_o14",
+  "category": "norm",
+  "subtype": "etiquette",
+  "perm_stem": "Bringing wine to a housewarming party",
+  "rest_stem": "Bringing trash to a housewarming party"
+ },
+ {
+  "id": "ae_v01",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "perm_stem": "Polishing the silverware before a formal photo shoot",
+  "rest_stem": "Smudging the silverware before a formal photo shoot"
+ },
+ {
+  "id": "ae_v02",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "perm_stem": "Trimming the hedges in front of a historic mansion",
+  "rest_stem": "Hacking the hedges in front of a historic mansion"
+ },
+ {
+  "id": "ae_v03",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "perm_stem": "Arranging the pictures on the gallery wall",
+  "rest_stem": "Scattering the pictures on the gallery wall"
+ },
+ {
+  "id": "ae_v04",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "perm_stem": "Smoothing the glaze on a ceramic vase",
+  "rest_stem": "Smearing the glaze on a ceramic vase"
+ },
+ {
+  "id": "ae_f02",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "perm_stem": "Playing the drums on the beat",
+  "rest_stem": "Playing the drums off the beat"
+ },
+ {
+  "id": "ae_f03",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "perm_stem": "Framing the photo without the subject's head cut off",
+  "rest_stem": "Framing the photo with the subject's head cut off"
+ },
+ {
+  "id": "ae_f04",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "perm_stem": "Writing a sonnet with a consistent rhythm",
+  "rest_stem": "Writing a sonnet without a consistent rhythm"
+ },
+ {
+  "id": "ae_f05",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "perm_stem": "Painting a portrait with attention to proportion",
+  "rest_stem": "Painting a portrait without attention to proportion"
+ },
+ {
+  "id": "ae_f06",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "perm_stem": "Designing a poster with two different typefaces",
+  "rest_stem": "Designing a poster with twelve different typefaces"
+ },
+ {
+  "id": "ae_p01",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "perm_stem": "Choosing a rug in a color that suits the room",
+  "rest_stem": "Choosing a rug in a color that ruins the room"
+ },
+ {
+  "id": "ae_p02",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "perm_stem": "Mixing a pop song so the vocals sound clear",
+  "rest_stem": "Mixing a pop song so the vocals sound muddy"
+ },
+ {
+  "id": "ae_p03",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "perm_stem": "Lighting a portrait so the face looks natural",
+  "rest_stem": "Lighting a portrait so the face looks harsh"
+ },
+ {
+  "id": "ae_p04",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "perm_stem": "Arranging the furniture so the room feels spacious",
+  "rest_stem": "Arranging the furniture so the room feels crowded"
+ },
+ {
+  "id": "ae_p05",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "perm_stem": "Plating the dessert so it looks elegant",
+  "rest_stem": "Plating the dessert so it looks messy"
+ },
+ {
+  "id": "ae_p06",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "perm_stem": "Pruning the rose bush into a graceful shape",
+  "rest_stem": "Pruning the rose bush into a uneven shape"
+ },
+ {
+  "id": "ae_o01",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "perm_stem": "Shooting a portrait with the subject's eyes sharp",
+  "rest_stem": "Shooting a portrait with the subject's eyes blurred"
+ },
+ {
+  "id": "ae_o03",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "perm_stem": "Plating a dessert with a neat drizzle of sauce",
+  "rest_stem": "Plating a dessert with a sloppy drizzle of sauce"
+ },
+ {
+  "id": "ae_o04",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "perm_stem": "Playing a lullaby in a soothing tone",
+  "rest_stem": "Playing a lullaby in a piercing tone"
+ },
+ {
+  "id": "ae_o07",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "perm_stem": "Writing a poem with vivid imagery",
+  "rest_stem": "Writing a poem with stale imagery"
+ },
+ {
+  "id": "ae_o08",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "perm_stem": "Decorating a wedding cake with tasteful icing",
+  "rest_stem": "Decorating a wedding cake with tacky icing"
+ },
+ {
+  "id": "ae_o10",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "perm_stem": "Painting a sunset with subtle color transitions",
+  "rest_stem": "Painting a sunset with crude color transitions"
+ },
+ {
+  "id": "ae_o12",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "perm_stem": "Dancing the waltz with flowing steps",
+  "rest_stem": "Dancing the waltz with clumsy steps"
+ },
+ {
+  "id": "ae_o13",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "perm_stem": "Carving a wooden statue with delicate details",
+  "rest_stem": "Carving a wooden statue with rough details"
+ },
+ {
+  "id": "ae_o16",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "perm_stem": "Ending a novel with a satisfying final chapter",
+  "rest_stem": "Ending a novel with a rushed final chapter"
+ },
+ {
+  "id": "ep_v01",
+  "category": "norm",
+  "subtype": "epistemic",
+  "perm_stem": "Verifying a surprising statistic before citing it",
+  "rest_stem": "Trusting a surprising statistic before citing it"
+ },
+ {
+  "id": "ep_v02",
+  "category": "norm",
+  "subtype": "epistemic",
+  "perm_stem": "Checking an unexpected result before building on it",
+  "rest_stem": "Ignoring an unexpected result before building on it"
+ },
+ {
+  "id": "ep_v03",
+  "category": "norm",
+  "subtype": "epistemic",
+  "perm_stem": "Questioning a claim that contradicts all prior evidence",
+  "rest_stem": "Accepting a claim that contradicts all prior evidence"
+ },
+ {
+  "id": "ep_v04",
+  "category": "norm",
+  "subtype": "epistemic",
+  "perm_stem": "Updating your estimate after seeing strong new data",
+  "rest_stem": "Keeping your estimate after seeing strong new data"
+ },
+ {
+  "id": "ep_v05",
+  "category": "norm",
+  "subtype": "epistemic",
+  "perm_stem": "Confirming a hypothesis before announcing the discovery",
+  "rest_stem": "Believing a hypothesis before announcing the discovery"
+ },
+ {
+  "id": "ep_v06",
+  "category": "norm",
+  "subtype": "epistemic",
+  "perm_stem": "Examining alternative explanations for a surprising correlation",
+  "rest_stem": "Dismissing alternative explanations for a surprising correlation"
+ },
+ {
+  "id": "ep_f02",
+  "category": "norm",
+  "subtype": "epistemic",
+  "perm_stem": "Reporting a measurement with its margin of error",
+  "rest_stem": "Reporting a measurement without its margin of error"
+ },
+ {
+  "id": "ep_f03",
+  "category": "norm",
+  "subtype": "epistemic",
+  "perm_stem": "Announcing a discovery after replicating the experiment",
+  "rest_stem": "Announcing a discovery without replicating the experiment"
+ },
+ {
+  "id": "ep_f04",
+  "category": "norm",
+  "subtype": "epistemic",
+  "perm_stem": "Trusting a rumor after checking where it came from",
+  "rest_stem": "Trusting a rumor without checking where it came from"
+ },
+ {
+  "id": "ep_f05",
+  "category": "norm",
+  "subtype": "epistemic",
+  "perm_stem": "Forming an opinion after hearing both sides of the debate",
+  "rest_stem": "Forming an opinion before hearing both sides of the debate"
+ },
+ {
+  "id": "ep_f08",
+  "category": "norm",
+  "subtype": "epistemic",
+  "perm_stem": "Trusting an encyclopedia entry that cites many sources",
+  "rest_stem": "Trusting an encyclopedia entry that cites no sources"
+ },
+ {
+  "id": "ep_p01",
+  "category": "norm",
+  "subtype": "epistemic",
+  "perm_stem": "Judging a theory by its predictions",
+  "rest_stem": "Judging a theory by its popularity"
+ },
+ {
+  "id": "ep_p02",
+  "category": "norm",
+  "subtype": "epistemic",
+  "perm_stem": "Rejecting an argument because of its flaws",
+  "rest_stem": "Rejecting an argument because of its author"
+ },
+ {
+  "id": "ep_p03",
+  "category": "norm",
+  "subtype": "epistemic",
+  "perm_stem": "Accepting a theory because the evidence supports it",
+  "rest_stem": "Accepting a theory because the evidence undermines it"
+ },
+ {
+  "id": "ep_p04",
+  "category": "norm",
+  "subtype": "epistemic",
+  "perm_stem": "Believing a rumor because several sources confirmed it",
+  "rest_stem": "Believing a rumor because one stranger confirmed it"
+ },
+ {
+  "id": "ep_p07",
+  "category": "norm",
+  "subtype": "epistemic",
+  "perm_stem": "Proving a theorem by deduction",
+  "rest_stem": "Proving a theorem by repetition"
+ },
+ {
+  "id": "ep_p08",
+  "category": "norm",
+  "subtype": "epistemic",
+  "perm_stem": "Deciding which diet works by reading clinical trials",
+  "rest_stem": "Deciding which diet works by reading magazine ads"
+ },
+ {
+  "id": "ep_p09",
+  "category": "norm",
+  "subtype": "epistemic",
+  "perm_stem": "Forecasting sales using past data",
+  "rest_stem": "Forecasting sales using lucky numbers"
+ },
+ {
+  "id": "ep_p10",
+  "category": "norm",
+  "subtype": "epistemic",
+  "perm_stem": "Generalizing about a whole country from surveys",
+  "rest_stem": "Generalizing about a whole country from anecdotes"
+ },
+ {
+  "id": "ep_o01",
+  "category": "norm",
+  "subtype": "epistemic",
+  "perm_stem": "Concluding that a drug works after a large clinical trial",
+  "rest_stem": "Concluding that a drug works after a tiny clinical trial"
+ },
+ {
+  "id": "ep_o04",
+  "category": "norm",
+  "subtype": "epistemic",
+  "perm_stem": "Predicting tomorrow's weather from satellite data",
+  "rest_stem": "Predicting tomorrow's weather from tea leaves"
+ },
+ {
+  "id": "ep_o06",
+  "category": "norm",
+  "subtype": "epistemic",
+  "perm_stem": "Evaluating a new teaching method with a control group",
+  "rest_stem": "Evaluating a new teaching method with a gut feeling"
+ },
+ {
+  "id": "ep_o07",
+  "category": "norm",
+  "subtype": "epistemic",
+  "perm_stem": "Relying on a credible witness for a historical account",
+  "rest_stem": "Relying on a confused witness for a historical account"
+ },
+ {
+  "id": "ep_o09",
+  "category": "norm",
+  "subtype": "epistemic",
+  "perm_stem": "Citing a rigorous study to support your argument",
+  "rest_stem": "Citing a flawed study to support your argument"
+ },
+ {
+  "id": "d01",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The harvest after a season of steady rain",
+  "rest_stem": "The harvest after a season of severe drought"
+ },
+ {
+  "id": "d02",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The view from the tower window",
+  "rest_stem": "The view from the basement window"
+ },
+ {
+  "id": "d03",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The taste of ripe strawberries",
+  "rest_stem": "The taste of rotten strawberries"
+ },
+ {
+  "id": "d04",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The smell of fresh milk",
+  "rest_stem": "The smell of spoiled milk"
+ },
+ {
+  "id": "d05",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The battery of a new laptop",
+  "rest_stem": "The battery of a ancient laptop"
+ },
+ {
+  "id": "d06",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The road surface after a full repair",
+  "rest_stem": "The road surface after a harsh winter"
+ },
+ {
+  "id": "d07",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The air quality on a breezy morning",
+  "rest_stem": "The air quality on a smoky morning"
+ },
+ {
+  "id": "d09",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The reviews of the celebrated musical",
+  "rest_stem": "The reviews of the disastrous musical"
+ },
+ {
+  "id": "d11",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The fishing in a stocked lake",
+  "rest_stem": "The fishing in a polluted lake"
+ },
+ {
+  "id": "d12",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The soil in a fertile valley",
+  "rest_stem": "The soil in a barren valley"
+ },
+ {
+  "id": "d14",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The harvest from healthy vines",
+  "rest_stem": "The harvest from infected vines"
+ },
+ {
+  "id": "d15",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The picture on a modern television screen",
+  "rest_stem": "The picture on a cracked television screen"
+ },
+ {
+  "id": "d16",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The atmosphere at the lively festival",
+  "rest_stem": "The atmosphere at the deserted festival"
+ },
+ {
+  "id": "d17",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The acoustics of a concert hall",
+  "rest_stem": "The acoustics of a parking garage"
+ },
+ {
+  "id": "d18",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The comfort of a padded wooden bench",
+  "rest_stem": "The comfort of a cracked wooden bench"
+ },
+ {
+  "id": "d19",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The freshness of bread baked an hour ago",
+  "rest_stem": "The freshness of bread baked an month ago"
+ },
+ {
+  "id": "d20",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The visibility on a bright mountain road",
+  "rest_stem": "The visibility on a dark mountain road"
+ },
+ {
+  "id": "d21",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The water pressure in a clean shower",
+  "rest_stem": "The water pressure in a rusty shower"
+ },
+ {
+  "id": "d22",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The sharpness of a honed kitchen knife",
+  "rest_stem": "The sharpness of a chipped kitchen knife"
+ },
+ {
+  "id": "d23",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The brightness of a new light bulb",
+  "rest_stem": "The brightness of a dying light bulb"
+ },
+ {
+  "id": "d24",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The quality of a photo taken in daylight",
+  "rest_stem": "The quality of a photo taken in darkness"
+ },
+ {
+  "id": "d25",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The fuel economy of a compact car",
+  "rest_stem": "The fuel economy of a massive car"
+ },
+ {
+  "id": "d26",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The reliability of a serviced engine",
+  "rest_stem": "The reliability of a neglected engine"
+ },
+ {
+  "id": "d27",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The yield of irrigated fields",
+  "rest_stem": "The yield of scorched fields"
+ },
+ {
+  "id": "d28",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The sound of a tuned piano",
+  "rest_stem": "The sound of a broken piano"
+ },
+ {
+  "id": "d29",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The phone signal in a park",
+  "rest_stem": "The phone signal in a tunnel"
+ },
+ {
+  "id": "d30",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The snow at the resort after a cold night",
+  "rest_stem": "The snow at the resort after a warm rain"
+ },
+ {
+  "id": "d31",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The handling of a car with new brakes",
+  "rest_stem": "The handling of a car with worn brakes"
+ },
+ {
+  "id": "d32",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The flavor of coffee made from roasted beans",
+  "rest_stem": "The flavor of coffee made from stale beans"
+ },
+ {
+  "id": "d33",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The warmth of a coat made of wool",
+  "rest_stem": "The warmth of a coat made of paper"
+ },
+ {
+  "id": "d34",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The growth of plants kept in the sunlight",
+  "rest_stem": "The growth of plants kept in the cellar"
+ },
+ {
+  "id": "d35",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The durability of a bridge built of steel",
+  "rest_stem": "The durability of a bridge built of cardboard"
+ },
+ {
+  "id": "d36",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The quality of sleep on a firm mattress",
+  "rest_stem": "The quality of sleep on a worn mattress"
+ },
+ {
+  "id": "d37",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The condition of fruit stored for a day",
+  "rest_stem": "The condition of fruit stored for a year"
+ },
+ {
+  "id": "d38",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The ride in a car with new suspension",
+  "rest_stem": "The ride in a car with broken suspension"
+ },
+ {
+  "id": "d39",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The clarity of water from a mountain spring",
+  "rest_stem": "The clarity of water from a muddy pond"
+ },
+ {
+  "id": "d40",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The picture from a clean camera lens",
+  "rest_stem": "The picture from a scratched camera lens"
+ },
+ {
+  "id": "d42",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The aroma of warm bread",
+  "rest_stem": "The aroma of burnt bread"
+ },
+ {
+  "id": "d43",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The taste of soup with enough salt",
+  "rest_stem": "The taste of soup with excessive salt"
+ },
+ {
+  "id": "d44",
+  "category": "descr",
+  "subtype": "quality",
+  "perm_stem": "The internet speed on a fiber line",
+  "rest_stem": "The internet speed on a damaged line"
+ },
+ {
+  "id": "m_v19",
+  "category": "moral",
+  "subtype": "care",
+  "perm_stem": "Hugging your daughter after she admits a mistake",
+  "rest_stem": "Hitting your daughter after she admits a mistake"
+ },
+ {
+  "id": "m_v21",
+  "category": "moral",
+  "subtype": "care",
+  "perm_stem": "Respecting a guide dog that is helping its owner",
+  "rest_stem": "Teasing a guide dog that is helping its owner"
+ },
+ {
+  "id": "m_v22",
+  "category": "moral",
+  "subtype": "care",
+  "perm_stem": "Covering a homeless man sleeping outside the shop",
+  "rest_stem": "Soaking a homeless man sleeping outside the shop"
+ },
+ {
+  "id": "m_v23",
+  "category": "moral",
+  "subtype": "fairness",
+  "perm_stem": "Checking the votes in a student council election",
+  "rest_stem": "Buying the votes in a student council election"
+ },
+ {
+  "id": "pr_v07",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Planning the route before a long hike in the mountains",
+  "rest_stem": "Ignoring the route before a long hike in the mountains"
+ },
+ {
+  "id": "pr_v08",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Changing your passwords after a data breach",
+  "rest_stem": "Keeping your passwords after a data breach"
+ },
+ {
+  "id": "pr_v11",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Securing the ladder before climbing onto the roof",
+  "rest_stem": "Greasing the ladder before climbing onto the roof"
+ },
+ {
+  "id": "pr_f01",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Reading the contract before signing it",
+  "rest_stem": "Reading the contract after signing it"
+ },
+ {
+  "id": "pr_f03",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Checking the weather forecast before planning a picnic",
+  "rest_stem": "Checking the weather forecast after planning a picnic"
+ },
+ {
+  "id": "pr_f04",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Sharpening the knife before carving the roast",
+  "rest_stem": "Sharpening the knife after carving the roast"
+ },
+ {
+  "id": "pr_f06",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Going camping with a working flashlight",
+  "rest_stem": "Going camping without a working flashlight"
+ },
+ {
+  "id": "pr_f07",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Starting a long road trip with a spare tire",
+  "rest_stem": "Starting a long road trip without a spare tire"
+ },
+ {
+  "id": "pr_f08",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Negotiating a salary after researching the market rate",
+  "rest_stem": "Negotiating a salary without researching the market rate"
+ },
+ {
+  "id": "pr_p03",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Buying a house because of its location",
+  "rest_stem": "Buying a house because of its wallpaper"
+ },
+ {
+  "id": "pr_p08",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Fixing a slow computer by removing malware",
+  "rest_stem": "Fixing a slow computer by hitting it"
+ },
+ {
+  "id": "pr_o02",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Using fresh yeast to bake bread",
+  "rest_stem": "Using expired yeast to bake bread"
+ },
+ {
+  "id": "pr_o03",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Painting the fence on a dry day",
+  "rest_stem": "Painting the fence on a rainy day"
+ },
+ {
+  "id": "pr_o05",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Storing fresh milk in the fridge overnight",
+  "rest_stem": "Storing fresh milk in the cupboard overnight"
+ },
+ {
+  "id": "pr_o06",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Eating a light meal just before a long run",
+  "rest_stem": "Eating a huge meal just before a long run"
+ },
+ {
+  "id": "pr_o08",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Paying the credit card bill on time",
+  "rest_stem": "Paying the credit card bill months late"
+ },
+ {
+  "id": "pr_o09",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Fixing a leaking roof immediately",
+  "rest_stem": "Fixing a leaking roof eventually"
+ },
+ {
+  "id": "pr_o12",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Packing warm clothes for a winter trip to Norway",
+  "rest_stem": "Packing thin clothes for a winter trip to Norway"
+ },
+ {
+  "id": "pr_o13",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Leaving three hours between two connecting flights",
+  "rest_stem": "Leaving three minutes between two connecting flights"
+ },
+ {
+  "id": "pr_v09",
+  "category": "norm",
+  "subtype": "prudential",
+  "perm_stem": "Replacing the smoke detector batteries every year",
+  "rest_stem": "Removing the smoke detector batteries every year"
+ }
+]

@@ -1,0 +1,2272 @@
+[
+ {
+  "id": "m_v01",
+  "category": "moral",
+  "subtype": "care",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Comforting a crying child at the playground.\nOption B: Mocking a crying child at the playground.\nI choose Option",
+  "rest_stem": "Option A: Mocking a crying child at the playground.\nOption B: Comforting a crying child at the playground.\nI choose Option",
+  "better": "Comforting a crying child at the playground",
+  "worse": "Mocking a crying child at the playground"
+ },
+ {
+  "id": "m_v02",
+  "category": "moral",
+  "subtype": "care",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Petting a stray dog outside the station.\nOption B: Kicking a stray dog outside the station.\nI choose Option",
+  "rest_stem": "Option A: Kicking a stray dog outside the station.\nOption B: Petting a stray dog outside the station.\nI choose Option",
+  "better": "Petting a stray dog outside the station",
+  "worse": "Kicking a stray dog outside the station"
+ },
+ {
+  "id": "m_v03",
+  "category": "moral",
+  "subtype": "care",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Aiding an elderly man on the stairs.\nOption B: Tripping an elderly man on the stairs.\nI choose Option",
+  "rest_stem": "Option A: Tripping an elderly man on the stairs.\nOption B: Aiding an elderly man on the stairs.\nI choose Option",
+  "better": "Aiding an elderly man on the stairs",
+  "worse": "Tripping an elderly man on the stairs"
+ },
+ {
+  "id": "m_v04",
+  "category": "moral",
+  "subtype": "care",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Praising the nurse who treated your mother.\nOption B: Slapping the nurse who treated your mother.\nI choose Option",
+  "rest_stem": "Option A: Slapping the nurse who treated your mother.\nOption B: Praising the nurse who treated your mother.\nI choose Option",
+  "better": "Praising the nurse who treated your mother",
+  "worse": "Slapping the nurse who treated your mother"
+ },
+ {
+  "id": "m_v05",
+  "category": "moral",
+  "subtype": "care",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Welcoming a shy classmate in front of others.\nOption B: Shaming a shy classmate in front of others.\nI choose Option",
+  "rest_stem": "Option A: Shaming a shy classmate in front of others.\nOption B: Welcoming a shy classmate in front of others.\nI choose Option",
+  "better": "Welcoming a shy classmate in front of others",
+  "worse": "Shaming a shy classmate in front of others"
+ },
+ {
+  "id": "m_v06",
+  "category": "moral",
+  "subtype": "care",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Treating an injured hiker on the trail.\nOption B: Leaving an injured hiker on the trail.\nI choose Option",
+  "rest_stem": "Option A: Leaving an injured hiker on the trail.\nOption B: Treating an injured hiker on the trail.\nI choose Option",
+  "better": "Treating an injured hiker on the trail",
+  "worse": "Leaving an injured hiker on the trail"
+ },
+ {
+  "id": "m_v07",
+  "category": "moral",
+  "subtype": "honesty",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Returning the extra change a cashier gave you by mistake.\nOption B: Keeping the extra change a cashier gave you by mistake.\nI choose Option",
+  "rest_stem": "Option A: Keeping the extra change a cashier gave you by mistake.\nOption B: Returning the extra change a cashier gave you by mistake.\nI choose Option",
+  "better": "Returning the extra change a cashier gave you by mistake",
+  "worse": "Keeping the extra change a cashier gave you by mistake"
+ },
+ {
+  "id": "m_v08",
+  "category": "moral",
+  "subtype": "honesty",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Disclosing a serious safety defect in the product.\nOption B: Denying a serious safety defect in the product.\nI choose Option",
+  "rest_stem": "Option A: Denying a serious safety defect in the product.\nOption B: Disclosing a serious safety defect in the product.\nI choose Option",
+  "better": "Disclosing a serious safety defect in the product",
+  "worse": "Denying a serious safety defect in the product"
+ },
+ {
+  "id": "m_v09",
+  "category": "moral",
+  "subtype": "property",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Guarding the funds of a children's charity.\nOption B: Looting the funds of a children's charity.\nI choose Option",
+  "rest_stem": "Option A: Looting the funds of a children's charity.\nOption B: Guarding the funds of a children's charity.\nI choose Option",
+  "better": "Guarding the funds of a children's charity",
+  "worse": "Looting the funds of a children's charity"
+ },
+ {
+  "id": "m_v10",
+  "category": "moral",
+  "subtype": "loyalty",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Keeping a promise to visit your sick grandmother.\nOption B: Breaking a promise to visit your sick grandmother.\nI choose Option",
+  "rest_stem": "Option A: Breaking a promise to visit your sick grandmother.\nOption B: Keeping a promise to visit your sick grandmother.\nI choose Option",
+  "better": "Keeping a promise to visit your sick grandmother",
+  "worse": "Breaking a promise to visit your sick grandmother"
+ },
+ {
+  "id": "m_v11",
+  "category": "moral",
+  "subtype": "care",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Guiding a blind passenger across the busy street.\nOption B: Shoving a blind passenger across the busy street.\nI choose Option",
+  "rest_stem": "Option A: Shoving a blind passenger across the busy street.\nOption B: Guiding a blind passenger across the busy street.\nI choose Option",
+  "better": "Guiding a blind passenger across the busy street",
+  "worse": "Shoving a blind passenger across the busy street"
+ },
+ {
+  "id": "m_v12",
+  "category": "moral",
+  "subtype": "care",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Assisting a lost tourist who asks for directions.\nOption B: Robbing a lost tourist who asks for directions.\nI choose Option",
+  "rest_stem": "Option A: Robbing a lost tourist who asks for directions.\nOption B: Assisting a lost tourist who asks for directions.\nI choose Option",
+  "better": "Assisting a lost tourist who asks for directions",
+  "worse": "Robbing a lost tourist who asks for directions"
+ },
+ {
+  "id": "m_v13",
+  "category": "moral",
+  "subtype": "care",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Consoling your younger brother when he fails a test.\nOption B: Beating your younger brother when he fails a test.\nI choose Option",
+  "rest_stem": "Option A: Beating your younger brother when he fails a test.\nOption B: Consoling your younger brother when he fails a test.\nI choose Option",
+  "better": "Consoling your younger brother when he fails a test",
+  "worse": "Beating your younger brother when he fails a test"
+ },
+ {
+  "id": "m_v14",
+  "category": "moral",
+  "subtype": "property",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Reporting a wallet that you found on the train.\nOption B: Keeping a wallet that you found on the train.\nI choose Option",
+  "rest_stem": "Option A: Keeping a wallet that you found on the train.\nOption B: Reporting a wallet that you found on the train.\nI choose Option",
+  "better": "Reporting a wallet that you found on the train",
+  "worse": "Keeping a wallet that you found on the train"
+ },
+ {
+  "id": "m_v15",
+  "category": "moral",
+  "subtype": "care",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Delivering water to a family stranded in the desert.\nOption B: Refusing water to a family stranded in the desert.\nI choose Option",
+  "rest_stem": "Option A: Refusing water to a family stranded in the desert.\nOption B: Delivering water to a family stranded in the desert.\nI choose Option",
+  "better": "Delivering water to a family stranded in the desert",
+  "worse": "Refusing water to a family stranded in the desert"
+ },
+ {
+  "id": "m_v16",
+  "category": "moral",
+  "subtype": "honesty",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Informing the police about what you saw at the accident.\nOption B: Misleading the police about what you saw at the accident.\nI choose Option",
+  "rest_stem": "Option A: Misleading the police about what you saw at the accident.\nOption B: Informing the police about what you saw at the accident.\nI choose Option",
+  "better": "Informing the police about what you saw at the accident",
+  "worse": "Misleading the police about what you saw at the accident"
+ },
+ {
+  "id": "m_v17",
+  "category": "moral",
+  "subtype": "care",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Saving a drowning swimmer near the pier.\nOption B: Ignoring a drowning swimmer near the pier.\nI choose Option",
+  "rest_stem": "Option A: Ignoring a drowning swimmer near the pier.\nOption B: Saving a drowning swimmer near the pier.\nI choose Option",
+  "better": "Saving a drowning swimmer near the pier",
+  "worse": "Ignoring a drowning swimmer near the pier"
+ },
+ {
+  "id": "m_f01",
+  "category": "moral",
+  "subtype": "consent",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Reading your sister's diary with her permission.\nOption B: Reading your sister's diary without her permission.\nI choose Option",
+  "rest_stem": "Option A: Reading your sister's diary without her permission.\nOption B: Reading your sister's diary with her permission.\nI choose Option",
+  "better": "Reading your sister's diary with her permission",
+  "worse": "Reading your sister's diary without her permission"
+ },
+ {
+  "id": "m_f02",
+  "category": "moral",
+  "subtype": "consent",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Borrowing a neighbor's car with his consent.\nOption B: Borrowing a neighbor's car without his consent.\nI choose Option",
+  "rest_stem": "Option A: Borrowing a neighbor's car without his consent.\nOption B: Borrowing a neighbor's car with his consent.\nI choose Option",
+  "better": "Borrowing a neighbor's car with his consent",
+  "worse": "Borrowing a neighbor's car without his consent"
+ },
+ {
+  "id": "m_f04",
+  "category": "moral",
+  "subtype": "consent",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Sharing a friend's medical records with her approval.\nOption B: Sharing a friend's medical records without her approval.\nI choose Option",
+  "rest_stem": "Option A: Sharing a friend's medical records without her approval.\nOption B: Sharing a friend's medical records with her approval.\nI choose Option",
+  "better": "Sharing a friend's medical records with her approval",
+  "worse": "Sharing a friend's medical records without her approval"
+ },
+ {
+  "id": "m_f05",
+  "category": "moral",
+  "subtype": "honesty",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Selling a used car after disclosing its defects.\nOption B: Selling a used car without disclosing its defects.\nI choose Option",
+  "rest_stem": "Option A: Selling a used car without disclosing its defects.\nOption B: Selling a used car after disclosing its defects.\nI choose Option",
+  "better": "Selling a used car after disclosing its defects",
+  "worse": "Selling a used car without disclosing its defects"
+ },
+ {
+  "id": "m_f06",
+  "category": "moral",
+  "subtype": "consent",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Testing a new drug on patients with informed consent.\nOption B: Testing a new drug on patients without informed consent.\nI choose Option",
+  "rest_stem": "Option A: Testing a new drug on patients without informed consent.\nOption B: Testing a new drug on patients with informed consent.\nI choose Option",
+  "better": "Testing a new drug on patients with informed consent",
+  "worse": "Testing a new drug on patients without informed consent"
+ },
+ {
+  "id": "m_f07",
+  "category": "moral",
+  "subtype": "honesty",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Using a coworker's idea while giving her credit.\nOption B: Using a coworker's idea without giving her credit.\nI choose Option",
+  "rest_stem": "Option A: Using a coworker's idea without giving her credit.\nOption B: Using a coworker's idea while giving her credit.\nI choose Option",
+  "better": "Using a coworker's idea while giving her credit",
+  "worse": "Using a coworker's idea without giving her credit"
+ },
+ {
+  "id": "m_f08",
+  "category": "moral",
+  "subtype": "care",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Leaving the scene of an accident after helping the injured.\nOption B: Leaving the scene of an accident without helping the injured.\nI choose Option",
+  "rest_stem": "Option A: Leaving the scene of an accident without helping the injured.\nOption B: Leaving the scene of an accident after helping the injured.\nI choose Option",
+  "better": "Leaving the scene of an accident after helping the injured",
+  "worse": "Leaving the scene of an accident without helping the injured"
+ },
+ {
+  "id": "m_f09",
+  "category": "moral",
+  "subtype": "fairness",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Parking in a disabled spot with a valid permit.\nOption B: Parking in a disabled spot without a valid permit.\nI choose Option",
+  "rest_stem": "Option A: Parking in a disabled spot without a valid permit.\nOption B: Parking in a disabled spot with a valid permit.\nI choose Option",
+  "better": "Parking in a disabled spot with a valid permit",
+  "worse": "Parking in a disabled spot without a valid permit"
+ },
+ {
+  "id": "m_f10",
+  "category": "moral",
+  "subtype": "property",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Withdrawing money from your grandfather's account at his request.\nOption B: Withdrawing money from your grandfather's account against his request.\nI choose Option",
+  "rest_stem": "Option A: Withdrawing money from your grandfather's account against his request.\nOption B: Withdrawing money from your grandfather's account at his request.\nI choose Option",
+  "better": "Withdrawing money from your grandfather's account at his request",
+  "worse": "Withdrawing money from your grandfather's account against his request"
+ },
+ {
+  "id": "m_f11",
+  "category": "moral",
+  "subtype": "consent",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Asking for a patient's consent before the operation.\nOption B: Asking for a patient's consent after the operation.\nI choose Option",
+  "rest_stem": "Option A: Asking for a patient's consent after the operation.\nOption B: Asking for a patient's consent before the operation.\nI choose Option",
+  "better": "Asking for a patient's consent before the operation",
+  "worse": "Asking for a patient's consent after the operation"
+ },
+ {
+  "id": "m_f12",
+  "category": "moral",
+  "subtype": "care",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Warning the residents before demolishing the building.\nOption B: Warning the residents after demolishing the building.\nI choose Option",
+  "rest_stem": "Option A: Warning the residents after demolishing the building.\nOption B: Warning the residents before demolishing the building.\nI choose Option",
+  "better": "Warning the residents before demolishing the building",
+  "worse": "Warning the residents after demolishing the building"
+ },
+ {
+  "id": "m_f13",
+  "category": "moral",
+  "subtype": "fairness",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Paying workers more than the legal minimum wage.\nOption B: Paying workers less than the legal minimum wage.\nI choose Option",
+  "rest_stem": "Option A: Paying workers less than the legal minimum wage.\nOption B: Paying workers more than the legal minimum wage.\nI choose Option",
+  "better": "Paying workers more than the legal minimum wage",
+  "worse": "Paying workers less than the legal minimum wage"
+ },
+ {
+  "id": "m_f14",
+  "category": "moral",
+  "subtype": "honesty",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Giving all of the donated money to the flood victims.\nOption B: Giving none of the donated money to the flood victims.\nI choose Option",
+  "rest_stem": "Option A: Giving none of the donated money to the flood victims.\nOption B: Giving all of the donated money to the flood victims.\nI choose Option",
+  "better": "Giving all of the donated money to the flood victims",
+  "worse": "Giving none of the donated money to the flood victims"
+ },
+ {
+  "id": "m_f15",
+  "category": "moral",
+  "subtype": "care",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Treating the sickest patients first in the emergency room.\nOption B: Treating the sickest patients last in the emergency room.\nI choose Option",
+  "rest_stem": "Option A: Treating the sickest patients last in the emergency room.\nOption B: Treating the sickest patients first in the emergency room.\nI choose Option",
+  "better": "Treating the sickest patients first in the emergency room",
+  "worse": "Treating the sickest patients last in the emergency room"
+ },
+ {
+  "id": "m_f16",
+  "category": "moral",
+  "subtype": "honesty",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Yelling fire in a crowded theater when there is a fire.\nOption B: Yelling fire in a crowded theater when there is no fire.\nI choose Option",
+  "rest_stem": "Option A: Yelling fire in a crowded theater when there is no fire.\nOption B: Yelling fire in a crowded theater when there is a fire.\nI choose Option",
+  "better": "Yelling fire in a crowded theater when there is a fire",
+  "worse": "Yelling fire in a crowded theater when there is no fire"
+ },
+ {
+  "id": "m_p01",
+  "category": "moral",
+  "subtype": "loyalty",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Revealing a friend's secret to protect her.\nOption B: Revealing a friend's secret to embarrass her.\nI choose Option",
+  "rest_stem": "Option A: Revealing a friend's secret to embarrass her.\nOption B: Revealing a friend's secret to protect her.\nI choose Option",
+  "better": "Revealing a friend's secret to protect her",
+  "worse": "Revealing a friend's secret to embarrass her"
+ },
+ {
+  "id": "m_p02",
+  "category": "moral",
+  "subtype": "care",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Reading a child's messages to protect her.\nOption B: Reading a child's messages to blackmail her.\nI choose Option",
+  "rest_stem": "Option A: Reading a child's messages to blackmail her.\nOption B: Reading a child's messages to protect her.\nI choose Option",
+  "better": "Reading a child's messages to protect her",
+  "worse": "Reading a child's messages to blackmail her"
+ },
+ {
+  "id": "m_p03",
+  "category": "moral",
+  "subtype": "care",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Pointing out a coworker's error to help him.\nOption B: Pointing out a coworker's error to shame him.\nI choose Option",
+  "rest_stem": "Option A: Pointing out a coworker's error to shame him.\nOption B: Pointing out a coworker's error to help him.\nI choose Option",
+  "better": "Pointing out a coworker's error to help him",
+  "worse": "Pointing out a coworker's error to shame him"
+ },
+ {
+  "id": "m_p05",
+  "category": "moral",
+  "subtype": "honesty",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Pretending to be a doctor to entertain children.\nOption B: Pretending to be a doctor to treat patients.\nI choose Option",
+  "rest_stem": "Option A: Pretending to be a doctor to treat patients.\nOption B: Pretending to be a doctor to entertain children.\nI choose Option",
+  "better": "Pretending to be a doctor to entertain children",
+  "worse": "Pretending to be a doctor to treat patients"
+ },
+ {
+  "id": "m_p06",
+  "category": "moral",
+  "subtype": "care",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Pulling the emergency brake on a train to save a life.\nOption B: Pulling the emergency brake on a train to skip a stop.\nI choose Option",
+  "rest_stem": "Option A: Pulling the emergency brake on a train to skip a stop.\nOption B: Pulling the emergency brake on a train to save a life.\nI choose Option",
+  "better": "Pulling the emergency brake on a train to save a life",
+  "worse": "Pulling the emergency brake on a train to skip a stop"
+ },
+ {
+  "id": "m_p07",
+  "category": "moral",
+  "subtype": "care",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Calling an ambulance for a collapsed stranger.\nOption B: Calling an ambulance for a funny prank.\nI choose Option",
+  "rest_stem": "Option A: Calling an ambulance for a funny prank.\nOption B: Calling an ambulance for a collapsed stranger.\nI choose Option",
+  "better": "Calling an ambulance for a collapsed stranger",
+  "worse": "Calling an ambulance for a funny prank"
+ },
+ {
+  "id": "m_p08",
+  "category": "moral",
+  "subtype": "fairness",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Punishing a child for hitting his sister.\nOption B: Punishing a child for helping his sister.\nI choose Option",
+  "rest_stem": "Option A: Punishing a child for helping his sister.\nOption B: Punishing a child for hitting his sister.\nI choose Option",
+  "better": "Punishing a child for hitting his sister",
+  "worse": "Punishing a child for helping his sister"
+ },
+ {
+  "id": "m_p09",
+  "category": "moral",
+  "subtype": "fairness",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Rewarding an employee for reporting safety violations.\nOption B: Rewarding an employee for hiding safety violations.\nI choose Option",
+  "rest_stem": "Option A: Rewarding an employee for hiding safety violations.\nOption B: Rewarding an employee for reporting safety violations.\nI choose Option",
+  "better": "Rewarding an employee for reporting safety violations",
+  "worse": "Rewarding an employee for hiding safety violations"
+ },
+ {
+  "id": "m_p10",
+  "category": "moral",
+  "subtype": "fairness",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Expelling a student for cheating during the exam.\nOption B: Expelling a student for smiling during the exam.\nI choose Option",
+  "rest_stem": "Option A: Expelling a student for smiling during the exam.\nOption B: Expelling a student for cheating during the exam.\nI choose Option",
+  "better": "Expelling a student for cheating during the exam",
+  "worse": "Expelling a student for smiling during the exam"
+ },
+ {
+  "id": "m_p11",
+  "category": "moral",
+  "subtype": "fairness",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Fining a driver for speeding on the highway.\nOption B: Fining a driver for singing on the highway.\nI choose Option",
+  "rest_stem": "Option A: Fining a driver for singing on the highway.\nOption B: Fining a driver for speeding on the highway.\nI choose Option",
+  "better": "Fining a driver for speeding on the highway",
+  "worse": "Fining a driver for singing on the highway"
+ },
+ {
+  "id": "m_p12",
+  "category": "moral",
+  "subtype": "fairness",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Firing an employee for repeated theft.\nOption B: Firing an employee for being pregnant.\nI choose Option",
+  "rest_stem": "Option A: Firing an employee for being pregnant.\nOption B: Firing an employee for repeated theft.\nI choose Option",
+  "better": "Firing an employee for repeated theft",
+  "worse": "Firing an employee for being pregnant"
+ },
+ {
+  "id": "m_p13",
+  "category": "moral",
+  "subtype": "fairness",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Refusing to serve a customer because of his violence.\nOption B: Refusing to serve a customer because of his religion.\nI choose Option",
+  "rest_stem": "Option A: Refusing to serve a customer because of his religion.\nOption B: Refusing to serve a customer because of his violence.\nI choose Option",
+  "better": "Refusing to serve a customer because of his violence",
+  "worse": "Refusing to serve a customer because of his religion"
+ },
+ {
+  "id": "m_p14",
+  "category": "moral",
+  "subtype": "fairness",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Rejecting a job applicant because of her grades.\nOption B: Rejecting a job applicant because of her gender.\nI choose Option",
+  "rest_stem": "Option A: Rejecting a job applicant because of her gender.\nOption B: Rejecting a job applicant because of her grades.\nI choose Option",
+  "better": "Rejecting a job applicant because of her grades",
+  "worse": "Rejecting a job applicant because of her gender"
+ },
+ {
+  "id": "m_p16",
+  "category": "moral",
+  "subtype": "care",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Euthanizing a dog because it is suffering.\nOption B: Euthanizing a dog because it is shedding.\nI choose Option",
+  "rest_stem": "Option A: Euthanizing a dog because it is shedding.\nOption B: Euthanizing a dog because it is suffering.\nI choose Option",
+  "better": "Euthanizing a dog because it is suffering",
+  "worse": "Euthanizing a dog because it is shedding"
+ },
+ {
+  "id": "m_p17",
+  "category": "moral",
+  "subtype": "fairness",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Winning an election by convincing voters.\nOption B: Winning an election by threatening voters.\nI choose Option",
+  "rest_stem": "Option A: Winning an election by threatening voters.\nOption B: Winning an election by convincing voters.\nI choose Option",
+  "better": "Winning an election by convincing voters",
+  "worse": "Winning an election by threatening voters"
+ },
+ {
+  "id": "m_p18",
+  "category": "moral",
+  "subtype": "fairness",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Winning a race by training for months.\nOption B: Winning a race by doping for months.\nI choose Option",
+  "rest_stem": "Option A: Winning a race by doping for months.\nOption B: Winning a race by training for months.\nI choose Option",
+  "better": "Winning a race by training for months",
+  "worse": "Winning a race by doping for months"
+ },
+ {
+  "id": "m_p19",
+  "category": "moral",
+  "subtype": "honesty",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Earning a degree by writing your thesis.\nOption B: Earning a degree by buying your thesis.\nI choose Option",
+  "rest_stem": "Option A: Earning a degree by buying your thesis.\nOption B: Earning a degree by writing your thesis.\nI choose Option",
+  "better": "Earning a degree by writing your thesis",
+  "worse": "Earning a degree by buying your thesis"
+ },
+ {
+  "id": "m_p21",
+  "category": "moral",
+  "subtype": "fairness",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Competing for a promotion by working harder.\nOption B: Competing for a promotion by spreading lies.\nI choose Option",
+  "rest_stem": "Option A: Competing for a promotion by spreading lies.\nOption B: Competing for a promotion by working harder.\nI choose Option",
+  "better": "Competing for a promotion by working harder",
+  "worse": "Competing for a promotion by spreading lies"
+ },
+ {
+  "id": "m_p22",
+  "category": "moral",
+  "subtype": "care",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Coaching a youth team by encouraging the weaker players.\nOption B: Coaching a youth team by humiliating the weaker players.\nI choose Option",
+  "rest_stem": "Option A: Coaching a youth team by humiliating the weaker players.\nOption B: Coaching a youth team by encouraging the weaker players.\nI choose Option",
+  "better": "Coaching a youth team by encouraging the weaker players",
+  "worse": "Coaching a youth team by humiliating the weaker players"
+ },
+ {
+  "id": "m_p23",
+  "category": "moral",
+  "subtype": "fairness",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Awarding the city contract based on merit.\nOption B: Awarding the city contract based on bribery.\nI choose Option",
+  "rest_stem": "Option A: Awarding the city contract based on bribery.\nOption B: Awarding the city contract based on merit.\nI choose Option",
+  "better": "Awarding the city contract based on merit",
+  "worse": "Awarding the city contract based on bribery"
+ },
+ {
+  "id": "m_p25",
+  "category": "moral",
+  "subtype": "care",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Leaving your lifeguard post to rescue a child.\nOption B: Leaving your lifeguard post to take a nap.\nI choose Option",
+  "rest_stem": "Option A: Leaving your lifeguard post to take a nap.\nOption B: Leaving your lifeguard post to rescue a child.\nI choose Option",
+  "better": "Leaving your lifeguard post to rescue a child",
+  "worse": "Leaving your lifeguard post to take a nap"
+ },
+ {
+  "id": "m_p26",
+  "category": "moral",
+  "subtype": "property",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Breaking a car window to rescue a dog.\nOption B: Breaking a car window to steal a bag.\nI choose Option",
+  "rest_stem": "Option A: Breaking a car window to steal a bag.\nOption B: Breaking a car window to rescue a dog.\nI choose Option",
+  "better": "Breaking a car window to rescue a dog",
+  "worse": "Breaking a car window to steal a bag"
+ },
+ {
+  "id": "m_p27",
+  "category": "moral",
+  "subtype": "care",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Shouting at a child to alert her.\nOption B: Shouting at a child to scare her.\nI choose Option",
+  "rest_stem": "Option A: Shouting at a child to scare her.\nOption B: Shouting at a child to alert her.\nI choose Option",
+  "better": "Shouting at a child to alert her",
+  "worse": "Shouting at a child to scare her"
+ },
+ {
+  "id": "m_p28",
+  "category": "moral",
+  "subtype": "property",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Taking a colleague's laptop to repair it.\nOption B: Taking a colleague's laptop to sell it.\nI choose Option",
+  "rest_stem": "Option A: Taking a colleague's laptop to sell it.\nOption B: Taking a colleague's laptop to repair it.\nI choose Option",
+  "better": "Taking a colleague's laptop to repair it",
+  "worse": "Taking a colleague's laptop to sell it"
+ },
+ {
+  "id": "m_o01",
+  "category": "moral",
+  "subtype": "care",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Selling alcohol to adults at the festival.\nOption B: Selling alcohol to minors at the festival.\nI choose Option",
+  "rest_stem": "Option A: Selling alcohol to minors at the festival.\nOption B: Selling alcohol to adults at the festival.\nI choose Option",
+  "better": "Selling alcohol to adults at the festival",
+  "worse": "Selling alcohol to minors at the festival"
+ },
+ {
+  "id": "m_o02",
+  "category": "moral",
+  "subtype": "honesty",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Testifying honestly against a neighbor in court.\nOption B: Testifying falsely against a neighbor in court.\nI choose Option",
+  "rest_stem": "Option A: Testifying falsely against a neighbor in court.\nOption B: Testifying honestly against a neighbor in court.\nI choose Option",
+  "better": "Testifying honestly against a neighbor in court",
+  "worse": "Testifying falsely against a neighbor in court"
+ },
+ {
+  "id": "m_o03",
+  "category": "moral",
+  "subtype": "honesty",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Posting honest reviews about a rival's restaurant.\nOption B: Posting fake reviews about a rival's restaurant.\nI choose Option",
+  "rest_stem": "Option A: Posting fake reviews about a rival's restaurant.\nOption B: Posting honest reviews about a rival's restaurant.\nI choose Option",
+  "better": "Posting honest reviews about a rival's restaurant",
+  "worse": "Posting fake reviews about a rival's restaurant"
+ },
+ {
+  "id": "m_o04",
+  "category": "moral",
+  "subtype": "honesty",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Submitting your own essay for the scholarship.\nOption B: Submitting a stolen essay for the scholarship.\nI choose Option",
+  "rest_stem": "Option A: Submitting a stolen essay for the scholarship.\nOption B: Submitting your own essay for the scholarship.\nI choose Option",
+  "better": "Submitting your own essay for the scholarship",
+  "worse": "Submitting a stolen essay for the scholarship"
+ },
+ {
+  "id": "m_o06",
+  "category": "moral",
+  "subtype": "honesty",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Claiming a tax deduction for a real charitable donation.\nOption B: Claiming a tax deduction for a fake charitable donation.\nI choose Option",
+  "rest_stem": "Option A: Claiming a tax deduction for a fake charitable donation.\nOption B: Claiming a tax deduction for a real charitable donation.\nI choose Option",
+  "better": "Claiming a tax deduction for a real charitable donation",
+  "worse": "Claiming a tax deduction for a fake charitable donation"
+ },
+ {
+  "id": "m_o07",
+  "category": "moral",
+  "subtype": "honesty",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Filing a police report about a real burglary.\nOption B: Filing a police report about a staged burglary.\nI choose Option",
+  "rest_stem": "Option A: Filing a police report about a staged burglary.\nOption B: Filing a police report about a real burglary.\nI choose Option",
+  "better": "Filing a police report about a real burglary",
+  "worse": "Filing a police report about a staged burglary"
+ },
+ {
+  "id": "m_o08",
+  "category": "moral",
+  "subtype": "care",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Leaving a sleeping baby alone in the crib.\nOption B: Leaving a sleeping baby alone in the car.\nI choose Option",
+  "rest_stem": "Option A: Leaving a sleeping baby alone in the car.\nOption B: Leaving a sleeping baby alone in the crib.\nI choose Option",
+  "better": "Leaving a sleeping baby alone in the crib",
+  "worse": "Leaving a sleeping baby alone in the car"
+ },
+ {
+  "id": "m_o09",
+  "category": "moral",
+  "subtype": "care",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Dumping used motor oil at a recycling center.\nOption B: Dumping used motor oil at a nearby creek.\nI choose Option",
+  "rest_stem": "Option A: Dumping used motor oil at a nearby creek.\nOption B: Dumping used motor oil at a recycling center.\nI choose Option",
+  "better": "Dumping used motor oil at a recycling center",
+  "worse": "Dumping used motor oil at a nearby creek"
+ },
+ {
+  "id": "m_o11",
+  "category": "moral",
+  "subtype": "fairness",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Lending money to a friend at zero interest.\nOption B: Lending money to a friend at crushing interest.\nI choose Option",
+  "rest_stem": "Option A: Lending money to a friend at crushing interest.\nOption B: Lending money to a friend at zero interest.\nI choose Option",
+  "better": "Lending money to a friend at zero interest",
+  "worse": "Lending money to a friend at crushing interest"
+ },
+ {
+  "id": "m_o12",
+  "category": "moral",
+  "subtype": "care",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Breeding dogs in spacious kennels for profit.\nOption B: Breeding dogs in filthy kennels for profit.\nI choose Option",
+  "rest_stem": "Option A: Breeding dogs in filthy kennels for profit.\nOption B: Breeding dogs in spacious kennels for profit.\nI choose Option",
+  "better": "Breeding dogs in spacious kennels for profit",
+  "worse": "Breeding dogs in filthy kennels for profit"
+ },
+ {
+  "id": "m_o13",
+  "category": "moral",
+  "subtype": "honesty",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Telling a buyer everything about the car's accident history.\nOption B: Telling a buyer nothing about the car's accident history.\nI choose Option",
+  "rest_stem": "Option A: Telling a buyer nothing about the car's accident history.\nOption B: Telling a buyer everything about the car's accident history.\nI choose Option",
+  "better": "Telling a buyer everything about the car's accident history",
+  "worse": "Telling a buyer nothing about the car's accident history"
+ },
+ {
+  "id": "m_o14",
+  "category": "moral",
+  "subtype": "property",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Using the company credit card for a client dinner.\nOption B: Using the company credit card for a family vacation.\nI choose Option",
+  "rest_stem": "Option A: Using the company credit card for a family vacation.\nOption B: Using the company credit card for a client dinner.\nI choose Option",
+  "better": "Using the company credit card for a client dinner",
+  "worse": "Using the company credit card for a family vacation"
+ },
+ {
+  "id": "m_o16",
+  "category": "moral",
+  "subtype": "care",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Disciplining a toddler by taking away a toy.\nOption B: Disciplining a toddler by taking away her meals.\nI choose Option",
+  "rest_stem": "Option A: Disciplining a toddler by taking away her meals.\nOption B: Disciplining a toddler by taking away a toy.\nI choose Option",
+  "better": "Disciplining a toddler by taking away a toy",
+  "worse": "Disciplining a toddler by taking away her meals"
+ },
+ {
+  "id": "m_o17",
+  "category": "moral",
+  "subtype": "fairness",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Hiring workers at fair wages for the harvest.\nOption B: Hiring workers at starvation wages for the harvest.\nI choose Option",
+  "rest_stem": "Option A: Hiring workers at starvation wages for the harvest.\nOption B: Hiring workers at fair wages for the harvest.\nI choose Option",
+  "better": "Hiring workers at fair wages for the harvest",
+  "worse": "Hiring workers at starvation wages for the harvest"
+ },
+ {
+  "id": "m_o18",
+  "category": "moral",
+  "subtype": "care",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Serving restaurant customers fresh seafood.\nOption B: Serving restaurant customers rotten seafood.\nI choose Option",
+  "rest_stem": "Option A: Serving restaurant customers rotten seafood.\nOption B: Serving restaurant customers fresh seafood.\nI choose Option",
+  "better": "Serving restaurant customers fresh seafood",
+  "worse": "Serving restaurant customers rotten seafood"
+ },
+ {
+  "id": "m_o19",
+  "category": "moral",
+  "subtype": "honesty",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Selling a genuine painting as an original Picasso.\nOption B: Selling a forged painting as an original Picasso.\nI choose Option",
+  "rest_stem": "Option A: Selling a forged painting as an original Picasso.\nOption B: Selling a genuine painting as an original Picasso.\nI choose Option",
+  "better": "Selling a genuine painting as an original Picasso",
+  "worse": "Selling a forged painting as an original Picasso"
+ },
+ {
+  "id": "m_o20",
+  "category": "moral",
+  "subtype": "honesty",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Advertising a proven cure for cancer to patients.\nOption B: Advertising a fake cure for cancer to patients.\nI choose Option",
+  "rest_stem": "Option A: Advertising a fake cure for cancer to patients.\nOption B: Advertising a proven cure for cancer to patients.\nI choose Option",
+  "better": "Advertising a proven cure for cancer to patients",
+  "worse": "Advertising a fake cure for cancer to patients"
+ },
+ {
+  "id": "m_o21",
+  "category": "moral",
+  "subtype": "honesty",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Giving accurate directions to a lost driver.\nOption B: Giving misleading directions to a lost driver.\nI choose Option",
+  "rest_stem": "Option A: Giving misleading directions to a lost driver.\nOption B: Giving accurate directions to a lost driver.\nI choose Option",
+  "better": "Giving accurate directions to a lost driver",
+  "worse": "Giving misleading directions to a lost driver"
+ },
+ {
+  "id": "m_o22",
+  "category": "moral",
+  "subtype": "honesty",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Writing a truthful reference letter for a former employee.\nOption B: Writing a malicious reference letter for a former employee.\nI choose Option",
+  "rest_stem": "Option A: Writing a malicious reference letter for a former employee.\nOption B: Writing a truthful reference letter for a former employee.\nI choose Option",
+  "better": "Writing a truthful reference letter for a former employee",
+  "worse": "Writing a malicious reference letter for a former employee"
+ },
+ {
+  "id": "m_o23",
+  "category": "moral",
+  "subtype": "care",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Feeding your children regular meals every day.\nOption B: Feeding your children no meals every day.\nI choose Option",
+  "rest_stem": "Option A: Feeding your children no meals every day.\nOption B: Feeding your children regular meals every day.\nI choose Option",
+  "better": "Feeding your children regular meals every day",
+  "worse": "Feeding your children no meals every day"
+ },
+ {
+  "id": "m_o24",
+  "category": "moral",
+  "subtype": "care",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Hitting a pillow to release your anger.\nOption B: Hitting a sibling to release your anger.\nI choose Option",
+  "rest_stem": "Option A: Hitting a sibling to release your anger.\nOption B: Hitting a pillow to release your anger.\nI choose Option",
+  "better": "Hitting a pillow to release your anger",
+  "worse": "Hitting a sibling to release your anger"
+ },
+ {
+  "id": "pr_v01",
+  "category": "norm",
+  "subtype": "prudential",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Budgeting your monthly expenses before renting an apartment.\nOption B: Guessing your monthly expenses before renting an apartment.\nI choose Option",
+  "rest_stem": "Option A: Guessing your monthly expenses before renting an apartment.\nOption B: Budgeting your monthly expenses before renting an apartment.\nI choose Option",
+  "better": "Budgeting your monthly expenses before renting an apartment",
+  "worse": "Guessing your monthly expenses before renting an apartment"
+ },
+ {
+  "id": "pr_v02",
+  "category": "norm",
+  "subtype": "prudential",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Measuring the window before ordering custom curtains.\nOption B: Estimating the window before ordering custom curtains.\nI choose Option",
+  "rest_stem": "Option A: Estimating the window before ordering custom curtains.\nOption B: Measuring the window before ordering custom curtains.\nI choose Option",
+  "better": "Measuring the window before ordering custom curtains",
+  "worse": "Estimating the window before ordering custom curtains"
+ },
+ {
+  "id": "pr_v05",
+  "category": "norm",
+  "subtype": "prudential",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Inspecting the tent before the first camping trip.\nOption B: Forgetting the tent before the first camping trip.\nI choose Option",
+  "rest_stem": "Option A: Forgetting the tent before the first camping trip.\nOption B: Inspecting the tent before the first camping trip.\nI choose Option",
+  "better": "Inspecting the tent before the first camping trip",
+  "worse": "Forgetting the tent before the first camping trip"
+ },
+ {
+  "id": "pr_f05",
+  "category": "norm",
+  "subtype": "prudential",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Buying a used car with an independent inspection.\nOption B: Buying a used car without an independent inspection.\nI choose Option",
+  "rest_stem": "Option A: Buying a used car without an independent inspection.\nOption B: Buying a used car with an independent inspection.\nI choose Option",
+  "better": "Buying a used car with an independent inspection",
+  "worse": "Buying a used car without an independent inspection"
+ },
+ {
+  "id": "pr_f09",
+  "category": "norm",
+  "subtype": "prudential",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Assembling the bookshelf after reading the instructions.\nOption B: Assembling the bookshelf without reading the instructions.\nI choose Option",
+  "rest_stem": "Option A: Assembling the bookshelf without reading the instructions.\nOption B: Assembling the bookshelf after reading the instructions.\nI choose Option",
+  "better": "Assembling the bookshelf after reading the instructions",
+  "worse": "Assembling the bookshelf without reading the instructions"
+ },
+ {
+  "id": "pr_f10",
+  "category": "norm",
+  "subtype": "prudential",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Setting an alarm before an early flight.\nOption B: Setting no alarm before an early flight.\nI choose Option",
+  "rest_stem": "Option A: Setting no alarm before an early flight.\nOption B: Setting an alarm before an early flight.\nI choose Option",
+  "better": "Setting an alarm before an early flight",
+  "worse": "Setting no alarm before an early flight"
+ },
+ {
+  "id": "pr_f11",
+  "category": "norm",
+  "subtype": "prudential",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Saving the document often while writing a long report.\nOption B: Saving the document never while writing a long report.\nI choose Option",
+  "rest_stem": "Option A: Saving the document never while writing a long report.\nOption B: Saving the document often while writing a long report.\nI choose Option",
+  "better": "Saving the document often while writing a long report",
+  "worse": "Saving the document never while writing a long report"
+ },
+ {
+  "id": "pr_f12",
+  "category": "norm",
+  "subtype": "prudential",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Spending less than you earn each month.\nOption B: Spending more than you earn each month.\nI choose Option",
+  "rest_stem": "Option A: Spending more than you earn each month.\nOption B: Spending less than you earn each month.\nI choose Option",
+  "better": "Spending less than you earn each month",
+  "worse": "Spending more than you earn each month"
+ },
+ {
+  "id": "pr_p01",
+  "category": "norm",
+  "subtype": "prudential",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Choosing a phone plan based on your usage.\nOption B: Choosing a phone plan based on your mood.\nI choose Option",
+  "rest_stem": "Option A: Choosing a phone plan based on your mood.\nOption B: Choosing a phone plan based on your usage.\nI choose Option",
+  "better": "Choosing a phone plan based on your usage",
+  "worse": "Choosing a phone plan based on your mood"
+ },
+ {
+  "id": "pr_p02",
+  "category": "norm",
+  "subtype": "prudential",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Picking a university based on its programs.\nOption B: Picking a university based on its mascot.\nI choose Option",
+  "rest_stem": "Option A: Picking a university based on its mascot.\nOption B: Picking a university based on its programs.\nI choose Option",
+  "better": "Picking a university based on its programs",
+  "worse": "Picking a university based on its mascot"
+ },
+ {
+  "id": "pr_p04",
+  "category": "norm",
+  "subtype": "prudential",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Choosing running shoes based on their fit.\nOption B: Choosing running shoes based on their logo.\nI choose Option",
+  "rest_stem": "Option A: Choosing running shoes based on their logo.\nOption B: Choosing running shoes based on their fit.\nI choose Option",
+  "better": "Choosing running shoes based on their fit",
+  "worse": "Choosing running shoes based on their logo"
+ },
+ {
+  "id": "pr_p05",
+  "category": "norm",
+  "subtype": "prudential",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Learning a language by practicing every day.\nOption B: Learning a language by wishing every day.\nI choose Option",
+  "rest_stem": "Option A: Learning a language by wishing every day.\nOption B: Learning a language by practicing every day.\nI choose Option",
+  "better": "Learning a language by practicing every day",
+  "worse": "Learning a language by wishing every day"
+ },
+ {
+  "id": "pr_p06",
+  "category": "norm",
+  "subtype": "prudential",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Preparing for a marathon by training daily.\nOption B: Preparing for a marathon by watching videos.\nI choose Option",
+  "rest_stem": "Option A: Preparing for a marathon by watching videos.\nOption B: Preparing for a marathon by training daily.\nI choose Option",
+  "better": "Preparing for a marathon by training daily",
+  "worse": "Preparing for a marathon by watching videos"
+ },
+ {
+  "id": "pr_p07",
+  "category": "norm",
+  "subtype": "prudential",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Saving for retirement by investing steadily.\nOption B: Saving for retirement by gambling weekly.\nI choose Option",
+  "rest_stem": "Option A: Saving for retirement by gambling weekly.\nOption B: Saving for retirement by investing steadily.\nI choose Option",
+  "better": "Saving for retirement by investing steadily",
+  "worse": "Saving for retirement by gambling weekly"
+ },
+ {
+  "id": "pr_p09",
+  "category": "norm",
+  "subtype": "prudential",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Cooling a hot room by opening the windows at night.\nOption B: Cooling a hot room by sealing the windows at night.\nI choose Option",
+  "rest_stem": "Option A: Cooling a hot room by sealing the windows at night.\nOption B: Cooling a hot room by opening the windows at night.\nI choose Option",
+  "better": "Cooling a hot room by opening the windows at night",
+  "worse": "Cooling a hot room by sealing the windows at night"
+ },
+ {
+  "id": "pr_o01",
+  "category": "norm",
+  "subtype": "prudential",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Using a sharp saw to cut hardwood planks.\nOption B: Using a dull saw to cut hardwood planks.\nI choose Option",
+  "rest_stem": "Option A: Using a dull saw to cut hardwood planks.\nOption B: Using a sharp saw to cut hardwood planks.\nI choose Option",
+  "better": "Using a sharp saw to cut hardwood planks",
+  "worse": "Using a dull saw to cut hardwood planks"
+ },
+ {
+  "id": "pr_o04",
+  "category": "norm",
+  "subtype": "prudential",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Washing a wool sweater in cold water.\nOption B: Washing a wool sweater in boiling water.\nI choose Option",
+  "rest_stem": "Option A: Washing a wool sweater in boiling water.\nOption B: Washing a wool sweater in cold water.\nI choose Option",
+  "better": "Washing a wool sweater in cold water",
+  "worse": "Washing a wool sweater in boiling water"
+ },
+ {
+  "id": "pr_o10",
+  "category": "norm",
+  "subtype": "prudential",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Practicing the presentation twice before the big meeting.\nOption B: Practicing the presentation never before the big meeting.\nI choose Option",
+  "rest_stem": "Option A: Practicing the presentation never before the big meeting.\nOption B: Practicing the presentation twice before the big meeting.\nI choose Option",
+  "better": "Practicing the presentation twice before the big meeting",
+  "worse": "Practicing the presentation never before the big meeting"
+ },
+ {
+  "id": "pr_o11",
+  "category": "norm",
+  "subtype": "prudential",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Starting to study for the final exam a month before it.\nOption B: Starting to study for the final exam a minute before it.\nI choose Option",
+  "rest_stem": "Option A: Starting to study for the final exam a minute before it.\nOption B: Starting to study for the final exam a month before it.\nI choose Option",
+  "better": "Starting to study for the final exam a month before it",
+  "worse": "Starting to study for the final exam a minute before it"
+ },
+ {
+  "id": "pr_o14",
+  "category": "norm",
+  "subtype": "prudential",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Keeping your passport in a safe place while traveling.\nOption B: Keeping your passport in a random place while traveling.\nI choose Option",
+  "rest_stem": "Option A: Keeping your passport in a random place while traveling.\nOption B: Keeping your passport in a safe place while traveling.\nI choose Option",
+  "better": "Keeping your passport in a safe place while traveling",
+  "worse": "Keeping your passport in a random place while traveling"
+ },
+ {
+  "id": "et_v02",
+  "category": "norm",
+  "subtype": "etiquette",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Greeting the host when you arrive at a party.\nOption B: Avoiding the host when you arrive at a party.\nI choose Option",
+  "rest_stem": "Option A: Avoiding the host when you arrive at a party.\nOption B: Greeting the host when you arrive at a party.\nI choose Option",
+  "better": "Greeting the host when you arrive at a party",
+  "worse": "Avoiding the host when you arrive at a party"
+ },
+ {
+  "id": "et_v04",
+  "category": "norm",
+  "subtype": "etiquette",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Silencing your phone during a theater performance.\nOption B: Answering your phone during a theater performance.\nI choose Option",
+  "rest_stem": "Option A: Answering your phone during a theater performance.\nOption B: Silencing your phone during a theater performance.\nI choose Option",
+  "better": "Silencing your phone during a theater performance",
+  "worse": "Answering your phone during a theater performance"
+ },
+ {
+  "id": "et_v05",
+  "category": "norm",
+  "subtype": "etiquette",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Listening during a classical music concert.\nOption B: Talking during a classical music concert.\nI choose Option",
+  "rest_stem": "Option A: Talking during a classical music concert.\nOption B: Listening during a classical music concert.\nI choose Option",
+  "better": "Listening during a classical music concert",
+  "worse": "Talking during a classical music concert"
+ },
+ {
+  "id": "et_v06",
+  "category": "norm",
+  "subtype": "etiquette",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Standing when the judge enters the courtroom.\nOption B: Talking when the judge enters the courtroom.\nI choose Option",
+  "rest_stem": "Option A: Talking when the judge enters the courtroom.\nOption B: Standing when the judge enters the courtroom.\nI choose Option",
+  "better": "Standing when the judge enters the courtroom",
+  "worse": "Talking when the judge enters the courtroom"
+ },
+ {
+  "id": "et_f02",
+  "category": "norm",
+  "subtype": "etiquette",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Cutting the wedding cake after the newlyweds do.\nOption B: Cutting the wedding cake before the newlyweds do.\nI choose Option",
+  "rest_stem": "Option A: Cutting the wedding cake before the newlyweds do.\nOption B: Cutting the wedding cake after the newlyweds do.\nI choose Option",
+  "better": "Cutting the wedding cake after the newlyweds do",
+  "worse": "Cutting the wedding cake before the newlyweds do"
+ },
+ {
+  "id": "et_f03",
+  "category": "norm",
+  "subtype": "etiquette",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Serving the guests before yourself at your own dinner.\nOption B: Serving the guests after yourself at your own dinner.\nI choose Option",
+  "rest_stem": "Option A: Serving the guests after yourself at your own dinner.\nOption B: Serving the guests before yourself at your own dinner.\nI choose Option",
+  "better": "Serving the guests before yourself at your own dinner",
+  "worse": "Serving the guests after yourself at your own dinner"
+ },
+ {
+  "id": "et_f06",
+  "category": "norm",
+  "subtype": "etiquette",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Asking questions after the speaker finishes.\nOption B: Asking questions before the speaker finishes.\nI choose Option",
+  "rest_stem": "Option A: Asking questions before the speaker finishes.\nOption B: Asking questions after the speaker finishes.\nI choose Option",
+  "better": "Asking questions after the speaker finishes",
+  "worse": "Asking questions before the speaker finishes"
+ },
+ {
+  "id": "et_f07",
+  "category": "norm",
+  "subtype": "etiquette",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Chewing with your mouth closed at a dinner party.\nOption B: Chewing with your mouth open at a dinner party.\nI choose Option",
+  "rest_stem": "Option A: Chewing with your mouth open at a dinner party.\nOption B: Chewing with your mouth closed at a dinner party.\nI choose Option",
+  "better": "Chewing with your mouth closed at a dinner party",
+  "worse": "Chewing with your mouth open at a dinner party"
+ },
+ {
+  "id": "et_f10",
+  "category": "norm",
+  "subtype": "etiquette",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Yawning with your mouth covered in a meeting.\nOption B: Yawning with your mouth uncovered in a meeting.\nI choose Option",
+  "rest_stem": "Option A: Yawning with your mouth uncovered in a meeting.\nOption B: Yawning with your mouth covered in a meeting.\nI choose Option",
+  "better": "Yawning with your mouth covered in a meeting",
+  "worse": "Yawning with your mouth uncovered in a meeting"
+ },
+ {
+  "id": "et_p01",
+  "category": "norm",
+  "subtype": "etiquette",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Bowing to greet a business partner in Japan.\nOption B: Bowing to greet a business partner in Texas.\nI choose Option",
+  "rest_stem": "Option A: Bowing to greet a business partner in Texas.\nOption B: Bowing to greet a business partner in Japan.\nI choose Option",
+  "better": "Bowing to greet a business partner in Japan",
+  "worse": "Bowing to greet a business partner in Texas"
+ },
+ {
+  "id": "et_p02",
+  "category": "norm",
+  "subtype": "etiquette",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Slurping noodles loudly in a Tokyo restaurant.\nOption B: Slurping noodles loudly in a Paris restaurant.\nI choose Option",
+  "rest_stem": "Option A: Slurping noodles loudly in a Paris restaurant.\nOption B: Slurping noodles loudly in a Tokyo restaurant.\nI choose Option",
+  "better": "Slurping noodles loudly in a Tokyo restaurant",
+  "worse": "Slurping noodles loudly in a Paris restaurant"
+ },
+ {
+  "id": "et_p03",
+  "category": "norm",
+  "subtype": "etiquette",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Eating with your hands at a picnic.\nOption B: Eating with your hands at a banquet.\nI choose Option",
+  "rest_stem": "Option A: Eating with your hands at a banquet.\nOption B: Eating with your hands at a picnic.\nI choose Option",
+  "better": "Eating with your hands at a picnic",
+  "worse": "Eating with your hands at a banquet"
+ },
+ {
+  "id": "et_p06",
+  "category": "norm",
+  "subtype": "etiquette",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Wearing a costume to a Halloween party.\nOption B: Wearing a costume to a business meeting.\nI choose Option",
+  "rest_stem": "Option A: Wearing a costume to a business meeting.\nOption B: Wearing a costume to a Halloween party.\nI choose Option",
+  "better": "Wearing a costume to a Halloween party",
+  "worse": "Wearing a costume to a business meeting"
+ },
+ {
+  "id": "et_p09",
+  "category": "norm",
+  "subtype": "etiquette",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Singing loudly in the shower.\nOption B: Singing loudly in the cathedral.\nI choose Option",
+  "rest_stem": "Option A: Singing loudly in the cathedral.\nOption B: Singing loudly in the shower.\nI choose Option",
+  "better": "Singing loudly in the shower",
+  "worse": "Singing loudly in the cathedral"
+ },
+ {
+  "id": "et_o04",
+  "category": "norm",
+  "subtype": "etiquette",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Ending a business email with Kind regards.\nOption B: Ending a business email with See ya.\nI choose Option",
+  "rest_stem": "Option A: Ending a business email with See ya.\nOption B: Ending a business email with Kind regards.\nI choose Option",
+  "better": "Ending a business email with Kind regards",
+  "worse": "Ending a business email with See ya"
+ },
+ {
+  "id": "et_o05",
+  "category": "norm",
+  "subtype": "etiquette",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Eating salad with a fork at a formal dinner.\nOption B: Eating salad with your hands at a formal dinner.\nI choose Option",
+  "rest_stem": "Option A: Eating salad with your hands at a formal dinner.\nOption B: Eating salad with a fork at a formal dinner.\nI choose Option",
+  "better": "Eating salad with a fork at a formal dinner",
+  "worse": "Eating salad with your hands at a formal dinner"
+ },
+ {
+  "id": "et_o06",
+  "category": "norm",
+  "subtype": "etiquette",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Placing the napkin on your lap during a formal meal.\nOption B: Placing the napkin on your head during a formal meal.\nI choose Option",
+  "rest_stem": "Option A: Placing the napkin on your head during a formal meal.\nOption B: Placing the napkin on your lap during a formal meal.\nI choose Option",
+  "better": "Placing the napkin on your lap during a formal meal",
+  "worse": "Placing the napkin on your head during a formal meal"
+ },
+ {
+  "id": "et_o09",
+  "category": "norm",
+  "subtype": "etiquette",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Answering the office phone with your name.\nOption B: Answering the office phone with a grunt.\nI choose Option",
+  "rest_stem": "Option A: Answering the office phone with a grunt.\nOption B: Answering the office phone with your name.\nI choose Option",
+  "better": "Answering the office phone with your name",
+  "worse": "Answering the office phone with a grunt"
+ },
+ {
+  "id": "et_o10",
+  "category": "norm",
+  "subtype": "etiquette",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Addressing an elderly professor as Professor.\nOption B: Addressing an elderly professor as buddy.\nI choose Option",
+  "rest_stem": "Option A: Addressing an elderly professor as buddy.\nOption B: Addressing an elderly professor as Professor.\nI choose Option",
+  "better": "Addressing an elderly professor as Professor",
+  "worse": "Addressing an elderly professor as buddy"
+ },
+ {
+  "id": "et_o11",
+  "category": "norm",
+  "subtype": "etiquette",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Using formal language in a cover letter.\nOption B: Using vulgar language in a cover letter.\nI choose Option",
+  "rest_stem": "Option A: Using vulgar language in a cover letter.\nOption B: Using formal language in a cover letter.\nI choose Option",
+  "better": "Using formal language in a cover letter",
+  "worse": "Using vulgar language in a cover letter"
+ },
+ {
+  "id": "et_o13",
+  "category": "norm",
+  "subtype": "etiquette",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Saying thanks when the waiter brings your water.\nOption B: Saying nothing when the waiter brings your water.\nI choose Option",
+  "rest_stem": "Option A: Saying nothing when the waiter brings your water.\nOption B: Saying thanks when the waiter brings your water.\nI choose Option",
+  "better": "Saying thanks when the waiter brings your water",
+  "worse": "Saying nothing when the waiter brings your water"
+ },
+ {
+  "id": "et_o14",
+  "category": "norm",
+  "subtype": "etiquette",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Bringing wine to a housewarming party.\nOption B: Bringing trash to a housewarming party.\nI choose Option",
+  "rest_stem": "Option A: Bringing trash to a housewarming party.\nOption B: Bringing wine to a housewarming party.\nI choose Option",
+  "better": "Bringing wine to a housewarming party",
+  "worse": "Bringing trash to a housewarming party"
+ },
+ {
+  "id": "ae_v01",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Polishing the silverware before a formal photo shoot.\nOption B: Smudging the silverware before a formal photo shoot.\nI choose Option",
+  "rest_stem": "Option A: Smudging the silverware before a formal photo shoot.\nOption B: Polishing the silverware before a formal photo shoot.\nI choose Option",
+  "better": "Polishing the silverware before a formal photo shoot",
+  "worse": "Smudging the silverware before a formal photo shoot"
+ },
+ {
+  "id": "ae_v02",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Trimming the hedges in front of a historic mansion.\nOption B: Hacking the hedges in front of a historic mansion.\nI choose Option",
+  "rest_stem": "Option A: Hacking the hedges in front of a historic mansion.\nOption B: Trimming the hedges in front of a historic mansion.\nI choose Option",
+  "better": "Trimming the hedges in front of a historic mansion",
+  "worse": "Hacking the hedges in front of a historic mansion"
+ },
+ {
+  "id": "ae_v03",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Arranging the pictures on the gallery wall.\nOption B: Scattering the pictures on the gallery wall.\nI choose Option",
+  "rest_stem": "Option A: Scattering the pictures on the gallery wall.\nOption B: Arranging the pictures on the gallery wall.\nI choose Option",
+  "better": "Arranging the pictures on the gallery wall",
+  "worse": "Scattering the pictures on the gallery wall"
+ },
+ {
+  "id": "ae_v04",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Smoothing the glaze on a ceramic vase.\nOption B: Smearing the glaze on a ceramic vase.\nI choose Option",
+  "rest_stem": "Option A: Smearing the glaze on a ceramic vase.\nOption B: Smoothing the glaze on a ceramic vase.\nI choose Option",
+  "better": "Smoothing the glaze on a ceramic vase",
+  "worse": "Smearing the glaze on a ceramic vase"
+ },
+ {
+  "id": "ae_f02",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Playing the drums on the beat.\nOption B: Playing the drums off the beat.\nI choose Option",
+  "rest_stem": "Option A: Playing the drums off the beat.\nOption B: Playing the drums on the beat.\nI choose Option",
+  "better": "Playing the drums on the beat",
+  "worse": "Playing the drums off the beat"
+ },
+ {
+  "id": "ae_f03",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Framing the photo without the subject's head cut off.\nOption B: Framing the photo with the subject's head cut off.\nI choose Option",
+  "rest_stem": "Option A: Framing the photo with the subject's head cut off.\nOption B: Framing the photo without the subject's head cut off.\nI choose Option",
+  "better": "Framing the photo without the subject's head cut off",
+  "worse": "Framing the photo with the subject's head cut off"
+ },
+ {
+  "id": "ae_f04",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Writing a sonnet with a consistent rhythm.\nOption B: Writing a sonnet without a consistent rhythm.\nI choose Option",
+  "rest_stem": "Option A: Writing a sonnet without a consistent rhythm.\nOption B: Writing a sonnet with a consistent rhythm.\nI choose Option",
+  "better": "Writing a sonnet with a consistent rhythm",
+  "worse": "Writing a sonnet without a consistent rhythm"
+ },
+ {
+  "id": "ae_f05",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Painting a portrait with attention to proportion.\nOption B: Painting a portrait without attention to proportion.\nI choose Option",
+  "rest_stem": "Option A: Painting a portrait without attention to proportion.\nOption B: Painting a portrait with attention to proportion.\nI choose Option",
+  "better": "Painting a portrait with attention to proportion",
+  "worse": "Painting a portrait without attention to proportion"
+ },
+ {
+  "id": "ae_f06",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Designing a poster with two different typefaces.\nOption B: Designing a poster with twelve different typefaces.\nI choose Option",
+  "rest_stem": "Option A: Designing a poster with twelve different typefaces.\nOption B: Designing a poster with two different typefaces.\nI choose Option",
+  "better": "Designing a poster with two different typefaces",
+  "worse": "Designing a poster with twelve different typefaces"
+ },
+ {
+  "id": "ae_p01",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Choosing a rug in a color that suits the room.\nOption B: Choosing a rug in a color that ruins the room.\nI choose Option",
+  "rest_stem": "Option A: Choosing a rug in a color that ruins the room.\nOption B: Choosing a rug in a color that suits the room.\nI choose Option",
+  "better": "Choosing a rug in a color that suits the room",
+  "worse": "Choosing a rug in a color that ruins the room"
+ },
+ {
+  "id": "ae_p02",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Mixing a pop song so the vocals sound clear.\nOption B: Mixing a pop song so the vocals sound muddy.\nI choose Option",
+  "rest_stem": "Option A: Mixing a pop song so the vocals sound muddy.\nOption B: Mixing a pop song so the vocals sound clear.\nI choose Option",
+  "better": "Mixing a pop song so the vocals sound clear",
+  "worse": "Mixing a pop song so the vocals sound muddy"
+ },
+ {
+  "id": "ae_p03",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Lighting a portrait so the face looks natural.\nOption B: Lighting a portrait so the face looks harsh.\nI choose Option",
+  "rest_stem": "Option A: Lighting a portrait so the face looks harsh.\nOption B: Lighting a portrait so the face looks natural.\nI choose Option",
+  "better": "Lighting a portrait so the face looks natural",
+  "worse": "Lighting a portrait so the face looks harsh"
+ },
+ {
+  "id": "ae_p04",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Arranging the furniture so the room feels spacious.\nOption B: Arranging the furniture so the room feels crowded.\nI choose Option",
+  "rest_stem": "Option A: Arranging the furniture so the room feels crowded.\nOption B: Arranging the furniture so the room feels spacious.\nI choose Option",
+  "better": "Arranging the furniture so the room feels spacious",
+  "worse": "Arranging the furniture so the room feels crowded"
+ },
+ {
+  "id": "ae_p05",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Plating the dessert so it looks elegant.\nOption B: Plating the dessert so it looks messy.\nI choose Option",
+  "rest_stem": "Option A: Plating the dessert so it looks messy.\nOption B: Plating the dessert so it looks elegant.\nI choose Option",
+  "better": "Plating the dessert so it looks elegant",
+  "worse": "Plating the dessert so it looks messy"
+ },
+ {
+  "id": "ae_p06",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Pruning the rose bush into a graceful shape.\nOption B: Pruning the rose bush into a uneven shape.\nI choose Option",
+  "rest_stem": "Option A: Pruning the rose bush into a uneven shape.\nOption B: Pruning the rose bush into a graceful shape.\nI choose Option",
+  "better": "Pruning the rose bush into a graceful shape",
+  "worse": "Pruning the rose bush into a uneven shape"
+ },
+ {
+  "id": "ae_o01",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Shooting a portrait with the subject's eyes sharp.\nOption B: Shooting a portrait with the subject's eyes blurred.\nI choose Option",
+  "rest_stem": "Option A: Shooting a portrait with the subject's eyes blurred.\nOption B: Shooting a portrait with the subject's eyes sharp.\nI choose Option",
+  "better": "Shooting a portrait with the subject's eyes sharp",
+  "worse": "Shooting a portrait with the subject's eyes blurred"
+ },
+ {
+  "id": "ae_o03",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Plating a dessert with a neat drizzle of sauce.\nOption B: Plating a dessert with a sloppy drizzle of sauce.\nI choose Option",
+  "rest_stem": "Option A: Plating a dessert with a sloppy drizzle of sauce.\nOption B: Plating a dessert with a neat drizzle of sauce.\nI choose Option",
+  "better": "Plating a dessert with a neat drizzle of sauce",
+  "worse": "Plating a dessert with a sloppy drizzle of sauce"
+ },
+ {
+  "id": "ae_o04",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Playing a lullaby in a soothing tone.\nOption B: Playing a lullaby in a piercing tone.\nI choose Option",
+  "rest_stem": "Option A: Playing a lullaby in a piercing tone.\nOption B: Playing a lullaby in a soothing tone.\nI choose Option",
+  "better": "Playing a lullaby in a soothing tone",
+  "worse": "Playing a lullaby in a piercing tone"
+ },
+ {
+  "id": "ae_o07",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Writing a poem with vivid imagery.\nOption B: Writing a poem with stale imagery.\nI choose Option",
+  "rest_stem": "Option A: Writing a poem with stale imagery.\nOption B: Writing a poem with vivid imagery.\nI choose Option",
+  "better": "Writing a poem with vivid imagery",
+  "worse": "Writing a poem with stale imagery"
+ },
+ {
+  "id": "ae_o08",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Decorating a wedding cake with tasteful icing.\nOption B: Decorating a wedding cake with tacky icing.\nI choose Option",
+  "rest_stem": "Option A: Decorating a wedding cake with tacky icing.\nOption B: Decorating a wedding cake with tasteful icing.\nI choose Option",
+  "better": "Decorating a wedding cake with tasteful icing",
+  "worse": "Decorating a wedding cake with tacky icing"
+ },
+ {
+  "id": "ae_o10",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Painting a sunset with subtle color transitions.\nOption B: Painting a sunset with crude color transitions.\nI choose Option",
+  "rest_stem": "Option A: Painting a sunset with crude color transitions.\nOption B: Painting a sunset with subtle color transitions.\nI choose Option",
+  "better": "Painting a sunset with subtle color transitions",
+  "worse": "Painting a sunset with crude color transitions"
+ },
+ {
+  "id": "ae_o12",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Dancing the waltz with flowing steps.\nOption B: Dancing the waltz with clumsy steps.\nI choose Option",
+  "rest_stem": "Option A: Dancing the waltz with clumsy steps.\nOption B: Dancing the waltz with flowing steps.\nI choose Option",
+  "better": "Dancing the waltz with flowing steps",
+  "worse": "Dancing the waltz with clumsy steps"
+ },
+ {
+  "id": "ae_o13",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Carving a wooden statue with delicate details.\nOption B: Carving a wooden statue with rough details.\nI choose Option",
+  "rest_stem": "Option A: Carving a wooden statue with rough details.\nOption B: Carving a wooden statue with delicate details.\nI choose Option",
+  "better": "Carving a wooden statue with delicate details",
+  "worse": "Carving a wooden statue with rough details"
+ },
+ {
+  "id": "ae_o16",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Ending a novel with a satisfying final chapter.\nOption B: Ending a novel with a rushed final chapter.\nI choose Option",
+  "rest_stem": "Option A: Ending a novel with a rushed final chapter.\nOption B: Ending a novel with a satisfying final chapter.\nI choose Option",
+  "better": "Ending a novel with a satisfying final chapter",
+  "worse": "Ending a novel with a rushed final chapter"
+ },
+ {
+  "id": "ep_v01",
+  "category": "norm",
+  "subtype": "epistemic",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Verifying a surprising statistic before citing it.\nOption B: Trusting a surprising statistic before citing it.\nI choose Option",
+  "rest_stem": "Option A: Trusting a surprising statistic before citing it.\nOption B: Verifying a surprising statistic before citing it.\nI choose Option",
+  "better": "Verifying a surprising statistic before citing it",
+  "worse": "Trusting a surprising statistic before citing it"
+ },
+ {
+  "id": "ep_v02",
+  "category": "norm",
+  "subtype": "epistemic",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Checking an unexpected result before building on it.\nOption B: Ignoring an unexpected result before building on it.\nI choose Option",
+  "rest_stem": "Option A: Ignoring an unexpected result before building on it.\nOption B: Checking an unexpected result before building on it.\nI choose Option",
+  "better": "Checking an unexpected result before building on it",
+  "worse": "Ignoring an unexpected result before building on it"
+ },
+ {
+  "id": "ep_v03",
+  "category": "norm",
+  "subtype": "epistemic",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Questioning a claim that contradicts all prior evidence.\nOption B: Accepting a claim that contradicts all prior evidence.\nI choose Option",
+  "rest_stem": "Option A: Accepting a claim that contradicts all prior evidence.\nOption B: Questioning a claim that contradicts all prior evidence.\nI choose Option",
+  "better": "Questioning a claim that contradicts all prior evidence",
+  "worse": "Accepting a claim that contradicts all prior evidence"
+ },
+ {
+  "id": "ep_v04",
+  "category": "norm",
+  "subtype": "epistemic",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Updating your estimate after seeing strong new data.\nOption B: Keeping your estimate after seeing strong new data.\nI choose Option",
+  "rest_stem": "Option A: Keeping your estimate after seeing strong new data.\nOption B: Updating your estimate after seeing strong new data.\nI choose Option",
+  "better": "Updating your estimate after seeing strong new data",
+  "worse": "Keeping your estimate after seeing strong new data"
+ },
+ {
+  "id": "ep_v05",
+  "category": "norm",
+  "subtype": "epistemic",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Confirming a hypothesis before announcing the discovery.\nOption B: Believing a hypothesis before announcing the discovery.\nI choose Option",
+  "rest_stem": "Option A: Believing a hypothesis before announcing the discovery.\nOption B: Confirming a hypothesis before announcing the discovery.\nI choose Option",
+  "better": "Confirming a hypothesis before announcing the discovery",
+  "worse": "Believing a hypothesis before announcing the discovery"
+ },
+ {
+  "id": "ep_v06",
+  "category": "norm",
+  "subtype": "epistemic",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Examining alternative explanations for a surprising correlation.\nOption B: Dismissing alternative explanations for a surprising correlation.\nI choose Option",
+  "rest_stem": "Option A: Dismissing alternative explanations for a surprising correlation.\nOption B: Examining alternative explanations for a surprising correlation.\nI choose Option",
+  "better": "Examining alternative explanations for a surprising correlation",
+  "worse": "Dismissing alternative explanations for a surprising correlation"
+ },
+ {
+  "id": "ep_f02",
+  "category": "norm",
+  "subtype": "epistemic",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Reporting a measurement with its margin of error.\nOption B: Reporting a measurement without its margin of error.\nI choose Option",
+  "rest_stem": "Option A: Reporting a measurement without its margin of error.\nOption B: Reporting a measurement with its margin of error.\nI choose Option",
+  "better": "Reporting a measurement with its margin of error",
+  "worse": "Reporting a measurement without its margin of error"
+ },
+ {
+  "id": "ep_f03",
+  "category": "norm",
+  "subtype": "epistemic",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Announcing a discovery after replicating the experiment.\nOption B: Announcing a discovery without replicating the experiment.\nI choose Option",
+  "rest_stem": "Option A: Announcing a discovery without replicating the experiment.\nOption B: Announcing a discovery after replicating the experiment.\nI choose Option",
+  "better": "Announcing a discovery after replicating the experiment",
+  "worse": "Announcing a discovery without replicating the experiment"
+ },
+ {
+  "id": "ep_f04",
+  "category": "norm",
+  "subtype": "epistemic",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Trusting a rumor after checking where it came from.\nOption B: Trusting a rumor without checking where it came from.\nI choose Option",
+  "rest_stem": "Option A: Trusting a rumor without checking where it came from.\nOption B: Trusting a rumor after checking where it came from.\nI choose Option",
+  "better": "Trusting a rumor after checking where it came from",
+  "worse": "Trusting a rumor without checking where it came from"
+ },
+ {
+  "id": "ep_f05",
+  "category": "norm",
+  "subtype": "epistemic",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Forming an opinion after hearing both sides of the debate.\nOption B: Forming an opinion before hearing both sides of the debate.\nI choose Option",
+  "rest_stem": "Option A: Forming an opinion before hearing both sides of the debate.\nOption B: Forming an opinion after hearing both sides of the debate.\nI choose Option",
+  "better": "Forming an opinion after hearing both sides of the debate",
+  "worse": "Forming an opinion before hearing both sides of the debate"
+ },
+ {
+  "id": "ep_f08",
+  "category": "norm",
+  "subtype": "epistemic",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Trusting an encyclopedia entry that cites many sources.\nOption B: Trusting an encyclopedia entry that cites no sources.\nI choose Option",
+  "rest_stem": "Option A: Trusting an encyclopedia entry that cites no sources.\nOption B: Trusting an encyclopedia entry that cites many sources.\nI choose Option",
+  "better": "Trusting an encyclopedia entry that cites many sources",
+  "worse": "Trusting an encyclopedia entry that cites no sources"
+ },
+ {
+  "id": "ep_p01",
+  "category": "norm",
+  "subtype": "epistemic",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Judging a theory by its predictions.\nOption B: Judging a theory by its popularity.\nI choose Option",
+  "rest_stem": "Option A: Judging a theory by its popularity.\nOption B: Judging a theory by its predictions.\nI choose Option",
+  "better": "Judging a theory by its predictions",
+  "worse": "Judging a theory by its popularity"
+ },
+ {
+  "id": "ep_p02",
+  "category": "norm",
+  "subtype": "epistemic",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Rejecting an argument because of its flaws.\nOption B: Rejecting an argument because of its author.\nI choose Option",
+  "rest_stem": "Option A: Rejecting an argument because of its author.\nOption B: Rejecting an argument because of its flaws.\nI choose Option",
+  "better": "Rejecting an argument because of its flaws",
+  "worse": "Rejecting an argument because of its author"
+ },
+ {
+  "id": "ep_p03",
+  "category": "norm",
+  "subtype": "epistemic",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Accepting a theory because the evidence supports it.\nOption B: Accepting a theory because the evidence undermines it.\nI choose Option",
+  "rest_stem": "Option A: Accepting a theory because the evidence undermines it.\nOption B: Accepting a theory because the evidence supports it.\nI choose Option",
+  "better": "Accepting a theory because the evidence supports it",
+  "worse": "Accepting a theory because the evidence undermines it"
+ },
+ {
+  "id": "ep_p04",
+  "category": "norm",
+  "subtype": "epistemic",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Believing a rumor because several sources confirmed it.\nOption B: Believing a rumor because one stranger confirmed it.\nI choose Option",
+  "rest_stem": "Option A: Believing a rumor because one stranger confirmed it.\nOption B: Believing a rumor because several sources confirmed it.\nI choose Option",
+  "better": "Believing a rumor because several sources confirmed it",
+  "worse": "Believing a rumor because one stranger confirmed it"
+ },
+ {
+  "id": "ep_p07",
+  "category": "norm",
+  "subtype": "epistemic",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Proving a theorem by deduction.\nOption B: Proving a theorem by repetition.\nI choose Option",
+  "rest_stem": "Option A: Proving a theorem by repetition.\nOption B: Proving a theorem by deduction.\nI choose Option",
+  "better": "Proving a theorem by deduction",
+  "worse": "Proving a theorem by repetition"
+ },
+ {
+  "id": "ep_p08",
+  "category": "norm",
+  "subtype": "epistemic",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Deciding which diet works by reading clinical trials.\nOption B: Deciding which diet works by reading magazine ads.\nI choose Option",
+  "rest_stem": "Option A: Deciding which diet works by reading magazine ads.\nOption B: Deciding which diet works by reading clinical trials.\nI choose Option",
+  "better": "Deciding which diet works by reading clinical trials",
+  "worse": "Deciding which diet works by reading magazine ads"
+ },
+ {
+  "id": "ep_p09",
+  "category": "norm",
+  "subtype": "epistemic",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Forecasting sales using past data.\nOption B: Forecasting sales using lucky numbers.\nI choose Option",
+  "rest_stem": "Option A: Forecasting sales using lucky numbers.\nOption B: Forecasting sales using past data.\nI choose Option",
+  "better": "Forecasting sales using past data",
+  "worse": "Forecasting sales using lucky numbers"
+ },
+ {
+  "id": "ep_p10",
+  "category": "norm",
+  "subtype": "epistemic",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Generalizing about a whole country from surveys.\nOption B: Generalizing about a whole country from anecdotes.\nI choose Option",
+  "rest_stem": "Option A: Generalizing about a whole country from anecdotes.\nOption B: Generalizing about a whole country from surveys.\nI choose Option",
+  "better": "Generalizing about a whole country from surveys",
+  "worse": "Generalizing about a whole country from anecdotes"
+ },
+ {
+  "id": "ep_o01",
+  "category": "norm",
+  "subtype": "epistemic",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Concluding that a drug works after a large clinical trial.\nOption B: Concluding that a drug works after a tiny clinical trial.\nI choose Option",
+  "rest_stem": "Option A: Concluding that a drug works after a tiny clinical trial.\nOption B: Concluding that a drug works after a large clinical trial.\nI choose Option",
+  "better": "Concluding that a drug works after a large clinical trial",
+  "worse": "Concluding that a drug works after a tiny clinical trial"
+ },
+ {
+  "id": "ep_o04",
+  "category": "norm",
+  "subtype": "epistemic",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Predicting tomorrow's weather from satellite data.\nOption B: Predicting tomorrow's weather from tea leaves.\nI choose Option",
+  "rest_stem": "Option A: Predicting tomorrow's weather from tea leaves.\nOption B: Predicting tomorrow's weather from satellite data.\nI choose Option",
+  "better": "Predicting tomorrow's weather from satellite data",
+  "worse": "Predicting tomorrow's weather from tea leaves"
+ },
+ {
+  "id": "ep_o06",
+  "category": "norm",
+  "subtype": "epistemic",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Evaluating a new teaching method with a control group.\nOption B: Evaluating a new teaching method with a gut feeling.\nI choose Option",
+  "rest_stem": "Option A: Evaluating a new teaching method with a gut feeling.\nOption B: Evaluating a new teaching method with a control group.\nI choose Option",
+  "better": "Evaluating a new teaching method with a control group",
+  "worse": "Evaluating a new teaching method with a gut feeling"
+ },
+ {
+  "id": "ep_o07",
+  "category": "norm",
+  "subtype": "epistemic",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Relying on a credible witness for a historical account.\nOption B: Relying on a confused witness for a historical account.\nI choose Option",
+  "rest_stem": "Option A: Relying on a confused witness for a historical account.\nOption B: Relying on a credible witness for a historical account.\nI choose Option",
+  "better": "Relying on a credible witness for a historical account",
+  "worse": "Relying on a confused witness for a historical account"
+ },
+ {
+  "id": "ep_o09",
+  "category": "norm",
+  "subtype": "epistemic",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Citing a rigorous study to support your argument.\nOption B: Citing a flawed study to support your argument.\nI choose Option",
+  "rest_stem": "Option A: Citing a flawed study to support your argument.\nOption B: Citing a rigorous study to support your argument.\nI choose Option",
+  "better": "Citing a rigorous study to support your argument",
+  "worse": "Citing a flawed study to support your argument"
+ },
+ {
+  "id": "d01",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The harvest after a season of steady rain.\nOption B: The harvest after a season of severe drought.\nI choose Option",
+  "rest_stem": "Option A: The harvest after a season of severe drought.\nOption B: The harvest after a season of steady rain.\nI choose Option",
+  "better": "The harvest after a season of steady rain",
+  "worse": "The harvest after a season of severe drought"
+ },
+ {
+  "id": "d02",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The view from the tower window.\nOption B: The view from the basement window.\nI choose Option",
+  "rest_stem": "Option A: The view from the basement window.\nOption B: The view from the tower window.\nI choose Option",
+  "better": "The view from the tower window",
+  "worse": "The view from the basement window"
+ },
+ {
+  "id": "d03",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The taste of ripe strawberries.\nOption B: The taste of rotten strawberries.\nI choose Option",
+  "rest_stem": "Option A: The taste of rotten strawberries.\nOption B: The taste of ripe strawberries.\nI choose Option",
+  "better": "The taste of ripe strawberries",
+  "worse": "The taste of rotten strawberries"
+ },
+ {
+  "id": "d04",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The smell of fresh milk.\nOption B: The smell of spoiled milk.\nI choose Option",
+  "rest_stem": "Option A: The smell of spoiled milk.\nOption B: The smell of fresh milk.\nI choose Option",
+  "better": "The smell of fresh milk",
+  "worse": "The smell of spoiled milk"
+ },
+ {
+  "id": "d05",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The battery of a new laptop.\nOption B: The battery of a ancient laptop.\nI choose Option",
+  "rest_stem": "Option A: The battery of a ancient laptop.\nOption B: The battery of a new laptop.\nI choose Option",
+  "better": "The battery of a new laptop",
+  "worse": "The battery of a ancient laptop"
+ },
+ {
+  "id": "d06",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The road surface after a full repair.\nOption B: The road surface after a harsh winter.\nI choose Option",
+  "rest_stem": "Option A: The road surface after a harsh winter.\nOption B: The road surface after a full repair.\nI choose Option",
+  "better": "The road surface after a full repair",
+  "worse": "The road surface after a harsh winter"
+ },
+ {
+  "id": "d07",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The air quality on a breezy morning.\nOption B: The air quality on a smoky morning.\nI choose Option",
+  "rest_stem": "Option A: The air quality on a smoky morning.\nOption B: The air quality on a breezy morning.\nI choose Option",
+  "better": "The air quality on a breezy morning",
+  "worse": "The air quality on a smoky morning"
+ },
+ {
+  "id": "d09",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The reviews of the celebrated musical.\nOption B: The reviews of the disastrous musical.\nI choose Option",
+  "rest_stem": "Option A: The reviews of the disastrous musical.\nOption B: The reviews of the celebrated musical.\nI choose Option",
+  "better": "The reviews of the celebrated musical",
+  "worse": "The reviews of the disastrous musical"
+ },
+ {
+  "id": "d11",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The fishing in a stocked lake.\nOption B: The fishing in a polluted lake.\nI choose Option",
+  "rest_stem": "Option A: The fishing in a polluted lake.\nOption B: The fishing in a stocked lake.\nI choose Option",
+  "better": "The fishing in a stocked lake",
+  "worse": "The fishing in a polluted lake"
+ },
+ {
+  "id": "d12",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The soil in a fertile valley.\nOption B: The soil in a barren valley.\nI choose Option",
+  "rest_stem": "Option A: The soil in a barren valley.\nOption B: The soil in a fertile valley.\nI choose Option",
+  "better": "The soil in a fertile valley",
+  "worse": "The soil in a barren valley"
+ },
+ {
+  "id": "d14",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The harvest from healthy vines.\nOption B: The harvest from infected vines.\nI choose Option",
+  "rest_stem": "Option A: The harvest from infected vines.\nOption B: The harvest from healthy vines.\nI choose Option",
+  "better": "The harvest from healthy vines",
+  "worse": "The harvest from infected vines"
+ },
+ {
+  "id": "d15",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The picture on a modern television screen.\nOption B: The picture on a cracked television screen.\nI choose Option",
+  "rest_stem": "Option A: The picture on a cracked television screen.\nOption B: The picture on a modern television screen.\nI choose Option",
+  "better": "The picture on a modern television screen",
+  "worse": "The picture on a cracked television screen"
+ },
+ {
+  "id": "d16",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The atmosphere at the lively festival.\nOption B: The atmosphere at the deserted festival.\nI choose Option",
+  "rest_stem": "Option A: The atmosphere at the deserted festival.\nOption B: The atmosphere at the lively festival.\nI choose Option",
+  "better": "The atmosphere at the lively festival",
+  "worse": "The atmosphere at the deserted festival"
+ },
+ {
+  "id": "d17",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The acoustics of a concert hall.\nOption B: The acoustics of a parking garage.\nI choose Option",
+  "rest_stem": "Option A: The acoustics of a parking garage.\nOption B: The acoustics of a concert hall.\nI choose Option",
+  "better": "The acoustics of a concert hall",
+  "worse": "The acoustics of a parking garage"
+ },
+ {
+  "id": "d18",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The comfort of a padded wooden bench.\nOption B: The comfort of a cracked wooden bench.\nI choose Option",
+  "rest_stem": "Option A: The comfort of a cracked wooden bench.\nOption B: The comfort of a padded wooden bench.\nI choose Option",
+  "better": "The comfort of a padded wooden bench",
+  "worse": "The comfort of a cracked wooden bench"
+ },
+ {
+  "id": "d19",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The freshness of bread baked an hour ago.\nOption B: The freshness of bread baked an month ago.\nI choose Option",
+  "rest_stem": "Option A: The freshness of bread baked an month ago.\nOption B: The freshness of bread baked an hour ago.\nI choose Option",
+  "better": "The freshness of bread baked an hour ago",
+  "worse": "The freshness of bread baked an month ago"
+ },
+ {
+  "id": "d20",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The visibility on a bright mountain road.\nOption B: The visibility on a dark mountain road.\nI choose Option",
+  "rest_stem": "Option A: The visibility on a dark mountain road.\nOption B: The visibility on a bright mountain road.\nI choose Option",
+  "better": "The visibility on a bright mountain road",
+  "worse": "The visibility on a dark mountain road"
+ },
+ {
+  "id": "d21",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The water pressure in a clean shower.\nOption B: The water pressure in a rusty shower.\nI choose Option",
+  "rest_stem": "Option A: The water pressure in a rusty shower.\nOption B: The water pressure in a clean shower.\nI choose Option",
+  "better": "The water pressure in a clean shower",
+  "worse": "The water pressure in a rusty shower"
+ },
+ {
+  "id": "d22",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The sharpness of a honed kitchen knife.\nOption B: The sharpness of a chipped kitchen knife.\nI choose Option",
+  "rest_stem": "Option A: The sharpness of a chipped kitchen knife.\nOption B: The sharpness of a honed kitchen knife.\nI choose Option",
+  "better": "The sharpness of a honed kitchen knife",
+  "worse": "The sharpness of a chipped kitchen knife"
+ },
+ {
+  "id": "d23",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The brightness of a new light bulb.\nOption B: The brightness of a dying light bulb.\nI choose Option",
+  "rest_stem": "Option A: The brightness of a dying light bulb.\nOption B: The brightness of a new light bulb.\nI choose Option",
+  "better": "The brightness of a new light bulb",
+  "worse": "The brightness of a dying light bulb"
+ },
+ {
+  "id": "d24",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The quality of a photo taken in daylight.\nOption B: The quality of a photo taken in darkness.\nI choose Option",
+  "rest_stem": "Option A: The quality of a photo taken in darkness.\nOption B: The quality of a photo taken in daylight.\nI choose Option",
+  "better": "The quality of a photo taken in daylight",
+  "worse": "The quality of a photo taken in darkness"
+ },
+ {
+  "id": "d25",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The fuel economy of a compact car.\nOption B: The fuel economy of a massive car.\nI choose Option",
+  "rest_stem": "Option A: The fuel economy of a massive car.\nOption B: The fuel economy of a compact car.\nI choose Option",
+  "better": "The fuel economy of a compact car",
+  "worse": "The fuel economy of a massive car"
+ },
+ {
+  "id": "d26",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The reliability of a serviced engine.\nOption B: The reliability of a neglected engine.\nI choose Option",
+  "rest_stem": "Option A: The reliability of a neglected engine.\nOption B: The reliability of a serviced engine.\nI choose Option",
+  "better": "The reliability of a serviced engine",
+  "worse": "The reliability of a neglected engine"
+ },
+ {
+  "id": "d27",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The yield of irrigated fields.\nOption B: The yield of scorched fields.\nI choose Option",
+  "rest_stem": "Option A: The yield of scorched fields.\nOption B: The yield of irrigated fields.\nI choose Option",
+  "better": "The yield of irrigated fields",
+  "worse": "The yield of scorched fields"
+ },
+ {
+  "id": "d28",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The sound of a tuned piano.\nOption B: The sound of a broken piano.\nI choose Option",
+  "rest_stem": "Option A: The sound of a broken piano.\nOption B: The sound of a tuned piano.\nI choose Option",
+  "better": "The sound of a tuned piano",
+  "worse": "The sound of a broken piano"
+ },
+ {
+  "id": "d29",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The phone signal in a park.\nOption B: The phone signal in a tunnel.\nI choose Option",
+  "rest_stem": "Option A: The phone signal in a tunnel.\nOption B: The phone signal in a park.\nI choose Option",
+  "better": "The phone signal in a park",
+  "worse": "The phone signal in a tunnel"
+ },
+ {
+  "id": "d30",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The snow at the resort after a cold night.\nOption B: The snow at the resort after a warm rain.\nI choose Option",
+  "rest_stem": "Option A: The snow at the resort after a warm rain.\nOption B: The snow at the resort after a cold night.\nI choose Option",
+  "better": "The snow at the resort after a cold night",
+  "worse": "The snow at the resort after a warm rain"
+ },
+ {
+  "id": "d31",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The handling of a car with new brakes.\nOption B: The handling of a car with worn brakes.\nI choose Option",
+  "rest_stem": "Option A: The handling of a car with worn brakes.\nOption B: The handling of a car with new brakes.\nI choose Option",
+  "better": "The handling of a car with new brakes",
+  "worse": "The handling of a car with worn brakes"
+ },
+ {
+  "id": "d32",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The flavor of coffee made from roasted beans.\nOption B: The flavor of coffee made from stale beans.\nI choose Option",
+  "rest_stem": "Option A: The flavor of coffee made from stale beans.\nOption B: The flavor of coffee made from roasted beans.\nI choose Option",
+  "better": "The flavor of coffee made from roasted beans",
+  "worse": "The flavor of coffee made from stale beans"
+ },
+ {
+  "id": "d33",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The warmth of a coat made of wool.\nOption B: The warmth of a coat made of paper.\nI choose Option",
+  "rest_stem": "Option A: The warmth of a coat made of paper.\nOption B: The warmth of a coat made of wool.\nI choose Option",
+  "better": "The warmth of a coat made of wool",
+  "worse": "The warmth of a coat made of paper"
+ },
+ {
+  "id": "d34",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The growth of plants kept in the sunlight.\nOption B: The growth of plants kept in the cellar.\nI choose Option",
+  "rest_stem": "Option A: The growth of plants kept in the cellar.\nOption B: The growth of plants kept in the sunlight.\nI choose Option",
+  "better": "The growth of plants kept in the sunlight",
+  "worse": "The growth of plants kept in the cellar"
+ },
+ {
+  "id": "d35",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The durability of a bridge built of steel.\nOption B: The durability of a bridge built of cardboard.\nI choose Option",
+  "rest_stem": "Option A: The durability of a bridge built of cardboard.\nOption B: The durability of a bridge built of steel.\nI choose Option",
+  "better": "The durability of a bridge built of steel",
+  "worse": "The durability of a bridge built of cardboard"
+ },
+ {
+  "id": "d36",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The quality of sleep on a firm mattress.\nOption B: The quality of sleep on a worn mattress.\nI choose Option",
+  "rest_stem": "Option A: The quality of sleep on a worn mattress.\nOption B: The quality of sleep on a firm mattress.\nI choose Option",
+  "better": "The quality of sleep on a firm mattress",
+  "worse": "The quality of sleep on a worn mattress"
+ },
+ {
+  "id": "d37",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The condition of fruit stored for a day.\nOption B: The condition of fruit stored for a year.\nI choose Option",
+  "rest_stem": "Option A: The condition of fruit stored for a year.\nOption B: The condition of fruit stored for a day.\nI choose Option",
+  "better": "The condition of fruit stored for a day",
+  "worse": "The condition of fruit stored for a year"
+ },
+ {
+  "id": "d38",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The ride in a car with new suspension.\nOption B: The ride in a car with broken suspension.\nI choose Option",
+  "rest_stem": "Option A: The ride in a car with broken suspension.\nOption B: The ride in a car with new suspension.\nI choose Option",
+  "better": "The ride in a car with new suspension",
+  "worse": "The ride in a car with broken suspension"
+ },
+ {
+  "id": "d39",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The clarity of water from a mountain spring.\nOption B: The clarity of water from a muddy pond.\nI choose Option",
+  "rest_stem": "Option A: The clarity of water from a muddy pond.\nOption B: The clarity of water from a mountain spring.\nI choose Option",
+  "better": "The clarity of water from a mountain spring",
+  "worse": "The clarity of water from a muddy pond"
+ },
+ {
+  "id": "d40",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The picture from a clean camera lens.\nOption B: The picture from a scratched camera lens.\nI choose Option",
+  "rest_stem": "Option A: The picture from a scratched camera lens.\nOption B: The picture from a clean camera lens.\nI choose Option",
+  "better": "The picture from a clean camera lens",
+  "worse": "The picture from a scratched camera lens"
+ },
+ {
+  "id": "d42",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The aroma of warm bread.\nOption B: The aroma of burnt bread.\nI choose Option",
+  "rest_stem": "Option A: The aroma of burnt bread.\nOption B: The aroma of warm bread.\nI choose Option",
+  "better": "The aroma of warm bread",
+  "worse": "The aroma of burnt bread"
+ },
+ {
+  "id": "d43",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The taste of soup with enough salt.\nOption B: The taste of soup with excessive salt.\nI choose Option",
+  "rest_stem": "Option A: The taste of soup with excessive salt.\nOption B: The taste of soup with enough salt.\nI choose Option",
+  "better": "The taste of soup with enough salt",
+  "worse": "The taste of soup with excessive salt"
+ },
+ {
+  "id": "d44",
+  "category": "descr",
+  "subtype": "quality",
+  "template_type": "MOD",
+  "perm_stem": "Option A: The internet speed on a fiber line.\nOption B: The internet speed on a damaged line.\nI choose Option",
+  "rest_stem": "Option A: The internet speed on a damaged line.\nOption B: The internet speed on a fiber line.\nI choose Option",
+  "better": "The internet speed on a fiber line",
+  "worse": "The internet speed on a damaged line"
+ },
+ {
+  "id": "m_v19",
+  "category": "moral",
+  "subtype": "care",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Hugging your daughter after she admits a mistake.\nOption B: Hitting your daughter after she admits a mistake.\nI choose Option",
+  "rest_stem": "Option A: Hitting your daughter after she admits a mistake.\nOption B: Hugging your daughter after she admits a mistake.\nI choose Option",
+  "better": "Hugging your daughter after she admits a mistake",
+  "worse": "Hitting your daughter after she admits a mistake"
+ },
+ {
+  "id": "m_v21",
+  "category": "moral",
+  "subtype": "care",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Respecting a guide dog that is helping its owner.\nOption B: Teasing a guide dog that is helping its owner.\nI choose Option",
+  "rest_stem": "Option A: Teasing a guide dog that is helping its owner.\nOption B: Respecting a guide dog that is helping its owner.\nI choose Option",
+  "better": "Respecting a guide dog that is helping its owner",
+  "worse": "Teasing a guide dog that is helping its owner"
+ },
+ {
+  "id": "m_v23",
+  "category": "moral",
+  "subtype": "fairness",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Checking the votes in a student council election.\nOption B: Buying the votes in a student council election.\nI choose Option",
+  "rest_stem": "Option A: Buying the votes in a student council election.\nOption B: Checking the votes in a student council election.\nI choose Option",
+  "better": "Checking the votes in a student council election",
+  "worse": "Buying the votes in a student council election"
+ },
+ {
+  "id": "pr_v07",
+  "category": "norm",
+  "subtype": "prudential",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Planning the route before a long hike in the mountains.\nOption B: Ignoring the route before a long hike in the mountains.\nI choose Option",
+  "rest_stem": "Option A: Ignoring the route before a long hike in the mountains.\nOption B: Planning the route before a long hike in the mountains.\nI choose Option",
+  "better": "Planning the route before a long hike in the mountains",
+  "worse": "Ignoring the route before a long hike in the mountains"
+ },
+ {
+  "id": "pr_v08",
+  "category": "norm",
+  "subtype": "prudential",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Changing your passwords after a data breach.\nOption B: Keeping your passwords after a data breach.\nI choose Option",
+  "rest_stem": "Option A: Keeping your passwords after a data breach.\nOption B: Changing your passwords after a data breach.\nI choose Option",
+  "better": "Changing your passwords after a data breach",
+  "worse": "Keeping your passwords after a data breach"
+ },
+ {
+  "id": "pr_v11",
+  "category": "norm",
+  "subtype": "prudential",
+  "template_type": "VERB",
+  "perm_stem": "Option A: Securing the ladder before climbing onto the roof.\nOption B: Greasing the ladder before climbing onto the roof.\nI choose Option",
+  "rest_stem": "Option A: Greasing the ladder before climbing onto the roof.\nOption B: Securing the ladder before climbing onto the roof.\nI choose Option",
+  "better": "Securing the ladder before climbing onto the roof",
+  "worse": "Greasing the ladder before climbing onto the roof"
+ },
+ {
+  "id": "pr_f01",
+  "category": "norm",
+  "subtype": "prudential",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Reading the contract before signing it.\nOption B: Reading the contract after signing it.\nI choose Option",
+  "rest_stem": "Option A: Reading the contract after signing it.\nOption B: Reading the contract before signing it.\nI choose Option",
+  "better": "Reading the contract before signing it",
+  "worse": "Reading the contract after signing it"
+ },
+ {
+  "id": "pr_f03",
+  "category": "norm",
+  "subtype": "prudential",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Checking the weather forecast before planning a picnic.\nOption B: Checking the weather forecast after planning a picnic.\nI choose Option",
+  "rest_stem": "Option A: Checking the weather forecast after planning a picnic.\nOption B: Checking the weather forecast before planning a picnic.\nI choose Option",
+  "better": "Checking the weather forecast before planning a picnic",
+  "worse": "Checking the weather forecast after planning a picnic"
+ },
+ {
+  "id": "pr_f04",
+  "category": "norm",
+  "subtype": "prudential",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Sharpening the knife before carving the roast.\nOption B: Sharpening the knife after carving the roast.\nI choose Option",
+  "rest_stem": "Option A: Sharpening the knife after carving the roast.\nOption B: Sharpening the knife before carving the roast.\nI choose Option",
+  "better": "Sharpening the knife before carving the roast",
+  "worse": "Sharpening the knife after carving the roast"
+ },
+ {
+  "id": "pr_f06",
+  "category": "norm",
+  "subtype": "prudential",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Going camping with a working flashlight.\nOption B: Going camping without a working flashlight.\nI choose Option",
+  "rest_stem": "Option A: Going camping without a working flashlight.\nOption B: Going camping with a working flashlight.\nI choose Option",
+  "better": "Going camping with a working flashlight",
+  "worse": "Going camping without a working flashlight"
+ },
+ {
+  "id": "pr_f07",
+  "category": "norm",
+  "subtype": "prudential",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Starting a long road trip with a spare tire.\nOption B: Starting a long road trip without a spare tire.\nI choose Option",
+  "rest_stem": "Option A: Starting a long road trip without a spare tire.\nOption B: Starting a long road trip with a spare tire.\nI choose Option",
+  "better": "Starting a long road trip with a spare tire",
+  "worse": "Starting a long road trip without a spare tire"
+ },
+ {
+  "id": "pr_f08",
+  "category": "norm",
+  "subtype": "prudential",
+  "template_type": "FUNC",
+  "perm_stem": "Option A: Negotiating a salary after researching the market rate.\nOption B: Negotiating a salary without researching the market rate.\nI choose Option",
+  "rest_stem": "Option A: Negotiating a salary without researching the market rate.\nOption B: Negotiating a salary after researching the market rate.\nI choose Option",
+  "better": "Negotiating a salary after researching the market rate",
+  "worse": "Negotiating a salary without researching the market rate"
+ },
+ {
+  "id": "pr_p03",
+  "category": "norm",
+  "subtype": "prudential",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Buying a house because of its location.\nOption B: Buying a house because of its wallpaper.\nI choose Option",
+  "rest_stem": "Option A: Buying a house because of its wallpaper.\nOption B: Buying a house because of its location.\nI choose Option",
+  "better": "Buying a house because of its location",
+  "worse": "Buying a house because of its wallpaper"
+ },
+ {
+  "id": "pr_p08",
+  "category": "norm",
+  "subtype": "prudential",
+  "template_type": "PURP",
+  "perm_stem": "Option A: Fixing a slow computer by removing malware.\nOption B: Fixing a slow computer by hitting it.\nI choose Option",
+  "rest_stem": "Option A: Fixing a slow computer by hitting it.\nOption B: Fixing a slow computer by removing malware.\nI choose Option",
+  "better": "Fixing a slow computer by removing malware",
+  "worse": "Fixing a slow computer by hitting it"
+ },
+ {
+  "id": "pr_o03",
+  "category": "norm",
+  "subtype": "prudential",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Painting the fence on a dry day.\nOption B: Painting the fence on a rainy day.\nI choose Option",
+  "rest_stem": "Option A: Painting the fence on a rainy day.\nOption B: Painting the fence on a dry day.\nI choose Option",
+  "better": "Painting the fence on a dry day",
+  "worse": "Painting the fence on a rainy day"
+ },
+ {
+  "id": "pr_o05",
+  "category": "norm",
+  "subtype": "prudential",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Storing fresh milk in the fridge overnight.\nOption B: Storing fresh milk in the cupboard overnight.\nI choose Option",
+  "rest_stem": "Option A: Storing fresh milk in the cupboard overnight.\nOption B: Storing fresh milk in the fridge overnight.\nI choose Option",
+  "better": "Storing fresh milk in the fridge overnight",
+  "worse": "Storing fresh milk in the cupboard overnight"
+ },
+ {
+  "id": "pr_o06",
+  "category": "norm",
+  "subtype": "prudential",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Eating a light meal just before a long run.\nOption B: Eating a huge meal just before a long run.\nI choose Option",
+  "rest_stem": "Option A: Eating a huge meal just before a long run.\nOption B: Eating a light meal just before a long run.\nI choose Option",
+  "better": "Eating a light meal just before a long run",
+  "worse": "Eating a huge meal just before a long run"
+ },
+ {
+  "id": "pr_o09",
+  "category": "norm",
+  "subtype": "prudential",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Fixing a leaking roof immediately.\nOption B: Fixing a leaking roof eventually.\nI choose Option",
+  "rest_stem": "Option A: Fixing a leaking roof eventually.\nOption B: Fixing a leaking roof immediately.\nI choose Option",
+  "better": "Fixing a leaking roof immediately",
+  "worse": "Fixing a leaking roof eventually"
+ },
+ {
+  "id": "pr_o12",
+  "category": "norm",
+  "subtype": "prudential",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Packing warm clothes for a winter trip to Norway.\nOption B: Packing thin clothes for a winter trip to Norway.\nI choose Option",
+  "rest_stem": "Option A: Packing thin clothes for a winter trip to Norway.\nOption B: Packing warm clothes for a winter trip to Norway.\nI choose Option",
+  "better": "Packing warm clothes for a winter trip to Norway",
+  "worse": "Packing thin clothes for a winter trip to Norway"
+ },
+ {
+  "id": "pr_o13",
+  "category": "norm",
+  "subtype": "prudential",
+  "template_type": "MOD",
+  "perm_stem": "Option A: Leaving three hours between two connecting flights.\nOption B: Leaving three minutes between two connecting flights.\nI choose Option",
+  "rest_stem": "Option A: Leaving three minutes between two connecting flights.\nOption B: Leaving three hours between two connecting flights.\nI choose Option",
+  "better": "Leaving three hours between two connecting flights",
+  "worse": "Leaving three minutes between two connecting flights"
+ }
+]

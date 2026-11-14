@@ -1,0 +1,1192 @@
+{
+ "tw33_m": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 2, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"Repeating an unchecked rumour is poor epistemic practice and can harm others through spreading falsehoods; checking first is better.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 2,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "Repeating an unchecked rumour is poor epistemic practice and can harm others through spreading falsehoods; checking first is better."
+  }
+ },
+ "tw23_p": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"mainly own safety; some risk to others on the road\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "mainly own safety; some risk to others on the road"
+  }
+ },
+ "tw19_m": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"boarding before the warning is lifted endangers the passengers; the crew or operator also carries some risk\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "boarding before the warning is lifted endangers the passengers; the crew or operator also carries some risk"
+  }
+ },
+ "tw14_m": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Unencrypted storage exposes customers to harm and breaches their trust. It also carries some risk for the company.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Unencrypted storage exposes customers to harm and breaches their trust. It also carries some risk for the company."
+  }
+ },
+ "tw29_m": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Both options lend the brother's money, which is questionable. A written agreement protects the brother's interests and is more responsible. The doer's own responsibility is also at stake.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Both options lend the brother's money, which is questionable. A written agreement protects the brother's interests and is more responsible. The doer's own responsibility is also at stake."
+  }
+ },
+ "tw21_p": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own safety; checking your own tank mainly protects the diver\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own safety; checking your own tank mainly protects the diver"
+  }
+ },
+ "tw07_p": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own safety; checking the ladder first is the sensible choice\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own safety; checking the ladder first is the sensible choice"
+  }
+ },
+ "tw17_p": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"driving alone, so the risk is mainly to the driver's own safety; other road users are only slightly in view\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "driving alone, so the risk is mainly to the driver's own safety; other road users are only slightly in view"
+  }
+ },
+ "tw04_m": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 2, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"child's safety is at stake, so it is a duty of care toward another person; the parent's own interest is only a minor factor\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 2,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "child's safety is at stake, so it is a duty of care toward another person; the parent's own interest is only a minor factor"
+  }
+ },
+ "tw02_p": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own safety; also legal duty, but mainly self-protection\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own safety; also legal duty, but mainly self-protection"
+  }
+ },
+ "tw20_p": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"own health risk from skipping dosage; mild carelessness about information\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "own health risk from skipping dosage; mild carelessness about information"
+  }
+ },
+ "tw34_m": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 2, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"Assuring without any inspection is unfounded and risks misleading the buyer. The main difference is the basis for the claim, with honesty toward the buyer second.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 2,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "Assuring without any inspection is unfounded and risks misleading the buyer. The main difference is the basis for the claim, with honesty toward the buyer second."
+  }
+ },
+ "tw25_m": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"risk to the children's safety; the person in charge also bears responsibility, and acting without evidence is slightly epistemic\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "risk to the children's safety; the person in charge also bears responsibility, and acting without evidence is slightly epistemic"
+  }
+ },
+ "tw11_m": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"driving drowsy endangers passengers and others; some risk to the driver too\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "driving drowsy endangers passengers and others; some risk to the driver too"
+  }
+ },
+ "tw11_p": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Driving drowsy risks the driver's own safety most, and other road users' safety somewhat.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Driving drowsy risks the driver's own safety most, and other road users' safety somewhat."
+  }
+ },
+ "tw30_p": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own safety; going alone without a radio is riskier for the person acting\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own safety; going alone without a radio is riskier for the person acting"
+  }
+ },
+ "tw24_m": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"endangers the crowd; the doer's own risk is minor\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "endangers the crowd; the doer's own risk is minor"
+  }
+ },
+ "tw17_m": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"speeding past a school endangers children; also risky and illegal for the driver\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "speeding past a school endangers children; also risky and illegal for the driver"
+  }
+ },
+ "tw16_p": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own safety; alone so no one else affected\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own safety; alone so no one else affected"
+  }
+ },
+ "tw22_p": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"fire and shock risk, mainly to the mover's own safety and property; other occupants or neighbours could also be at risk\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "fire and shock risk, mainly to the mover's own safety and property; other occupants or neighbours could also be at risk"
+  }
+ },
+ "tw31_m": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 2, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 2, \"unclear\": false, \"comment\": \"Checking twice is more careful. An unchecked result could harm the patient, so the difference is mainly moral and epistemic, with a small prudential element.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 2,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 2,
+   "unclear": false,
+   "comment": "Checking twice is more careful. An unchecked result could harm the patient, so the difference is mainly moral and epistemic, with a small prudential element."
+  }
+ },
+ "tw09_m": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"negligent duty to clients, whose money is at risk; some professional risk to the adviser and lack of informed basis\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "negligent duty to clients, whose money is at risk; some professional risk to the adviser and lack of informed basis"
+  }
+ },
+ "tw03_p": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Eating undercooked chicken risks the eater's own health; 'yourself' means no one else is affected.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Eating undercooked chicken risks the eater's own health; 'yourself' means no one else is affected."
+  }
+ },
+ "tw35_m": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"A conclusion drawn from a full survey is better supported than one drawn from two classrooms. There is a slight moral side because the parents rely on the claim.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "A conclusion drawn from a full survey is better supported than one drawn from two classrooms. There is a slight moral side because the parents rely on the claim."
+  }
+ },
+ "tw30_m": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"the trainee's safety is at stake, so it is mainly a duty to another person; some risk to the sender too\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "the trainee's safety is at stake, so it is mainly a duty to another person; some risk to the sender too"
+  }
+ },
+ "tw07_m": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Option 1 risks the apprentice's safety through negligence, which is a duty to another person. The person sending also faces some risk, such as liability.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Option 1 risks the apprentice's safety through negligence, which is a duty to another person. The person sending also faces some risk, such as liability."
+  }
+ },
+ "tw19_p": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"sailing alone into a storm risks one's own safety; rescuers are only a minor concern\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "sailing alone into a storm risks one's own safety; rescuers are only a minor concern"
+  }
+ },
+ "tw28_m": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 2, \"unclear\": false, \"comment\": \"Vouching without checking risks the voucher's own money, so prudential is highest. It is also poorly grounded, so epistemic matters. There is a slight moral side because the lender is affected.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 2,
+   "unclear": false,
+   "comment": "Vouching without checking risks the voucher's own money, so prudential is highest. It is also poorly grounded, so epistemic matters. There is a slight moral side because the lender is affected."
+  }
+ },
+ "tw33_e": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"checking evidence before believing is better reasoning\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "checking evidence before believing is better reasoning"
+  }
+ },
+ "tw32_e": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"Deciding without the full evidence is poor reasoning; there may also be fairness to those affected by the case.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "Deciding without the full evidence is poor reasoning; there may also be fairness to those affected by the case."
+  }
+ },
+ "tw18_p": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 1, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own salad, so mainly own health; hygiene norm is a minor factor\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own salad, so mainly own health; hygiene norm is a minor factor"
+  }
+ },
+ "tw05_m": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Never replacing the batteries endangers tenants' safety and neglects a landlord's duty. The landlord also risks liability, which is a minor prudential concern.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Never replacing the batteries endangers tenants' safety and neglects a landlord's duty. The landlord also risks liability, which is a minor prudential concern."
+  }
+ },
+ "tw35_e": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"a conclusion drawn from a small sample is weaker than one drawn from the whole set\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "a conclusion drawn from a small sample is weaker than one drawn from the whole set"
+  }
+ },
+ "tw04_p": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own safety; wearing a helmet is wiser\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own safety; wearing a helmet is wiser"
+  }
+ },
+ "tw13_m": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"renter's safety and duty of care; some liability risk for the owner\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "renter's safety and duty of care; some liability risk for the owner"
+  }
+ },
+ "tw16_m": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"children's safety is at stake and the adult has a duty of care; the adult's own risk (liability) is minor\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "children's safety is at stake and the adult has a duty of care; the adult's own risk (liability) is minor"
+  }
+ },
+ "tw08_p": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"mainly the swimmer's own safety; also may break rules, but no one else is harmed\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "mainly the swimmer's own safety; also may break rules, but no one else is harmed"
+  }
+ },
+ "tw14_p": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own security; storing without encryption risks the doer's own accounts\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own security; storing without encryption risks the doer's own accounts"
+  }
+ },
+ "tw26_p": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"own safety at risk; eating unidentified wild mushrooms is reckless; slight epistemic aspect of acting without evidence\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "own safety at risk; eating unidentified wild mushrooms is reckless; slight epistemic aspect of acting without evidence"
+  }
+ },
+ "tw28_p": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 1, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"checking references protects your own interests; mild reasoning aspect, slight gap\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 1,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "checking references protects your own interests; mild reasoning aspect, slight gap"
+  }
+ },
+ "tw32_m": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 2, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"Option 1 is worse: publishing an accusation without checking all the evidence is poor reasoning and risks unfairly harming the accused.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 2,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "Option 1 is worse: publishing an accusation without checking all the evidence is poor reasoning and risks unfairly harming the accused."
+  }
+ },
+ "tw10_m": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 2, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Skipping the backup risks patients' records (others' interest) and the doer's own responsibility; clearly worse\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 2,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Skipping the backup risks patients' records (others' interest) and the doer's own responsibility; clearly worse"
+  }
+ },
+ "tw27_p": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 2, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Driving after thirty hours awake is very dangerous to the driver and to other road users.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 2,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Driving after thirty hours awake is very dangerous to the driver and to other road users."
+  }
+ },
+ "tw25_p": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own safety; alone so risk falls on the skater\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own safety; alone so risk falls on the skater"
+  }
+ },
+ "tw12_m": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 2, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"kids' safety from sun exposure is at stake (duty of care); some risk to the doer too\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 2,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "kids' safety from sun exposure is at stake (duty of care); some risk to the doer too"
+  }
+ },
+ "tw24_p": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": true, \"comment\": \"Phrasing is odd, since lighting is normally done before stepping back. Read literally, option 1 means lighting while still close, which risks your own safety. Option 2 is safer.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": true,
+   "comment": "Phrasing is odd, since lighting is normally done before stepping back. Read literally, option 1 means lighting while still close, which risks your own safety. Option 2 is safer."
+  }
+ },
+ "tw31_e": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 1, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"better-supported belief after verification; a person's reasoning is judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 1,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "better-supported belief after verification; a person's reasoning is judged"
+  }
+ },
+ "tw13_p": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own safety mainly; passengers and other drivers also at risk\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own safety mainly; passengers and other drivers also at risk"
+  }
+ },
+ "tw23_m": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"lending a bike with faulty brakes endangers the friend; the lender may also bear some responsibility\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "lending a bike with faulty brakes endangers the friend; the lender may also bear some responsibility"
+  }
+ },
+ "tw01_p": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"drunk driving endangers others and the driver; also illegal\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "drunk driving endangers others and the driver; also illegal"
+  }
+ },
+ "tw20_m": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"risk of harm to the baby; negligence and a duty of care toward a dependent\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "risk of harm to the baby; negligence and a duty of care toward a dependent"
+  }
+ },
+ "tw27_m": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Scheduling an exhausted surgeon endangers patients, and the surgeon's own wellbeing is affected too.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Scheduling an exhausted surgeon endangers patients, and the surgeon's own wellbeing is affected too."
+  }
+ },
+ "tw10_p": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own risk of losing photos; the doer's own interest\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own risk of losing photos; the doer's own interest"
+  }
+ },
+ "tw15_m": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"A landlord skipping the gas inspection puts tenants' safety at risk and breaks a duty to them. There is a small prudential element, since the landlord faces liability.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "A landlord skipping the gas inspection puts tenants' safety at risk and breaks a duty to them. There is a small prudential element, since the landlord faces liability."
+  }
+ },
+ "tw26_m": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"risking guests' safety by serving unidentified wild mushrooms; the doer also faces some risk\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "risking guests' safety by serving unidentified wild mushrooms; the doer also faces some risk"
+  }
+ },
+ "tw02_m": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"child's safety is a duty to another person; the driver's own interest (legal risk, guilt) is only slightly involved\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "child's safety is a duty to another person; the driver's own interest (legal risk, guilt) is only slightly involved"
+  }
+ },
+ "tw06_p": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 1, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own health risk; small gap since yoghurt is often fine shortly after the date\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 1,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own health risk; small gap since yoghurt is often fine shortly after the date"
+  }
+ },
+ "tw05_p": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own safety mainly; a working alarm also protects others in the home\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own safety mainly; a working alarm also protects others in the home"
+  }
+ },
+ "tw01_m": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"drunk driving endangers the children; also risks the driver's own safety and license\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "drunk driving endangers the children; also risks the driver's own safety and license"
+  }
+ },
+ "tw18_m": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 1, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Not washing hands risks customers' health, which is the main issue; there is also a hygiene norm and some risk to the worker's job.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Not washing hands risks customers' health, which is the main issue; there is also a hygiene norm and some risk to the worker's job."
+  }
+ },
+ "tw34_e": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"concluding without any inspection lacks evidence; the conclusion is better supported after two inspections\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "concluding without any inspection lacks evidence; the conclusion is better supported after two inspections"
+  }
+ },
+ "tw06_m": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"selling expired food risks customers' health and breaks rules; the seller also risks legal trouble\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "selling expired food risks customers' health and breaks rules; the seller also risks legal trouble"
+  }
+ },
+ "tw22_m": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Selling with faulty wiring unfixed puts the buyer at risk, and may be dishonest if undisclosed. The seller's own legal exposure is a minor prudential point. Whether the wiring is disclosed is not stated.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Selling with faulty wiring unfixed puts the buyer at risk, and may be dishonest if undisclosed. The seller's own legal exposure is a minor prudential point. Whether the wiring is disclosed is not stated."
+  }
+ },
+ "tw21_m": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Letting students dive without checking their tanks endangers them, and the person in charge has a duty of care. The instructor's own liability is a minor prudential concern.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Letting students dive without checking their tanks endangers them, and the person in charge has a duty of care. The instructor's own liability is a minor prudential concern."
+  }
+ },
+ "tw29_p": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"protects the lender's own money; a written agreement is the sensible precaution\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "protects the lender's own money; a written agreement is the sensible precaution"
+  }
+ },
+ "tw09_p": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"own money at stake; informed choice is wiser, with a minor element of evidence-based decision\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "own money at stake; informed choice is wiser, with a minor element of evidence-based decision"
+  }
+ },
+ "tw15_p": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": true, \"comment\": \"Option 2's wording 'leaving ... with its yearly inspection' is awkward but understood as having it inspected. Own heater, so the main concern is the owner's own safety.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": true,
+   "comment": "Option 2's wording 'leaving ... with its yearly inspection' is awkward but understood as having it inspected. Own heater, so the main concern is the owner's own safety."
+  }
+ },
+ "tw08_m": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Option 1 endangers the pupils by leaving them unsupervised, which breaches a duty of care. The risk to the supervisor's own position is minor.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Option 1 endangers the pupils by leaving them unsupervised, which breaches a duty of care. The risk to the supervisor's own position is minor."
+  }
+ },
+ "tw12_p": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 1, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own sun exposure and health; a small to moderate gap\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 1,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own sun exposure and health; a small to moderate gap"
+  }
+ },
+ "tw03_m": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 1, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Undercooked chicken risks making the guests sick, so the harm to others is the main issue. The host also risks consequences, and serving it is a lapse in hosting.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Undercooked chicken risks making the guests sick, so the harm to others is the main issue. The host also risks consequences, and serving it is a lapse in hosting."
+  }
+ }
+}

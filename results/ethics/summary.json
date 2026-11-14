@@ -1,0 +1,55 @@
+{
+ "settings": {
+  "runs": "runs/ethics",
+  "out": "results/ethics",
+  "readout": "S",
+  "min_auc": 0.6,
+  "boot": 2000,
+  "seed": 20261111
+ },
+ "note": "exploratory",
+ "summary": [
+  {
+   "frame": "EA1",
+   "mode": "all",
+   "models_run": 14,
+   "models_that_separate": 14,
+   "models_left_out": [],
+   "located_beats_every_random_set": 13,
+   "located_interval_above_random_mean": 14,
+   "median_removed_located": 0.3922959661551975,
+   "median_removed_random10_mean": 0.013813242072041886,
+   "median_clean_auc": 0.899975,
+   "median_auc_after_located": 0.8560375,
+   "median_auc_after_random10": 0.89618625
+  },
+  {
+   "frame": "EB",
+   "mode": "all",
+   "models_run": 14,
+   "models_that_separate": 14,
+   "models_left_out": [],
+   "located_beats_every_random_set": 10,
+   "located_interval_above_random_mean": 12,
+   "median_removed_located": 0.3882630144956696,
+   "median_removed_random10_mean": 0.016438376595276773,
+   "median_clean_auc": 0.8853375,
+   "median_auc_after_located": 0.836275,
+   "median_auc_after_random10": 0.8812549999999999
+  },
+  {
+   "frame": "EQA",
+   "mode": "all",
+   "models_run": 14,
+   "models_that_separate": 14,
+   "models_left_out": [],
+   "located_beats_every_random_set": 10,
+   "located_interval_above_random_mean": 12,
+   "median_removed_located": 0.3662078154423074,
+   "median_removed_random10_mean": 0.03229673507632779,
+   "median_clean_auc": 0.9318375,
+   "median_auc_after_located": 0.8703375,
+   "median_auc_after_random10": 0.9302656250000001
+  }
+ ]
+}

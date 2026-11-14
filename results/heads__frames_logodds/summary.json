@@ -1,0 +1,1279 @@
+{
+ "settings": {
+  "study_runs": "runs/heads",
+  "study_items": "stimuli/items_final.json",
+  "new_runs": [
+   "runs/heads_frames",
+   "runs/heads_qa"
+  ],
+  "new_items": "stimuli/items_followup_person.json",
+  "new_run_file": "stimuli/items_followup_person_run.json",
+  "no_controls": true,
+  "located": "located/heads.json",
+  "out": "results/heads__frames_logodds",
+  "check": null,
+  "frames": [
+   "A1",
+   "B",
+   "A0",
+   "QA",
+   "B0",
+   "A0s"
+  ],
+  "subset": "accepted",
+  "headset": "located",
+  "condition": "p2r_all",
+  "readout": "LD",
+  "tau": 0.02,
+  "min_items": 30,
+  "min_items_descr": 20,
+  "min_items_kind": 10,
+  "include_on": "LD",
+  "tau_ld": 0.1,
+  "kind": "etiquette",
+  "boot": 10000,
+  "seed": 20260920,
+  "models": null
+ },
+ "note": "exploratory",
+ "n_pairs": {
+  "moral": 80,
+  "norm": 107,
+  "thing": 40,
+  "etiquette": 18,
+  "othernorm": 85
+ },
+ "control_pairs": {
+  "candidates": 0,
+  "accepted_by_screen": 0,
+  "screen": [],
+  "used": 0,
+  "subset": "accepted",
+  "acceptance_file_sha256": null
+ },
+ "models": [
+  "Llama-3.1-8B",
+  "Llama-3.1-8B-Instruct",
+  "Llama-3.2-1B",
+  "Llama-3.2-1B-Instruct",
+  "Llama-3.2-3B",
+  "Llama-3.2-3B-Instruct",
+  "Qwen2.5-14B",
+  "Qwen2.5-14B-Instruct",
+  "Qwen2.5-3B",
+  "Qwen2.5-3B-Instruct",
+  "Qwen2.5-7B",
+  "Qwen2.5-7B-Instruct",
+  "gemma-2b",
+  "gemma-2b-it"
+ ],
+ "frames": [
+  "A1",
+  "B",
+  "A0",
+  "QA",
+  "B0",
+  "A0s"
+ ],
+ "pooled": [
+  {
+   "frame": "A1",
+   "contrast": "norm/thing",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.218781850275839,
+   "ci95": [
+    1.1572971411403399,
+    1.2834717699408276
+   ],
+   "models_with_interval_above_1": 10,
+   "models_with_interval_below_1": 0
+  },
+  {
+   "frame": "A1",
+   "contrast": "moral/thing",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.2354226606292265,
+   "ci95": [
+    1.1735176879294227,
+    1.3002722574407815
+   ],
+   "models_with_interval_above_1": 9,
+   "models_with_interval_below_1": 0
+  },
+  {
+   "frame": "A1",
+   "contrast": "moral/norm",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.0136536278592734,
+   "ci95": [
+    0.9657617735967428,
+    1.0625004568578078
+   ],
+   "models_with_interval_above_1": 2,
+   "models_with_interval_below_1": 1
+  },
+  {
+   "frame": "A1",
+   "contrast": "moral/etiquette",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.9877282917011039,
+   "ci95": [
+    0.9060392866960632,
+    1.086358465576067
+   ],
+   "models_with_interval_above_1": 1,
+   "models_with_interval_below_1": 2
+  },
+  {
+   "frame": "A1",
+   "contrast": "etiquette/othernorm",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.039559073557865,
+   "ci95": [
+    0.9435127525130705,
+    1.133968641115922
+   ],
+   "models_with_interval_above_1": 2,
+   "models_with_interval_below_1": 1
+  },
+  {
+   "frame": "A1",
+   "contrast": "moral/othernorm",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.026801900526844,
+   "ci95": [
+    0.9773798896828487,
+    1.079614464316946
+   ],
+   "models_with_interval_above_1": 2,
+   "models_with_interval_below_1": 0
+  },
+  {
+   "frame": "B",
+   "contrast": "norm/thing",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.208291869293414,
+   "ci95": [
+    1.1440071388618112,
+    1.275218114417368
+   ],
+   "models_with_interval_above_1": 11,
+   "models_with_interval_below_1": 0
+  },
+  {
+   "frame": "B",
+   "contrast": "moral/thing",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.1861940052283602,
+   "ci95": [
+    1.120026923218392,
+    1.255505220130227
+   ],
+   "models_with_interval_above_1": 8,
+   "models_with_interval_below_1": 0
+  },
+  {
+   "frame": "B",
+   "contrast": "moral/norm",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.9817114737189412,
+   "ci95": [
+    0.9287536635121961,
+    1.0367538286475657
+   ],
+   "models_with_interval_above_1": 2,
+   "models_with_interval_below_1": 1
+  },
+  {
+   "frame": "B",
+   "contrast": "moral/etiquette",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.000286084072708,
+   "ci95": [
+    0.9198490122050046,
+    1.0981542309109817
+   ],
+   "models_with_interval_above_1": 2,
+   "models_with_interval_below_1": 2
+  },
+  {
+   "frame": "B",
+   "contrast": "etiquette/othernorm",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.9784262482806407,
+   "ci95": [
+    0.8898240962002681,
+    1.0639970175130147
+   ],
+   "models_with_interval_above_1": 1,
+   "models_with_interval_below_1": 1
+  },
+  {
+   "frame": "B",
+   "contrast": "moral/othernorm",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.9787061653296791,
+   "ci95": [
+    0.9241845126348875,
+    1.0387630910858736
+   ],
+   "models_with_interval_above_1": 0,
+   "models_with_interval_below_1": 1
+  },
+  {
+   "frame": "A0",
+   "contrast": "norm/thing",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.1611303939385533,
+   "ci95": [
+    1.087772315160845,
+    1.2420764950800354
+   ],
+   "models_with_interval_above_1": 8,
+   "models_with_interval_below_1": 0
+  },
+  {
+   "frame": "A0",
+   "contrast": "moral/thing",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.2950062190759577,
+   "ci95": [
+    1.2151682625912907,
+    1.3820823543282834
+   ],
+   "models_with_interval_above_1": 11,
+   "models_with_interval_below_1": 0
+  },
+  {
+   "frame": "A0",
+   "contrast": "moral/norm",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.1152978343357898,
+   "ci95": [
+    1.0585775003952131,
+    1.1735032238316014
+   ],
+   "models_with_interval_above_1": 7,
+   "models_with_interval_below_1": 0
+  },
+  {
+   "frame": "A0",
+   "contrast": "moral/etiquette",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.1600265787530006,
+   "ci95": [
+    1.0556318786981362,
+    1.2841158369957308
+   ],
+   "models_with_interval_above_1": 7,
+   "models_with_interval_below_1": 0
+  },
+  {
+   "frame": "A0",
+   "contrast": "etiquette/othernorm",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.9582541766214164,
+   "ci95": [
+    0.8632707050992784,
+    1.053937679052685
+   ],
+   "models_with_interval_above_1": 0,
+   "models_with_interval_below_1": 2
+  },
+  {
+   "frame": "A0",
+   "contrast": "moral/othernorm",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.1116003045411027,
+   "ci95": [
+    1.0526720059125854,
+    1.1751520163734586
+   ],
+   "models_with_interval_above_1": 5,
+   "models_with_interval_below_1": 0
+  },
+  {
+   "frame": "QA",
+   "contrast": "norm/thing",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.2554433990019975,
+   "ci95": [
+    1.1903130672733422,
+    1.328191726923946
+   ],
+   "models_with_interval_above_1": 12,
+   "models_with_interval_below_1": 0
+  },
+  {
+   "frame": "QA",
+   "contrast": "moral/thing",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.0805753510650644,
+   "ci95": [
+    1.0152234244454368,
+    1.1500035689347494
+   ],
+   "models_with_interval_above_1": 5,
+   "models_with_interval_below_1": 1
+  },
+  {
+   "frame": "QA",
+   "contrast": "moral/norm",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.86071212028643,
+   "ci95": [
+    0.8141388627140386,
+    0.9085968617061166
+   ],
+   "models_with_interval_above_1": 0,
+   "models_with_interval_below_1": 8
+  },
+  {
+   "frame": "QA",
+   "contrast": "moral/etiquette",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.8631914091098026,
+   "ci95": [
+    0.8021956605485309,
+    0.9327351982425645
+   ],
+   "models_with_interval_above_1": 0,
+   "models_with_interval_below_1": 7
+  },
+  {
+   "frame": "QA",
+   "contrast": "etiquette/othernorm",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.9985092123113924,
+   "ci95": [
+    0.9250700670931021,
+    1.0698822871220621
+   ],
+   "models_with_interval_above_1": 2,
+   "models_with_interval_below_1": 1
+  },
+  {
+   "frame": "QA",
+   "contrast": "moral/othernorm",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.8619045672825304,
+   "ci95": [
+    0.8136233180608926,
+    0.9123411875528871
+   ],
+   "models_with_interval_above_1": 0,
+   "models_with_interval_below_1": 7
+  },
+  {
+   "frame": "B0",
+   "contrast": "norm/thing",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.1848313355605362,
+   "ci95": [
+    1.1142716569335935,
+    1.2630495654059166
+   ],
+   "models_with_interval_above_1": 7,
+   "models_with_interval_below_1": 0
+  },
+  {
+   "frame": "B0",
+   "contrast": "moral/thing",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.2427797433819403,
+   "ci95": [
+    1.1611627659107,
+    1.3312142356489383
+   ],
+   "models_with_interval_above_1": 11,
+   "models_with_interval_below_1": 0
+  },
+  {
+   "frame": "B0",
+   "contrast": "moral/norm",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.0489085647193022,
+   "ci95": [
+    0.9874897642794036,
+    1.111964043374622
+   ],
+   "models_with_interval_above_1": 2,
+   "models_with_interval_below_1": 0
+  },
+  {
+   "frame": "B0",
+   "contrast": "moral/etiquette",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.0460042473322066,
+   "ci95": [
+    0.9658636758677311,
+    1.1399742276845062
+   ],
+   "models_with_interval_above_1": 2,
+   "models_with_interval_below_1": 0
+  },
+  {
+   "frame": "B0",
+   "contrast": "etiquette/othernorm",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.0082141423555262,
+   "ci95": [
+    0.9257647134390387,
+    1.089474165006941
+   ],
+   "models_with_interval_above_1": 1,
+   "models_with_interval_below_1": 1
+  },
+  {
+   "frame": "B0",
+   "contrast": "moral/othernorm",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.054596280833534,
+   "ci95": [
+    0.9887871140192104,
+    1.122807029381995
+   ],
+   "models_with_interval_above_1": 2,
+   "models_with_interval_below_1": 0
+  },
+  {
+   "frame": "A0s",
+   "contrast": "norm/thing",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.118329078610027,
+   "ci95": [
+    1.0572938528630704,
+    1.1853732760921571
+   ],
+   "models_with_interval_above_1": 5,
+   "models_with_interval_below_1": 0
+  },
+  {
+   "frame": "A0s",
+   "contrast": "moral/thing",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.2366385428271067,
+   "ci95": [
+    1.1625455765362005,
+    1.316397514751975
+   ],
+   "models_with_interval_above_1": 10,
+   "models_with_interval_below_1": 0
+  },
+  {
+   "frame": "A0s",
+   "contrast": "moral/norm",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.1057912841190403,
+   "ci95": [
+    1.0504943910133084,
+    1.1631020753783974
+   ],
+   "models_with_interval_above_1": 6,
+   "models_with_interval_below_1": 0
+  },
+  {
+   "frame": "A0s",
+   "contrast": "moral/etiquette",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.0553082260113882,
+   "ci95": [
+    0.9728771558380612,
+    1.1584774089225158
+   ],
+   "models_with_interval_above_1": 2,
+   "models_with_interval_below_1": 1
+  },
+  {
+   "frame": "A0s",
+   "contrast": "etiquette/othernorm",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.0659042870669773,
+   "ci95": [
+    0.9720580363666879,
+    1.1540597547520477
+   ],
+   "models_with_interval_above_1": 3,
+   "models_with_interval_below_1": 1
+  },
+  {
+   "frame": "A0s",
+   "contrast": "moral/othernorm",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.1248575276593722,
+   "ci95": [
+    1.0663864984514242,
+    1.1874015232510011
+   ],
+   "models_with_interval_above_1": 6,
+   "models_with_interval_below_1": 0
+  }
+ ],
+ "multiple_of_random": [
+  {
+   "frame": "A1",
+   "models": "all groups",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "moral": 6.003019749444508,
+   "norm": 5.922160709801098,
+   "thing": 4.859081794666966
+  },
+  {
+   "frame": "B",
+   "models": "all groups",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "moral": 5.208226693401002,
+   "norm": 5.305251887601687,
+   "thing": 4.390703942205055
+  },
+  {
+   "frame": "A0",
+   "models": "all groups",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "moral": 5.599330527461369,
+   "norm": 5.020480039896341,
+   "thing": 4.32378654974757
+  },
+  {
+   "frame": "QA",
+   "models": "all groups",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "moral": 4.5359518830754295,
+   "norm": 5.269998843695951,
+   "thing": 4.1977192000864285
+  },
+  {
+   "frame": "B0",
+   "models": "all groups",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "moral": 5.009803868769005,
+   "norm": 4.776206457381657,
+   "thing": 4.031127697938695
+  },
+  {
+   "frame": "A0s",
+   "models": "all groups",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "moral": 5.2470887008350084,
+   "norm": 4.745098658945826,
+   "thing": 4.243025384707542
+  }
+ ],
+ "reading": {
+  "A1": "not available (a group is missing or has too few included pairs)",
+  "B": "not available (a group is missing or has too few included pairs)",
+  "A0": "not available (a group is missing or has too few included pairs)",
+  "QA": "not available (a group is missing or has too few included pairs)",
+  "B0": "not available (a group is missing or has too few included pairs)",
+  "A0s": "not available (a group is missing or has too few included pairs)"
+ },
+ "check": null
+}

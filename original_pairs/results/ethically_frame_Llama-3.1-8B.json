@@ -1,0 +1,8 @@
+{
+ "model": "Llama-3.1-8B",
+ "n_moral_pairs": 72,
+ "first_head_with_is_ethically": "L12H22",
+ "first_located_head": "L12H22",
+ "rank_of_first_located_head": 1,
+ "ratio_of_first_located_head": 5.478729404379299
+}

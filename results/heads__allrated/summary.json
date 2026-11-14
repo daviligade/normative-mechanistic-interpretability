@@ -1,0 +1,3585 @@
+{
+ "settings": {
+  "runs": "runs/heads",
+  "items": "stimuli/items_rated.json",
+  "located": "located/heads.json",
+  "out": "results/heads__allrated",
+  "condition": "p2r_all",
+  "readout": "S",
+  "headset": "located",
+  "tau": 0.02,
+  "min_items": 30,
+  "min_items_descr": 20,
+  "min_items_kind": 10,
+  "boot": 10000,
+  "perm": 20000,
+  "seed": 20260920,
+  "subset": "all",
+  "any_items": false
+ },
+ "all_options_at_default": false,
+ "accepted_pairs": false,
+ "primary_analysis": false,
+ "n_items": 242,
+ "items_by_group": {
+  "moral": 89,
+  "norm": 113,
+  "descr": 40,
+  "prudential": 18,
+  "etiquette": 20,
+  "aesthetic": 22,
+  "epistemic": 24
+ },
+ "models": [
+  "Llama-3.1-8B",
+  "Llama-3.1-8B-Instruct",
+  "Llama-3.2-1B",
+  "Llama-3.2-1B-Instruct",
+  "Llama-3.2-3B",
+  "Llama-3.2-3B-Instruct",
+  "Qwen2.5-14B",
+  "Qwen2.5-14B-Instruct",
+  "Qwen2.5-3B",
+  "Qwen2.5-3B-Instruct",
+  "Qwen2.5-7B",
+  "Qwen2.5-7B-Instruct",
+  "gemma-2b",
+  "gemma-2b-it"
+ ],
+ "frames": [
+  "A0",
+  "A1",
+  "B"
+ ],
+ "pooled": [
+  {
+   "frame": "A0",
+   "headset": "located",
+   "contrast": "moral/norm",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.1101183591462518,
+   "interval": [
+    1.0485920684844026,
+    1.177972557907162
+   ],
+   "interval_level": 0.95,
+   "reading": "no meaningful content specificity (interval inside 0.8 to 1.25; it excludes 1, but the difference is within the margin)",
+   "primary": false
+  },
+  {
+   "frame": "A0",
+   "headset": "located",
+   "contrast": "moral/descr",
+   "n_models": 13,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [
+    "Qwen2.5-3B"
+   ],
+   "pooled_ratio": 1.274840067814838,
+   "interval": [
+    1.1977734192759233,
+    1.3602112334400716
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A0",
+   "headset": "located",
+   "contrast": "norm/descr",
+   "n_models": 13,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [
+    "Qwen2.5-3B"
+   ],
+   "pooled_ratio": 1.1525879251792528,
+   "interval": [
+    1.089797787171852,
+    1.2234558520663872
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A0",
+   "headset": "located",
+   "contrast": "moral/prudential",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.159685239953585,
+   "interval": [
+    1.0518093821242327,
+    1.2980348225779443
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A0",
+   "headset": "located",
+   "contrast": "moral/etiquette",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.091238190986887,
+   "interval": [
+    0.9963171112172756,
+    1.2021798434253923
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A0",
+   "headset": "located",
+   "contrast": "moral/aesthetic",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.2382918385834176,
+   "interval": [
+    1.1458111259669463,
+    1.3421605537929449
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A0",
+   "headset": "located",
+   "contrast": "moral/epistemic",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.0791618215074137,
+   "interval": [
+    0.9958744735090144,
+    1.1714770171281772
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A0",
+   "headset": "located_top5",
+   "contrast": "moral/norm",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.158150017377088,
+   "interval": [
+    1.0826121494812286,
+    1.2426118390470775
+   ],
+   "interval_level": 0.95,
+   "reading": "no meaningful content specificity (interval inside 0.8 to 1.25; it excludes 1, but the difference is within the margin)",
+   "primary": false
+  },
+  {
+   "frame": "A0",
+   "headset": "located_top5",
+   "contrast": "moral/descr",
+   "n_models": 13,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [
+    "Qwen2.5-3B"
+   ],
+   "pooled_ratio": 1.3698811313563684,
+   "interval": [
+    1.2769711766966607,
+    1.4787272199039518
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A0",
+   "headset": "located_top5",
+   "contrast": "norm/descr",
+   "n_models": 13,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [
+    "Qwen2.5-3B"
+   ],
+   "pooled_ratio": 1.1809339680092674,
+   "interval": [
+    1.1029355162465564,
+    1.2704927679230384
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A0",
+   "headset": "located_top5",
+   "contrast": "moral/prudential",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.255059055338723,
+   "interval": [
+    1.1113929618975729,
+    1.44621014548913
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A0",
+   "headset": "located_top5",
+   "contrast": "moral/etiquette",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.1201204188659595,
+   "interval": [
+    1.005641080206687,
+    1.2727459777228913
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A0",
+   "headset": "located_top5",
+   "contrast": "moral/aesthetic",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.3311222115940042,
+   "interval": [
+    1.2234621800326075,
+    1.4612222797087833
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A0",
+   "headset": "located_top5",
+   "contrast": "moral/epistemic",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.0885976108599769,
+   "interval": [
+    0.9863744539621896,
+    1.2143972697904772
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A0",
+   "headset": "located_top1",
+   "contrast": "moral/norm",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.3626129333206816,
+   "interval": [
+    1.2061669368525643,
+    1.5369928506651742
+   ],
+   "interval_level": 0.95,
+   "reading": "weak to moderate moral preference (interval above 1)",
+   "primary": false
+  },
+  {
+   "frame": "A0",
+   "headset": "located_top1",
+   "contrast": "moral/descr",
+   "n_models": 13,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [
+    "Qwen2.5-3B"
+   ],
+   "pooled_ratio": 1.798851999746928,
+   "interval": [
+    1.586419797791609,
+    2.0759316500944
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A0",
+   "headset": "located_top1",
+   "contrast": "norm/descr",
+   "n_models": 13,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [
+    "Qwen2.5-3B"
+   ],
+   "pooled_ratio": 1.319808143969222,
+   "interval": [
+    1.1757377370940683,
+    1.5117219836331421
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A0",
+   "headset": "located_top1",
+   "contrast": "moral/prudential",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.6795001103279301,
+   "interval": [
+    1.4265986742932397,
+    2.1367984396369226
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A0",
+   "headset": "located_top1",
+   "contrast": "moral/etiquette",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.5445252141594037,
+   "interval": [
+    1.3239419956939094,
+    1.877182057351833
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A0",
+   "headset": "located_top1",
+   "contrast": "moral/aesthetic",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.4798844879180566,
+   "interval": [
+    1.275581198488305,
+    1.7922451635245782
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A0",
+   "headset": "located_top1",
+   "contrast": "moral/epistemic",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.1936926429347432,
+   "interval": [
+    1.011603605278112,
+    1.4690749408844783
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A0",
+   "headset": "topshare10",
+   "contrast": "moral/norm",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.12582417469429,
+   "interval": [
+    1.0606368533659976,
+    1.1955986549411843
+   ],
+   "interval_level": 0.95,
+   "reading": "no meaningful content specificity (interval inside 0.8 to 1.25; it excludes 1, but the difference is within the margin)",
+   "primary": false
+  },
+  {
+   "frame": "A0",
+   "headset": "topshare10",
+   "contrast": "moral/descr",
+   "n_models": 13,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [
+    "Qwen2.5-3B"
+   ],
+   "pooled_ratio": 1.1991015561084881,
+   "interval": [
+    1.1219872581704369,
+    1.283644371831612
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A0",
+   "headset": "topshare10",
+   "contrast": "norm/descr",
+   "n_models": 13,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [
+    "Qwen2.5-3B"
+   ],
+   "pooled_ratio": 1.0679729954994732,
+   "interval": [
+    1.0015196155858646,
+    1.1416498640252681
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A0",
+   "headset": "topshare10",
+   "contrast": "moral/prudential",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.1833338140275054,
+   "interval": [
+    1.0635763424857148,
+    1.3304061519036519
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A0",
+   "headset": "topshare10",
+   "contrast": "moral/etiquette",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.0791757629999918,
+   "interval": [
+    0.9825847529579326,
+    1.194069900148904
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A0",
+   "headset": "topshare10",
+   "contrast": "moral/aesthetic",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.2309117735133281,
+   "interval": [
+    1.132195446542966,
+    1.3468899589976986
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A0",
+   "headset": "topshare10",
+   "contrast": "moral/epistemic",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.0979683350808511,
+   "interval": [
+    0.9980524801941957,
+    1.2095493253811804
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A0",
+   "headset": "topshare_1pct",
+   "contrast": "moral/norm",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.1259894000713073,
+   "interval": [
+    1.0513455542456924,
+    1.204067816246965
+   ],
+   "interval_level": 0.95,
+   "reading": "no meaningful content specificity (interval inside 0.8 to 1.25; it excludes 1, but the difference is within the margin)",
+   "primary": false
+  },
+  {
+   "frame": "A0",
+   "headset": "topshare_1pct",
+   "contrast": "moral/descr",
+   "n_models": 13,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [
+    "Qwen2.5-3B"
+   ],
+   "pooled_ratio": 1.1721702661157034,
+   "interval": [
+    1.0839482915854008,
+    1.271602390717433
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A0",
+   "headset": "topshare_1pct",
+   "contrast": "norm/descr",
+   "n_models": 13,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [
+    "Qwen2.5-3B"
+   ],
+   "pooled_ratio": 1.0429275495016512,
+   "interval": [
+    0.965279657724415,
+    1.1311774819585347
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A0",
+   "headset": "topshare_1pct",
+   "contrast": "moral/prudential",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.1691396558565874,
+   "interval": [
+    1.0279042295842717,
+    1.3435545118066619
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A0",
+   "headset": "topshare_1pct",
+   "contrast": "moral/etiquette",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.0878424368107604,
+   "interval": [
+    0.9755721753042902,
+    1.239077297055092
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A0",
+   "headset": "topshare_1pct",
+   "contrast": "moral/aesthetic",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.25126150604716,
+   "interval": [
+    1.1190136679106517,
+    1.4045574640278282
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A0",
+   "headset": "topshare_1pct",
+   "contrast": "moral/epistemic",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.0759981705887438,
+   "interval": [
+    0.9741827527561882,
+    1.198793482187817
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A1",
+   "headset": "located",
+   "contrast": "moral/norm",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.9972638299764608,
+   "interval": [
+    0.9369479762555811,
+    1.059655834770402
+   ],
+   "interval_level": 0.95,
+   "reading": "no meaningful content specificity (interval inside 0.8 to 1.25)",
+   "primary": false
+  },
+  {
+   "frame": "A1",
+   "headset": "located",
+   "contrast": "moral/descr",
+   "n_models": 13,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [
+    "Qwen2.5-14B-Instruct"
+   ],
+   "pooled_ratio": 1.1888008747729184,
+   "interval": [
+    1.1154978127957222,
+    1.2641040583788197
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A1",
+   "headset": "located",
+   "contrast": "norm/descr",
+   "n_models": 13,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [
+    "Qwen2.5-14B-Instruct"
+   ],
+   "pooled_ratio": 1.1935351510599936,
+   "interval": [
+    1.1316739733588805,
+    1.2585000332130083
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A1",
+   "headset": "located",
+   "contrast": "moral/prudential",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.0647024062263997,
+   "interval": [
+    0.968563198408293,
+    1.1818591370106795
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A1",
+   "headset": "located",
+   "contrast": "moral/etiquette",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.9367401004882709,
+   "interval": [
+    0.8569150096108882,
+    1.0330847560519618
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A1",
+   "headset": "located",
+   "contrast": "moral/aesthetic",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.090852360034427,
+   "interval": [
+    0.9946271060477877,
+    1.1994448944621208
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A1",
+   "headset": "located",
+   "contrast": "moral/epistemic",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.9879866317828038,
+   "interval": [
+    0.8956080558574426,
+    1.0970843262389078
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A1",
+   "headset": "located_top5",
+   "contrast": "moral/norm",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.0095828771971505,
+   "interval": [
+    0.9345133276293437,
+    1.0898251934879373
+   ],
+   "interval_level": 0.95,
+   "reading": "no meaningful content specificity (interval inside 0.8 to 1.25)",
+   "primary": false
+  },
+  {
+   "frame": "A1",
+   "headset": "located_top5",
+   "contrast": "moral/descr",
+   "n_models": 13,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [
+    "Qwen2.5-14B-Instruct"
+   ],
+   "pooled_ratio": 1.2145675623737746,
+   "interval": [
+    1.1225341868243772,
+    1.3098499869910236
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A1",
+   "headset": "located_top5",
+   "contrast": "norm/descr",
+   "n_models": 13,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [
+    "Qwen2.5-14B-Instruct"
+   ],
+   "pooled_ratio": 1.2098021001281472,
+   "interval": [
+    1.1278964194804404,
+    1.2999733190682963
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A1",
+   "headset": "located_top5",
+   "contrast": "moral/prudential",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.1853453981637716,
+   "interval": [
+    1.062480567180829,
+    1.3459517069196998
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A1",
+   "headset": "located_top5",
+   "contrast": "moral/etiquette",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.8626346683502207,
+   "interval": [
+    0.766172559935336,
+    0.9916965765569394
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A1",
+   "headset": "located_top5",
+   "contrast": "moral/aesthetic",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.2101862515895998,
+   "interval": [
+    1.0921701469308818,
+    1.3506197107400246
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A1",
+   "headset": "located_top5",
+   "contrast": "moral/epistemic",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.9379365791896632,
+   "interval": [
+    0.8461472691580123,
+    1.064762752127157
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A1",
+   "headset": "located_top1",
+   "contrast": "moral/norm",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.1287294703542476,
+   "interval": [
+    0.9947871380869193,
+    1.2675153448309049
+   ],
+   "interval_level": 0.95,
+   "reading": "inconclusive",
+   "primary": false
+  },
+  {
+   "frame": "A1",
+   "headset": "located_top1",
+   "contrast": "moral/descr",
+   "n_models": 13,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [
+    "Qwen2.5-14B-Instruct"
+   ],
+   "pooled_ratio": 1.3932686003581678,
+   "interval": [
+    1.212605343087246,
+    1.5972688376116748
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A1",
+   "headset": "located_top1",
+   "contrast": "norm/descr",
+   "n_models": 13,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [
+    "Qwen2.5-14B-Instruct"
+   ],
+   "pooled_ratio": 1.2487517718825396,
+   "interval": [
+    1.1233581495178666,
+    1.406192383789482
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A1",
+   "headset": "located_top1",
+   "contrast": "moral/prudential",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.3734638462553481,
+   "interval": [
+    1.1666534894424658,
+    1.6659599970035592
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A1",
+   "headset": "located_top1",
+   "contrast": "moral/etiquette",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.0829197717889898,
+   "interval": [
+    0.9194092563017381,
+    1.327016495567849
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A1",
+   "headset": "located_top1",
+   "contrast": "moral/aesthetic",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.194555102214054,
+   "interval": [
+    0.9878207508612948,
+    1.4800380287997157
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A1",
+   "headset": "located_top1",
+   "contrast": "moral/epistemic",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.0340483990542189,
+   "interval": [
+    0.8889772033038491,
+    1.2415291234407186
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A1",
+   "headset": "topshare10",
+   "contrast": "moral/norm",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.0449227302643649,
+   "interval": [
+    0.9799651419757172,
+    1.1132744850316418
+   ],
+   "interval_level": 0.95,
+   "reading": "no meaningful content specificity (interval inside 0.8 to 1.25)",
+   "primary": false
+  },
+  {
+   "frame": "A1",
+   "headset": "topshare10",
+   "contrast": "moral/descr",
+   "n_models": 13,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [
+    "Qwen2.5-14B-Instruct"
+   ],
+   "pooled_ratio": 1.1391647607030122,
+   "interval": [
+    1.0676927117861255,
+    1.2143633946829833
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A1",
+   "headset": "topshare10",
+   "contrast": "norm/descr",
+   "n_models": 13,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [
+    "Qwen2.5-14B-Instruct"
+   ],
+   "pooled_ratio": 1.0966381332334059,
+   "interval": [
+    1.039952692866647,
+    1.1565245306741438
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A1",
+   "headset": "topshare10",
+   "contrast": "moral/prudential",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.083947321645485,
+   "interval": [
+    0.9966066476688363,
+    1.1894509405641986
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A1",
+   "headset": "topshare10",
+   "contrast": "moral/etiquette",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.983389610740925,
+   "interval": [
+    0.9040798172204212,
+    1.0795615503774716
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A1",
+   "headset": "topshare10",
+   "contrast": "moral/aesthetic",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.1715823445270341,
+   "interval": [
+    1.0683060764240153,
+    1.2859615068676435
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A1",
+   "headset": "topshare10",
+   "contrast": "moral/epistemic",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.9895477877154826,
+   "interval": [
+    0.8900033647702054,
+    1.1081476798276728
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A1",
+   "headset": "topshare_1pct",
+   "contrast": "moral/norm",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.0158742666383165,
+   "interval": [
+    0.942213499302844,
+    1.092761626848021
+   ],
+   "interval_level": 0.95,
+   "reading": "no meaningful content specificity (interval inside 0.8 to 1.25)",
+   "primary": false
+  },
+  {
+   "frame": "A1",
+   "headset": "topshare_1pct",
+   "contrast": "moral/descr",
+   "n_models": 13,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [
+    "Qwen2.5-14B-Instruct"
+   ],
+   "pooled_ratio": 1.1018079408062094,
+   "interval": [
+    1.004269451960484,
+    1.2030873054499622
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A1",
+   "headset": "topshare_1pct",
+   "contrast": "norm/descr",
+   "n_models": 13,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [
+    "Qwen2.5-14B-Instruct"
+   ],
+   "pooled_ratio": 1.0910162056497004,
+   "interval": [
+    1.0050398151022415,
+    1.182824833895213
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A1",
+   "headset": "topshare_1pct",
+   "contrast": "moral/prudential",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.093592515736327,
+   "interval": [
+    0.9987658398426685,
+    1.2099635180338193
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A1",
+   "headset": "topshare_1pct",
+   "contrast": "moral/etiquette",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.9176209719056745,
+   "interval": [
+    0.8174974467628279,
+    1.0471958107000992
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A1",
+   "headset": "topshare_1pct",
+   "contrast": "moral/aesthetic",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.1119550041422048,
+   "interval": [
+    1.0099944366957256,
+    1.2325109838485722
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "A1",
+   "headset": "topshare_1pct",
+   "contrast": "moral/epistemic",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.9645557954884413,
+   "interval": [
+    0.8537177795838584,
+    1.098844948750374
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "B",
+   "headset": "located",
+   "contrast": "moral/norm",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.903731411074954,
+   "interval": [
+    0.8527214487148546,
+    0.9574852569931158
+   ],
+   "interval_level": 0.95,
+   "reading": "no meaningful content specificity (interval inside 0.8 to 1.25; it excludes 1, but the difference is within the margin)",
+   "primary": false
+  },
+  {
+   "frame": "B",
+   "headset": "located",
+   "contrast": "moral/descr",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.0945481185315342,
+   "interval": [
+    1.0273362562878066,
+    1.165240370938687
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "B",
+   "headset": "located",
+   "contrast": "norm/descr",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.2111431473392,
+   "interval": [
+    1.144319186044777,
+    1.280996617492638
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "B",
+   "headset": "located",
+   "contrast": "moral/prudential",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.9607942531284417,
+   "interval": [
+    0.8740415902308784,
+    1.0756839772932638
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "B",
+   "headset": "located",
+   "contrast": "moral/etiquette",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.938859060080026,
+   "interval": [
+    0.8635738977338353,
+    1.0283998668864471
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "B",
+   "headset": "located",
+   "contrast": "moral/aesthetic",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.9137095026434683,
+   "interval": [
+    0.842287417652983,
+    1.0023787754718194
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "B",
+   "headset": "located",
+   "contrast": "moral/epistemic",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.9124551677306099,
+   "interval": [
+    0.8394147092832547,
+    0.9981648744137372
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "B",
+   "headset": "located_top5",
+   "contrast": "moral/norm",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.9133122720774169,
+   "interval": [
+    0.8533010234571502,
+    0.97835515069358
+   ],
+   "interval_level": 0.95,
+   "reading": "no meaningful content specificity (interval inside 0.8 to 1.25; it excludes 1, but the difference is within the margin)",
+   "primary": false
+  },
+  {
+   "frame": "B",
+   "headset": "located_top5",
+   "contrast": "moral/descr",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.0737626448669693,
+   "interval": [
+    0.992517887521274,
+    1.164955911432837
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "B",
+   "headset": "located_top5",
+   "contrast": "norm/descr",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.1756796421994082,
+   "interval": [
+    1.0916509815381559,
+    1.2709030033260944
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "B",
+   "headset": "located_top5",
+   "contrast": "moral/prudential",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.0350772033777536,
+   "interval": [
+    0.9303035127915497,
+    1.1852143250792173
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "B",
+   "headset": "located_top5",
+   "contrast": "moral/etiquette",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.8802162997287108,
+   "interval": [
+    0.7939834776882128,
+    1.0009487184420802
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "B",
+   "headset": "located_top5",
+   "contrast": "moral/aesthetic",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.9999585732948887,
+   "interval": [
+    0.9094230257861939,
+    1.1124349796238064
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "B",
+   "headset": "located_top5",
+   "contrast": "moral/epistemic",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.8701162521562417,
+   "interval": [
+    0.7804542004185079,
+    0.9838199941614378
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "B",
+   "headset": "located_top1",
+   "contrast": "moral/norm",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.9511934766727671,
+   "interval": [
+    0.8543582794675779,
+    1.0526882175548424
+   ],
+   "interval_level": 0.95,
+   "reading": "no meaningful content specificity (interval inside 0.8 to 1.25)",
+   "primary": false
+  },
+  {
+   "frame": "B",
+   "headset": "located_top1",
+   "contrast": "moral/descr",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.177094740287312,
+   "interval": [
+    1.0473655248117553,
+    1.3279068851120235
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "B",
+   "headset": "located_top1",
+   "contrast": "norm/descr",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.2374924575061352,
+   "interval": [
+    1.1116288859885735,
+    1.3918697665859197
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "B",
+   "headset": "located_top1",
+   "contrast": "moral/prudential",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.1067493914569886,
+   "interval": [
+    0.961399986870301,
+    1.3271442512156224
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "B",
+   "headset": "located_top1",
+   "contrast": "moral/etiquette",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.0231366210207524,
+   "interval": [
+    0.882305278206922,
+    1.2579697371115788
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "B",
+   "headset": "located_top1",
+   "contrast": "moral/aesthetic",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.9504818175398284,
+   "interval": [
+    0.8209309934633285,
+    1.1398399011811429
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "B",
+   "headset": "located_top1",
+   "contrast": "moral/epistemic",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.9090148143356289,
+   "interval": [
+    0.7707844972982452,
+    1.1268481364698917
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "B",
+   "headset": "topshare10",
+   "contrast": "moral/norm",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.9094066521007306,
+   "interval": [
+    0.8516306783712676,
+    0.9701006283446176
+   ],
+   "interval_level": 0.95,
+   "reading": "no meaningful content specificity (interval inside 0.8 to 1.25; it excludes 1, but the difference is within the margin)",
+   "primary": false
+  },
+  {
+   "frame": "B",
+   "headset": "topshare10",
+   "contrast": "moral/descr",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.9252600051224116,
+   "interval": [
+    0.8604788374692387,
+    0.9929980626132162
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "B",
+   "headset": "topshare10",
+   "contrast": "norm/descr",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.0174326379237402,
+   "interval": [
+    0.9498437033572514,
+    1.0885372550047037
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "B",
+   "headset": "topshare10",
+   "contrast": "moral/prudential",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.9282024482395189,
+   "interval": [
+    0.8499753711815722,
+    1.0351887604558694
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "B",
+   "headset": "topshare10",
+   "contrast": "moral/etiquette",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.9741051061248419,
+   "interval": [
+    0.8956465282117011,
+    1.0725013033075912
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "B",
+   "headset": "topshare10",
+   "contrast": "moral/aesthetic",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.9060444384951558,
+   "interval": [
+    0.8228229276121434,
+    1.0084471271080695
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "B",
+   "headset": "topshare10",
+   "contrast": "moral/epistemic",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.9049807942658287,
+   "interval": [
+    0.8091934063353677,
+    1.0167703717731773
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "B",
+   "headset": "topshare_1pct",
+   "contrast": "moral/norm",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.8812694472614426,
+   "interval": [
+    0.8217241677436122,
+    0.943834260369103
+   ],
+   "interval_level": 0.95,
+   "reading": "no meaningful content specificity (interval inside 0.8 to 1.25; it excludes 1, but the difference is within the margin)",
+   "primary": false
+  },
+  {
+   "frame": "B",
+   "headset": "topshare_1pct",
+   "contrast": "moral/descr",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.8872341921385688,
+   "interval": [
+    0.8166550590428344,
+    0.9673263856776579
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "B",
+   "headset": "topshare_1pct",
+   "contrast": "norm/descr",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.0067683537235073,
+   "interval": [
+    0.9314007360756587,
+    1.0940055332944938
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "B",
+   "headset": "topshare_1pct",
+   "contrast": "moral/prudential",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.9121031447304442,
+   "interval": [
+    0.8304086301329443,
+    1.0437076950231763
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "B",
+   "headset": "topshare_1pct",
+   "contrast": "moral/etiquette",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.9165967998047116,
+   "interval": [
+    0.8296765000844281,
+    1.033012642401963
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "B",
+   "headset": "topshare_1pct",
+   "contrast": "moral/aesthetic",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.8739974207109663,
+   "interval": [
+    0.8017847160874157,
+    0.9723400002660262
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  },
+  {
+   "frame": "B",
+   "headset": "topshare_1pct",
+   "contrast": "moral/epistemic",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.8657190742806206,
+   "interval": [
+    0.765972393145315,
+    0.9950630763291953
+   ],
+   "interval_level": 0.95,
+   "reading": null,
+   "primary": false
+  }
+ ],
+ "base_to_instruct": [
+  {
+   "frame": "A0",
+   "base": "Llama-3.2-1B",
+   "instruct": "Llama-3.2-1B-Instruct",
+   "r_profile": 0.8705898194998015,
+   "reliability_base": 0.9834859828204578,
+   "reliability_instruct": 0.9808102942611309,
+   "n_base": 83,
+   "n_instruct": 80,
+   "rank_of_base_top_head_in_instruct": 21,
+   "meets_prediction": false
+  },
+  {
+   "frame": "A0",
+   "base": "Llama-3.2-3B",
+   "instruct": "Llama-3.2-3B-Instruct",
+   "r_profile": 0.9381749985225177,
+   "reliability_base": 0.9879834501570663,
+   "reliability_instruct": 0.9908323432228349,
+   "n_base": 87,
+   "n_instruct": 86,
+   "rank_of_base_top_head_in_instruct": 3,
+   "meets_prediction": true
+  },
+  {
+   "frame": "A0",
+   "base": "Llama-3.1-8B",
+   "instruct": "Llama-3.1-8B-Instruct",
+   "r_profile": 0.9601128111918419,
+   "reliability_base": 0.9845523769312585,
+   "reliability_instruct": 0.9870218732186357,
+   "n_base": 87,
+   "n_instruct": 86,
+   "rank_of_base_top_head_in_instruct": 3,
+   "meets_prediction": true
+  },
+  {
+   "frame": "A0",
+   "base": "gemma-2b",
+   "instruct": "gemma-2b-it",
+   "r_profile": 0.8962618456341116,
+   "reliability_base": 0.9782481576811267,
+   "reliability_instruct": 0.9762043501872094,
+   "n_base": 83,
+   "n_instruct": 81,
+   "rank_of_base_top_head_in_instruct": 4,
+   "meets_prediction": true
+  },
+  {
+   "frame": "A0",
+   "base": "Qwen2.5-3B",
+   "instruct": "Qwen2.5-3B-Instruct",
+   "r_profile": 0.8236100264555501,
+   "reliability_base": 0.9384374226929348,
+   "reliability_instruct": 0.971978801247119,
+   "n_base": 63,
+   "n_instruct": 86,
+   "rank_of_base_top_head_in_instruct": 7,
+   "meets_prediction": true
+  },
+  {
+   "frame": "A0",
+   "base": "Qwen2.5-7B",
+   "instruct": "Qwen2.5-7B-Instruct",
+   "r_profile": 0.879805341937182,
+   "reliability_base": 0.9736609708822579,
+   "reliability_instruct": 0.9664492947850097,
+   "n_base": 87,
+   "n_instruct": 85,
+   "rank_of_base_top_head_in_instruct": 11,
+   "meets_prediction": false
+  },
+  {
+   "frame": "A0",
+   "base": "Qwen2.5-14B",
+   "instruct": "Qwen2.5-14B-Instruct",
+   "r_profile": 0.9535443172018381,
+   "reliability_base": 0.9737808651546958,
+   "reliability_instruct": 0.9695815803803103,
+   "n_base": 89,
+   "n_instruct": 89,
+   "rank_of_base_top_head_in_instruct": 1,
+   "meets_prediction": true
+  },
+  {
+   "frame": "A1",
+   "base": "Llama-3.2-1B",
+   "instruct": "Llama-3.2-1B-Instruct",
+   "r_profile": 0.904243862301737,
+   "reliability_base": 0.9904144885715425,
+   "reliability_instruct": 0.9805299454514586,
+   "n_base": 86,
+   "n_instruct": 78,
+   "rank_of_base_top_head_in_instruct": 11,
+   "meets_prediction": false
+  },
+  {
+   "frame": "A1",
+   "base": "Llama-3.2-3B",
+   "instruct": "Llama-3.2-3B-Instruct",
+   "r_profile": 0.9151181643663024,
+   "reliability_base": 0.992651648948061,
+   "reliability_instruct": 0.9906352954663568,
+   "n_base": 88,
+   "n_instruct": 80,
+   "rank_of_base_top_head_in_instruct": 4,
+   "meets_prediction": true
+  },
+  {
+   "frame": "A1",
+   "base": "Llama-3.1-8B",
+   "instruct": "Llama-3.1-8B-Instruct",
+   "r_profile": 0.9464255657270007,
+   "reliability_base": 0.986043112145864,
+   "reliability_instruct": 0.9892253837834093,
+   "n_base": 87,
+   "n_instruct": 87,
+   "rank_of_base_top_head_in_instruct": 2,
+   "meets_prediction": true
+  },
+  {
+   "frame": "A1",
+   "base": "gemma-2b",
+   "instruct": "gemma-2b-it",
+   "r_profile": 0.8803669627344178,
+   "reliability_base": 0.9852614249695536,
+   "reliability_instruct": 0.9814638524322828,
+   "n_base": 83,
+   "n_instruct": 81,
+   "rank_of_base_top_head_in_instruct": 14,
+   "meets_prediction": false
+  },
+  {
+   "frame": "A1",
+   "base": "Qwen2.5-3B",
+   "instruct": "Qwen2.5-3B-Instruct",
+   "r_profile": 0.8823376376723249,
+   "reliability_base": 0.9885041246226991,
+   "reliability_instruct": 0.9873848317020927,
+   "n_base": 86,
+   "n_instruct": 85,
+   "rank_of_base_top_head_in_instruct": 1,
+   "meets_prediction": true
+  },
+  {
+   "frame": "A1",
+   "base": "Qwen2.5-7B",
+   "instruct": "Qwen2.5-7B-Instruct",
+   "r_profile": 0.7760260875944708,
+   "reliability_base": 0.9739510511416618,
+   "reliability_instruct": 0.9456053264202106,
+   "n_base": 88,
+   "n_instruct": 84,
+   "rank_of_base_top_head_in_instruct": 66,
+   "meets_prediction": false
+  },
+  {
+   "frame": "A1",
+   "base": "Qwen2.5-14B",
+   "instruct": "Qwen2.5-14B-Instruct",
+   "r_profile": 0.9415664430060487,
+   "reliability_base": 0.9899223970450893,
+   "reliability_instruct": 0.9410478471727997,
+   "n_base": 88,
+   "n_instruct": 88,
+   "rank_of_base_top_head_in_instruct": 1,
+   "meets_prediction": true
+  },
+  {
+   "frame": "B",
+   "base": "Llama-3.2-1B",
+   "instruct": "Llama-3.2-1B-Instruct",
+   "r_profile": 0.9319742681917395,
+   "reliability_base": 0.9890949038286807,
+   "reliability_instruct": 0.9831732746300191,
+   "n_base": 82,
+   "n_instruct": 81,
+   "rank_of_base_top_head_in_instruct": 7,
+   "meets_prediction": true
+  },
+  {
+   "frame": "B",
+   "base": "Llama-3.2-3B",
+   "instruct": "Llama-3.2-3B-Instruct",
+   "r_profile": 0.926528987977291,
+   "reliability_base": 0.9865960609030769,
+   "reliability_instruct": 0.980511352274936,
+   "n_base": 87,
+   "n_instruct": 78,
+   "rank_of_base_top_head_in_instruct": 1,
+   "meets_prediction": true
+  },
+  {
+   "frame": "B",
+   "base": "Llama-3.1-8B",
+   "instruct": "Llama-3.1-8B-Instruct",
+   "r_profile": 0.9595069714254929,
+   "reliability_base": 0.9875096526118299,
+   "reliability_instruct": 0.9852260010788149,
+   "n_base": 86,
+   "n_instruct": 87,
+   "rank_of_base_top_head_in_instruct": 3,
+   "meets_prediction": true
+  },
+  {
+   "frame": "B",
+   "base": "gemma-2b",
+   "instruct": "gemma-2b-it",
+   "r_profile": 0.8628779758846965,
+   "reliability_base": 0.9801268519351999,
+   "reliability_instruct": 0.9792173885838367,
+   "n_base": 81,
+   "n_instruct": 76,
+   "rank_of_base_top_head_in_instruct": 11,
+   "meets_prediction": false
+  },
+  {
+   "frame": "B",
+   "base": "Qwen2.5-3B",
+   "instruct": "Qwen2.5-3B-Instruct",
+   "r_profile": 0.9155681593785605,
+   "reliability_base": 0.9794763606716572,
+   "reliability_instruct": 0.9856836763237729,
+   "n_base": 83,
+   "n_instruct": 85,
+   "rank_of_base_top_head_in_instruct": 1,
+   "meets_prediction": true
+  },
+  {
+   "frame": "B",
+   "base": "Qwen2.5-7B",
+   "instruct": "Qwen2.5-7B-Instruct",
+   "r_profile": 0.8783232204572802,
+   "reliability_base": 0.9684622133902937,
+   "reliability_instruct": 0.963060626395007,
+   "n_base": 86,
+   "n_instruct": 85,
+   "rank_of_base_top_head_in_instruct": 131,
+   "meets_prediction": false
+  },
+  {
+   "frame": "B",
+   "base": "Qwen2.5-14B",
+   "instruct": "Qwen2.5-14B-Instruct",
+   "r_profile": 0.9443039358202667,
+   "reliability_base": 0.9838320843383219,
+   "reliability_instruct": 0.9725955550629414,
+   "n_base": 88,
+   "n_instruct": 87,
+   "rank_of_base_top_head_in_instruct": 2,
+   "meets_prediction": true
+  }
+ ]
+}

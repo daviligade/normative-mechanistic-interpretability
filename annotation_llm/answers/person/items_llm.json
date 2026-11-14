@@ -1,0 +1,1141 @@
+[
+ {
+  "id": "dp_v01",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_v02",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_v03",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_v04",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": false,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 2,
+  "kind_confirmed": false,
+  "reasons": [
+   "unclear"
+  ]
+ },
+ {
+  "id": "dp_v05",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_v06",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": false,
+  "direction_votes": 3,
+  "class_votes": 1,
+  "classes": [
+   "N",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": [
+   "class"
+  ]
+ },
+ {
+  "id": "dp_v07",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": false,
+  "direction_votes": 3,
+  "class_votes": 1,
+  "classes": [
+   "N",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": [
+   "class"
+  ]
+ },
+ {
+  "id": "dp_v08",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_v09",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_v10",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_v11",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": false,
+  "direction_votes": 0,
+  "class_votes": 2,
+  "classes": [
+   "N",
+   "N",
+   null
+  ],
+  "moral_median": 0.0,
+  "unclear": 3,
+  "kind_confirmed": false,
+  "reasons": [
+   "direction",
+   "unclear"
+  ]
+ },
+ {
+  "id": "dp_v12",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_v13",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_v14",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_v15",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_v16",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_f01",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_f02",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_f03",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_f04",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 2,
+  "classes": [
+   "N",
+   "N",
+   "prudential"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_f05",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_f06",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_f07",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_f08",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_f09",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": false,
+  "direction_votes": 3,
+  "class_votes": 0,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": [
+   "class"
+  ]
+ },
+ {
+  "id": "dp_f10",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_f11",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_f12",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_f13",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_f14",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": false,
+  "direction_votes": 3,
+  "class_votes": 1,
+  "classes": [
+   "N",
+   "etiquette",
+   "etiquette"
+  ],
+  "moral_median": 1.0,
+  "unclear": 1,
+  "kind_confirmed": false,
+  "reasons": [
+   "class"
+  ]
+ },
+ {
+  "id": "dp_f15",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_f16",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": false,
+  "direction_votes": 3,
+  "class_votes": 0,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": [
+   "class"
+  ]
+ },
+ {
+  "id": "dp_o01",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_o02",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_o03",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_o04",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_o05",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_o06",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_o07",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 1,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_o08",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_o09",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_o10",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_o11",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_o12",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_o13",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": false,
+  "direction_votes": 3,
+  "class_votes": 1,
+  "classes": [
+   "N",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": [
+   "class"
+  ]
+ },
+ {
+  "id": "dp_o14",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_o15",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_o16",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_o17",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_o18",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_p01",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_p02",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_p03",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 2,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_p04",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_p05",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_p06",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_p07",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_p08",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_p09",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_p10",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_p11",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_p12",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_p13",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_p14",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_p15",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "dp_p16",
+  "category": "descr",
+  "subtype": "person",
+  "accepted": true,
+  "direction_votes": 2,
+  "class_votes": 3,
+  "classes": [
+   "N",
+   "N",
+   "N"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ }
+]

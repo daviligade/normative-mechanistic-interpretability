@@ -1,0 +1,89 @@
+{
+ "settings": {
+  "runs": "runs/circuits_frames",
+  "items": "stimuli/items_final.json",
+  "out": "results/circuits_frames__logodds",
+  "frames": null,
+  "models": null,
+  "mode": "all",
+  "readout": "LD",
+  "include_on": "LD",
+  "tau": 0.02,
+  "tau_ld": 0.1,
+  "min_items": 30,
+  "min_items_descr": 20,
+  "boot": 2000,
+  "seed": 20261006,
+  "check": null
+ },
+ "note": "exploratory",
+ "summary": [
+  {
+   "frame": "A0s",
+   "group": "moral",
+   "models_run": 14,
+   "models_with_enough_pairs": 14,
+   "models_left_out": [],
+   "median_included": 76.0,
+   "located_heads_above_every_random_set": 14,
+   "median_removed_located": 0.3724913965950747,
+   "median_random10_mean": 0.04021487619314939
+  },
+  {
+   "frame": "A0s",
+   "group": "norm",
+   "models_run": 14,
+   "models_with_enough_pairs": 14,
+   "models_left_out": [],
+   "median_included": 93.0,
+   "located_heads_above_every_random_set": 12,
+   "median_removed_located": 0.3469042741571885,
+   "median_random10_mean": 0.03289995225459315
+  },
+  {
+   "frame": "A0s",
+   "group": "descr",
+   "models_run": 14,
+   "models_with_enough_pairs": 14,
+   "models_left_out": [],
+   "median_included": 37.5,
+   "located_heads_above_every_random_set": 9,
+   "median_removed_located": 0.21521413662230243,
+   "median_random10_mean": 0.026347274862673277
+  },
+  {
+   "frame": "B0",
+   "group": "moral",
+   "models_run": 14,
+   "models_with_enough_pairs": 14,
+   "models_left_out": [],
+   "median_included": 77.5,
+   "located_heads_above_every_random_set": 13,
+   "median_removed_located": 0.23816979967833984,
+   "median_random10_mean": 0.030141238519598892
+  },
+  {
+   "frame": "B0",
+   "group": "norm",
+   "models_run": 14,
+   "models_with_enough_pairs": 14,
+   "models_left_out": [],
+   "median_included": 100.0,
+   "located_heads_above_every_random_set": 12,
+   "median_removed_located": 0.2211295124006401,
+   "median_random10_mean": 0.03319848883845539
+  },
+  {
+   "frame": "B0",
+   "group": "descr",
+   "models_run": 14,
+   "models_with_enough_pairs": 14,
+   "models_left_out": [],
+   "median_included": 38.5,
+   "located_heads_above_every_random_set": 8,
+   "median_removed_located": 0.14071082127532988,
+   "median_random10_mean": 0.01941576552292209
+  }
+ ],
+ "check": null
+}

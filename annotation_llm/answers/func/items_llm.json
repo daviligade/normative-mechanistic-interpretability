@@ -1,0 +1,1376 @@
+[
+ {
+  "id": "m3_f01",
+  "category": "moral",
+  "subtype": "consent",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "m3_f02",
+  "category": "moral",
+  "subtype": "consent",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 2,
+  "classes": [
+   null,
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "m3_f03",
+  "category": "moral",
+  "subtype": "consent",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "m3_f04",
+  "category": "moral",
+  "subtype": "consent",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "m3_f05",
+  "category": "moral",
+  "subtype": "consent",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "m3_f06",
+  "category": "moral",
+  "subtype": "consent",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "m3_f07",
+  "category": "moral",
+  "subtype": "consent",
+  "accepted": false,
+  "direction_votes": 3,
+  "class_votes": 1,
+  "classes": [
+   null,
+   "moral",
+   null
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": [
+   "class"
+  ]
+ },
+ {
+  "id": "m3_f08",
+  "category": "moral",
+  "subtype": "consent",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "m3_f09",
+  "category": "moral",
+  "subtype": "consent",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "m3_f10",
+  "category": "moral",
+  "subtype": "consent",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "m3_f11",
+  "category": "moral",
+  "subtype": "honesty",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "m3_f12",
+  "category": "moral",
+  "subtype": "honesty",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "m3_f13",
+  "category": "moral",
+  "subtype": "honesty",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "m3_f14",
+  "category": "moral",
+  "subtype": "honesty",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "m3_f15",
+  "category": "moral",
+  "subtype": "honesty",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "m3_f16",
+  "category": "moral",
+  "subtype": "honesty",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "m3_f17",
+  "category": "moral",
+  "subtype": "honesty",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 2,
+  "classes": [
+   "moral",
+   "epistemic",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "m3_f18",
+  "category": "moral",
+  "subtype": "honesty",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "m3_f19",
+  "category": "moral",
+  "subtype": "care",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 2,
+  "classes": [
+   "moral",
+   "moral",
+   null
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "m3_f20",
+  "category": "moral",
+  "subtype": "care",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "m3_f21",
+  "category": "moral",
+  "subtype": "care",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 2,
+  "classes": [
+   "prudential",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 1,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "m3_f22",
+  "category": "moral",
+  "subtype": "care",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "m3_f23",
+  "category": "moral",
+  "subtype": "care",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "m3_f24",
+  "category": "moral",
+  "subtype": "care",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "m3_f25",
+  "category": "moral",
+  "subtype": "care",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "m3_f26",
+  "category": "moral",
+  "subtype": "care",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "m3_f27",
+  "category": "moral",
+  "subtype": "fairness",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "m3_f28",
+  "category": "moral",
+  "subtype": "fairness",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 1,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "m3_f29",
+  "category": "moral",
+  "subtype": "fairness",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "m3_f30",
+  "category": "moral",
+  "subtype": "fairness",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "m3_f31",
+  "category": "moral",
+  "subtype": "fairness",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "m3_f32",
+  "category": "moral",
+  "subtype": "fairness",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 1,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "m3_f33",
+  "category": "moral",
+  "subtype": "fairness",
+  "accepted": false,
+  "direction_votes": 3,
+  "class_votes": 1,
+  "classes": [
+   "moral",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 2.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": [
+   "class"
+  ]
+ },
+ {
+  "id": "m3_f34",
+  "category": "moral",
+  "subtype": "property",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 1,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "m3_f35",
+  "category": "moral",
+  "subtype": "property",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "m3_f36",
+  "category": "moral",
+  "subtype": "property",
+  "accepted": false,
+  "direction_votes": 2,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 2,
+  "kind_confirmed": false,
+  "reasons": [
+   "unclear"
+  ]
+ },
+ {
+  "id": "m3_f37",
+  "category": "moral",
+  "subtype": "property",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "m3_f38",
+  "category": "moral",
+  "subtype": "property",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "m3_f39",
+  "category": "moral",
+  "subtype": "property",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 2,
+  "classes": [
+   "moral",
+   "etiquette",
+   "moral"
+  ],
+  "moral_median": 2.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "m3_f40",
+  "category": "moral",
+  "subtype": "property",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 1,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "pr3_f01",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 1.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "pr3_f02",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "pr3_f03",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "pr3_f04",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "pr3_f05",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": false,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 2.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": [
+   "moral rating"
+  ]
+ },
+ {
+  "id": "pr3_f06",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "pr3_f07",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "pr3_f08",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "pr3_f09",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "pr3_f10",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 1.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "et3_f01",
+  "category": "norm",
+  "subtype": "etiquette",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "etiquette",
+   "etiquette",
+   "etiquette"
+  ],
+  "moral_median": 1.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "et3_f02",
+  "category": "norm",
+  "subtype": "etiquette",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "etiquette",
+   "etiquette",
+   "etiquette"
+  ],
+  "moral_median": 1.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "et3_f03",
+  "category": "norm",
+  "subtype": "etiquette",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "etiquette",
+   "etiquette",
+   "etiquette"
+  ],
+  "moral_median": 1.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "et3_f04",
+  "category": "norm",
+  "subtype": "etiquette",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "etiquette",
+   "etiquette",
+   "etiquette"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "et3_f05",
+  "category": "norm",
+  "subtype": "etiquette",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "etiquette",
+   "etiquette",
+   "etiquette"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "et3_f06",
+  "category": "norm",
+  "subtype": "etiquette",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "etiquette",
+   "etiquette",
+   "etiquette"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "et3_f07",
+  "category": "norm",
+  "subtype": "etiquette",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "etiquette",
+   "etiquette",
+   "etiquette"
+  ],
+  "moral_median": 1.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "et3_f08",
+  "category": "norm",
+  "subtype": "etiquette",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "etiquette",
+   "etiquette",
+   "etiquette"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "et3_f09",
+  "category": "norm",
+  "subtype": "etiquette",
+  "accepted": false,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "etiquette",
+   "etiquette",
+   "etiquette"
+  ],
+  "moral_median": 2.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": [
+   "moral rating"
+  ]
+ },
+ {
+  "id": "et3_f10",
+  "category": "norm",
+  "subtype": "etiquette",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "etiquette",
+   "etiquette",
+   "etiquette"
+  ],
+  "moral_median": 1.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "ae3_f01",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "aesthetic",
+   "aesthetic",
+   "aesthetic"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "ae3_f02",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "aesthetic",
+   "aesthetic",
+   "aesthetic"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "ae3_f03",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "aesthetic",
+   "aesthetic",
+   "aesthetic"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "ae3_f04",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "aesthetic",
+   "aesthetic",
+   "aesthetic"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "ae3_f05",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "aesthetic",
+   "aesthetic",
+   "aesthetic"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "ae3_f06",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "aesthetic",
+   "aesthetic",
+   "aesthetic"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "ae3_f07",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "aesthetic",
+   "aesthetic",
+   "aesthetic"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "ae3_f08",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "aesthetic",
+   "aesthetic",
+   "aesthetic"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "ae3_f09",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "aesthetic",
+   "aesthetic",
+   "aesthetic"
+  ],
+  "moral_median": 0.0,
+  "unclear": 1,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "ae3_f10",
+  "category": "norm",
+  "subtype": "aesthetic",
+  "accepted": false,
+  "direction_votes": 2,
+  "class_votes": 3,
+  "classes": [
+   "aesthetic",
+   "aesthetic",
+   "aesthetic"
+  ],
+  "moral_median": 0.0,
+  "unclear": 3,
+  "kind_confirmed": true,
+  "reasons": [
+   "unclear"
+  ]
+ },
+ {
+  "id": "ep3_f01",
+  "category": "norm",
+  "subtype": "epistemic",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "epistemic",
+   "epistemic",
+   "epistemic"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "ep3_f02",
+  "category": "norm",
+  "subtype": "epistemic",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "epistemic",
+   "epistemic",
+   "epistemic"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "ep3_f03",
+  "category": "norm",
+  "subtype": "epistemic",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "epistemic",
+   "epistemic",
+   "epistemic"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "ep3_f04",
+  "category": "norm",
+  "subtype": "epistemic",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "epistemic",
+   "epistemic",
+   "epistemic"
+  ],
+  "moral_median": 1.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "ep3_f05",
+  "category": "norm",
+  "subtype": "epistemic",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "epistemic",
+   "epistemic",
+   "epistemic"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "ep3_f06",
+  "category": "norm",
+  "subtype": "epistemic",
+  "accepted": false,
+  "direction_votes": 3,
+  "class_votes": 2,
+  "classes": [
+   "epistemic",
+   "epistemic",
+   null
+  ],
+  "moral_median": 2.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": [
+   "moral rating"
+  ]
+ },
+ {
+  "id": "ep3_f07",
+  "category": "norm",
+  "subtype": "epistemic",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "epistemic",
+   "epistemic",
+   "epistemic"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "ep3_f08",
+  "category": "norm",
+  "subtype": "epistemic",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "epistemic",
+   "epistemic",
+   "epistemic"
+  ],
+  "moral_median": 1.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "ep3_f09",
+  "category": "norm",
+  "subtype": "epistemic",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "epistemic",
+   "epistemic",
+   "epistemic"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "ep3_f10",
+  "category": "norm",
+  "subtype": "epistemic",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "epistemic",
+   "epistemic",
+   "epistemic"
+  ],
+  "moral_median": 1.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ }
+]

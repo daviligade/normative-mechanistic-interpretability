@@ -1,0 +1,114 @@
+{
+ "llama-3.2-1B-base": {
+  "n_moral_vs_neutral_features": 91,
+  "frac_never_on_neutral": 0.8901098901098901,
+  "frac_on_lt_5pct_of_neutral": 0.989010989010989,
+  "mean_activation_moral": 0.15017203986644745,
+  "mean_activation_norm": 0.10999034345149994,
+  "mean_activation_neutral": 0.0006031945813447237
+ },
+ "llama-3.2-1B-base-k128": {
+  "n_moral_vs_neutral_features": 175,
+  "frac_never_on_neutral": 0.7657142857142857,
+  "frac_on_lt_5pct_of_neutral": 0.96,
+  "mean_activation_moral": 0.10695375502109528,
+  "mean_activation_norm": 0.08127573877573013,
+  "mean_activation_neutral": 0.0012806927552446723
+ },
+ "llama-3.2-1B-IT": {
+  "n_moral_vs_neutral_features": 86,
+  "frac_never_on_neutral": 0.7441860465116279,
+  "frac_on_lt_5pct_of_neutral": 0.9767441860465116,
+  "mean_activation_moral": 0.17401811480522156,
+  "mean_activation_norm": 0.14274199306964874,
+  "mean_activation_neutral": 0.001025567064061761
+ },
+ "llama-3.2-1B-IT-k128": {
+  "n_moral_vs_neutral_features": 163,
+  "frac_never_on_neutral": 0.6809815950920245,
+  "frac_on_lt_5pct_of_neutral": 0.9079754601226994,
+  "mean_activation_moral": 0.12494993209838867,
+  "mean_activation_norm": 0.10612824559211731,
+  "mean_activation_neutral": 0.0019212458282709122
+ },
+ "llama-3.2-1B-base-MLP0": {
+  "n_moral_vs_neutral_features": 80,
+  "frac_never_on_neutral": 0.775,
+  "frac_on_lt_5pct_of_neutral": 0.925,
+  "mean_activation_moral": 0.07640521973371506,
+  "mean_activation_norm": 0.07615549862384796,
+  "mean_activation_neutral": 0.0010154942283406854
+ },
+ "llama-3.2-3B-base": {
+  "n_moral_vs_neutral_features": 100,
+  "frac_never_on_neutral": 0.88,
+  "frac_on_lt_5pct_of_neutral": 0.99,
+  "mean_activation_moral": 0.2489374727010727,
+  "mean_activation_norm": 0.17990811169147491,
+  "mean_activation_neutral": 0.001439110143110156
+ },
+ "llama-3.2-3B-base-k128": {
+  "n_moral_vs_neutral_features": 222,
+  "frac_never_on_neutral": 0.7882882882882883,
+  "frac_on_lt_5pct_of_neutral": 0.954954954954955,
+  "mean_activation_moral": 0.1504889726638794,
+  "mean_activation_norm": 0.11256064474582672,
+  "mean_activation_neutral": 0.0019478779286146164
+ },
+ "llama-3.2-3B-IT-k128": {
+  "n_moral_vs_neutral_features": 212,
+  "frac_never_on_neutral": 0.7264150943396226,
+  "frac_on_lt_5pct_of_neutral": 0.9386792452830188,
+  "mean_activation_moral": 0.16960959136486053,
+  "mean_activation_norm": 0.13082577288150787,
+  "mean_activation_neutral": 0.0033845475409179926
+ },
+ "llama-3.2-3B-IT-L3": {
+  "n_moral_vs_neutral_features": 171,
+  "frac_never_on_neutral": 0.6549707602339181,
+  "frac_on_lt_5pct_of_neutral": 0.8713450292397661,
+  "mean_activation_moral": 0.0961884930729866,
+  "mean_activation_norm": 0.08824412524700165,
+  "mean_activation_neutral": 0.0024596601724624634
+ },
+ "llama-3.2-3B-IT-L7": {
+  "n_moral_vs_neutral_features": 205,
+  "frac_never_on_neutral": 0.7902439024390244,
+  "frac_on_lt_5pct_of_neutral": 0.9609756097560975,
+  "mean_activation_moral": 0.15766257047653198,
+  "mean_activation_norm": 0.1283540278673172,
+  "mean_activation_neutral": 0.0011320164194330573
+ },
+ "llama-3.2-3B-IT-L19": {
+  "n_moral_vs_neutral_features": 153,
+  "frac_never_on_neutral": 0.6339869281045751,
+  "frac_on_lt_5pct_of_neutral": 0.8823529411764706,
+  "mean_activation_moral": 0.5510634183883667,
+  "mean_activation_norm": 0.5030759572982788,
+  "mean_activation_neutral": 0.01195100974291563
+ },
+ "llama-3.1-8B-base": {
+  "n_moral_vs_neutral_features": 37,
+  "frac_never_on_neutral": 0.9459459459459459,
+  "frac_on_lt_5pct_of_neutral": 1.0,
+  "mean_activation_moral": 2.143399953842163,
+  "mean_activation_norm": 1.7074270248413086,
+  "mean_activation_neutral": 0.004666087217628956
+ },
+ "qwen-2.5-7b-base": {
+  "n_moral_vs_neutral_features": 153,
+  "frac_never_on_neutral": 0.7647058823529411,
+  "frac_on_lt_5pct_of_neutral": 0.9215686274509803,
+  "mean_activation_moral": 0.48743918538093567,
+  "mean_activation_norm": 0.4725205600261688,
+  "mean_activation_neutral": 0.03551293537020683
+ },
+ "qwen-2.5-7b-IT": {
+  "n_moral_vs_neutral_features": 154,
+  "frac_never_on_neutral": 0.7142857142857143,
+  "frac_on_lt_5pct_of_neutral": 0.8766233766233766,
+  "mean_activation_moral": 0.4750860035419464,
+  "mean_activation_norm": 0.4711676239967346,
+  "mean_activation_neutral": 0.05448438599705696
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "Llama-3.2-1B": {
+  "pairs": 62,
+  "not_flat": 12,
+  "mismatches": 0
+ },
+ "Llama-3.2-1B-Instruct": {
+  "pairs": 57,
+  "not_flat": 12,
+  "mismatches": 0
+ },
+ "Llama-3.2-3B": {
+  "pairs": 70,
+  "not_flat": 16,
+  "mismatches": 0
+ },
+ "Llama-3.2-3B-Instruct": {
+  "pairs": 69,
+  "not_flat": 15,
+  "mismatches": 0
+ },
+ "gemma-2b": {
+  "pairs": 65,
+  "not_flat": 13,
+  "mismatches": 0
+ },
+ "gemma-2b-it": {
+  "pairs": 56,
+  "not_flat": 13,
+  "mismatches": 0
+ },
+ "Llama-3.1-8B": {
+  "pairs": 71,
+  "not_flat": 16,
+  "mismatches": 0
+ },
+ "Llama-3.1-8B-Instruct": {
+  "pairs": 70,
+  "not_flat": 16,
+  "mismatches": 0
+ },
+ "Qwen2.5-14B": {
+  "pairs": 72,
+  "not_flat": 16,
+  "mismatches": 0
+ },
+ "Qwen2.5-14B-Instruct": {
+  "pairs": 73,
+  "not_flat": 16,
+  "mismatches": 0
+ }
+}

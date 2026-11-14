@@ -1,0 +1,4116 @@
+{
+ "d14": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"healthier source gives better harvest; no conduct judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "healthier source gives better harvest; no conduct judged"
+  }
+ },
+ "et_p02": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"different dining customs; more acceptable in Tokyo\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "different dining customs; more acceptable in Tokyo"
+  }
+ },
+ "pr_v11": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own safety\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own safety"
+  }
+ },
+ "m_f13": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"fairness and legality toward workers\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "fairness and legality toward workers"
+  }
+ },
+ "et_p06": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":1,\"etiquette\":3,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"costume fits the Halloween party; inappropriate for a business meeting\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "costume fits the Halloween party; inappropriate for a business meeting"
+  }
+ },
+ "m_v22": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"helping vs harming a vulnerable person\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "helping vs harming a vulnerable person"
+  }
+ },
+ "ae_f06": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"poster design quality and visual coherence\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "poster design quality and visual coherence"
+  }
+ },
+ "d27": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"irrigated fields would have a better yield; no conduct judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "irrigated fields would have a better yield; no conduct judged"
+  }
+ },
+ "m_f01": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":1,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"consent and privacy\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "consent and privacy"
+  }
+ },
+ "et_v05": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"concert etiquette; talking may disturb others\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "concert etiquette; talking may disturb others"
+  }
+ },
+ "m_o14": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"misusing company funds versus legitimate business expense\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "misusing company funds versus legitimate business expense"
+  }
+ },
+ "ep_p08": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":0,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":3,\"unclear\":false,\"comment\":\"clinical trials are much better evidence than ads\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "clinical trials are much better evidence than ads"
+  }
+ },
+ "d29": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"park likely has better phone signal than a tunnel\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "park likely has better phone signal than a tunnel"
+  }
+ },
+ "d33": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"wool coat is much warmer than paper\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "wool coat is much warmer than paper"
+  }
+ },
+ "pr_o14": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"protecting one's own important document while traveling\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "protecting one's own important document while traveling"
+  }
+ },
+ "ae_p03": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":3,\"epistemic\":0,\"unclear\":false,\"comment\":\"judges the lighting work and visual effect\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "judges the lighting work and visual effect"
+  }
+ },
+ "m_f16": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"false alarm risks panic and harm; real fire warning helps others\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "false alarm risks panic and harm; real fire warning helps others"
+  }
+ },
+ "et_o04": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":1,\"etiquette\":3,\"aesthetic\":1,\"epistemic\":0,\"unclear\":false,\"comment\":\"business-email closing; formality and politeness\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 3,
+   "aesthetic": 1,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "business-email closing; formality and politeness"
+  }
+ },
+ "m_o07": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"false report wastes police resources and is dishonest\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "false report wastes police resources and is dishonest"
+  }
+ },
+ "ep_p04": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"better evidence for the belief\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "better evidence for the belief"
+  }
+ },
+ "ep_v04": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":0,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":3,\"unclear\":false,\"comment\":\"better reasoning in response to evidence\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "better reasoning in response to evidence"
+  }
+ },
+ "m_f10": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"consent and respecting grandfather's rights\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "consent and respecting grandfather's rights"
+  }
+ },
+ "pr_f09": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":1,\"epistemic\":2,\"unclear\":false,\"comment\":\"reading instructions is wiser for one's own success and uses relevant information\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 1,
+   "epistemic": 2,
+   "unclear": false,
+   "comment": "reading instructions is wiser for one's own success and uses relevant information"
+  }
+ },
+ "m_o11": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"crushing interest exploits or harms the friend\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "crushing interest exploits or harms the friend"
+  }
+ },
+ "pr_p02": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 2, \"unclear\": false, \"comment\": \"programs are much more relevant to the chooser's goals\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 2,
+   "unclear": false,
+   "comment": "programs are much more relevant to the chooser's goals"
+  }
+ },
+ "m_p11": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":1,\"unclear\":false,\"comment\":\"fining for speeding is justified; fining for singing seems unfair or arbitrary\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "fining for speeding is justified; fining for singing seems unfair or arbitrary"
+  }
+ },
+ "m_p15": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":2,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":1,\"unclear\":false,\"comment\":\"fairer and more job-relevant basis for promotion\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "fairer and more job-relevant basis for promotion"
+  }
+ },
+ "ep_f08": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"better evidential support\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "better evidential support"
+  }
+ },
+ "pr_p04": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":1,\"unclear\":false,\"comment\":\"fit is a much better basis for one's own comfort and use\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "fit is a much better basis for one's own comfort and use"
+  }
+ },
+ "pr_f05": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":2,\"unclear\":false,\"comment\":\"protects buyer's own interests and uses better evidence\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 2,
+   "unclear": false,
+   "comment": "protects buyer's own interests and uses better evidence"
+  }
+ },
+ "m_o22": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":1,\"aesthetic\":0,\"epistemic\":1,\"unclear\":false,\"comment\":\"truthful and fair versus harmful/malicious\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "truthful and fair versus harmful/malicious"
+  }
+ },
+ "m_f03": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 1, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"consent and privacy of others\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "consent and privacy of others"
+  }
+ },
+ "m_o09": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"environmental harm and harm to others\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "environmental harm and harm to others"
+  }
+ },
+ "d39": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"water from a mountain spring is likely much clearer\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "water from a mountain spring is likely much clearer"
+  }
+ },
+ "d06": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"condition of the road surface\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "condition of the road surface"
+  }
+ },
+ "ep_p07": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"deduction is the proper basis for proving a theorem\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "deduction is the proper basis for proving a theorem"
+  }
+ },
+ "m_o17": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"fair treatment of workers\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "fair treatment of workers"
+  }
+ },
+ "m_f11": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"patient consent and rights must come before the operation\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "patient consent and rights must come before the operation"
+  }
+ },
+ "m_v17": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"saving someone in danger vs failing to help\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "saving someone in danger vs failing to help"
+  }
+ },
+ "m_o21": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"helping versus misleading someone who is lost\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "helping versus misleading someone who is lost"
+  }
+ },
+ "m_f09": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"without a permit unfairly takes reserved access from those who need it\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "without a permit unfairly takes reserved access from those who need it"
+  }
+ },
+ "m_f05": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"honesty and fairness to the buyer\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "honesty and fairness to the buyer"
+  }
+ },
+ "m_v12": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"harmful exploitation versus helping\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "harmful exploitation versus helping"
+  }
+ },
+ "pr_o03": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":2,\"etiquette\":0,\"aesthetic\":2,\"epistemic\":0,\"unclear\":false,\"comment\":\"dry weather makes the work more successful and better-looking\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 2,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "dry weather makes the work more successful and better-looking"
+  }
+ },
+ "m_f02": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"consent and property rights\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "consent and property rights"
+  }
+ },
+ "m_f04": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"consent and privacy\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "consent and privacy"
+  }
+ },
+ "pr_p03": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":1,\"epistemic\":2,\"unclear\":false,\"comment\":\"location is a much wiser basis for the buyer's interests; wallpaper is a superficial reason\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 1,
+   "epistemic": 2,
+   "unclear": false,
+   "comment": "location is a much wiser basis for the buyer's interests; wallpaper is a superficial reason"
+  }
+ },
+ "m_o20": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 2, \"unclear\": false, \"comment\": \"fake cure harms and deceives vulnerable patients\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 2,
+   "unclear": false,
+   "comment": "fake cure harms and deceives vulnerable patients"
+  }
+ },
+ "pr_f12": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"financial self-interest\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "financial self-interest"
+  }
+ },
+ "ep_f03": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":1,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":3,\"unclear\":false,\"comment\":\"better scientific reasoning and evidence; premature announcement is much worse\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "better scientific reasoning and evidence; premature announcement is much worse"
+  }
+ },
+ "d34": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"sunlight is much better for plant growth; no conduct directly judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "sunlight is much better for plant growth; no conduct directly judged"
+  }
+ },
+ "m_p09": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"hiding safety violations endangers others and rewards dishonesty\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "hiding safety violations endangers others and rewards dishonesty"
+  }
+ },
+ "m_p08": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"punishment is justified for harm, not for helping\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "punishment is justified for harm, not for helping"
+  }
+ },
+ "et_p01": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":1,\"etiquette\":3,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"culturally appropriate greeting in Japan; unusual in Texas\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "culturally appropriate greeting in Japan; unusual in Texas"
+  }
+ },
+ "et_p03": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"manners depend on setting; picnic is more acceptable\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "manners depend on setting; picnic is more acceptable"
+  }
+ },
+ "d26": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"servicing an engine is better for reliability and the user's interests\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "servicing an engine is better for reliability and the user's interests"
+  }
+ },
+ "pr_f08": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":2,\"unclear\":false,\"comment\":\"better preparation for one's own financial interests\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 2,
+   "unclear": false,
+   "comment": "better preparation for one's own financial interests"
+  }
+ },
+ "pr_p01": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":2,\"unclear\":false,\"comment\":\"better for one's own interests; usage is a more reasonable basis\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 2,
+   "unclear": false,
+   "comment": "better for one's own interests; usage is a more reasonable basis"
+  }
+ },
+ "m_f17": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":2,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"honesty and legal duty; avoiding penalties also matters\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "honesty and legal duty; avoiding penalties also matters"
+  }
+ },
+ "ep_o09": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":1,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":3,\"unclear\":false,\"comment\":\"rigorous evidence supports better reasoning; flawed evidence may mislead\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "rigorous evidence supports better reasoning; flawed evidence may mislead"
+  }
+ },
+ "m_p05": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"pretending to treat patients is deceptive and dangerous\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "pretending to treat patients is deceptive and dangerous"
+  }
+ },
+ "d40": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"clean lens likely gives a better picture; no conduct specified\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "clean lens likely gives a better picture; no conduct specified"
+  }
+ },
+ "m_f18": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":1,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"tenant privacy and rights; notice is appropriate\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "tenant privacy and rights; notice is appropriate"
+  }
+ },
+ "ae_p05": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":3,\"epistemic\":0,\"unclear\":false,\"comment\":\"judging presentation/style of the plated dessert\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "judging presentation/style of the plated dessert"
+  }
+ },
+ "ae_o01": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":3,\"epistemic\":0,\"unclear\":false,\"comment\":\"portrait photography quality; sharp eyes are generally better\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "portrait photography quality; sharp eyes are generally better"
+  }
+ },
+ "m_v21": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":1,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"teasing interferes with a working guide dog and harms/risks the owner\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "teasing interferes with a working guide dog and harms/risks the owner"
+  }
+ },
+ "pr_o10": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":1,\"epistemic\":0,\"unclear\":false,\"comment\":\"preparation affects the presenter's own success; wording of option 1 is a bit awkward but understandable\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 1,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "preparation affects the presenter's own success; wording of option 1 is a bit awkward but understandable"
+  }
+ },
+ "et_f02": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":3,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"violates wedding custom and manners\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "violates wedding custom and manners"
+  }
+ },
+ "et_o11": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":3,\"aesthetic\":2,\"epistemic\":0,\"unclear\":false,\"comment\":\"formal language is much more appropriate and effective in a cover letter\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 3,
+   "aesthetic": 2,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "formal language is much more appropriate and effective in a cover letter"
+  }
+ },
+ "ep_v01": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":1,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":3,\"unclear\":false,\"comment\":\"better reasoning and care with evidence before citing\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "better reasoning and care with evidence before citing"
+  }
+ },
+ "pr_v07": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":1,\"unclear\":false,\"comment\":\"planning protects the hiker's own safety and success\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "planning protects the hiker's own safety and success"
+  }
+ },
+ "m_p19": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"buying a thesis is dishonest academic misconduct\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "buying a thesis is dishonest academic misconduct"
+  }
+ },
+ "m_p26": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"rescue versus theft; strong moral difference\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "rescue versus theft; strong moral difference"
+  }
+ },
+ "m_p21": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"dishonesty and harm to competitors; working harder is fair\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "dishonesty and harm to competitors; working harder is fair"
+  }
+ },
+ "pr_f07": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"preparedness for one's own travel safety and plans\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "preparedness for one's own travel safety and plans"
+  }
+ },
+ "ep_p01": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":3,\"unclear\":false,\"comment\":\"predictions are better evidence than popularity\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "predictions are better evidence than popularity"
+  }
+ },
+ "ep_v06": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"better reasoning and consideration of evidence\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "better reasoning and consideration of evidence"
+  }
+ },
+ "m_v04": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":1,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"slapping is harmful and disrespectful\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "slapping is harmful and disrespectful"
+  }
+ },
+ "d16": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"lively festival atmosphere is generally better; no conduct judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "lively festival atmosphere is generally better; no conduct judged"
+  }
+ },
+ "m_p12": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"theft is a legitimate cause; pregnancy discrimination is seriously unfair\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "theft is a legitimate cause; pregnancy discrimination is seriously unfair"
+  }
+ },
+ "et_p09": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":3,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"cathedral setting makes loud singing inappropriate/disrespectful\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "cathedral setting makes loud singing inappropriate/disrespectful"
+  }
+ },
+ "m_p02": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"blackmail is harmful and exploitative; protecting her can justify the intrusion\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "blackmail is harmful and exploitative; protecting her can justify the intrusion"
+  }
+ },
+ "m_v07": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"honesty and fairness; keeping it is much worse\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "honesty and fairness; keeping it is much worse"
+  }
+ },
+ "d37": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"fruit stored for a day is likely in much better condition\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "fruit stored for a day is likely in much better condition"
+  }
+ },
+ "m_o18": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"serving rotten food harms customers and is very poor practice\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "serving rotten food harms customers and is very poor practice"
+  }
+ },
+ "pr_f04": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 1, \"epistemic\": 0, \"unclear\": false, \"comment\": \"better for achieving the task of carving the roast well\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 1,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "better for achieving the task of carving the roast well"
+  }
+ },
+ "d04": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"fresh milk smells much better; no conduct judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "fresh milk smells much better; no conduct judged"
+  }
+ },
+ "d35": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":0,\"aesthetic\":2,\"epistemic\":0,\"unclear\":false,\"comment\":\"steel is far more durable; cardboard bridge would endanger users and reflect poor design\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 2,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "steel is far more durable; cardboard bridge would endanger users and reflect poor design"
+  }
+ },
+ "d43": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"describes the soup's taste, not someone's action\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes the soup's taste, not someone's action"
+  }
+ },
+ "m_o12": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"animal welfare; filthy kennels are much worse\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "animal welfare; filthy kennels are much worse"
+  }
+ },
+ "pr_p07": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":2,\"unclear\":false,\"comment\":\"investing steadily is much better for one's own financial future; gambling is poor reasoning\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 2,
+   "unclear": false,
+   "comment": "investing steadily is much better for one's own financial future; gambling is poor reasoning"
+  }
+ },
+ "ep_f04": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"better reasoning and source-checking\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "better reasoning and source-checking"
+  }
+ },
+ "ae_f02": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":3,\"epistemic\":0,\"unclear\":false,\"comment\":\"musical performance quality\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "musical performance quality"
+  }
+ },
+ "m_v06": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"helping an injured person vs abandoning them\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "helping an injured person vs abandoning them"
+  }
+ },
+ "ep_p02": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"judging reasoning; rejecting for flaws is epistemically better\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "judging reasoning; rejecting for flaws is epistemically better"
+  }
+ },
+ "m_p28": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"stealing to sell versus taking to help repair\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "stealing to sell versus taking to help repair"
+  }
+ },
+ "m_o08": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"baby's safety; leaving in a car is dangerous\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "baby's safety; leaving in a car is dangerous"
+  }
+ },
+ "m_o19": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"selling a forgery as original is dishonest and harmful to the buyer\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "selling a forgery as original is dishonest and harmful to the buyer"
+  }
+ },
+ "m_p06": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"misusing emergency brake vs preventing grave harm\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "misusing emergency brake vs preventing grave harm"
+  }
+ },
+ "ae_p01": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":3,\"epistemic\":0,\"unclear\":false,\"comment\":\"judgment of design/taste in choosing decor\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "judgment of design/taste in choosing decor"
+  }
+ },
+ "ae_f04": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":3,\"epistemic\":0,\"unclear\":false,\"comment\":\"poetic craft and form\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "poetic craft and form"
+  }
+ },
+ "et_o14": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":1,\"prudential\":1,\"etiquette\":3,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"bringing trash is highly inappropriate and rude; wine is a normal gift\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 1,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "bringing trash is highly inappropriate and rude; wine is a normal gift"
+  }
+ },
+ "m_f06": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"patients' consent and rights\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "patients' consent and rights"
+  }
+ },
+ "m_p17": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"threatening voters is coercive and violates democratic fairness\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "threatening voters is coercive and violates democratic fairness"
+  }
+ },
+ "d19": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": true, \"comment\": \"bread baked an hour ago is much fresher; minor grammar issue\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": true,
+   "comment": "bread baked an hour ago is much fresher; minor grammar issue"
+  }
+ },
+ "m_o24": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"harming a sibling is much worse than hitting a pillow\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "harming a sibling is much worse than hitting a pillow"
+  }
+ },
+ "m_p10": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":1,\"unclear\":false,\"comment\":\"expelling for smiling is grossly unfair; cheating is a legitimate disciplinary reason\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "expelling for smiling is grossly unfair; cheating is a legitimate disciplinary reason"
+  }
+ },
+ "m_p04": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 1, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"annoying neighbors is harmful; warning them can help\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "annoying neighbors is harmful; warning them can help"
+  }
+ },
+ "m_o04": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"plagiarism and dishonesty in a competition\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "plagiarism and dishonesty in a competition"
+  }
+ },
+ "pr_p06": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"better for the runner's own preparation and goals\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "better for the runner's own preparation and goals"
+  }
+ },
+ "pr_f11": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": true, \"comment\": \"odd wording, but never saving risks losing one's work\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": true,
+   "comment": "odd wording, but never saving risks losing one's work"
+  }
+ },
+ "pr_o12": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":1,\"unclear\":false,\"comment\":\"own comfort and safety; warm clothes are much wiser\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "own comfort and safety; warm clothes are much wiser"
+  }
+ },
+ "d44": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"better connection quality; no conduct judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "better connection quality; no conduct judged"
+  }
+ },
+ "m_f15": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"triage affects patients' welfare; treating sickest last is very harmful\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "triage affects patients' welfare; treating sickest last is very harmful"
+  }
+ },
+ "ep_f02": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"better reporting of evidence and uncertainty\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "better reporting of evidence and uncertainty"
+  }
+ },
+ "ep_o07": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"quality of evidence and reasoning\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "quality of evidence and reasoning"
+  }
+ },
+ "m_v09": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"stealing from a charity harms beneficiaries and violates duties\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "stealing from a charity harms beneficiaries and violates duties"
+  }
+ },
+ "pr_o05": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"fridge preserves the milk; cupboard risks spoilage\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "fridge preserves the milk; cupboard risks spoilage"
+  }
+ },
+ "m_o06": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"fake donation is dishonest and fraudulent; some risk to the claimant too\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "fake donation is dishonest and fraudulent; some risk to the claimant too"
+  }
+ },
+ "d17": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"concert hall acoustics are generally better; no conduct judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "concert hall acoustics are generally better; no conduct judged"
+  }
+ },
+ "pr_f01": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":2,\"unclear\":false,\"comment\":\"better for one's own interests and informed decision-making\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 2,
+   "unclear": false,
+   "comment": "better for one's own interests and informed decision-making"
+  }
+ },
+ "d03": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"taste/condition of strawberries, not conduct\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "taste/condition of strawberries, not conduct"
+  }
+ },
+ "m_p16": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"suffering can justify euthanasia; shedding is a trivial/self-interested reason\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "suffering can justify euthanasia; shedding is a trivial/self-interested reason"
+  }
+ },
+ "et_f10": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":3,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"covering your mouth is better manners in a meeting\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "covering your mouth is better manners in a meeting"
+  }
+ },
+ "pr_o01": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 1, \"epistemic\": 0, \"unclear\": false, \"comment\": \"sharp saw is safer and more effective for the user's task\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 1,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "sharp saw is safer and more effective for the user's task"
+  }
+ },
+ "ae_o16": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"quality of the novel's ending\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "quality of the novel's ending"
+  }
+ },
+ "d22": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"honed knife is generally sharper/better; condition of an object\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "honed knife is generally sharper/better; condition of an object"
+  }
+ },
+ "d07": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"air condition, not conduct\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "air condition, not conduct"
+  }
+ },
+ "ep_o01": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"large trial gives stronger evidence\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "large trial gives stronger evidence"
+  }
+ },
+ "d30": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"snow conditions likely better after a cold night\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "snow conditions likely better after a cold night"
+  }
+ },
+ "m_o13": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"honesty and buyer's informed choice\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "honesty and buyer's informed choice"
+  }
+ },
+ "d21": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"clean shower is preferable; no conduct judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "clean shower is preferable; no conduct judged"
+  }
+ },
+ "pr_f06": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"own safety and preparedness\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own safety and preparedness"
+  }
+ },
+ "m_v15": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"major harm/help to others in danger\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "major harm/help to others in danger"
+  }
+ },
+ "pr_p08": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":0,\"prudential\":2,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":3,\"unclear\":false,\"comment\":\"removing malware is an effective, reasonable fix; hitting it is poor reasoning and risks damage\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "removing malware is an effective, reasonable fix; hitting it is poor reasoning and risks damage"
+  }
+ },
+ "d20": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"brighter conditions mean better visibility\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "brighter conditions mean better visibility"
+  }
+ },
+ "et_v06": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":3,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"courtroom decorum and respect\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "courtroom decorum and respect"
+  }
+ },
+ "ae_v03": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":3,\"epistemic\":0,\"unclear\":false,\"comment\":\"judges the quality/style of displaying the pictures\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "judges the quality/style of displaying the pictures"
+  }
+ },
+ "d12": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"fertile soil is much better; no conduct judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "fertile soil is much better; no conduct judged"
+  }
+ },
+ "m_v14": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"returning/reporting lost property rather than keeping it\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "returning/reporting lost property rather than keeping it"
+  }
+ },
+ "ae_o12": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":3,\"epistemic\":0,\"unclear\":false,\"comment\":\"quality and grace of the dance performance\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "quality and grace of the dance performance"
+  }
+ },
+ "m_p14": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":1,\"unclear\":false,\"comment\":\"gender discrimination is unfair; grades are a more relevant basis\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "gender discrimination is unfair; grades are a more relevant basis"
+  }
+ },
+ "pr_p05": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":2,\"unclear\":false,\"comment\":\"practice is much more effective for the learner's goal; wishing is poor means-end reasoning\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 2,
+   "unclear": false,
+   "comment": "practice is much more effective for the learner's goal; wishing is poor means-end reasoning"
+  }
+ },
+ "ae_f05": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":3,\"epistemic\":0,\"unclear\":false,\"comment\":\"quality of artistic work\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "quality of artistic work"
+  }
+ },
+ "et_o13": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":1,\"prudential\":0,\"etiquette\":3,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"basic politeness to the waiter\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "basic politeness to the waiter"
+  }
+ },
+ "m_v16": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"honesty and justice; misleading police is much worse\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "honesty and justice; misleading police is much worse"
+  }
+ },
+ "ae_v04": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":3,\"epistemic\":0,\"unclear\":false,\"comment\":\"craftsmanship and finish of the vase\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "craftsmanship and finish of the vase"
+  }
+ },
+ "d24": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"photo quality is judged; daylight usually gives a better result\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "photo quality is judged; daylight usually gives a better result"
+  }
+ },
+ "d31": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"better vehicle condition/performance\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "better vehicle condition/performance"
+  }
+ },
+ "ep_p09": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":0,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":3,\"unclear\":false,\"comment\":\"past data is a much better basis for reasoning than lucky numbers\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "past data is a much better basis for reasoning than lucky numbers"
+  }
+ },
+ "m_o10": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":2,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"exploiting tourists is unfair; may profit the seller\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "exploiting tourists is unfair; may profit the seller"
+  }
+ },
+ "et_p07": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 1, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"library setting makes it much less appropriate manners-wise\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 1,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "library setting makes it much less appropriate manners-wise"
+  }
+ },
+ "ep_f05": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":3,\"unclear\":false,\"comment\":\"better reasoning to hear both sides before forming an opinion\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "better reasoning to hear both sides before forming an opinion"
+  }
+ },
+ "ae_o13": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":3,\"epistemic\":0,\"unclear\":false,\"comment\":\"judges the quality/style of the carving\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "judges the quality/style of the carving"
+  }
+ },
+ "et_o09": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":1,\"etiquette\":3,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"professional phone manners\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "professional phone manners"
+  }
+ },
+ "ae_v02": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"trimming is careful; hacking suggests poor or damaging work\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "trimming is careful; hacking suggests poor or damaging work"
+  }
+ },
+ "m_o15": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":2,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"endangers children and others; also risky for the driver\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "endangers children and others; also risky for the driver"
+  }
+ },
+ "ep_p10": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":3,\"unclear\":false,\"comment\":\"surveys are generally better evidence than anecdotes for national generalizations\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "surveys are generally better evidence than anecdotes for national generalizations"
+  }
+ },
+ "m_p25": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"rescuing a child fulfills duty; napping abandons responsibility\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "rescuing a child fulfills duty; napping abandons responsibility"
+  }
+ },
+ "m_p03": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":1,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"helpful intent vs humiliating intent toward coworker\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "helpful intent vs humiliating intent toward coworker"
+  }
+ },
+ "d18": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":2,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"padded bench is more comfortable; describes a thing\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "padded bench is more comfortable; describes a thing"
+  }
+ },
+ "d32": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"fresh/roasted coffee flavor is better than stale; no conduct judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "fresh/roasted coffee flavor is better than stale; no conduct judged"
+  }
+ },
+ "m_v08": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"serious safety risk and honesty/disclosure\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "serious safety risk and honesty/disclosure"
+  }
+ },
+ "et_f07": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":3,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"table manners at a dinner party\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "table manners at a dinner party"
+  }
+ },
+ "pr_f10": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"better for the person's own plans\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "better for the person's own plans"
+  }
+ },
+ "d02": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"tower view is generally better; no conduct judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "tower view is generally better; no conduct judged"
+  }
+ },
+ "et_o06": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":3,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"formal table manners\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "formal table manners"
+  }
+ },
+ "m_p07": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"misusing emergency services vs helping someone in danger\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "misusing emergency services vs helping someone in danger"
+  }
+ },
+ "pr_v08": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"protecting your own accounts after a breach\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "protecting your own accounts after a breach"
+  }
+ },
+ "d42": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"warm bread smells better; no conduct judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "warm bread smells better; no conduct judged"
+  }
+ },
+ "m_v01": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":1,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"kindness vs cruelty toward a vulnerable child\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "kindness vs cruelty toward a vulnerable child"
+  }
+ },
+ "m_p24": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":3,\"unclear\":false,\"comment\":\"fair and evidence-based grading versus discrimination/irrelevant basis\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "fair and evidence-based grading versus discrimination/irrelevant basis"
+  }
+ },
+ "m_p13": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":2,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":1,\"unclear\":false,\"comment\":\"violence is a legitimate safety reason; religion is discriminatory\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "violence is a legitimate safety reason; religion is discriminatory"
+  }
+ },
+ "et_o05": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":3,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"formal table manners\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "formal table manners"
+  }
+ },
+ "pr_o07": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"sunny spot is better for growing tomatoes\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "sunny spot is better for growing tomatoes"
+  }
+ },
+ "pr_p09": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":1,\"unclear\":false,\"comment\":\"opening windows at night is the more effective choice for cooling\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "opening windows at night is the more effective choice for cooling"
+  }
+ },
+ "ep_o06": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":1,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":3,\"unclear\":false,\"comment\":\"control group is much better evidence than gut feeling\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "control group is much better evidence than gut feeling"
+  }
+ },
+ "ae_o07": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":3,\"epistemic\":0,\"unclear\":false,\"comment\":\"quality of creative work\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "quality of creative work"
+  }
+ },
+ "et_o10": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"appropriate respectful form of address\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "appropriate respectful form of address"
+  }
+ },
+ "m_o03": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":1,\"unclear\":false,\"comment\":\"dishonest and harms rival/customers\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "dishonest and harms rival/customers"
+  }
+ },
+ "m_o01": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"selling alcohol to minors is harmful/irresponsible and likely illegal\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "selling alcohol to minors is harmful/irresponsible and likely illegal"
+  }
+ },
+ "d38": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"better ride/condition; no conduct judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "better ride/condition; no conduct judged"
+  }
+ },
+ "ae_o08": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":1,\"aesthetic\":3,\"epistemic\":0,\"unclear\":false,\"comment\":\"mainly aesthetic quality of the cake decoration\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 1,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "mainly aesthetic quality of the cake decoration"
+  }
+ },
+ "m_p22": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"humiliating youth players is harmful; encouragement is much better\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "humiliating youth players is harmful; encouragement is much better"
+  }
+ },
+ "ae_o10": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":3,\"epistemic\":0,\"unclear\":false,\"comment\":\"artistic quality of the painting\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "artistic quality of the painting"
+  }
+ },
+ "d11": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"better fishing conditions; no specific conduct judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "better fishing conditions; no specific conduct judged"
+  }
+ },
+ "m_f14": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"donated money should go to intended victims; fairness and duty\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "donated money should go to intended victims; fairness and duty"
+  }
+ },
+ "m_f07": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":1,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"credit and honesty toward coworker\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "credit and honesty toward coworker"
+  }
+ },
+ "ep_p03": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":3,\"unclear\":false,\"comment\":\"belief based on evidence vs against evidence\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "belief based on evidence vs against evidence"
+  }
+ },
+ "m_p23": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"bribery is corrupt and unfair; merit-based award is proper\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "bribery is corrupt and unfair; merit-based award is proper"
+  }
+ },
+ "m_v03": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"helping versus harming a vulnerable person\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "helping versus harming a vulnerable person"
+  }
+ },
+ "d36": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":2,\"q2\":2,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"describes sleep quality from mattress condition; no action judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes sleep quality from mattress condition; no action judged"
+  }
+ },
+ "m_v02": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"kicking the dog is cruel; petting is kind\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "kicking the dog is cruel; petting is kind"
+  }
+ },
+ "ep_v05": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":1,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":3,\"unclear\":false,\"comment\":\"confirming gives better evidence before making a discovery claim\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "confirming gives better evidence before making a discovery claim"
+  }
+ },
+ "d23": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":2,\"q2\":2,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"better condition/performance of the bulb; no action judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "better condition/performance of the bulb; no action judged"
+  }
+ },
+ "m_v05": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":1,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"kind inclusion versus harmful humiliation\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "kind inclusion versus harmful humiliation"
+  }
+ },
+ "pr_o04": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"boiling water can ruin wool; practical self-interest/property care\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "boiling water can ruin wool; practical self-interest/property care"
+  }
+ },
+ "pr_v01": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":2,\"unclear\":false,\"comment\":\"budgeting is better for one's own finances and planning than guessing\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 2,
+   "unclear": false,
+   "comment": "budgeting is better for one's own finances and planning than guessing"
+  }
+ },
+ "pr_o09": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"acting sooner protects one's property and avoids worse damage\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "acting sooner protects one's property and avoids worse damage"
+  }
+ },
+ "m_o23": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"children's basic welfare and parental duty\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "children's basic welfare and parental duty"
+  }
+ },
+ "m_v10": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":1,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"keeping a promise and caring for a sick relative\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "keeping a promise and caring for a sick relative"
+  }
+ },
+ "et_v04": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":1,\"prudential\":0,\"etiquette\":3,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"disruptive and impolite during a performance\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "disruptive and impolite during a performance"
+  }
+ },
+ "ae_o03": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":3,\"epistemic\":0,\"unclear\":false,\"comment\":\"judges presentation and plating quality\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "judges presentation and plating quality"
+  }
+ },
+ "d09": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":3,\"epistemic\":0,\"unclear\":false,\"comment\":\"the musical as a work is being judged aesthetically\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "the musical as a work is being judged aesthetically"
+  }
+ },
+ "ae_o04": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":1,\"prudential\":0,\"etiquette\":0,\"aesthetic\":3,\"epistemic\":0,\"unclear\":false,\"comment\":\"soothing tone fits a lullaby; mainly performance quality\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "soothing tone fits a lullaby; mainly performance quality"
+  }
+ },
+ "et_p05": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":1,\"prudential\":0,\"etiquette\":3,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"funeral cheering is highly inappropriate and disrespectful\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "funeral cheering is highly inappropriate and disrespectful"
+  }
+ },
+ "d05": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": true, \"comment\": \"new laptop battery likely better; option 1 has minor grammar issue\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": true,
+   "comment": "new laptop battery likely better; option 1 has minor grammar issue"
+  }
+ },
+ "d25": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"compact cars generally have better fuel economy; no conduct judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "compact cars generally have better fuel economy; no conduct judged"
+  }
+ },
+ "et_v02": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":3,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"greeting the host is polite party etiquette\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "greeting the host is polite party etiquette"
+  }
+ },
+ "m_v13": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"kind support versus harmful abuse\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "kind support versus harmful abuse"
+  }
+ },
+ "ep_o04": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":0,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":3,\"unclear\":false,\"comment\":\"satellite data is much better evidence\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "satellite data is much better evidence"
+  }
+ },
+ "pr_o11": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"better for the student's own preparation and success\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "better for the student's own preparation and success"
+  }
+ },
+ "d28": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"better sound, but no one's action or work is specified\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "better sound, but no one's action or work is specified"
+  }
+ },
+ "ep_v03": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"better reasoning to question a claim against all prior evidence\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "better reasoning to question a claim against all prior evidence"
+  }
+ },
+ "m_f12": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"warning before protects residents; after is too late\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "warning before protects residents; after is too late"
+  }
+ },
+ "m_p01": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"intent and effect on friend; protection vs embarrassment\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "intent and effect on friend; protection vs embarrassment"
+  }
+ },
+ "ep_v02": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":0,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":3,\"unclear\":false,\"comment\":\"better reasoning to verify an unexpected result before relying on it\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "better reasoning to verify an unexpected result before relying on it"
+  }
+ },
+ "ae_p06": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":3,\"epistemic\":0,\"unclear\":false,\"comment\":\"quality/style of the pruning work\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "quality/style of the pruning work"
+  }
+ },
+ "et_f06": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":1,\"prudential\":0,\"etiquette\":3,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"waiting is more polite; interrupting the speaker is poor etiquette\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "waiting is more polite; interrupting the speaker is poor etiquette"
+  }
+ },
+ "m_p18": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":2,\"etiquette\":1,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"doping is cheating and risky; training is legitimate\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "doping is cheating and risky; training is legitimate"
+  }
+ },
+ "et_f03": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":1,\"prudential\":0,\"etiquette\":3,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"serving guests first is courteous dinner etiquette\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "serving guests first is courteous dinner etiquette"
+  }
+ },
+ "m_o16": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"withholding meals harms the child\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "withholding meals harms the child"
+  }
+ },
+ "pr_v02": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":2,\"unclear\":false,\"comment\":\"measuring is more reliable and better for the buyer's plans\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 2,
+   "unclear": false,
+   "comment": "measuring is more reliable and better for the buyer's plans"
+  }
+ },
+ "pr_o08": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"financial self-interest and avoiding penalties\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "financial self-interest and avoiding penalties"
+  }
+ },
+ "m_v11": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":1,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"helping versus harmful/unsafe treatment of a blind person\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "helping versus harmful/unsafe treatment of a blind person"
+  }
+ },
+ "d15": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"quality of the picture/screen condition; no conduct judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "quality of the picture/screen condition; no conduct judged"
+  }
+ },
+ "m_f08": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"helping injured people vs abandoning them\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "helping injured people vs abandoning them"
+  }
+ },
+ "pr_o06": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"light meal is better for the runner's own comfort/performance\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "light meal is better for the runner's own comfort/performance"
+  }
+ },
+ "pr_v09": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":2,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"fire safety; protects self and others\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 2,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "fire safety; protects self and others"
+  }
+ },
+ "ae_p02": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"quality of the mix\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "quality of the mix"
+  }
+ },
+ "m_p27": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"scaring a child intentionally vs warning her for safety\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "scaring a child intentionally vs warning her for safety"
+  }
+ },
+ "d01": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"better crop conditions; no conduct judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "better crop conditions; no conduct judged"
+  }
+ },
+ "ae_v01": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":1,\"etiquette\":0,\"aesthetic\":3,\"epistemic\":0,\"unclear\":false,\"comment\":\"polishing better for appearance in a formal photo shoot\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "polishing better for appearance in a formal photo shoot"
+  }
+ },
+ "pr_v05": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"good preparation versus harming one's own camping plans\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "good preparation versus harming one's own camping plans"
+  }
+ },
+ "pr_f03": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 2, \"unclear\": false, \"comment\": \"better for one's own planning; uses information before deciding\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 2,
+   "unclear": false,
+   "comment": "better for one's own planning; uses information before deciding"
+  }
+ },
+ "pr_o13": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":1,\"unclear\":false,\"comment\":\"better planning for one's own travel\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "better planning for one's own travel"
+  }
+ },
+ "m_v23": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"buying votes is unfair and corrupt; checking votes supports fairness\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "buying votes is unfair and corrupt; checking votes supports fairness"
+  }
+ },
+ "m_v19": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"hitting a child is harmful; hugging is supportive\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "hitting a child is harmful; hugging is supportive"
+  }
+ },
+ "m_o02": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"honesty and serious harm/fairness in court\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "honesty and serious harm/fairness in court"
+  }
+ },
+ "pr_o02": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":1,\"etiquette\":0,\"aesthetic\":2,\"epistemic\":0,\"unclear\":false,\"comment\":\"fresh yeast is better for the quality of the baked bread\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 2,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "fresh yeast is better for the quality of the baked bread"
+  }
+ },
+ "ae_p04": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"better interior arrangement/design\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "better interior arrangement/design"
+  }
+ },
+ "ae_f03": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":3,\"epistemic\":0,\"unclear\":false,\"comment\":\"poor photo composition\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "poor photo composition"
+  }
+ }
+}

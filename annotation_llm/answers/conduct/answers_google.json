@@ -1,0 +1,410 @@
+{
+ "dc_f09": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"no clear difference without context of seat location or airline rules\"}\n```",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "no clear difference without context of seat location or airline rules"
+  }
+ },
+ "dc_f08": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 1, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"both are generally acceptable\"}\n```",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "both are generally acceptable"
+  }
+ },
+ "dc_f10": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"both are normal meeting times\"}\n```",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "both are normal meeting times"
+  }
+ },
+ "dc_f16": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"no clear difference in quality between the two days\"}\n```",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "no clear difference in quality between the two days"
+  }
+ },
+ "dc_f04": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"no clear difference without context\"}\n```",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "no clear difference without context"
+  }
+ },
+ "dc_f03": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"just a matter of personal routine, neither is better\"}\n```",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "just a matter of personal routine, neither is better"
+  }
+ },
+ "dc_f24": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"no clear difference; depends entirely on personal preference\"}\n```",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "no clear difference; depends entirely on personal preference"
+  }
+ },
+ "dc_f22": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"matter of personal taste\"}\n```",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "matter of personal taste"
+  }
+ },
+ "dc_f23": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"no clear difference without context\"}\n```",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "no clear difference without context"
+  }
+ },
+ "dc_f11": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"no clear difference without knowing the amount of groceries\"}\n```",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "no clear difference without knowing the amount of groceries"
+  }
+ },
+ "dc_f15": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Both colors are standard for an office, no clear difference\"}\n```",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Both colors are standard for an office, no clear difference"
+  }
+ },
+ "dc_f20": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"no clear difference without context\"}\n```",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "no clear difference without context"
+  }
+ },
+ "dc_f13": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": true, \"comment\": \"depends entirely on the number of guests\"}\n```",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": true,
+   "comment": "depends entirely on the number of guests"
+  }
+ },
+ "dc_f12": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": true, \"comment\": \"depends heavily on garden layout and hemisphere\"}\n```",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": true,
+   "comment": "depends heavily on garden layout and hemisphere"
+  }
+ },
+ "dc_f17": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"no clear difference in quality or appropriateness\"}\n```",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "no clear difference in quality or appropriateness"
+  }
+ },
+ "dc_f05": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"no clear difference without context\"}\n```",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "no clear difference without context"
+  }
+ },
+ "dc_f07": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"no clear difference between the times\"}\n```",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "no clear difference between the times"
+  }
+ },
+ "dc_f21": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"no general preference for upstairs or downstairs\"}\n```",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "no general preference for upstairs or downstairs"
+  }
+ },
+ "dc_f14": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"no clear difference without context\"}\n```",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "no clear difference without context"
+  }
+ },
+ "dc_f06": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 1, \"epistemic\": 0, \"unclear\": false, \"comment\": \"purely a matter of minor personal preference\"}\n```",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 1,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "purely a matter of minor personal preference"
+  }
+ },
+ "dc_f01": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"no clear difference between days\"}\n```",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "no clear difference between days"
+  }
+ },
+ "dc_f19": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"no clear difference\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "no clear difference"
+  }
+ },
+ "dc_f18": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 1, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 0, \"etiquette\": 2, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"parking by the main entrance can be rude or block traffic\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 1,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 0,
+   "etiquette": 2,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "parking by the main entrance can be rude or block traffic"
+  }
+ },
+ "dc_f02": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"no clear difference between the two options\"}\n```",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "no clear difference between the two options"
+  }
+ }
+}

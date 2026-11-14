@@ -1,0 +1,1192 @@
+{
+ "tw28_p": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"own risk and safety\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "own risk and safety"
+  }
+ },
+ "tw18_p": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own health and hygiene\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own health and hygiene"
+  }
+ },
+ "tw10_m": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"severe risk to patients' data and the doer's job\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "severe risk to patients' data and the doer's job"
+  }
+ },
+ "tw17_m": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"extreme danger to others' safety, risk to self\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "extreme danger to others' safety, risk to self"
+  }
+ },
+ "tw27_p": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"driving while extremely sleep-deprived is dangerous to self and others\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "driving while extremely sleep-deprived is dangerous to self and others"
+  }
+ },
+ "tw22_m": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"harm to buyer's safety, liability for the seller\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "harm to buyer's safety, liability for the seller"
+  }
+ },
+ "tw32_e": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"basing a decision on full information is epistemically better\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "basing a decision on full information is epistemically better"
+  }
+ },
+ "tw03_p": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"health and safety of the person acting\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "health and safety of the person acting"
+  }
+ },
+ "tw21_p": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"primarily own safety\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "primarily own safety"
+  }
+ },
+ "tw11_m": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"endangers the driver and the passengers\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "endangers the driver and the passengers"
+  }
+ },
+ "tw19_p": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own safety\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own safety"
+  }
+ },
+ "tw21_m": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"extreme safety risk to others\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "extreme safety risk to others"
+  }
+ },
+ "tw26_p": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\n  \"q1\": 2,\n  \"q2\": 3,\n  \"q3\": \"Y\",\n  \"moral\": 0,\n  \"prudential\": 3,\n  \"etiquette\": 0,\n  \"aesthetic\": 0,\n  \"epistemic\": 1,\n  \"unclear\": false,\n  \"comment\": \"extreme risk to own safety\"\n}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "extreme risk to own safety"
+  }
+ },
+ "tw08_m": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"danger to the pupils' safety\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "danger to the pupils' safety"
+  }
+ },
+ "tw09_m": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 2, \"unclear\": false, \"comment\": \"duty to clients, own liability, and acting without evidence\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 2,
+   "unclear": false,
+   "comment": "duty to clients, own liability, and acting without evidence"
+  }
+ },
+ "tw16_m": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"endangering children\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "endangering children"
+  }
+ },
+ "tw26_m": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"extreme risk to guests' health\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "extreme risk to guests' health"
+  }
+ },
+ "tw06_m": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"harm to customers, risk to seller's business\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "harm to customers, risk to seller's business"
+  }
+ },
+ "tw35_m": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"involves safety of others and drawing a conclusion from insufficient evidence\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "involves safety of others and drawing a conclusion from insufficient evidence"
+  }
+ },
+ "tw07_m": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"safety of another person\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "safety of another person"
+  }
+ },
+ "tw32_m": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"harm to accused's reputation, legal risk to publisher, failure to gather evidence\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "harm to accused's reputation, legal risk to publisher, failure to gather evidence"
+  }
+ },
+ "tw23_m": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"safety of the friend\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "safety of the friend"
+  }
+ },
+ "tw23_p": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 2, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"danger to self and others\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 2,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "danger to self and others"
+  }
+ },
+ "tw31_m": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 2, \"unclear\": false, \"comment\": \"risk of harm to patient, liability for the doctor, and epistemic duty to verify\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 2,
+   "unclear": false,
+   "comment": "risk of harm to patient, liability for the doctor, and epistemic duty to verify"
+  }
+ },
+ "tw30_p": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"doer's own safety\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "doer's own safety"
+  }
+ },
+ "tw12_m": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"protecting kids from the sun is a duty to others\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "protecting kids from the sun is a duty to others"
+  }
+ },
+ "tw13_p": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 2, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"major safety risk to oneself and potentially others\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 2,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "major safety risk to oneself and potentially others"
+  }
+ },
+ "tw22_p": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"major safety hazard primarily affecting the doer\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "major safety hazard primarily affecting the doer"
+  }
+ },
+ "tw03_m": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 1, \"aesthetic\": 1, \"epistemic\": 0, \"unclear\": false, \"comment\": \"health hazard to guests\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 1,
+   "aesthetic": 1,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "health hazard to guests"
+  }
+ },
+ "tw15_p": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 2, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"safety risk to self and potentially others\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 2,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "safety risk to self and potentially others"
+  }
+ },
+ "tw04_m": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"duty to protect child's safety\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "duty to protect child's safety"
+  }
+ },
+ "tw15_m": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"tenants' safety is highly compromised, also a liability risk for the landlord\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "tenants' safety is highly compromised, also a liability risk for the landlord"
+  }
+ },
+ "tw06_p": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own health\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own health"
+  }
+ },
+ "tw14_m": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"harm to customers' security, also risky for the doer's business\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "harm to customers' security, also risky for the doer's business"
+  }
+ },
+ "tw33_e": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"evaluates evidence before forming belief\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "evaluates evidence before forming belief"
+  }
+ },
+ "tw14_p": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own security and safety\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own security and safety"
+  }
+ },
+ "tw16_p": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"personal safety\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "personal safety"
+  }
+ },
+ "tw35_e": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"jumping to a conclusion about safety affects others and shows poor reasoning\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "jumping to a conclusion about safety affects others and shows poor reasoning"
+  }
+ },
+ "tw12_p": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own safety and comfort\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own safety and comfort"
+  }
+ },
+ "tw33_m": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 2, \"prudential\": 1, \"etiquette\": 1, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"verifying information before spreading it; epistemic and moral\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 2,
+   "prudential": 1,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "verifying information before spreading it; epistemic and moral"
+  }
+ },
+ "tw29_m": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"risking someone else's money is a moral issue, and protecting oneself from liability is prudential\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "risking someone else's money is a moral issue, and protecting oneself from liability is prudential"
+  }
+ },
+ "tw17_p": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own safety primarily, as the driver is alone\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own safety primarily, as the driver is alone"
+  }
+ },
+ "tw02_m": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"child endangerment\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "child endangerment"
+  }
+ },
+ "tw09_p": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 2, \"unclear\": false, \"comment\": \"own financial risk and making an informed decision\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 2,
+   "unclear": false,
+   "comment": "own financial risk and making an informed decision"
+  }
+ },
+ "tw34_e": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"conclusion based on evidence vs no evidence\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "conclusion based on evidence vs no evidence"
+  }
+ },
+ "tw30_m": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"safety of another person\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "safety of another person"
+  }
+ },
+ "tw29_p": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own financial safety\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own financial safety"
+  }
+ },
+ "tw20_m": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"severe risk of harm to the baby\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "severe risk of harm to the baby"
+  }
+ },
+ "tw07_p": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own safety\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own safety"
+  }
+ },
+ "tw34_m": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"dishonest to the buyer and epistemically unjustified to make a claim without checking\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "dishonest to the buyer and epistemically unjustified to make a claim without checking"
+  }
+ },
+ "tw24_m": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"safety of the crowd is primarily a moral issue\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "safety of the crowd is primarily a moral issue"
+  }
+ },
+ "tw31_e": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"better reasoning and evidence verification\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "better reasoning and evidence verification"
+  }
+ },
+ "tw18_m": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"health and safety of others is at stake\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "health and safety of others is at stake"
+  }
+ },
+ "tw01_m": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"endangering passengers and others on the road; also high risk to own safety and freedom\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "endangering passengers and others on the road; also high risk to own safety and freedom"
+  }
+ },
+ "tw28_m": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 2, \"unclear\": false, \"comment\": \"major financial risk; checking references is also gathering evidence\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 2,
+   "unclear": false,
+   "comment": "major financial risk; checking references is also gathering evidence"
+  }
+ },
+ "tw11_p": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"driving while sleep deprived is dangerous to self and others\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "driving while sleep deprived is dangerous to self and others"
+  }
+ },
+ "tw13_m": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"safety of renters is moral; liability to the owner is prudential\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "safety of renters is moral; liability to the owner is prudential"
+  }
+ },
+ "tw10_p": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"risk to one's own data\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "risk to one's own data"
+  }
+ },
+ "tw05_p": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"major safety risk to oneself and one's household\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "major safety risk to oneself and one's household"
+  }
+ },
+ "tw24_p": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": true, \"comment\": \"Option 2 is physically difficult unless using a remote; Option 1 is the standard safe procedure of lighting then retreating.\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": true,
+   "comment": "Option 2 is physically difficult unless using a remote; Option 1 is the standard safe procedure of lighting then retreating."
+  }
+ },
+ "tw02_p": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own safety\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own safety"
+  }
+ },
+ "tw25_m": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 2, \"unclear\": false, \"comment\": \"safety of children is a strong moral concern; waiting for evidence is also epistemic\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 2,
+   "unclear": false,
+   "comment": "safety of children is a strong moral concern; waiting for evidence is also epistemic"
+  }
+ },
+ "tw04_p": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"rider's own safety\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "rider's own safety"
+  }
+ },
+ "tw20_p": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own safety and health\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own safety and health"
+  }
+ },
+ "tw05_m": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"tenants' safety is a strong moral duty; also protects landlord's property\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "tenants' safety is a strong moral duty; also protects landlord's property"
+  }
+ },
+ "tw08_p": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own safety\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own safety"
+  }
+ },
+ "tw27_m": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"patient safety is primarily at risk, making it a strong moral issue\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "patient safety is primarily at risk, making it a strong moral issue"
+  }
+ },
+ "tw25_p": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own safety\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own safety"
+  }
+ },
+ "tw19_m": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"safety of passengers is at stake\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "safety of passengers is at stake"
+  }
+ },
+ "tw01_p": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"drunk driving puts others and oneself in severe danger\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "drunk driving puts others and oneself in severe danger"
+  }
+ }
+}

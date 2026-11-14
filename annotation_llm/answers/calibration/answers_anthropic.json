@@ -1,0 +1,4116 @@
+{
+ "et_p03": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Eating with hands is out of place at a banquet but normal at a picnic, so option 1 is the worse one. This is a matter of custom and setting.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Eating with hands is out of place at a banquet but normal at a picnic, so option 1 is the worse one. This is a matter of custom and setting."
+  }
+ },
+ "m_o24": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"hitting a sibling harms another person; the pillow harms no one\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "hitting a sibling harms another person; the pillow harms no one"
+  }
+ },
+ "pr_o07": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"tomatoes need sun; the gardener's own goal of a good harvest\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "tomatoes need sun; the gardener's own goal of a good harvest"
+  }
+ },
+ "m_v13": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Beating him harms another person, while consoling him helps; Option 1 is very much worse.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Beating him harms another person, while consoling him helps; Option 1 is very much worse."
+  }
+ },
+ "m_p08": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"Punishing helping is unfair and discourages good behavior; punishing hitting is justified.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "Punishing helping is unfair and discourages good behavior; punishing hitting is justified."
+  }
+ },
+ "m_p24": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"Grading by surname is unfair and biased against the student; grading by arguments is fair. Some epistemic element, since the surname is irrelevant evidence of quality.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "Grading by surname is unfair and biased against the student; grading by arguments is fair. Some epistemic element, since the surname is irrelevant evidence of quality."
+  }
+ },
+ "m_o09": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Dumping oil at a creek harms the environment and other people. It is also illegal, so there is some risk to the doer. Option 2 is the proper disposal.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Dumping oil at a creek harms the environment and other people. It is also illegal, so there is some risk to the doer. Option 2 is the proper disposal."
+  }
+ },
+ "m_f11": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"consent after the fact violates the patient's rights; some risk to the doctor too\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "consent after the fact violates the patient's rights; some risk to the doctor too"
+  }
+ },
+ "d22": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes the state of a thing; no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes the state of a thing; no one's conduct is judged"
+  }
+ },
+ "m_p15": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"Promoting on looks is unfair to others and to her; promoting on results is fair and sensible for the business.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "Promoting on looks is unfair to others and to her; promoting on results is fair and sensible for the business."
+  }
+ },
+ "pr_o13": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Three minutes risks missing the connection, which hurts the traveler's own plans. Three hours is a safer choice, though a bit wasteful.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Three minutes risks missing the connection, which hurts the traveler's own plans. Three hours is a safer choice, though a bit wasteful."
+  }
+ },
+ "d23": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"state of a thing; no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "state of a thing; no one's conduct is judged"
+  }
+ },
+ "ae_o16": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"quality of an author's work\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "quality of an author's work"
+  }
+ },
+ "ae_o04": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 1, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"a soothing tone suits a lullaby; a piercing tone is a poor performance choice and may disturb a listener\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 1,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "a soothing tone suits a lullaby; a piercing tone is a poor performance choice and may disturb a listener"
+  }
+ },
+ "d15": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes the state of a thing; no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes the state of a thing; no one's conduct is judged"
+  }
+ },
+ "d34": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes the state of plants; nobody's conduct is judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes the state of plants; nobody's conduct is judged"
+  }
+ },
+ "pr_f05": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"protects the buyer's own money and safety; also somewhat better-informed decision\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "protects the buyer's own money and safety; also somewhat better-informed decision"
+  }
+ },
+ "pr_o08": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"mainly the payer's own finances (fees, credit score); slight duty to the creditor\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "mainly the payer's own finances (fees, credit score); slight duty to the creditor"
+  }
+ },
+ "m_p12": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Option 1 is unfair discrimination, and it is also illegal, which carries some risk for the employer. Option 2 is a legitimate reason for dismissal.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Option 1 is unfair discrimination, and it is also illegal, which carries some risk for the employer. Option 2 is a legitimate reason for dismissal."
+  }
+ },
+ "d29": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 1, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": true, \"comment\": \"Describes the state of a thing, not anyone's conduct. A park probably has better signal than a tunnel, but this is a guess.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 1,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": true,
+   "comment": "Describes the state of a thing, not anyone's conduct. A park probably has better signal than a tunnel, but this is a guess."
+  }
+ },
+ "m_o16": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"withholding meals harms the child; very much worse\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "withholding meals harms the child; very much worse"
+  }
+ },
+ "ae_f06": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"twelve typefaces is typically cluttered and poor design; judged work\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "twelve typefaces is typically cluttered and poor design; judged work"
+  }
+ },
+ "d06": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes the state of a thing; no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes the state of a thing; no one's conduct is judged"
+  }
+ },
+ "m_o23": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"starving one's children is severe harm and neglect of a duty to others\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "starving one's children is severe harm and neglect of a duty to others"
+  }
+ },
+ "ep_o04": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"satellite data is a far more reasonable basis for a forecast than tea leaves\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "satellite data is a far more reasonable basis for a forecast than tea leaves"
+  }
+ },
+ "m_f08": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"abandoning injured people is a serious harm and breach of duty; helping first is far better\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "abandoning injured people is a serious harm and breach of duty; helping first is far better"
+  }
+ },
+ "ep_p07": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"deduction is valid proof; repetition is not a proof, a reasoning failure\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "deduction is valid proof; repetition is not a proof, a reasoning failure"
+  }
+ },
+ "m_p26": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"theft harms others; rescuing a dog in danger is helpful\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "theft harms others; rescuing a dog in danger is helpful"
+  }
+ },
+ "pr_o09": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Fixing the roof immediately avoids further damage and cost to the owner. Assumes the roof is the actor's own.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Fixing the roof immediately avoids further damage and cost to the owner. Assumes the roof is the actor's own."
+  }
+ },
+ "m_v19": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"hitting a child harms her and punishes honesty; hugging is caring\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "hitting a child harms her and punishes honesty; hugging is caring"
+  }
+ },
+ "ae_o08": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 1, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 1, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"judged design choice; taste, a little about wedding custom\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 1,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 1,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "judged design choice; taste, a little about wedding custom"
+  }
+ },
+ "d44": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a thing's condition; no one's conduct is judged. Fiber is better than a damaged line.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a thing's condition; no one's conduct is judged. Fiber is better than a damaged line."
+  }
+ },
+ "m_p23": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"bribery is unfair and dishonest, harming other bidders and the public\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "bribery is unfair and dishonest, harming other bidders and the public"
+  }
+ },
+ "d21": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 1, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"a thing's condition; no one's conduct is judged. Rust and water pressure are only loosely linked, so the gap is small.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 1,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "a thing's condition; no one's conduct is judged. Rust and water pressure are only loosely linked, so the gap is small."
+  }
+ },
+ "m_p17": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"threatening voters violates their rights and fairness; very much worse\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "threatening voters violates their rights and fairness; very much worse"
+  }
+ },
+ "m_o17": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"exploitation of workers vs fair pay; harm and fairness to others\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "exploitation of workers vs fair pay; harm and fairness to others"
+  }
+ },
+ "m_p05": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Posing as a doctor to treat real patients is deceptive and dangerous to them. Playing doctor for children's entertainment is harmless.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Posing as a doctor to treat real patients is deceptive and dangerous to them. Playing doctor for children's entertainment is harmless."
+  }
+ },
+ "pr_p06": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"training serves the runner's own goal and health; watching videos is a poor way to prepare\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "training serves the runner's own goal and health; watching videos is a poor way to prepare"
+  }
+ },
+ "d28": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"state of a thing; no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "state of a thing; no one's conduct is judged"
+  }
+ },
+ "m_o02": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"dishonesty harms the neighbor and undermines justice; perjury also risks legal penalty for the doer\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "dishonesty harms the neighbor and undermines justice; perjury also risks legal penalty for the doer"
+  }
+ },
+ "m_v14": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Keeping the wallet deprives the owner of their property and is dishonest; reporting it is the right thing to do.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Keeping the wallet deprives the owner of their property and is dishonest; reporting it is the right thing to do."
+  }
+ },
+ "m_o20": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Advertising a fake cure deceives and harms vulnerable patients; advertising a proven cure helps them.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Advertising a fake cure deceives and harms vulnerable patients; advertising a proven cure helps them."
+  }
+ },
+ "m_o13": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"honesty toward the buyer; concealment is deceptive and can harm the buyer. Disclosure also protects the seller legally.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "honesty toward the buyer; concealment is deceptive and can harm the buyer. Disclosure also protects the seller legally."
+  }
+ },
+ "ep_v01": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"better reasoning and evidence-checking; slight honesty to audience and own credibility\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "better reasoning and evidence-checking; slight honesty to audience and own credibility"
+  }
+ },
+ "d12": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a state of a thing; no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a state of a thing; no one's conduct is judged"
+  }
+ },
+ "d04": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a state of a thing; no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a state of a thing; no one's conduct is judged"
+  }
+ },
+ "pr_v05": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Inspecting the tent serves the camper's own plans and comfort. Forgetting it undermines them. Mostly a matter of the doer's own interest.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Inspecting the tent serves the camper's own plans and comfort. Forgetting it undermines them. Mostly a matter of the doer's own interest."
+  }
+ },
+ "m_o15": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"drunk driving endangers the children on board; the driver's own risk and legal trouble matter less\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "drunk driving endangers the children on board; the driver's own risk and legal trouble matter less"
+  }
+ },
+ "ep_v06": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"Examining alternatives shows better reasoning; dismissing them is poor epistemic practice\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "Examining alternatives shows better reasoning; dismissing them is poor epistemic practice"
+  }
+ },
+ "m_p21": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"lying harms colleagues and is unfair and dishonest; also risky for the doer\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "lying harms colleagues and is unfair and dishonest; also risky for the doer"
+  }
+ },
+ "m_f10": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Option 1 goes against his wishes, which is a consent and honesty violation and possibly theft. Option 2 has his consent. The doer risks some trouble in Option 1.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Option 1 goes against his wishes, which is a consent and honesty violation and possibly theft. Option 2 has his consent. The doer risks some trouble in Option 1."
+  }
+ },
+ "pr_o14": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own risk of losing the passport; Option 1 is worse\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own risk of losing the passport; Option 1 is worse"
+  }
+ },
+ "pr_f07": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own preparedness and safety; being stranded is a risk mainly to the driver\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own preparedness and safety; being stranded is a risk mainly to the driver"
+  }
+ },
+ "et_v05": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Talking breaks concert custom and disturbs others' enjoyment; mainly etiquette.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Talking breaks concert custom and disturbs others' enjoyment; mainly etiquette."
+  }
+ },
+ "ae_o07": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 1, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"quality of the poet's work; a modest gap\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 1,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "quality of the poet's work; a modest gap"
+  }
+ },
+ "ae_o10": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 1, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"quality of the painter's work; subtle transitions are better\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 1,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "quality of the painter's work; subtle transitions are better"
+  }
+ },
+ "m_p19": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Buying a thesis is dishonest and unfair to others who earn their degrees; it also risks the buyer's own penalties.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Buying a thesis is dishonest and unfair to others who earn their degrees; it also risks the buyer's own penalties."
+  }
+ },
+ "m_o04": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"plagiarism is dishonest and unfair to other applicants and the essay's author; it also risks the doer's own disqualification\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "plagiarism is dishonest and unfair to other applicants and the essay's author; it also risks the doer's own disqualification"
+  }
+ },
+ "m_f17": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Tax evasion is dishonest and unfair to others, and it also risks penalties for the person doing it.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Tax evasion is dishonest and unfair to others, and it also risks penalties for the person doing it."
+  }
+ },
+ "et_f07": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"table manners; chewing with the mouth open is impolite\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "table manners; chewing with the mouth open is impolite"
+  }
+ },
+ "pr_f01": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"reading first protects the signer's own interests; reading afterward is too late to inform the decision\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "reading first protects the signer's own interests; reading afterward is too late to inform the decision"
+  }
+ },
+ "m_f07": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 1, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Option 1 is the worse one. Taking credit without acknowledgment is dishonest and unfair to the coworker.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Option 1 is the worse one. Taking credit without acknowledgment is dishonest and unfair to the coworker."
+  }
+ },
+ "et_o09": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 1, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 1, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Option 1 is the worse one: a grunt is rude and unprofessional, and mostly a manners issue, with a slight cost to the doer's own image.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 1,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Option 1 is the worse one: a grunt is rude and unprofessional, and mostly a manners issue, with a slight cost to the doer's own image."
+  }
+ },
+ "m_v07": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"honesty and fairness; keeping the money takes from the cashier or store\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "honesty and fairness; keeping the money takes from the cashier or store"
+  }
+ },
+ "d25": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"a compact car typically has better fuel economy; this describes a thing's state, with no one's conduct judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "a compact car typically has better fuel economy; this describes a thing's state, with no one's conduct judged"
+  }
+ },
+ "et_p09": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Loud singing in a cathedral breaks the expected conduct and disturbs the setting; the shower is the fitting place.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Loud singing in a cathedral breaks the expected conduct and disturbs the setting; the shower is the fitting place."
+  }
+ },
+ "pr_f08": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"researching serves the negotiator's own financial interest; slight element of being informed\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "researching serves the negotiator's own financial interest; slight element of being informed"
+  }
+ },
+ "pr_o06": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own comfort and performance; a huge meal before a long run is unwise\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own comfort and performance; a huge meal before a long run is unwise"
+  }
+ },
+ "d14": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"state of a thing; no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "state of a thing; no one's conduct is judged"
+  }
+ },
+ "ae_v01": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Polishing makes the silverware look better for the photo, so it is the better choice. Smudging is a worse result for the doer's own goal, so prudential gets a small rating.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Polishing makes the silverware look better for the photo, so it is the better choice. Smudging is a worse result for the doer's own goal, so prudential gets a small rating."
+  }
+ },
+ "pr_p07": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"gambling is a poor way to build savings; harms the doer's own financial future\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "gambling is a poor way to build savings; harms the doer's own financial future"
+  }
+ },
+ "et_o05": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"breach of table manners at a formal dinner\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "breach of table manners at a formal dinner"
+  }
+ },
+ "pr_v11": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"greasing the ladder endangers the climber's own safety; nobody else is clearly affected\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "greasing the ladder endangers the climber's own safety; nobody else is clearly affected"
+  }
+ },
+ "d35": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a property of a thing; no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a property of a thing; no one's conduct is judged"
+  }
+ },
+ "m_o12": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Option 1 is worse: filthy kennels harm the dogs' welfare. Own interest (reputation, legal risk) matters only slightly.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Option 1 is worse: filthy kennels harm the dogs' welfare. Own interest (reputation, legal risk) matters only slightly."
+  }
+ },
+ "d40": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"state of a thing; no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "state of a thing; no one's conduct is judged"
+  }
+ },
+ "m_v16": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Misleading the police is dishonest and harms others by obstructing justice. It may also expose the doer to legal risk.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Misleading the police is dishonest and harms others by obstructing justice. It may also expose the doer to legal risk."
+  }
+ },
+ "pr_p04": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"Choosing by fit serves the runner's own comfort and injury avoidance; choosing by logo is a poorer basis for the decision.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "Choosing by fit serves the runner's own comfort and injury avoidance; choosing by logo is a poorer basis for the decision."
+  }
+ },
+ "d07": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a condition of the air; no one's conduct is judged. Option 1 (smoky) is the worse one, so Option 2 is better.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a condition of the air; no one's conduct is judged. Option 1 (smoky) is the worse one, so Option 2 is better."
+  }
+ },
+ "d19": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"state of a thing; no one's conduct is judged. Option 2 has a typo ('an month').\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "state of a thing; no one's conduct is judged. Option 2 has a typo ('an month')."
+  }
+ },
+ "m_v15": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"refusing water endangers the family's lives; delivering it helps them; very much worse\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "refusing water endangers the family's lives; delivering it helps them; very much worse"
+  }
+ },
+ "ae_o13": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 1, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"quality of craftsmanship; rough could be intentional style, so the gap is small\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 1,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "quality of craftsmanship; rough could be intentional style, so the gap is small"
+  }
+ },
+ "et_p01": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 1, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"custom fits Japan; a handshake is more usual in Texas, though bowing there is only a mild oddity\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 1,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "custom fits Japan; a handshake is more usual in Texas, though bowing there is only a mild oddity"
+  }
+ },
+ "et_p02": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 1, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"custom differs by setting; slurping is rude in Paris, acceptable in Tokyo\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 1,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "custom differs by setting; slurping is rude in Paris, acceptable in Tokyo"
+  }
+ },
+ "d09": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"Reviews of a celebrated musical are better than reviews of a disastrous one. This describes a state of affairs, and nobody's conduct is compared.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "Reviews of a celebrated musical are better than reviews of a disastrous one. This describes a state of affairs, and nobody's conduct is compared."
+  }
+ },
+ "m_p03": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 1, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"motive of helping vs. humiliating a coworker; harm and kindness to another person\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "motive of helping vs. humiliating a coworker; harm and kindness to another person"
+  }
+ },
+ "pr_p03": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"Wallpaper is easy to change, so it is an unwise reason to buy; location is a sensible reason that serves the buyer's own interests.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "Wallpaper is easy to change, so it is an unwise reason to buy; location is a sensible reason that serves the buyer's own interests."
+  }
+ },
+ "m_o07": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"A staged burglary report is a false report: dishonest, wastes police resources, likely fraud. The doer also risks legal trouble.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "A staged burglary report is a false report: dishonest, wastes police resources, likely fraud. The doer also risks legal trouble."
+  }
+ },
+ "m_f12": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"A warning given after the demolition is useless and puts residents at risk. It also lacks consent and honesty toward them. The doer faces some legal risk, which is why prudential is 1.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "A warning given after the demolition is useless and puts residents at risk. It also lacks consent and honesty toward them. The doer faces some legal risk, which is why prudential is 1."
+  }
+ },
+ "ae_v03": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"arranging implies deliberate, well-designed display; scattering implies careless, haphazard placement\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "arranging implies deliberate, well-designed display; scattering implies careless, haphazard placement"
+  }
+ },
+ "et_o04": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 1, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 1, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Kind regards is the more appropriate business sign-off; See ya is too casual. It is a small etiquette slip that could slightly affect how the sender is perceived.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 1,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Kind regards is the more appropriate business sign-off; See ya is too casual. It is a small etiquette slip that could slightly affect how the sender is perceived."
+  }
+ },
+ "m_p16": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Ending a dog's life to relieve suffering is defensible; doing it over shedding is cruel and harms the animal.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Ending a dog's life to relieve suffering is defensible; doing it over shedding is cruel and harms the animal."
+  }
+ },
+ "m_f09": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 1, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Parking without a permit takes a space from people who need it, which is unfair and can harm them. It also risks a fine, and it breaks a rule of the setting.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Parking without a permit takes a space from people who need it, which is unfair and can harm them. It also risks a fine, and it breaks a rule of the setting."
+  }
+ },
+ "m_v06": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"helping vs abandoning an injured person; harm to another\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "helping vs abandoning an injured person; harm to another"
+  }
+ },
+ "m_v03": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"tripping harms the man; aiding helps him\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "tripping harms the man; aiding helps him"
+  }
+ },
+ "m_o06": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"tax fraud is dishonest and harms others; it also risks penalties for the doer\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "tax fraud is dishonest and harms others; it also risks penalties for the doer"
+  }
+ },
+ "m_f04": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"consent and privacy violation; harms the friend's rights\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "consent and privacy violation; harms the friend's rights"
+  }
+ },
+ "m_v23": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Checking votes supports a fair election. Buying votes is dishonest and unfair to others. The doer also risks punishment, so prudential is slight.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Checking votes supports a fair election. Buying votes is dishonest and unfair to others. The doer also risks punishment, so prudential is slight."
+  }
+ },
+ "m_f18": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 1, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"entering without notice violates the tenant's rights and privacy; it can also cause legal trouble for the landlord\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "entering without notice violates the tenant's rights and privacy; it can also cause legal trouble for the landlord"
+  }
+ },
+ "m_v05": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 1, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"shaming harms the classmate; welcoming is kind and considerate\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "shaming harms the classmate; welcoming is kind and considerate"
+  }
+ },
+ "m_p28": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Selling it is theft that harms the colleague. Repairing it is well-intentioned, though it may still need consent.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Selling it is theft that harms the colleague. Repairing it is well-intentioned, though it may still need consent."
+  }
+ },
+ "ae_f02": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"quality of performance; playing off the beat is clearly worse\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "quality of performance; playing off the beat is clearly worse"
+  }
+ },
+ "m_p18": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"doping is cheating: unfair to competitors, breaks rules, and risks the doer's health\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "doping is cheating: unfair to competitors, breaks rules, and risks the doer's health"
+  }
+ },
+ "ae_f03": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 1, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"framing a photo is a piece of work; cutting off the head is usually a composition flaw, though it can be deliberate\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 1,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "framing a photo is a piece of work; cutting off the head is usually a composition flaw, though it can be deliberate"
+  }
+ },
+ "m_v01": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 1, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"mocking harms the child; comforting helps. Kindness also touches on manners, but the moral difference dominates.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "mocking harms the child; comforting helps. Kindness also touches on manners, but the moral difference dominates."
+  }
+ },
+ "ep_p01": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"Judging by predictions is better reasoning than judging by popularity; the difference is about evidence.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "Judging by predictions is better reasoning than judging by popularity; the difference is about evidence."
+  }
+ },
+ "d16": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes the state of a place; no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes the state of a place; no one's conduct is judged"
+  }
+ },
+ "pr_o12": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own comfort and health; sensible planning\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own comfort and health; sensible planning"
+  }
+ },
+ "m_v17": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Option 1 leaves someone to drown, so it is very much worse; this is about harm to and duty toward another person.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Option 1 leaves someone to drown, so it is very much worse; this is about harm to and duty toward another person."
+  }
+ },
+ "d03": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes the state of a thing; no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes the state of a thing; no one's conduct is judged"
+  }
+ },
+ "pr_f06": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own safety and convenience; going unprepared is the worse choice\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own safety and convenience; going unprepared is the worse choice"
+  }
+ },
+ "et_o13": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 1, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"a small politeness slip; mild consideration for the waiter\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 1,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "a small politeness slip; mild consideration for the waiter"
+  }
+ },
+ "m_f01": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 1, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"consent and privacy; violating her privacy is clearly worse\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "consent and privacy; violating her privacy is clearly worse"
+  }
+ },
+ "pr_p08": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 2, \"unclear\": false, \"comment\": \"removing malware addresses the likely cause; hitting is ineffective and could damage the computer, so it is a poor method and shows worse reasoning\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 2,
+   "unclear": false,
+   "comment": "removing malware addresses the likely cause; hitting is ineffective and could damage the computer, so it is a poor method and shows worse reasoning"
+  }
+ },
+ "et_f02": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"breach of wedding custom; mostly manners, not harmful\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "breach of wedding custom; mostly manners, not harmful"
+  }
+ },
+ "ep_f03": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"replication gives better evidence for the claim; skipping it is poorer reasoning and slightly irresponsible toward others\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "replication gives better evidence for the claim; skipping it is poorer reasoning and slightly irresponsible toward others"
+  }
+ },
+ "m_v11": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 1, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Shoving risks harming a vulnerable person, while guiding helps them; manners are a minor factor.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Shoving risks harming a vulnerable person, while guiding helps them; manners are a minor factor."
+  }
+ },
+ "pr_f12": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own finances; overspending is clearly worse for the person's own long-term interests\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own finances; overspending is clearly worse for the person's own long-term interests"
+  }
+ },
+ "pr_o11": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own goals and plans; studying a minute before the exam is pointless\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own goals and plans; studying a minute before the exam is pointless"
+  }
+ },
+ "d24": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes the state of a photo; no one's conduct is judged, though darkness usually gives lower quality\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes the state of a photo; no one's conduct is judged, though darkness usually gives lower quality"
+  }
+ },
+ "pr_p02": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"choosing by programs serves the chooser's own goals and education; mascot is a poor basis for the decision\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "choosing by programs serves the chooser's own goals and education; mascot is a poor basis for the decision"
+  }
+ },
+ "pr_v09": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Removing the batteries disables the detector, endangering the doer and others in the home. Own safety is the main concern; others' safety is a lesser one.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Removing the batteries disables the detector, endangering the doer and others in the home. Own safety is the main concern; others' safety is a lesser one."
+  }
+ },
+ "pr_f10": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own risk of missing the flight; setting an alarm is the wiser choice\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own risk of missing the flight; setting an alarm is the wiser choice"
+  }
+ },
+ "et_o11": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 2, \"etiquette\": 3, \"aesthetic\": 1, \"epistemic\": 0, \"unclear\": false, \"comment\": \"violates norms of a formal setting; also hurts the writer's own chances\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 2,
+   "etiquette": 3,
+   "aesthetic": 1,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "violates norms of a formal setting; also hurts the writer's own chances"
+  }
+ },
+ "m_v12": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"robbing harms and exploits the tourist; helping is kind\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "robbing harms and exploits the tourist; helping is kind"
+  }
+ },
+ "ep_v04": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"Updating on strong evidence is better reasoning; ignoring it is clearly worse.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "Updating on strong evidence is better reasoning; ignoring it is clearly worse."
+  }
+ },
+ "d38": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes the state of a thing; no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes the state of a thing; no one's conduct is judged"
+  }
+ },
+ "ae_f05": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"quality of the artist's work; proportion is a craft matter\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "quality of the artist's work; proportion is a craft matter"
+  }
+ },
+ "pr_f03": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 1, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"checking before planning is wiser for the planner's own goals; a small gap, since the picnic can still be adjusted\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 1,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "checking before planning is wiser for the planner's own goals; a small gap, since the picnic can still be adjusted"
+  }
+ },
+ "et_p06": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 1, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"dress code fits the setting at the party, not at a business meeting; may cost the wearer some credibility\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "dress code fits the setting at the party, not at a business meeting; may cost the wearer some credibility"
+  }
+ },
+ "d20": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"a condition, not anyone's conduct\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "a condition, not anyone's conduct"
+  }
+ },
+ "m_p25": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"rescuing a child vs. abandoning duty for self-interest; harm to others at stake, and some risk to the lifeguard's own job\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "rescuing a child vs. abandoning duty for self-interest; harm to others at stake, and some risk to the lifeguard's own job"
+  }
+ },
+ "m_o21": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"honesty and help versus harm to the driver; misleading directions are deceptive and unhelpful\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "honesty and help versus harm to the driver; misleading directions are deceptive and unhelpful"
+  }
+ },
+ "ae_o12": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 1, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"quality of performance; a small gap\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 1,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "quality of performance; a small gap"
+  }
+ },
+ "m_p10": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"expelling for smiling is unfair and disproportionate punishment; cheating is a legitimate reason\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "expelling for smiling is unfair and disproportionate punishment; cheating is a legitimate reason"
+  }
+ },
+ "d32": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a thing's state (flavor); nobody's conduct is judged. Roasted beans taste better than stale ones.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a thing's state (flavor); nobody's conduct is judged. Roasted beans taste better than stale ones."
+  }
+ },
+ "pr_o05": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Milk left in a cupboard overnight may spoil, which mainly affects the health and interests of the person storing it. Others in the household are affected slightly, so I rated moral as 0.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Milk left in a cupboard overnight may spoil, which mainly affects the health and interests of the person storing it. Others in the household are affected slightly, so I rated moral as 0."
+  }
+ },
+ "ae_o03": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 1, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"quality of the plating work; a small gap\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 1,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "quality of the plating work; a small gap"
+  }
+ },
+ "m_p02": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Blackmail harms and exploits the child; protecting her is a legitimate aim, though still privacy-intrusive.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Blackmail harms and exploits the child; protecting her is a legitimate aim, though still privacy-intrusive."
+  }
+ },
+ "m_o03": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Fake reviews are dishonest and harm the rival and consumers; there is also some risk to the poster.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Fake reviews are dishonest and harm the rival and consumers; there is also some risk to the poster."
+  }
+ },
+ "ep_p03": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"Accepting a theory against the evidence is poor reasoning; accepting it on the evidence is good reasoning.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "Accepting a theory against the evidence is poor reasoning; accepting it on the evidence is good reasoning."
+  }
+ },
+ "pr_o10": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"preparing helps the doer's own performance; 'practicing never' is awkward wording but understandable\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "preparing helps the doer's own performance; 'practicing never' is awkward wording but understandable"
+  }
+ },
+ "m_f16": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"false alarm endangers others and is dishonest; warning of a real fire helps others\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "false alarm endangers others and is dishonest; warning of a real fire helps others"
+  }
+ },
+ "pr_v02": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"measuring avoids costly errors with custom curtains; mainly the doer's own money and plans\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "measuring avoids costly errors with custom curtains; mainly the doer's own money and plans"
+  }
+ },
+ "m_v10": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"breaking a promise to a sick relative lets down someone who depends on you; duty and honesty to others\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "breaking a promise to a sick relative lets down someone who depends on you; duty and honesty to others"
+  }
+ },
+ "ep_o07": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"relying on a credible source is better reasoning than relying on a confused one\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "relying on a credible source is better reasoning than relying on a confused one"
+  }
+ },
+ "pr_p09": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"Opening the windows lets cooler night air in, so it works; sealing them defeats the goal. The difference is mainly a matter of the doer's own comfort and sensible method.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "Opening the windows lets cooler night air in, so it works; sealing them defeats the goal. The difference is mainly a matter of the doer's own comfort and sensible method."
+  }
+ },
+ "d30": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"state of the snow only; nobody's conduct is judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "state of the snow only; nobody's conduct is judged"
+  }
+ },
+ "m_v09": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Looting steals from vulnerable children and is dishonest; guarding protects them. Very much worse.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Looting steals from vulnerable children and is dishonest; guarding protects them. Very much worse."
+  }
+ },
+ "et_o06": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"table manners; napkin on head violates custom\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "table manners; napkin on head violates custom"
+  }
+ },
+ "et_f06": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 1, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Interrupting a speaker is a breach of manners. Asking after they finish is the polite norm. Some settings allow interruptions, so the gap is small.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 1,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Interrupting a speaker is a breach of manners. Asking after they finish is the polite norm. Some settings allow interruptions, so the gap is small."
+  }
+ },
+ "ep_f08": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"trusting a sourced entry is better reasoned; the person's belief is being judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "trusting a sourced entry is better reasoned; the person's belief is being judged"
+  }
+ },
+ "pr_o01": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 1, \"epistemic\": 0, \"unclear\": false, \"comment\": \"choice of tool: a dull saw is harder and riskier for the user and gives poorer work\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 1,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "choice of tool: a dull saw is harder and riskier for the user and gives poorer work"
+  }
+ },
+ "m_o08": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"leaving a baby alone in a car risks serious harm to the child (duty of care); the crib is normal and safe\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "leaving a baby alone in a car risks serious harm to the child (duty of care); the crib is normal and safe"
+  }
+ },
+ "ep_p08": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"clinical trials are far better evidence than ads; the reasoning is judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "clinical trials are far better evidence than ads; the reasoning is judged"
+  }
+ },
+ "m_f13": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"underpaying is unfair to workers and illegal; the employer also risks penalties\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "underpaying is unfair to workers and illegal; the employer also risks penalties"
+  }
+ },
+ "ep_v05": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"confirming rests on evidence; merely believing is weaker grounds for announcing. Some honesty and duty to others in what gets announced.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "confirming rests on evidence; merely believing is weaker grounds for announcing. Some honesty and duty to others in what gets announced."
+  }
+ },
+ "ae_p05": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 1, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"quality of presentation work; a modest gap\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 1,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "quality of presentation work; a modest gap"
+  }
+ },
+ "pr_o03": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 1, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Painting in rain wastes effort and materials and gives a poor result; mostly the doer's own interest, with some effect on the quality of the work.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 1,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Painting in rain wastes effort and materials and gives a poor result; mostly the doer's own interest, with some effect on the quality of the work."
+  }
+ },
+ "pr_f09": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 1, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"reading the instructions serves the assembler's own goals: fewer mistakes, less wasted effort\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 1,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "reading the instructions serves the assembler's own goals: fewer mistakes, less wasted effort"
+  }
+ },
+ "et_p07": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 1, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Dancing on tables in a library breaks setting norms and disturbs others, while at a carnival it fits the occasion. It is mostly a matter of etiquette.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Dancing on tables in a library breaks setting norms and disturbs others, while at a carnival it fits the occasion. It is mostly a matter of etiquette."
+  }
+ },
+ "pr_o02": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 1, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Expired yeast risks a failed loaf, which is a cost to the baker's own goal and to the quality of the work. Nobody else is harmed.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 1,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Expired yeast risks a failed loaf, which is a cost to the baker's own goal and to the quality of the work. Nobody else is harmed."
+  }
+ },
+ "pr_p01": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"Choosing by usage serves your own money and needs; choosing by mood is a poor basis for the choice. Mainly prudential, with a little reasoning quality.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "Choosing by usage serves your own money and needs; choosing by mood is a poor basis for the choice. Mainly prudential, with a little reasoning quality."
+  }
+ },
+ "ae_p06": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 1, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"graceful vs uneven shape is a matter of the quality of the pruner's work; small gap. Option 2 also has a minor grammar slip ('a uneven').\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 1,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "graceful vs uneven shape is a matter of the quality of the pruner's work; small gap. Option 2 also has a minor grammar slip ('a uneven')."
+  }
+ },
+ "ep_f02": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"Leaving out the margin of error is a reporting and reasoning flaw. It also gives the audience a slightly misleading impression of precision.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "Leaving out the margin of error is a reporting and reasoning flaw. It also gives the audience a slightly misleading impression of precision."
+  }
+ },
+ "m_v02": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"kicking harms the animal; cruelty. Small prudential element (risk of being bitten).\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "kicking harms the animal; cruelty. Small prudential element (risk of being bitten)."
+  }
+ },
+ "m_f02": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 1, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"consent and rights of the neighbor; borrowing without consent is a violation, and also risky for the doer\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "consent and rights of the neighbor; borrowing without consent is a violation, and also risky for the doer"
+  }
+ },
+ "d31": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes the state of a car; no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes the state of a car; no one's conduct is judged"
+  }
+ },
+ "d26": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes the state of a thing; the serviced engine is more reliable\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes the state of a thing; the serviced engine is more reliable"
+  }
+ },
+ "m_o22": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"malicious letter is dishonest and harms the former employee; truthful one is fair and honest\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "malicious letter is dishonest and harms the former employee; truthful one is fair and honest"
+  }
+ },
+ "ep_o06": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"a control group gives better evidence than a gut feeling; this is about reasoning\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "a control group gives better evidence than a gut feeling; this is about reasoning"
+  }
+ },
+ "d02": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"a state of a thing; nobody's conduct is judged. A tower view is usually better than a basement view.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "a state of a thing; nobody's conduct is judged. A tower view is usually better than a basement view."
+  }
+ },
+ "m_v22": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Covering a sleeping homeless man helps him; soaking him harms and degrades him, so Option 2 is much worse.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Covering a sleeping homeless man helps him; soaking him harms and degrades him, so Option 2 is much worse."
+  }
+ },
+ "et_f03": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 1, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"host etiquette: guests are served first; a minor slip if reversed\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 1,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "host etiquette: guests are served first; a minor slip if reversed"
+  }
+ },
+ "m_o01": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"harm to minors and illegal; seller also risks penalties\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "harm to minors and illegal; seller also risks penalties"
+  }
+ },
+ "d17": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes the state of a thing; a concert hall's acoustics are far better for sound quality\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes the state of a thing; a concert hall's acoustics are far better for sound quality"
+  }
+ },
+ "pr_v08": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"protects one's own accounts; mainly self-interest\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "protects one's own accounts; mainly self-interest"
+  }
+ },
+ "m_o10": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"overcharging tourists is unfair and dishonest toward them; normal prices are fair\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "overcharging tourists is unfair and dishonest toward them; normal prices are fair"
+  }
+ },
+ "m_f15": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Treating the sickest last endangers the most vulnerable patients and is unfair to them; the difference is mainly about harm to others.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Treating the sickest last endangers the most vulnerable patients and is unfair to them; the difference is mainly about harm to others."
+  }
+ },
+ "ae_p02": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"quality of the mixing work; clear vocals are better\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "quality of the mixing work; clear vocals are better"
+  }
+ },
+ "ae_p03": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"photographer's lighting work is judged; harsh lighting is usually unflattering, though it can be a deliberate style\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "photographer's lighting work is judged; harsh lighting is usually unflattering, though it can be a deliberate style"
+  }
+ },
+ "et_f10": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 1, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"manners; covering the mouth is polite, a small slip if not\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 1,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "manners; covering the mouth is polite, a small slip if not"
+  }
+ },
+ "ep_p02": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"Rejecting an argument because of its author is an ad hominem move and poor reasoning. Rejecting it because of its flaws is sound. There is a slight fairness element toward the author.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "Rejecting an argument because of its author is an ad hominem move and poor reasoning. Rejecting it because of its flaws is sound. There is a slight fairness element toward the author."
+  }
+ },
+ "d01": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a condition; steady rain generally gives a better harvest than severe drought, no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a condition; steady rain generally gives a better harvest than severe drought, no one's conduct is judged"
+  }
+ },
+ "ae_f04": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 1, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"a sonnet is expected to keep a metrical pattern, so this is about the quality of the craft; the gap is small since breaking the meter can be deliberate\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 1,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "a sonnet is expected to keep a metrical pattern, so this is about the quality of the craft; the gap is small since breaking the meter can be deliberate"
+  }
+ },
+ "m_o11": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 1, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"crushing interest exploits a friend and harms them; the zero-interest loan is generous and fair\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "crushing interest exploits a friend and harms them; the zero-interest loan is generous and fair"
+  }
+ },
+ "et_o10": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"politeness and respect; calling a professor 'buddy' is a breach of formal address norms\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "politeness and respect; calling a professor 'buddy' is a breach of formal address norms"
+  }
+ },
+ "ep_v02": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"Checking is better reasoning and better practice; ignoring risks errors in what is built on it.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "Checking is better reasoning and better practice; ignoring risks errors in what is built on it."
+  }
+ },
+ "m_f05": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"honesty toward the buyer; concealing defects is deceptive and may risk the seller legally\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "honesty toward the buyer; concealing defects is deceptive and may risk the seller legally"
+  }
+ },
+ "ep_o09": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"better evidence and reasoning; citing a flawed study weakens the argument\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "better evidence and reasoning; citing a flawed study weakens the argument"
+  }
+ },
+ "m_f14": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Honoring donors' intent and helping victims versus withholding aid; a breach of duty and honesty.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Honoring donors' intent and helping victims versus withholding aid; a breach of duty and honesty."
+  }
+ },
+ "pr_v01": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"budgeting protects the person's own finances; guessing is careless, with a slight reasoning aspect\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "budgeting protects the person's own finances; guessing is careless, with a slight reasoning aspect"
+  }
+ },
+ "m_v04": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 1, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"slapping harms the nurse and is assault; praising is kind and appropriate\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "slapping harms the nurse and is assault; praising is kind and appropriate"
+  }
+ },
+ "ep_f04": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"checking the source gives better grounds for belief\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "checking the source gives better grounds for belief"
+  }
+ },
+ "m_p22": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 1, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"humiliating children harms them; encouraging is kind and fair\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "humiliating children harms them; encouraging is kind and fair"
+  }
+ },
+ "d36": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a condition (sleep quality on a mattress); no one's conduct is judged. Firm is generally better than worn, though it depends on preference.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a condition (sleep quality on a mattress); no one's conduct is judged. Firm is generally better than worn, though it depends on preference."
+  }
+ },
+ "m_f06": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"consent and rights of patients; very much worse without consent\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "consent and rights of patients; very much worse without consent"
+  }
+ },
+ "et_o14": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"bringing trash as a gift is a clear breach of custom and disrespects the host; wine is the expected gesture\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "bringing trash as a gift is a clear breach of custom and disrespects the host; wine is the expected gesture"
+  }
+ },
+ "d42": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a state of a thing; nobody's conduct is judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a state of a thing; nobody's conduct is judged"
+  }
+ },
+ "et_v06": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 1, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"courtroom custom and respect; talking may also bring a reprimand\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "courtroom custom and respect; talking may also bring a reprimand"
+  }
+ },
+ "m_p14": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"gender-based rejection is unfair discrimination; grades are a legitimate criterion\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "gender-based rejection is unfair discrimination; grades are a legitimate criterion"
+  }
+ },
+ "m_p11": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"Fining someone for singing is unfair and unjustified, while fining for speeding is legitimate. The difference is mainly about fairness to the driver, with a slight element of sensible grounds for the penalty.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "Fining someone for singing is unfair and unjustified, while fining for speeding is legitimate. The difference is mainly about fairness to the driver, with a slight element of sensible grounds for the penalty."
+  }
+ },
+ "et_p05": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Option 1 is the worse one: cheering at a funeral breaks custom and is disrespectful to mourners, while cheering at a stadium is normal.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Option 1 is the worse one: cheering at a funeral breaks custom and is disrespectful to mourners, while cheering at a stadium is normal."
+  }
+ },
+ "m_o14": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Option 1 misuses company funds, which is dishonest and unfair to the employer, and it risks the person's own job; a client dinner is a legitimate business use.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Option 1 misuses company funds, which is dishonest and unfair to the employer, and it risks the person's own job; a client dinner is a legitimate business use."
+  }
+ },
+ "ep_p04": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"Several sources are better evidence than one stranger, so Option 2 shows better reasoning.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "Several sources are better evidence than one stranger, so Option 2 shows better reasoning."
+  }
+ },
+ "ep_o01": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"a conclusion from a tiny trial is weaker evidence; slight moral aspect if others are affected\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "a conclusion from a tiny trial is weaker evidence; slight moral aspect if others are affected"
+  }
+ },
+ "ep_f05": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"better reasoning to hear both sides first; slight fairness aspect\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "better reasoning to hear both sides first; slight fairness aspect"
+  }
+ },
+ "m_p07": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"A prank call wastes emergency resources and may endanger people who need help, while calling for a collapsed stranger helps them.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "A prank call wastes emergency resources and may endanger people who need help, while calling for a collapsed stranger helps them."
+  }
+ },
+ "ae_v04": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"quality of craftsmanship; smearing implies sloppy work\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "quality of craftsmanship; smearing implies sloppy work"
+  }
+ },
+ "ae_p04": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 1, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"quality of the design work; a spacious feel is the better result\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 1,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "quality of the design work; a spacious feel is the better result"
+  }
+ },
+ "m_p01": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Both reveal a secret, but embarrassing her is malicious, while protecting her is well-intentioned and may be justified.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Both reveal a secret, but embarrassing her is malicious, while protecting her is well-intentioned and may be justified."
+  }
+ },
+ "pr_o04": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"boiling water shrinks and ruins the sweater, which is the doer's own loss; 'cold' is the sensible choice\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "boiling water shrinks and ruins the sweater, which is the doer's own loss; 'cold' is the sensible choice"
+  }
+ },
+ "m_v21": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 1, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Teasing a working guide dog can endanger and distress the owner and the dog; respecting it is clearly better.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Teasing a working guide dog can endanger and distress the owner and the dog; respecting it is clearly better."
+  }
+ },
+ "pr_v07": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own safety and plans; some risk to rescuers is minor\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own safety and plans; some risk to rescuers is minor"
+  }
+ },
+ "d39": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes the state of a thing; no one's conduct is judged. Spring water is clearer.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes the state of a thing; no one's conduct is judged. Spring water is clearer."
+  }
+ },
+ "d18": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"state of a thing; nobody's conduct is judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "state of a thing; nobody's conduct is judged"
+  }
+ },
+ "m_p06": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 1, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"saving a life is justified; misusing the brake to skip a stop disrupts and endangers other passengers\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "saving a life is justified; misusing the brake to skip a stop disrupts and endangers other passengers"
+  }
+ },
+ "pr_f11": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Never saving risks losing one's own work; Option 1 is worse.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Never saving risks losing one's own work; Option 1 is worse."
+  }
+ },
+ "ep_p09": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"Past data is a sound basis for a forecast; lucky numbers are not. This is a difference in reasoning.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "Past data is a sound basis for a forecast; lucky numbers are not. This is a difference in reasoning."
+  }
+ },
+ "m_o19": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Selling a forgery as genuine is fraud that deceives and cheats the buyer; the doer also risks legal trouble.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Selling a forgery as genuine is fraud that deceives and cheats the buyer; the doer also risks legal trouble."
+  }
+ },
+ "m_p13": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"religious discrimination is unfair; refusing a violent customer protects others and staff\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "religious discrimination is unfair; refusing a violent customer protects others and staff"
+  }
+ },
+ "d33": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a property of a thing; no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a property of a thing; no one's conduct is judged"
+  }
+ },
+ "m_v08": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"honesty and safety of others; denial also risks legal and business consequences for the doer\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "honesty and safety of others; denial also risks legal and business consequences for the doer"
+  }
+ },
+ "ae_v02": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 1, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"hacking implies crude, careless work; trimming is skilled care. Fits a historic property.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 1,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "hacking implies crude, careless work; trimming is skilled care. Fits a historic property."
+  }
+ },
+ "d37": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"only the state of the fruit is described; fruit stored a year is usually spoiled, though some fruit could keep (dried, for example)\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "only the state of the fruit is described; fruit stored a year is usually spoiled, though some fruit could keep (dried, for example)"
+  }
+ },
+ "d43": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes the state of a thing (taste); no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes the state of a thing (taste); no one's conduct is judged"
+  }
+ },
+ "ae_p01": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"choice of rug judged on taste and design; mostly aesthetic\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "choice of rug judged on taste and design; mostly aesthetic"
+  }
+ },
+ "pr_f04": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 1, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 1, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Sharpening first makes the carving easier, safer and neater; sharpening after is a smaller, practical slip.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 1,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 1,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Sharpening first makes the carving easier, safer and neater; sharpening after is a smaller, practical slip."
+  }
+ },
+ "m_p27": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 1, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Option 2 intends to frighten and harm the child, while option 1 aims to warn her.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Option 2 intends to frighten and harm the child, while option 1 aims to warn her."
+  }
+ },
+ "d11": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes the state of the lake; no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes the state of the lake; no one's conduct is judged"
+  }
+ },
+ "m_o18": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"serving rotten food harms customers; also risks the restaurant's own interests\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "serving rotten food harms customers; also risks the restaurant's own interests"
+  }
+ },
+ "ae_o01": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"photographer's technical and artistic quality; sharp eyes are the standard for portraits\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "photographer's technical and artistic quality; sharp eyes are the standard for portraits"
+  }
+ },
+ "pr_p05": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"Wishing doesn't achieve the doer's own goal; practicing does. Slight reasoning element about what works.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "Wishing doesn't achieve the doer's own goal; practicing does. Slight reasoning element about what works."
+  }
+ },
+ "et_v04": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Answering disturbs other audience members and the performers; mainly a breach of etiquette, with some consideration for others.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Answering disturbs other audience members and the performers; mainly a breach of etiquette, with some consideration for others."
+  }
+ },
+ "ep_v03": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"Accepting such a claim uncritically is poorer reasoning than questioning it.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "Accepting such a claim uncritically is poorer reasoning than questioning it."
+  }
+ },
+ "m_p04": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 1, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Annoying neighbors on purpose is harmful and inconsiderate; warning them (e.g., of danger) is helpful.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Annoying neighbors on purpose is harmful and inconsiderate; warning them (e.g., of danger) is helpful."
+  }
+ },
+ "d05": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"a new laptop's battery is likely in better condition; no one's conduct is judged. Option 2 also has a grammar slip ('a ancient').\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "a new laptop's battery is likely in better condition; no one's conduct is judged. Option 2 also has a grammar slip ('a ancient')."
+  }
+ },
+ "m_p09": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Rewarding concealment endangers others and is dishonest. Rewarding reporting protects them. A small prudential element: the employer's own liability.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Rewarding concealment endangers others and is dishonest. Rewarding reporting protects them. A small prudential element: the employer's own liability."
+  }
+ },
+ "d27": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"state of fields; no one's conduct is judged, irrigated fields give a better yield\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "state of fields; no one's conduct is judged, irrigated fields give a better yield"
+  }
+ },
+ "ep_p10": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"surveys are better evidence than anecdotes; a reasoning difference\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "surveys are better evidence than anecdotes; a reasoning difference"
+  }
+ },
+ "et_v02": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 1, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Greeting the host is the expected manner; avoiding them is a minor breach of politeness.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 1,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Greeting the host is the expected manner; avoiding them is a minor breach of politeness."
+  }
+ },
+ "m_f03": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 1, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"consent and privacy of others; the option with consent is better\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "consent and privacy of others; the option with consent is better"
+  }
+ }
+}

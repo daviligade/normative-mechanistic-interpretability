@@ -1,0 +1,74 @@
+{
+ "A1/moral_vs_norm": {
+  "models": 14,
+  "median_located_write": 0.935,
+  "median_located_z": 0.9158060747663551,
+  "median_random_write": 0.9291749415887851,
+  "median_hidden_after": 0.9488142523364486,
+  "median_hidden_last": 0.955703855140187,
+  "located_above_every_random": 0,
+  "located_below_every_random": 0,
+  "located_above_null": 14,
+  "hidden_after_above_null": 14
+ },
+ "A1/standard5": {
+  "models": 14,
+  "median_located_write": 0.8575617321867322,
+  "median_located_z": 0.8303989557739557,
+  "median_random_write": 0.8539733312858313,
+  "median_hidden_after": 0.8893804258804259,
+  "median_hidden_last": 0.8954391891891892,
+  "located_above_every_random": 1,
+  "located_below_every_random": 0,
+  "located_above_null": 14,
+  "hidden_after_above_null": 14
+ },
+ "A1/norm_vs_descr": {
+  "models": 14,
+  "median_located_write": 0.9974999999999999,
+  "median_located_z": 0.9975902406417112,
+  "median_random_write": 0.9930581550802139,
+  "median_hidden_after": 0.99375,
+  "median_hidden_last": 0.99,
+  "located_above_every_random": 0,
+  "located_below_every_random": 0,
+  "located_above_null": 14,
+  "hidden_after_above_null": 14
+ },
+ "B/moral_vs_norm": {
+  "models": 14,
+  "median_located_write": 0.9090829439252337,
+  "median_located_z": 0.9001810747663552,
+  "median_random_write": 0.9026139018691589,
+  "median_hidden_after": 0.9510747663551401,
+  "median_hidden_last": 0.9623744158878504,
+  "located_above_every_random": 2,
+  "located_below_every_random": 0,
+  "located_above_null": 14,
+  "hidden_after_above_null": 14
+ },
+ "B/standard5": {
+  "models": 14,
+  "median_located_write": 0.8337245085995086,
+  "median_located_z": 0.8345773955773955,
+  "median_random_write": 0.8347652538902539,
+  "median_hidden_after": 0.9117022932022932,
+  "median_hidden_last": 0.9226821253071253,
+  "located_above_every_random": 3,
+  "located_below_every_random": 0,
+  "located_above_null": 14,
+  "hidden_after_above_null": 14
+ },
+ "B/norm_vs_descr": {
+  "models": 14,
+  "median_located_write": 0.9887065508021391,
+  "median_located_z": 0.9829478609625667,
+  "median_random_write": 0.9784391711229947,
+  "median_hidden_after": 0.9967881016042781,
+  "median_hidden_last": 0.9948696524064171,
+  "located_above_every_random": 0,
+  "located_below_every_random": 0,
+  "located_above_null": 14,
+  "hidden_after_above_null": 14
+ }
+}

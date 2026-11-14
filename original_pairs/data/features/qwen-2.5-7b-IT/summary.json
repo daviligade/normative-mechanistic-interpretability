@@ -1,0 +1,20 @@
+{
+ "dictionary": "qwen-2.5-7b-IT",
+ "n_moral": 70,
+ "n_neutral": 66,
+ "n_norm": 204,
+ "vs_norm": {
+  "n_perm": 200000,
+  "n_significant": 21
+ },
+ "vs_neutral": {
+  "n_perm": 200000,
+  "n_significant": 154
+ },
+ "effect_size_at_matched_n": {
+  "n": 66,
+  "d_ge_0.8_vs_neutral": 123.0,
+  "d_ge_0.8_vs_norm": 6.7,
+  "ratio": 18.35820895522388
+ }
+}

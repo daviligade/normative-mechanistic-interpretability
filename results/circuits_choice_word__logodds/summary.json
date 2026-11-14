@@ -1,0 +1,58 @@
+{
+ "settings": {
+  "runs": "runs/circuits_choice_word",
+  "items": "stimuli/items_final.json",
+  "out": "results/circuits_choice_word__logodds",
+  "frames": [
+   "CW"
+  ],
+  "models": null,
+  "mode": "all",
+  "readout": "LD",
+  "include_on": "LD",
+  "tau": 0.02,
+  "tau_ld": 0.1,
+  "min_items": 30,
+  "min_items_descr": 20,
+  "boot": 2000,
+  "seed": 20261006,
+  "check": null
+ },
+ "note": "exploratory",
+ "summary": [
+  {
+   "frame": "CW",
+   "group": "moral",
+   "models_run": 14,
+   "models_with_enough_pairs": 14,
+   "models_left_out": [],
+   "median_included": 80.0,
+   "located_heads_above_every_random_set": 3,
+   "median_removed_located": 0.07058507625822535,
+   "median_random10_mean": 0.05206412085996591
+  },
+  {
+   "frame": "CW",
+   "group": "norm",
+   "models_run": 14,
+   "models_with_enough_pairs": 14,
+   "models_left_out": [],
+   "median_included": 106.0,
+   "located_heads_above_every_random_set": 3,
+   "median_removed_located": 0.06331704527313402,
+   "median_random10_mean": 0.055618430622080245
+  },
+  {
+   "frame": "CW",
+   "group": "descr",
+   "models_run": 14,
+   "models_with_enough_pairs": 14,
+   "models_left_out": [],
+   "median_included": 40.0,
+   "located_heads_above_every_random_set": 3,
+   "median_removed_located": 0.06902616929655175,
+   "median_random10_mean": 0.056309062640388555
+  }
+ ],
+ "check": null
+}

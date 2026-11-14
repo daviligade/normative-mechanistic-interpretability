@@ -1,0 +1,26 @@
+{
+ "A1_selA": {
+  "n_moral": 40,
+  "n_norm": 53,
+  "n_tested": 397,
+  "n_selected": 31
+ },
+ "A1_selB": {
+  "n_moral": 40,
+  "n_norm": 54,
+  "n_tested": 397,
+  "n_selected": 39
+ },
+ "B_selA": {
+  "n_moral": 40,
+  "n_norm": 53,
+  "n_tested": 693,
+  "n_selected": 15
+ },
+ "B_selB": {
+  "n_moral": 40,
+  "n_norm": 54,
+  "n_tested": 724,
+  "n_selected": 29
+ }
+}

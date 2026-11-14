@@ -1,0 +1,1503 @@
+{
+ "accepted_pairs": true,
+ "models": {
+  "Llama-3.1-8B": {
+   "fewshot": {
+    "n_prompts": 454,
+    "covered_mean": 0.10699452037108927,
+    "p_moral_mean": {
+     "moral": 0.8428011255084659,
+     "norm": 0.09650390863774494,
+     "descr": 0.008602206433794442
+    },
+    "auc_moral_vs_norm": 0.977803738317757,
+    "five_way_accuracy": 0.889937106918239,
+    "five_way_n": 318,
+    "confusion": {
+     "moral": {
+      "moral": 147,
+      "prudential": 7,
+      "etiquette": 2,
+      "aesthetic": 0,
+      "epistemic": 4
+     },
+     "prudential": {
+      "moral": 1,
+      "prudential": 26,
+      "etiquette": 0,
+      "aesthetic": 0,
+      "epistemic": 3
+     },
+     "etiquette": {
+      "moral": 1,
+      "prudential": 0,
+      "etiquette": 32,
+      "aesthetic": 3,
+      "epistemic": 0
+     },
+     "aesthetic": {
+      "moral": 2,
+      "prudential": 0,
+      "etiquette": 0,
+      "aesthetic": 39,
+      "epistemic": 3
+     },
+     "epistemic": {
+      "moral": 7,
+      "prudential": 2,
+      "etiquette": 0,
+      "aesthetic": 0,
+      "epistemic": 39
+     }
+    },
+    "own_set_rank_mean": 1.1415094339622642,
+    "usable": true
+   },
+   "zeroshot": {
+    "n_prompts": 454,
+    "covered_mean": 0.04563405710004127,
+    "p_moral_mean": {
+     "moral": 0.42391729376210063,
+     "norm": 0.0524253682424307,
+     "descr": 0.006628943921227262
+    },
+    "auc_moral_vs_norm": 0.9144859813084112,
+    "five_way_accuracy": 0.6886792452830188,
+    "five_way_n": 318,
+    "confusion": {
+     "moral": {
+      "moral": 107,
+      "prudential": 31,
+      "etiquette": 3,
+      "aesthetic": 10,
+      "epistemic": 9
+     },
+     "prudential": {
+      "moral": 0,
+      "prudential": 23,
+      "etiquette": 0,
+      "aesthetic": 6,
+      "epistemic": 1
+     },
+     "etiquette": {
+      "moral": 1,
+      "prudential": 0,
+      "etiquette": 20,
+      "aesthetic": 15,
+      "epistemic": 0
+     },
+     "aesthetic": {
+      "moral": 0,
+      "prudential": 0,
+      "etiquette": 0,
+      "aesthetic": 43,
+      "epistemic": 1
+     },
+     "epistemic": {
+      "moral": 11,
+      "prudential": 2,
+      "etiquette": 0,
+      "aesthetic": 9,
+      "epistemic": 26
+     }
+    },
+    "own_set_rank_mean": 1.4433962264150944,
+    "usable": true
+   }
+  },
+  "Llama-3.1-8B-Instruct": {
+   "fewshot": {
+    "n_prompts": 454,
+    "covered_mean": 0.1143625169524281,
+    "p_moral_mean": {
+     "moral": 0.8588269403198879,
+     "norm": 0.08024374966168908,
+     "descr": 0.006101868106733992
+    },
+    "auc_moral_vs_norm": 0.9797021028037384,
+    "five_way_accuracy": 0.8930817610062893,
+    "five_way_n": 318,
+    "confusion": {
+     "moral": {
+      "moral": 146,
+      "prudential": 6,
+      "etiquette": 2,
+      "aesthetic": 0,
+      "epistemic": 6
+     },
+     "prudential": {
+      "moral": 3,
+      "prudential": 22,
+      "etiquette": 0,
+      "aesthetic": 0,
+      "epistemic": 5
+     },
+     "etiquette": {
+      "moral": 1,
+      "prudential": 0,
+      "etiquette": 32,
+      "aesthetic": 3,
+      "epistemic": 0
+     },
+     "aesthetic": {
+      "moral": 0,
+      "prudential": 0,
+      "etiquette": 0,
+      "aesthetic": 44,
+      "epistemic": 0
+     },
+     "epistemic": {
+      "moral": 7,
+      "prudential": 1,
+      "etiquette": 0,
+      "aesthetic": 0,
+      "epistemic": 40
+     }
+    },
+    "own_set_rank_mean": 1.1257861635220126,
+    "usable": true
+   },
+   "zeroshot": {
+    "n_prompts": 454,
+    "covered_mean": 0.03166617376502627,
+    "p_moral_mean": {
+     "moral": 0.4727103779791141,
+     "norm": 0.056224456147621275,
+     "descr": 0.007487698084082439
+    },
+    "auc_moral_vs_norm": 0.9016063084112149,
+    "five_way_accuracy": 0.7169811320754716,
+    "five_way_n": 318,
+    "confusion": {
+     "moral": {
+      "moral": 114,
+      "prudential": 27,
+      "etiquette": 2,
+      "aesthetic": 9,
+      "epistemic": 8
+     },
+     "prudential": {
+      "moral": 2,
+      "prudential": 25,
+      "etiquette": 0,
+      "aesthetic": 3,
+      "epistemic": 0
+     },
+     "etiquette": {
+      "moral": 0,
+      "prudential": 0,
+      "etiquette": 22,
+      "aesthetic": 14,
+      "epistemic": 0
+     },
+     "aesthetic": {
+      "moral": 0,
+      "prudential": 2,
+      "etiquette": 0,
+      "aesthetic": 41,
+      "epistemic": 1
+     },
+     "epistemic": {
+      "moral": 14,
+      "prudential": 2,
+      "etiquette": 0,
+      "aesthetic": 6,
+      "epistemic": 26
+     }
+    },
+    "own_set_rank_mean": 1.4119496855345912,
+    "usable": true
+   }
+  },
+  "Llama-3.2-1B": {
+   "fewshot": {
+    "n_prompts": 454,
+    "covered_mean": 0.08640846514870285,
+    "p_moral_mean": {
+     "moral": 0.6995530472925557,
+     "norm": 0.07279694088903312,
+     "descr": 0.02977816430913278
+    },
+    "auc_moral_vs_norm": 0.965946261682243,
+    "five_way_accuracy": 0.8427672955974843,
+    "five_way_n": 318,
+    "confusion": {
+     "moral": {
+      "moral": 132,
+      "prudential": 18,
+      "etiquette": 7,
+      "aesthetic": 1,
+      "epistemic": 2
+     },
+     "prudential": {
+      "moral": 1,
+      "prudential": 26,
+      "etiquette": 2,
+      "aesthetic": 1,
+      "epistemic": 0
+     },
+     "etiquette": {
+      "moral": 0,
+      "prudential": 0,
+      "etiquette": 27,
+      "aesthetic": 9,
+      "epistemic": 0
+     },
+     "aesthetic": {
+      "moral": 1,
+      "prudential": 0,
+      "etiquette": 0,
+      "aesthetic": 43,
+      "epistemic": 0
+     },
+     "epistemic": {
+      "moral": 2,
+      "prudential": 3,
+      "etiquette": 0,
+      "aesthetic": 3,
+      "epistemic": 40
+     }
+    },
+    "own_set_rank_mean": 1.2044025157232705,
+    "usable": true
+   },
+   "zeroshot": {
+    "n_prompts": 454,
+    "covered_mean": 0.057599531098815805,
+    "p_moral_mean": {
+     "moral": 0.3342831993493064,
+     "norm": 0.02872099607367518,
+     "descr": 0.004588803424211423
+    },
+    "auc_moral_vs_norm": 0.9294684579439252,
+    "five_way_accuracy": 0.5345911949685535,
+    "five_way_n": 318,
+    "confusion": {
+     "moral": {
+      "moral": 83,
+      "prudential": 46,
+      "etiquette": 5,
+      "aesthetic": 23,
+      "epistemic": 3
+     },
+     "prudential": {
+      "moral": 1,
+      "prudential": 18,
+      "etiquette": 0,
+      "aesthetic": 9,
+      "epistemic": 2
+     },
+     "etiquette": {
+      "moral": 1,
+      "prudential": 0,
+      "etiquette": 11,
+      "aesthetic": 24,
+      "epistemic": 0
+     },
+     "aesthetic": {
+      "moral": 0,
+      "prudential": 0,
+      "etiquette": 0,
+      "aesthetic": 44,
+      "epistemic": 0
+     },
+     "epistemic": {
+      "moral": 5,
+      "prudential": 3,
+      "etiquette": 0,
+      "aesthetic": 26,
+      "epistemic": 14
+     }
+    },
+    "own_set_rank_mean": 1.6855345911949686,
+    "usable": true
+   }
+  },
+  "Llama-3.2-1B-Instruct": {
+   "fewshot": {
+    "n_prompts": 454,
+    "covered_mean": 0.08110897047123664,
+    "p_moral_mean": {
+     "moral": 0.8114182964387396,
+     "norm": 0.1316358761937535,
+     "descr": 0.09147425961786136
+    },
+    "auc_moral_vs_norm": 0.9466705607476635,
+    "five_way_accuracy": 0.8522012578616353,
+    "five_way_n": 318,
+    "confusion": {
+     "moral": {
+      "moral": 140,
+      "prudential": 19,
+      "etiquette": 1,
+      "aesthetic": 0,
+      "epistemic": 0
+     },
+     "prudential": {
+      "moral": 1,
+      "prudential": 28,
+      "etiquette": 1,
+      "aesthetic": 0,
+      "epistemic": 0
+     },
+     "etiquette": {
+      "moral": 3,
+      "prudential": 0,
+      "etiquette": 28,
+      "aesthetic": 5,
+      "epistemic": 0
+     },
+     "aesthetic": {
+      "moral": 5,
+      "prudential": 0,
+      "etiquette": 0,
+      "aesthetic": 39,
+      "epistemic": 0
+     },
+     "epistemic": {
+      "moral": 6,
+      "prudential": 5,
+      "etiquette": 0,
+      "aesthetic": 1,
+      "epistemic": 36
+     }
+    },
+    "own_set_rank_mean": 1.1761006289308176,
+    "usable": true
+   },
+   "zeroshot": {
+    "n_prompts": 454,
+    "covered_mean": 0.028396658517523876,
+    "p_moral_mean": {
+     "moral": 0.4636918267670106,
+     "norm": 0.07371211731635535,
+     "descr": 0.028292285261458182
+    },
+    "auc_moral_vs_norm": 0.9063376168224299,
+    "five_way_accuracy": 0.6635220125786163,
+    "five_way_n": 318,
+    "confusion": {
+     "moral": {
+      "moral": 117,
+      "prudential": 36,
+      "etiquette": 1,
+      "aesthetic": 6,
+      "epistemic": 0
+     },
+     "prudential": {
+      "moral": 3,
+      "prudential": 18,
+      "etiquette": 0,
+      "aesthetic": 8,
+      "epistemic": 1
+     },
+     "etiquette": {
+      "moral": 2,
+      "prudential": 2,
+      "etiquette": 11,
+      "aesthetic": 21,
+      "epistemic": 0
+     },
+     "aesthetic": {
+      "moral": 0,
+      "prudential": 1,
+      "etiquette": 0,
+      "aesthetic": 43,
+      "epistemic": 0
+     },
+     "epistemic": {
+      "moral": 17,
+      "prudential": 1,
+      "etiquette": 0,
+      "aesthetic": 8,
+      "epistemic": 22
+     }
+    },
+    "own_set_rank_mean": 1.4622641509433962,
+    "usable": true
+   }
+  },
+  "Llama-3.2-3B": {
+   "fewshot": {
+    "n_prompts": 454,
+    "covered_mean": 0.08563772603381015,
+    "p_moral_mean": {
+     "moral": 0.8665188148952426,
+     "norm": 0.1340817701588045,
+     "descr": 0.05759402089580662
+    },
+    "auc_moral_vs_norm": 0.9820969626168224,
+    "five_way_accuracy": 0.89937106918239,
+    "five_way_n": 318,
+    "confusion": {
+     "moral": {
+      "moral": 152,
+      "prudential": 5,
+      "etiquette": 2,
+      "aesthetic": 0,
+      "epistemic": 1
+     },
+     "prudential": {
+      "moral": 3,
+      "prudential": 25,
+      "etiquette": 0,
+      "aesthetic": 0,
+      "epistemic": 2
+     },
+     "etiquette": {
+      "moral": 1,
+      "prudential": 0,
+      "etiquette": 32,
+      "aesthetic": 3,
+      "epistemic": 0
+     },
+     "aesthetic": {
+      "moral": 2,
+      "prudential": 0,
+      "etiquette": 0,
+      "aesthetic": 42,
+      "epistemic": 0
+     },
+     "epistemic": {
+      "moral": 11,
+      "prudential": 2,
+      "etiquette": 0,
+      "aesthetic": 0,
+      "epistemic": 35
+     }
+    },
+    "own_set_rank_mean": 1.1257861635220126,
+    "usable": true
+   },
+   "zeroshot": {
+    "n_prompts": 454,
+    "covered_mean": 0.04575206596628106,
+    "p_moral_mean": {
+     "moral": 0.33005329974236247,
+     "norm": 0.03833875082211581,
+     "descr": 0.008409651472749913
+    },
+    "auc_moral_vs_norm": 0.9125584112149533,
+    "five_way_accuracy": 0.5974842767295597,
+    "five_way_n": 318,
+    "confusion": {
+     "moral": {
+      "moral": 92,
+      "prudential": 38,
+      "etiquette": 3,
+      "aesthetic": 19,
+      "epistemic": 8
+     },
+     "prudential": {
+      "moral": 0,
+      "prudential": 19,
+      "etiquette": 0,
+      "aesthetic": 11,
+      "epistemic": 0
+     },
+     "etiquette": {
+      "moral": 1,
+      "prudential": 0,
+      "etiquette": 15,
+      "aesthetic": 20,
+      "epistemic": 0
+     },
+     "aesthetic": {
+      "moral": 0,
+      "prudential": 0,
+      "etiquette": 0,
+      "aesthetic": 42,
+      "epistemic": 2
+     },
+     "epistemic": {
+      "moral": 10,
+      "prudential": 2,
+      "etiquette": 0,
+      "aesthetic": 14,
+      "epistemic": 22
+     }
+    },
+    "own_set_rank_mean": 1.6163522012578617,
+    "usable": true
+   }
+  },
+  "Llama-3.2-3B-Instruct": {
+   "fewshot": {
+    "n_prompts": 454,
+    "covered_mean": 0.08899857746657346,
+    "p_moral_mean": {
+     "moral": 0.8372640009901795,
+     "norm": 0.09910632918216025,
+     "descr": 0.04002736702518432
+    },
+    "auc_moral_vs_norm": 0.9754672897196262,
+    "five_way_accuracy": 0.8742138364779874,
+    "five_way_n": 318,
+    "confusion": {
+     "moral": {
+      "moral": 150,
+      "prudential": 9,
+      "etiquette": 1,
+      "aesthetic": 0,
+      "epistemic": 0
+     },
+     "prudential": {
+      "moral": 1,
+      "prudential": 27,
+      "etiquette": 0,
+      "aesthetic": 0,
+      "epistemic": 2
+     },
+     "etiquette": {
+      "moral": 1,
+      "prudential": 0,
+      "etiquette": 27,
+      "aesthetic": 8,
+      "epistemic": 0
+     },
+     "aesthetic": {
+      "moral": 2,
+      "prudential": 0,
+      "etiquette": 0,
+      "aesthetic": 42,
+      "epistemic": 0
+     },
+     "epistemic": {
+      "moral": 11,
+      "prudential": 4,
+      "etiquette": 0,
+      "aesthetic": 1,
+      "epistemic": 32
+     }
+    },
+    "own_set_rank_mean": 1.1635220125786163,
+    "usable": true
+   },
+   "zeroshot": {
+    "n_prompts": 454,
+    "covered_mean": 0.029508756386430097,
+    "p_moral_mean": {
+     "moral": 0.485225077732048,
+     "norm": 0.064937728173525,
+     "descr": 0.015394018693237196
+    },
+    "auc_moral_vs_norm": 0.912178738317757,
+    "five_way_accuracy": 0.7138364779874213,
+    "five_way_n": 318,
+    "confusion": {
+     "moral": {
+      "moral": 117,
+      "prudential": 30,
+      "etiquette": 1,
+      "aesthetic": 7,
+      "epistemic": 5
+     },
+     "prudential": {
+      "moral": 4,
+      "prudential": 24,
+      "etiquette": 0,
+      "aesthetic": 2,
+      "epistemic": 0
+     },
+     "etiquette": {
+      "moral": 0,
+      "prudential": 0,
+      "etiquette": 18,
+      "aesthetic": 18,
+      "epistemic": 0
+     },
+     "aesthetic": {
+      "moral": 0,
+      "prudential": 0,
+      "etiquette": 0,
+      "aesthetic": 44,
+      "epistemic": 0
+     },
+     "epistemic": {
+      "moral": 17,
+      "prudential": 1,
+      "etiquette": 0,
+      "aesthetic": 6,
+      "epistemic": 24
+     }
+    },
+    "own_set_rank_mean": 1.3773584905660377,
+    "usable": true
+   }
+  },
+  "Qwen2.5-14B": {
+   "fewshot": {
+    "n_prompts": 454,
+    "covered_mean": 0.09121506026759856,
+    "p_moral_mean": {
+     "moral": 0.7552020321026574,
+     "norm": 0.04316231655235342,
+     "descr": 0.019151097099491834
+    },
+    "auc_moral_vs_norm": 0.985338785046729,
+    "five_way_accuracy": 0.8930817610062893,
+    "five_way_n": 318,
+    "confusion": {
+     "moral": {
+      "moral": 143,
+      "prudential": 4,
+      "etiquette": 3,
+      "aesthetic": 1,
+      "epistemic": 9
+     },
+     "prudential": {
+      "moral": 1,
+      "prudential": 22,
+      "etiquette": 0,
+      "aesthetic": 1,
+      "epistemic": 6
+     },
+     "etiquette": {
+      "moral": 0,
+      "prudential": 0,
+      "etiquette": 30,
+      "aesthetic": 6,
+      "epistemic": 0
+     },
+     "aesthetic": {
+      "moral": 0,
+      "prudential": 0,
+      "etiquette": 0,
+      "aesthetic": 43,
+      "epistemic": 1
+     },
+     "epistemic": {
+      "moral": 2,
+      "prudential": 0,
+      "etiquette": 0,
+      "aesthetic": 0,
+      "epistemic": 46
+     }
+    },
+    "own_set_rank_mean": 1.119496855345912,
+    "usable": true
+   },
+   "zeroshot": {
+    "n_prompts": 454,
+    "covered_mean": 0.04064446195084801,
+    "p_moral_mean": {
+     "moral": 0.4462759830994839,
+     "norm": 0.033518719726196945,
+     "descr": 0.005379188533525116
+    },
+    "auc_moral_vs_norm": 0.9548189252336449,
+    "five_way_accuracy": 0.660377358490566,
+    "five_way_n": 318,
+    "confusion": {
+     "moral": {
+      "moral": 96,
+      "prudential": 33,
+      "etiquette": 4,
+      "aesthetic": 22,
+      "epistemic": 5
+     },
+     "prudential": {
+      "moral": 0,
+      "prudential": 20,
+      "etiquette": 1,
+      "aesthetic": 7,
+      "epistemic": 2
+     },
+     "etiquette": {
+      "moral": 0,
+      "prudential": 0,
+      "etiquette": 23,
+      "aesthetic": 13,
+      "epistemic": 0
+     },
+     "aesthetic": {
+      "moral": 0,
+      "prudential": 0,
+      "etiquette": 0,
+      "aesthetic": 42,
+      "epistemic": 2
+     },
+     "epistemic": {
+      "moral": 6,
+      "prudential": 3,
+      "etiquette": 0,
+      "aesthetic": 10,
+      "epistemic": 29
+     }
+    },
+    "own_set_rank_mean": 1.5251572327044025,
+    "usable": true
+   }
+  },
+  "Qwen2.5-14B-Instruct": {
+   "fewshot": {
+    "n_prompts": 454,
+    "covered_mean": 0.07937907006781107,
+    "p_moral_mean": {
+     "moral": 0.7950421548823632,
+     "norm": 0.035028184801330006,
+     "descr": 0.015093784210507988
+    },
+    "auc_moral_vs_norm": 0.9843165887850467,
+    "five_way_accuracy": 0.8867924528301887,
+    "five_way_n": 318,
+    "confusion": {
+     "moral": {
+      "moral": 141,
+      "prudential": 6,
+      "etiquette": 5,
+      "aesthetic": 1,
+      "epistemic": 7
+     },
+     "prudential": {
+      "moral": 0,
+      "prudential": 25,
+      "etiquette": 0,
+      "aesthetic": 0,
+      "epistemic": 5
+     },
+     "etiquette": {
+      "moral": 0,
+      "prudential": 0,
+      "etiquette": 34,
+      "aesthetic": 2,
+      "epistemic": 0
+     },
+     "aesthetic": {
+      "moral": 2,
+      "prudential": 1,
+      "etiquette": 0,
+      "aesthetic": 38,
+      "epistemic": 3
+     },
+     "epistemic": {
+      "moral": 2,
+      "prudential": 2,
+      "etiquette": 0,
+      "aesthetic": 0,
+      "epistemic": 44
+     }
+    },
+    "own_set_rank_mean": 1.1320754716981132,
+    "usable": true
+   },
+   "zeroshot": {
+    "n_prompts": 454,
+    "covered_mean": 0.03194214983021564,
+    "p_moral_mean": {
+     "moral": 0.5873131463979014,
+     "norm": 0.03291462541082686,
+     "descr": 0.004360831630855955
+    },
+    "auc_moral_vs_norm": 0.958411214953271,
+    "five_way_accuracy": 0.7138364779874213,
+    "five_way_n": 318,
+    "confusion": {
+     "moral": {
+      "moral": 113,
+      "prudential": 26,
+      "etiquette": 6,
+      "aesthetic": 11,
+      "epistemic": 4
+     },
+     "prudential": {
+      "moral": 0,
+      "prudential": 22,
+      "etiquette": 0,
+      "aesthetic": 7,
+      "epistemic": 1
+     },
+     "etiquette": {
+      "moral": 0,
+      "prudential": 0,
+      "etiquette": 24,
+      "aesthetic": 12,
+      "epistemic": 0
+     },
+     "aesthetic": {
+      "moral": 0,
+      "prudential": 2,
+      "etiquette": 0,
+      "aesthetic": 40,
+      "epistemic": 2
+     },
+     "epistemic": {
+      "moral": 6,
+      "prudential": 6,
+      "etiquette": 0,
+      "aesthetic": 8,
+      "epistemic": 28
+     }
+    },
+    "own_set_rank_mean": 1.4276729559748427,
+    "usable": true
+   }
+  },
+  "Qwen2.5-3B": {
+   "fewshot": {
+    "n_prompts": 454,
+    "covered_mean": 0.10742326928024967,
+    "p_moral_mean": {
+     "moral": 0.8085530837810666,
+     "norm": 0.08740157653892922,
+     "descr": 0.09982030055427518
+    },
+    "auc_moral_vs_norm": 0.9766647196261682,
+    "five_way_accuracy": 0.9150943396226415,
+    "five_way_n": 318,
+    "confusion": {
+     "moral": {
+      "moral": 143,
+      "prudential": 10,
+      "etiquette": 1,
+      "aesthetic": 0,
+      "epistemic": 6
+     },
+     "prudential": {
+      "moral": 1,
+      "prudential": 29,
+      "etiquette": 0,
+      "aesthetic": 0,
+      "epistemic": 0
+     },
+     "etiquette": {
+      "moral": 0,
+      "prudential": 0,
+      "etiquette": 32,
+      "aesthetic": 4,
+      "epistemic": 0
+     },
+     "aesthetic": {
+      "moral": 0,
+      "prudential": 0,
+      "etiquette": 1,
+      "aesthetic": 42,
+      "epistemic": 1
+     },
+     "epistemic": {
+      "moral": 3,
+      "prudential": 0,
+      "etiquette": 0,
+      "aesthetic": 0,
+      "epistemic": 45
+     }
+    },
+    "own_set_rank_mean": 1.1069182389937107,
+    "usable": true
+   },
+   "zeroshot": {
+    "n_prompts": 454,
+    "covered_mean": 0.027793266160298192,
+    "p_moral_mean": {
+     "moral": 0.3719627848121365,
+     "norm": 0.06253072820090108,
+     "descr": 0.018932833837116646
+    },
+    "auc_moral_vs_norm": 0.876197429906542,
+    "five_way_accuracy": 0.6320754716981132,
+    "five_way_n": 318,
+    "confusion": {
+     "moral": {
+      "moral": 105,
+      "prudential": 20,
+      "etiquette": 6,
+      "aesthetic": 11,
+      "epistemic": 18
+     },
+     "prudential": {
+      "moral": 3,
+      "prudential": 14,
+      "etiquette": 0,
+      "aesthetic": 5,
+      "epistemic": 8
+     },
+     "etiquette": {
+      "moral": 0,
+      "prudential": 4,
+      "etiquette": 12,
+      "aesthetic": 18,
+      "epistemic": 2
+     },
+     "aesthetic": {
+      "moral": 0,
+      "prudential": 1,
+      "etiquette": 2,
+      "aesthetic": 39,
+      "epistemic": 2
+     },
+     "epistemic": {
+      "moral": 10,
+      "prudential": 3,
+      "etiquette": 0,
+      "aesthetic": 4,
+      "epistemic": 31
+     }
+    },
+    "own_set_rank_mean": 1.6540880503144655,
+    "usable": true
+   }
+  },
+  "Qwen2.5-3B-Instruct": {
+   "fewshot": {
+    "n_prompts": 454,
+    "covered_mean": 0.13117964151919714,
+    "p_moral_mean": {
+     "moral": 0.8603584646271203,
+     "norm": 0.11283390996182144,
+     "descr": 0.037021553490704726
+    },
+    "auc_moral_vs_norm": 0.9799357476635514,
+    "five_way_accuracy": 0.8805031446540881,
+    "five_way_n": 318,
+    "confusion": {
+     "moral": {
+      "moral": 149,
+      "prudential": 9,
+      "etiquette": 0,
+      "aesthetic": 0,
+      "epistemic": 2
+     },
+     "prudential": {
+      "moral": 1,
+      "prudential": 27,
+      "etiquette": 0,
+      "aesthetic": 0,
+      "epistemic": 2
+     },
+     "etiquette": {
+      "moral": 2,
+      "prudential": 0,
+      "etiquette": 27,
+      "aesthetic": 7,
+      "epistemic": 0
+     },
+     "aesthetic": {
+      "moral": 2,
+      "prudential": 0,
+      "etiquette": 1,
+      "aesthetic": 39,
+      "epistemic": 2
+     },
+     "epistemic": {
+      "moral": 7,
+      "prudential": 2,
+      "etiquette": 0,
+      "aesthetic": 1,
+      "epistemic": 38
+     }
+    },
+    "own_set_rank_mean": 1.1540880503144655,
+    "usable": true
+   },
+   "zeroshot": {
+    "n_prompts": 454,
+    "covered_mean": 0.05306553254508736,
+    "p_moral_mean": {
+     "moral": 0.6466453298007732,
+     "norm": 0.06842714032897185,
+     "descr": 0.010653928533891459
+    },
+    "auc_moral_vs_norm": 0.9421728971962616,
+    "five_way_accuracy": 0.7389937106918238,
+    "five_way_n": 318,
+    "confusion": {
+     "moral": {
+      "moral": 123,
+      "prudential": 27,
+      "etiquette": 2,
+      "aesthetic": 3,
+      "epistemic": 5
+     },
+     "prudential": {
+      "moral": 1,
+      "prudential": 26,
+      "etiquette": 0,
+      "aesthetic": 3,
+      "epistemic": 0
+     },
+     "etiquette": {
+      "moral": 0,
+      "prudential": 0,
+      "etiquette": 15,
+      "aesthetic": 21,
+      "epistemic": 0
+     },
+     "aesthetic": {
+      "moral": 0,
+      "prudential": 0,
+      "etiquette": 0,
+      "aesthetic": 44,
+      "epistemic": 0
+     },
+     "epistemic": {
+      "moral": 15,
+      "prudential": 2,
+      "etiquette": 0,
+      "aesthetic": 4,
+      "epistemic": 27
+     }
+    },
+    "own_set_rank_mean": 1.3742138364779874,
+    "usable": true
+   }
+  },
+  "Qwen2.5-7B": {
+   "fewshot": {
+    "n_prompts": 454,
+    "covered_mean": 0.08556358466818464,
+    "p_moral_mean": {
+     "moral": 0.7074009020152687,
+     "norm": 0.06939824225430326,
+     "descr": 0.020154995806659987
+    },
+    "auc_moral_vs_norm": 0.95946261682243,
+    "five_way_accuracy": 0.8647798742138365,
+    "five_way_n": 318,
+    "confusion": {
+     "moral": {
+      "moral": 127,
+      "prudential": 26,
+      "etiquette": 4,
+      "aesthetic": 0,
+      "epistemic": 3
+     },
+     "prudential": {
+      "moral": 1,
+      "prudential": 28,
+      "etiquette": 0,
+      "aesthetic": 0,
+      "epistemic": 1
+     },
+     "etiquette": {
+      "moral": 0,
+      "prudential": 0,
+      "etiquette": 34,
+      "aesthetic": 2,
+      "epistemic": 0
+     },
+     "aesthetic": {
+      "moral": 0,
+      "prudential": 0,
+      "etiquette": 0,
+      "aesthetic": 44,
+      "epistemic": 0
+     },
+     "epistemic": {
+      "moral": 6,
+      "prudential": 0,
+      "etiquette": 0,
+      "aesthetic": 0,
+      "epistemic": 42
+     }
+    },
+    "own_set_rank_mean": 1.1603773584905661,
+    "usable": true
+   },
+   "zeroshot": {
+    "n_prompts": 454,
+    "covered_mean": 0.038074250425993515,
+    "p_moral_mean": {
+     "moral": 0.3214688597448847,
+     "norm": 0.018836381904203205,
+     "descr": 0.0031401533596544184
+    },
+    "auc_moral_vs_norm": 0.9425525700934579,
+    "five_way_accuracy": 0.6069182389937107,
+    "five_way_n": 318,
+    "confusion": {
+     "moral": {
+      "moral": 84,
+      "prudential": 31,
+      "etiquette": 6,
+      "aesthetic": 26,
+      "epistemic": 13
+     },
+     "prudential": {
+      "moral": 0,
+      "prudential": 20,
+      "etiquette": 0,
+      "aesthetic": 6,
+      "epistemic": 4
+     },
+     "etiquette": {
+      "moral": 0,
+      "prudential": 0,
+      "etiquette": 18,
+      "aesthetic": 18,
+      "epistemic": 0
+     },
+     "aesthetic": {
+      "moral": 0,
+      "prudential": 0,
+      "etiquette": 0,
+      "aesthetic": 42,
+      "epistemic": 2
+     },
+     "epistemic": {
+      "moral": 3,
+      "prudential": 2,
+      "etiquette": 0,
+      "aesthetic": 14,
+      "epistemic": 29
+     }
+    },
+    "own_set_rank_mean": 1.6132075471698113,
+    "usable": true
+   }
+  },
+  "Qwen2.5-7B-Instruct": {
+   "fewshot": {
+    "n_prompts": 454,
+    "covered_mean": 0.09124411448577693,
+    "p_moral_mean": {
+     "moral": 0.7569821076236297,
+     "norm": 0.07068533485090835,
+     "descr": 0.02356667459517401
+    },
+    "auc_moral_vs_norm": 0.9598714953271028,
+    "five_way_accuracy": 0.8710691823899371,
+    "five_way_n": 318,
+    "confusion": {
+     "moral": {
+      "moral": 130,
+      "prudential": 23,
+      "etiquette": 4,
+      "aesthetic": 0,
+      "epistemic": 3
+     },
+     "prudential": {
+      "moral": 0,
+      "prudential": 29,
+      "etiquette": 0,
+      "aesthetic": 0,
+      "epistemic": 1
+     },
+     "etiquette": {
+      "moral": 0,
+      "prudential": 0,
+      "etiquette": 34,
+      "aesthetic": 2,
+      "epistemic": 0
+     },
+     "aesthetic": {
+      "moral": 1,
+      "prudential": 0,
+      "etiquette": 0,
+      "aesthetic": 43,
+      "epistemic": 0
+     },
+     "epistemic": {
+      "moral": 6,
+      "prudential": 1,
+      "etiquette": 0,
+      "aesthetic": 0,
+      "epistemic": 41
+     }
+    },
+    "own_set_rank_mean": 1.1540880503144655,
+    "usable": true
+   },
+   "zeroshot": {
+    "n_prompts": 454,
+    "covered_mean": 0.03184225594634183,
+    "p_moral_mean": {
+     "moral": 0.4151881583705531,
+     "norm": 0.016294444322747757,
+     "descr": 0.00258261703133202
+    },
+    "auc_moral_vs_norm": 0.9487733644859813,
+    "five_way_accuracy": 0.6540880503144654,
+    "five_way_n": 318,
+    "confusion": {
+     "moral": {
+      "moral": 96,
+      "prudential": 40,
+      "etiquette": 6,
+      "aesthetic": 9,
+      "epistemic": 9
+     },
+     "prudential": {
+      "moral": 1,
+      "prudential": 25,
+      "etiquette": 0,
+      "aesthetic": 4,
+      "epistemic": 0
+     },
+     "etiquette": {
+      "moral": 0,
+      "prudential": 0,
+      "etiquette": 19,
+      "aesthetic": 17,
+      "epistemic": 0
+     },
+     "aesthetic": {
+      "moral": 0,
+      "prudential": 0,
+      "etiquette": 0,
+      "aesthetic": 43,
+      "epistemic": 1
+     },
+     "epistemic": {
+      "moral": 6,
+      "prudential": 5,
+      "etiquette": 0,
+      "aesthetic": 12,
+      "epistemic": 25
+     }
+    },
+    "own_set_rank_mean": 1.5534591194968554,
+    "usable": true
+   }
+  },
+  "gemma-2b": {
+   "fewshot": {
+    "n_prompts": 454,
+    "covered_mean": 0.0908453657336279,
+    "p_moral_mean": {
+     "moral": 0.6959441856152269,
+     "norm": 0.05357642339610874,
+     "descr": 0.023376927894484333
+    },
+    "auc_moral_vs_norm": 0.9630841121495327,
+    "five_way_accuracy": 0.8553459119496856,
+    "five_way_n": 318,
+    "confusion": {
+     "moral": {
+      "moral": 126,
+      "prudential": 19,
+      "etiquette": 7,
+      "aesthetic": 1,
+      "epistemic": 7
+     },
+     "prudential": {
+      "moral": 0,
+      "prudential": 30,
+      "etiquette": 0,
+      "aesthetic": 0,
+      "epistemic": 0
+     },
+     "etiquette": {
+      "moral": 0,
+      "prudential": 0,
+      "etiquette": 32,
+      "aesthetic": 4,
+      "epistemic": 0
+     },
+     "aesthetic": {
+      "moral": 2,
+      "prudential": 0,
+      "etiquette": 0,
+      "aesthetic": 42,
+      "epistemic": 0
+     },
+     "epistemic": {
+      "moral": 2,
+      "prudential": 2,
+      "etiquette": 0,
+      "aesthetic": 2,
+      "epistemic": 42
+     }
+    },
+    "own_set_rank_mean": 1.179245283018868,
+    "usable": true
+   },
+   "zeroshot": {
+    "n_prompts": 454,
+    "covered_mean": 0.05010564069846128,
+    "p_moral_mean": {
+     "moral": 0.42229362328064646,
+     "norm": 0.056866282478224006,
+     "descr": 0.004382357446802415
+    },
+    "auc_moral_vs_norm": 0.8954439252336449,
+    "five_way_accuracy": 0.610062893081761,
+    "five_way_n": 318,
+    "confusion": {
+     "moral": {
+      "moral": 97,
+      "prudential": 50,
+      "etiquette": 1,
+      "aesthetic": 8,
+      "epistemic": 4
+     },
+     "prudential": {
+      "moral": 0,
+      "prudential": 20,
+      "etiquette": 0,
+      "aesthetic": 10,
+      "epistemic": 0
+     },
+     "etiquette": {
+      "moral": 1,
+      "prudential": 0,
+      "etiquette": 14,
+      "aesthetic": 21,
+      "epistemic": 0
+     },
+     "aesthetic": {
+      "moral": 0,
+      "prudential": 0,
+      "etiquette": 0,
+      "aesthetic": 44,
+      "epistemic": 0
+     },
+     "epistemic": {
+      "moral": 8,
+      "prudential": 2,
+      "etiquette": 0,
+      "aesthetic": 19,
+      "epistemic": 19
+     }
+    },
+    "own_set_rank_mean": 1.6320754716981132,
+    "usable": true
+   }
+  },
+  "gemma-2b-it": {
+   "fewshot": {
+    "n_prompts": 454,
+    "covered_mean": 0.08481464691772554,
+    "p_moral_mean": {
+     "moral": 0.9413102969821674,
+     "norm": 0.33103090110215516,
+     "descr": 0.44232520283809595
+    },
+    "auc_moral_vs_norm": 0.9373247663551402,
+    "five_way_accuracy": 0.8081761006289309,
+    "five_way_n": 318,
+    "confusion": {
+     "moral": {
+      "moral": 156,
+      "prudential": 4,
+      "etiquette": 0,
+      "aesthetic": 0,
+      "epistemic": 0
+     },
+     "prudential": {
+      "moral": 3,
+      "prudential": 25,
+      "etiquette": 0,
+      "aesthetic": 0,
+      "epistemic": 2
+     },
+     "etiquette": {
+      "moral": 12,
+      "prudential": 0,
+      "etiquette": 23,
+      "aesthetic": 1,
+      "epistemic": 0
+     },
+     "aesthetic": {
+      "moral": 17,
+      "prudential": 0,
+      "etiquette": 0,
+      "aesthetic": 27,
+      "epistemic": 0
+     },
+     "epistemic": {
+      "moral": 20,
+      "prudential": 2,
+      "etiquette": 0,
+      "aesthetic": 0,
+      "epistemic": 26
+     }
+    },
+    "own_set_rank_mean": 1.2578616352201257,
+    "usable": true
+   },
+   "zeroshot": {
+    "n_prompts": 454,
+    "covered_mean": 0.04353859413899503,
+    "p_moral_mean": {
+     "moral": 0.6742816744851966,
+     "norm": 0.1360381855565576,
+     "descr": 0.01814658476375634
+    },
+    "auc_moral_vs_norm": 0.8933411214953271,
+    "five_way_accuracy": 0.7641509433962265,
+    "five_way_n": 318,
+    "confusion": {
+     "moral": {
+      "moral": 131,
+      "prudential": 24,
+      "etiquette": 0,
+      "aesthetic": 0,
+      "epistemic": 5
+     },
+     "prudential": {
+      "moral": 3,
+      "prudential": 22,
+      "etiquette": 0,
+      "aesthetic": 1,
+      "epistemic": 4
+     },
+     "etiquette": {
+      "moral": 8,
+      "prudential": 1,
+      "etiquette": 21,
+      "aesthetic": 6,
+      "epistemic": 0
+     },
+     "aesthetic": {
+      "moral": 4,
+      "prudential": 1,
+      "etiquette": 0,
+      "aesthetic": 38,
+      "epistemic": 1
+     },
+     "epistemic": {
+      "moral": 12,
+      "prudential": 2,
+      "etiquette": 0,
+      "aesthetic": 3,
+      "epistemic": 31
+     }
+    },
+    "own_set_rank_mean": 1.3584905660377358,
+    "usable": true
+   }
+  }
+ },
+ "usable": {
+  "fewshot": {
+   "models": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "n_usable": 14,
+   "n_models": 14
+  },
+  "zeroshot": {
+   "models": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "n_usable": 14,
+   "n_models": 14
+  }
+ }
+}

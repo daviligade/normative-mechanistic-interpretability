@@ -1,0 +1,2177 @@
+{
+ "settings": {
+  "lens": "runs/logit_lens",
+  "words": "runs/word_valence",
+  "layers": "runs/circuits/layers",
+  "items": "stimuli/items_final.json",
+  "out": "results/dip_lexical",
+  "tau": 0.02,
+  "boot": 5000,
+  "readout": "S",
+  "seed": 20260920,
+  "any_items": false,
+  "min_n": 10
+ },
+ "accepted_pairs": true,
+ "models": {
+  "Llama-3.1-8B": {
+   "A1": {
+    "n": {
+     "moral": 78,
+     "norm": 104,
+     "descr": 38
+    },
+    "word_negativity": {
+     "moral": {
+      "minS_mean": -0.01444677543790581,
+      "meanS_mean": 0.13977637188713082,
+      "fracneg_mean": 0.08846153846153847
+     },
+     "norm": {
+      "minS_mean": 0.04228575521903202,
+      "meanS_mean": 0.1792864611946126,
+      "fracneg_mean": 0.02532051282051282
+     },
+     "descr": {
+      "minS_mean": 0.039559814319210615,
+      "meanS_mean": 0.19730892724913068,
+      "fracneg_mean": 0.006578947368421052
+     }
+    },
+    "dip_mean": {
+     "moral": 0.03567232320496499,
+     "norm": 0.027265346972816164,
+     "descr": 0.012772341099530661
+    },
+    "adjusted_for_minS": {
+     "unadjusted_moral_minus_norm": 0.008406976232148825,
+     "unadjusted_ci95": [
+      -0.010904108290376788,
+      0.03034136355078101
+     ],
+     "adjusted_moral_minus_norm": 0.014448964639797038,
+     "adjusted_ci95": [
+      -0.00822154829100501,
+      0.039464431040225775
+     ]
+    },
+    "adjusted_for_minS+meanS": {
+     "unadjusted_moral_minus_norm": 0.008406976232148825,
+     "unadjusted_ci95": [
+      -0.01068359204129483,
+      0.029692514685632027
+     ],
+     "adjusted_moral_minus_norm": 0.014507296269887449,
+     "adjusted_ci95": [
+      -0.007145918475606331,
+      0.03939195597682801
+     ]
+    },
+    "spearman_dip_vs_minS": {
+     "moral": 0.13132437183070095,
+     "norm": 0.071737970767097,
+     "all": 0.12395485256081548
+    },
+    "reading": "mixed",
+    "timing": {
+     "moral": {
+      "n": 15,
+      "dip_depth_median": 0.90625,
+      "arrival_depth_median": 0.53125,
+      "frac_minimum_before_arrival": 0.0,
+      "frac_arrival_at_or_before_half": 0.4666666666666667,
+      "spearman_dip_depth_vs_arrival": -0.09285714285714285
+     },
+     "norm": {
+      "n": 31,
+      "dip_depth_median": 0.90625,
+      "arrival_depth_median": 0.5625,
+      "frac_minimum_before_arrival": 0.0,
+      "frac_arrival_at_or_before_half": 0.45161290322580644,
+      "spearman_dip_depth_vs_arrival": 0.06411290322580646
+     }
+    }
+   },
+   "B": {
+    "n": {
+     "moral": 77,
+     "norm": 104,
+     "descr": 40
+    },
+    "word_negativity": {
+     "moral": {
+      "minS_mean": -0.015916502741225934,
+      "meanS_mean": 0.1378349853555059,
+      "fracneg_mean": 0.0896103896103896
+     },
+     "norm": {
+      "minS_mean": 0.044151547683353644,
+      "meanS_mean": 0.17929166657050727,
+      "fracneg_mean": 0.022916666666666665
+     },
+     "descr": {
+      "minS_mean": 0.03894975183065981,
+      "meanS_mean": 0.19376357035323358,
+      "fracneg_mean": 0.00625
+     }
+    },
+    "dip_mean": {
+     "moral": 0.2425308897397029,
+     "norm": 0.12639011035991224,
+     "descr": 0.0387683904737969
+    },
+    "adjusted_for_minS": {
+     "unadjusted_moral_minus_norm": 0.11614077937979067,
+     "unadjusted_ci95": [
+      0.009754900407331893,
+      0.22906000770647916
+     ],
+     "adjusted_moral_minus_norm": 0.05391642305238693,
+     "adjusted_ci95": [
+      -0.05736019228404114,
+      0.16591602849882225
+     ]
+    },
+    "adjusted_for_minS+meanS": {
+     "unadjusted_moral_minus_norm": 0.11614077937979067,
+     "unadjusted_ci95": [
+      0.010316614692623446,
+      0.2280916414582544
+     ],
+     "adjusted_moral_minus_norm": 0.05396568073469166,
+     "adjusted_ci95": [
+      -0.05811600001126831,
+      0.1624194038336526
+     ]
+    },
+    "spearman_dip_vs_minS": {
+     "moral": -0.0365686944634313,
+     "norm": -0.18528752800597462,
+     "all": -0.18967503085150142
+    },
+    "reading": "lexical",
+    "timing": {
+     "moral": {
+      "n": 28,
+      "dip_depth_median": 0.78125,
+      "arrival_depth_median": 0.421875,
+      "frac_minimum_before_arrival": 0.0,
+      "frac_arrival_at_or_before_half": 0.9642857142857143,
+      "spearman_dip_depth_vs_arrival": 0.47071702244116037
+     },
+     "norm": {
+      "n": 22,
+      "dip_depth_median": 0.78125,
+      "arrival_depth_median": 0.4375,
+      "frac_minimum_before_arrival": 0.0,
+      "frac_arrival_at_or_before_half": 0.9545454545454546,
+      "spearman_dip_depth_vs_arrival": 0.43534726143421804
+     }
+    }
+   }
+  },
+  "Llama-3.1-8B-Instruct": {
+   "A1": {
+    "n": {
+     "moral": 78,
+     "norm": 107,
+     "descr": 37
+    },
+    "word_negativity": {
+     "moral": {
+      "minS_mean": -0.0664789988181721,
+      "meanS_mean": 0.11365848066539974,
+      "fracneg_mean": 0.11303418803418801
+     },
+     "norm": {
+      "minS_mean": 0.01588342173534193,
+      "meanS_mean": 0.14256736438964765,
+      "fracneg_mean": 0.02570093457943925
+     },
+     "descr": {
+      "minS_mean": 0.05593128499851839,
+      "meanS_mean": 0.185597965228665,
+      "fracneg_mean": 0.0
+     }
+    },
+    "dip_mean": {
+     "moral": 0.03129024839686514,
+     "norm": 0.026455950770930037,
+     "descr": 0.01722621165118051
+    },
+    "adjusted_for_minS": {
+     "unadjusted_moral_minus_norm": 0.0048342976259351,
+     "unadjusted_ci95": [
+      -0.015825444156054743,
+      0.028071948213100904
+     ],
+     "adjusted_moral_minus_norm": -0.001465328818425515,
+     "adjusted_ci95": [
+      -0.021724496621425466,
+      0.018415085682166193
+     ]
+    },
+    "adjusted_for_minS+meanS": {
+     "unadjusted_moral_minus_norm": 0.0048342976259351,
+     "unadjusted_ci95": [
+      -0.01639934862783118,
+      0.02873703642320582
+     ],
+     "adjusted_moral_minus_norm": -0.0019358848270307986,
+     "adjusted_ci95": [
+      -0.022607053044956287,
+      0.01786410714033233
+     ]
+    },
+    "spearman_dip_vs_minS": {
+     "moral": 0.19336359842688955,
+     "norm": 0.0545171339563863,
+     "all": 0.23726014836539766
+    },
+    "reading": "lexical",
+    "timing": {
+     "moral": {
+      "n": 12,
+      "dip_depth_median": 0.96875,
+      "arrival_depth_median": 0.578125,
+      "frac_minimum_before_arrival": 0.0,
+      "frac_arrival_at_or_before_half": 0.3333333333333333,
+      "spearman_dip_depth_vs_arrival": 0.04895104895104895
+     },
+     "norm": {
+      "n": 28,
+      "dip_depth_median": 0.90625,
+      "arrival_depth_median": 0.515625,
+      "frac_minimum_before_arrival": 0.0,
+      "frac_arrival_at_or_before_half": 0.5,
+      "spearman_dip_depth_vs_arrival": 0.3875205254515599
+     }
+    }
+   },
+   "B": {
+    "n": {
+     "moral": 78,
+     "norm": 103,
+     "descr": 40
+    },
+    "word_negativity": {
+     "moral": {
+      "minS_mean": -0.0664789988181721,
+      "meanS_mean": 0.11365848066539974,
+      "fracneg_mean": 0.11303418803418801
+     },
+     "norm": {
+      "minS_mean": 0.019638349710131807,
+      "meanS_mean": 0.14498011771155125,
+      "fracneg_mean": 0.024271844660194174
+     },
+     "descr": {
+      "minS_mean": 0.04322009610477835,
+      "meanS_mean": 0.17797337834412852,
+      "fracneg_mean": 0.00625
+     }
+    },
+    "dip_mean": {
+     "moral": 0.18187190057310196,
+     "norm": 0.06165384582056098,
+     "descr": 0.016751853862660936
+    },
+    "adjusted_for_minS": {
+     "unadjusted_moral_minus_norm": 0.12021805475254098,
+     "unadjusted_ci95": [
+      0.03463206926129033,
+      0.21179076037999917
+     ],
+     "adjusted_moral_minus_norm": 0.0680390852905006,
+     "adjusted_ci95": [
+      -0.01876638263025004,
+      0.15873095890668606
+     ]
+    },
+    "adjusted_for_minS+meanS": {
+     "unadjusted_moral_minus_norm": 0.12021805475254098,
+     "unadjusted_ci95": [
+      0.03299553206949871,
+      0.21442611203018225
+     ],
+     "adjusted_moral_minus_norm": 0.06927286976316764,
+     "adjusted_ci95": [
+      -0.017332375352471514,
+      0.16128517622814845
+     ]
+    },
+    "spearman_dip_vs_minS": {
+     "moral": 0.07032208298031081,
+     "norm": -0.23891842024337742,
+     "all": -0.14228823640588345
+    },
+    "reading": "mixed",
+    "timing": {
+     "moral": {
+      "n": 18,
+      "dip_depth_median": 0.8125,
+      "arrival_depth_median": 0.4375,
+      "frac_minimum_before_arrival": 0.0,
+      "frac_arrival_at_or_before_half": 0.8888888888888888,
+      "spearman_dip_depth_vs_arrival": -0.17647058823529413
+     },
+     "norm": {
+      "n": 12,
+      "dip_depth_median": 0.8125,
+      "arrival_depth_median": 0.421875,
+      "frac_minimum_before_arrival": 0.0,
+      "frac_arrival_at_or_before_half": 0.9166666666666666,
+      "spearman_dip_depth_vs_arrival": 0.5664335664335665
+     }
+    }
+   }
+  },
+  "Llama-3.2-1B": {
+   "A1": {
+    "n": {
+     "moral": 78,
+     "norm": 97,
+     "descr": 39
+    },
+    "word_negativity": {
+     "moral": {
+      "minS_mean": 0.007857298836685143,
+      "meanS_mean": 0.17270713610411426,
+      "fracneg_mean": 0.06581196581196581
+     },
+     "norm": {
+      "minS_mean": 0.04778915086818725,
+      "meanS_mean": 0.19182478307667938,
+      "fracneg_mean": 0.05498281786941581
+     },
+     "descr": {
+      "minS_mean": 0.058438288006119624,
+      "meanS_mean": 0.1985890767776853,
+      "fracneg_mean": 0.06196581196581196
+     }
+    },
+    "dip_mean": {
+     "moral": 0.18617155688190953,
+     "norm": 0.10276872606572368,
+     "descr": 0.02859260283040408
+    },
+    "adjusted_for_minS": {
+     "unadjusted_moral_minus_norm": 0.08340283081618585,
+     "unadjusted_ci95": [
+      0.029311556632694406,
+      0.14056216831062335
+     ],
+     "adjusted_moral_minus_norm": 0.07582691696887738,
+     "adjusted_ci95": [
+      0.018898116280371444,
+      0.13545499647105158
+     ]
+    },
+    "adjusted_for_minS+meanS": {
+     "unadjusted_moral_minus_norm": 0.08340283081618585,
+     "unadjusted_ci95": [
+      0.029401398975371276,
+      0.14028293337800396
+     ],
+     "adjusted_moral_minus_norm": 0.0762535591421615,
+     "adjusted_ci95": [
+      0.020699438786230095,
+      0.13382948035343906
+     ]
+    },
+    "spearman_dip_vs_minS": {
+     "moral": 0.02543026593659505,
+     "norm": -0.3062013465179886,
+     "all": -0.18824260494503645
+    },
+    "reading": "moral content",
+    "timing": {
+     "moral": {
+      "n": 78,
+      "dip_depth_median": 0.5625,
+      "arrival_depth_median": 0.625,
+      "frac_minimum_before_arrival": 0.5769230769230769,
+      "frac_arrival_at_or_before_half": 0.05128205128205128,
+      "spearman_dip_depth_vs_arrival": 0.1598022230933623
+     },
+     "norm": {
+      "n": 97,
+      "dip_depth_median": 0.5625,
+      "arrival_depth_median": 0.6875,
+      "frac_minimum_before_arrival": 0.6597938144329897,
+      "frac_arrival_at_or_before_half": 0.020618556701030927,
+      "spearman_dip_depth_vs_arrival": 0.08197454239427729
+     }
+    }
+   },
+   "B": {
+    "n": {
+     "moral": 73,
+     "norm": 91,
+     "descr": 35
+    },
+    "word_negativity": {
+     "moral": {
+      "minS_mean": 0.004976063303343237,
+      "meanS_mean": 0.17549226217112213,
+      "fracneg_mean": 0.06986301369863014
+     },
+     "norm": {
+      "minS_mean": 0.049270142222867234,
+      "meanS_mean": 0.19233072237137216,
+      "fracneg_mean": 0.05457875457875458
+     },
+     "descr": {
+      "minS_mean": 0.05611852160654962,
+      "meanS_mean": 0.192088506242726,
+      "fracneg_mean": 0.08809523809523809
+     }
+    },
+    "dip_mean": {
+     "moral": 0.0012591484714716463,
+     "norm": 0.006098894339819518,
+     "descr": 0.00032752840410726745
+    },
+    "adjusted_for_minS": {
+     "unadjusted_moral_minus_norm": -0.004839745868347871,
+     "unadjusted_ci95": [
+      -0.016795062969951938,
+      0.002130670534882301
+     ],
+     "adjusted_moral_minus_norm": -0.0031586527479006673,
+     "adjusted_ci95": [
+      -0.012383813267609175,
+      0.002652886537879827
+     ]
+    },
+    "adjusted_for_minS+meanS": {
+     "unadjusted_moral_minus_norm": -0.004839745868347871,
+     "unadjusted_ci95": [
+      -0.016904389353430235,
+      0.0019580287178416486
+     ],
+     "adjusted_moral_minus_norm": -0.001987278281814917,
+     "adjusted_ci95": [
+      -0.009133373941426168,
+      0.0026384170899586214
+     ]
+    },
+    "spearman_dip_vs_minS": {
+     "moral": 0.20060471430334448,
+     "norm": -0.08735467431119605,
+     "all": 0.05760164458656921
+    },
+    "reading": "no moral excess to explain",
+    "timing": {}
+   }
+  },
+  "Llama-3.2-1B-Instruct": {
+   "A1": {
+    "n": {
+     "moral": 69,
+     "norm": 92,
+     "descr": 38
+    },
+    "word_negativity": {
+     "moral": {
+      "minS_mean": -0.03556536098039942,
+      "meanS_mean": 0.1263301904124267,
+      "fracneg_mean": 0.14589371980676327
+     },
+     "norm": {
+      "minS_mean": 0.002138070082646268,
+      "meanS_mean": 0.13560203837327392,
+      "fracneg_mean": 0.10344202898550724
+     },
+     "descr": {
+      "minS_mean": 0.027049872190936616,
+      "meanS_mean": 0.1375272074377311,
+      "fracneg_mean": 0.039473684210526314
+     }
+    },
+    "dip_mean": {
+     "moral": 0.34345395597409917,
+     "norm": 0.2332035699883304,
+     "descr": 0.11379379830721423
+    },
+    "adjusted_for_minS": {
+     "unadjusted_moral_minus_norm": 0.11025038598576878,
+     "unadjusted_ci95": [
+      0.04583383474097334,
+      0.17472670366638543
+     ],
+     "adjusted_moral_minus_norm": 0.09875115577088553,
+     "adjusted_ci95": [
+      0.03595134913777703,
+      0.16245177626291007
+     ]
+    },
+    "adjusted_for_minS+meanS": {
+     "unadjusted_moral_minus_norm": 0.11025038598576878,
+     "unadjusted_ci95": [
+      0.04602006877505937,
+      0.17589296298833884
+     ],
+     "adjusted_moral_minus_norm": 0.10371527730717947,
+     "adjusted_ci95": [
+      0.03895745507233554,
+      0.1699322022782009
+     ]
+    },
+    "spearman_dip_vs_minS": {
+     "moral": -0.15823894775301428,
+     "norm": -0.19043509085584823,
+     "all": -0.2213796253997259
+    },
+    "reading": "moral content",
+    "timing": {
+     "moral": {
+      "n": 69,
+      "dip_depth_median": 0.9375,
+      "arrival_depth_median": 0.6875,
+      "frac_minimum_before_arrival": 0.2463768115942029,
+      "frac_arrival_at_or_before_half": 0.014492753623188406,
+      "spearman_dip_depth_vs_arrival": 0.07592254293021557
+     },
+     "norm": {
+      "n": 92,
+      "dip_depth_median": 0.9375,
+      "arrival_depth_median": 0.6875,
+      "frac_minimum_before_arrival": 0.25,
+      "frac_arrival_at_or_before_half": 0.010869565217391304,
+      "spearman_dip_depth_vs_arrival": 0.25604549727971887
+     }
+    }
+   },
+   "B": {
+    "n": {
+     "moral": 72,
+     "norm": 95,
+     "descr": 37
+    },
+    "word_negativity": {
+     "moral": {
+      "minS_mean": -0.0522017854880485,
+      "meanS_mean": 0.11916396595295871,
+      "fracneg_mean": 0.15925925925925927
+     },
+     "norm": {
+      "minS_mean": -0.000885346993852995,
+      "meanS_mean": 0.1319392651254352,
+      "fracneg_mean": 0.10368421052631577
+     },
+     "descr": {
+      "minS_mean": 0.02949292565117011,
+      "meanS_mean": 0.138437187117902,
+      "fracneg_mean": 0.033783783783783786
+     }
+    },
+    "dip_mean": {
+     "moral": 0.048394240273814323,
+     "norm": 0.01053532796467299,
+     "descr": 0.0005819365808600049
+    },
+    "adjusted_for_minS": {
+     "unadjusted_moral_minus_norm": 0.03785891230914133,
+     "unadjusted_ci95": [
+      0.004772943579841957,
+      0.0774221603865687
+     ],
+     "adjusted_moral_minus_norm": 0.021087354668134436,
+     "adjusted_ci95": [
+      -0.0035571154650649106,
+      0.0472145976124052
+     ]
+    },
+    "adjusted_for_minS+meanS": {
+     "unadjusted_moral_minus_norm": 0.03785891230914133,
+     "unadjusted_ci95": [
+      0.005589587737926657,
+      0.07507053526159399
+     ],
+     "adjusted_moral_minus_norm": 0.02202646257432883,
+     "adjusted_ci95": [
+      -0.003180217865355075,
+      0.049435730007604956
+     ]
+    },
+    "spearman_dip_vs_minS": {
+     "moral": -0.047109138851373085,
+     "norm": -0.01486562150055991,
+     "all": 0.008833070654670615
+    },
+    "reading": "mixed",
+    "timing": {
+     "moral": {
+      "n": 11,
+      "dip_depth_median": 0.875,
+      "arrival_depth_median": 0.5625,
+      "frac_minimum_before_arrival": 0.0,
+      "frac_arrival_at_or_before_half": 0.45454545454545453,
+      "spearman_dip_depth_vs_arrival": -0.009090909090909092
+     }
+    }
+   }
+  },
+  "Llama-3.2-3B": {
+   "A1": {
+    "n": {
+     "moral": 79,
+     "norm": 104,
+     "descr": 40
+    },
+    "word_negativity": {
+     "moral": {
+      "minS_mean": -0.013443773170296528,
+      "meanS_mean": 0.12744726358405964,
+      "fracneg_mean": 0.07763713080168777
+     },
+     "norm": {
+      "minS_mean": 0.03259247155018294,
+      "meanS_mean": 0.15929476011392232,
+      "fracneg_mean": 0.021794871794871794
+     },
+     "descr": {
+      "minS_mean": 0.04221858498640359,
+      "meanS_mean": 0.1828852829011157,
+      "fracneg_mean": 0.0
+     }
+    },
+    "dip_mean": {
+     "moral": 0.41131974086813816,
+     "norm": 0.2714141641873329,
+     "descr": 0.1533664163085632
+    },
+    "adjusted_for_minS": {
+     "unadjusted_moral_minus_norm": 0.13990557668080528,
+     "unadjusted_ci95": [
+      0.05839650727326088,
+      0.22398201139325705
+     ],
+     "adjusted_moral_minus_norm": 0.12575801538427622,
+     "adjusted_ci95": [
+      0.042745812779013743,
+      0.21029405978933144
+     ]
+    },
+    "adjusted_for_minS+meanS": {
+     "unadjusted_moral_minus_norm": 0.13990557668080528,
+     "unadjusted_ci95": [
+      0.058426616033687484,
+      0.22487501406707427
+     ],
+     "adjusted_moral_minus_norm": 0.12808170439476835,
+     "adjusted_ci95": [
+      0.044086054230426094,
+      0.2131241075542398
+     ]
+    },
+    "spearman_dip_vs_minS": {
+     "moral": -0.03549172346640701,
+     "norm": 0.09411074362530673,
+     "all": -0.08108540956074588
+    },
+    "reading": "moral content",
+    "timing": {
+     "moral": {
+      "n": 79,
+      "dip_depth_median": 0.5,
+      "arrival_depth_median": 0.6071428571428571,
+      "frac_minimum_before_arrival": 0.5443037974683544,
+      "frac_arrival_at_or_before_half": 0.06329113924050633,
+      "spearman_dip_depth_vs_arrival": 0.3490506329113924
+     },
+     "norm": {
+      "n": 104,
+      "dip_depth_median": 0.5,
+      "arrival_depth_median": 0.6071428571428571,
+      "frac_minimum_before_arrival": 0.6538461538461539,
+      "frac_arrival_at_or_before_half": 0.08653846153846154,
+      "spearman_dip_depth_vs_arrival": 0.14024325189373732
+     }
+    }
+   },
+   "B": {
+    "n": {
+     "moral": 78,
+     "norm": 100,
+     "descr": 40
+    },
+    "word_negativity": {
+     "moral": {
+      "minS_mean": -0.014927040743760956,
+      "meanS_mean": 0.12605546518849828,
+      "fracneg_mean": 0.07863247863247864
+     },
+     "norm": {
+      "minS_mean": 0.03402590046171099,
+      "meanS_mean": 0.15990781116997824,
+      "fracneg_mean": 0.020166666666666666
+     },
+     "descr": {
+      "minS_mean": 0.04221858498640359,
+      "meanS_mean": 0.1828852829011157,
+      "fracneg_mean": 0.0
+     }
+    },
+    "dip_mean": {
+     "moral": 0.08900558895840778,
+     "norm": 0.033365948434729946,
+     "descr": 0.013976509005624393
+    },
+    "adjusted_for_minS": {
+     "unadjusted_moral_minus_norm": 0.055639640523677834,
+     "unadjusted_ci95": [
+      0.007956786611450443,
+      0.10800436920491033
+     ],
+     "adjusted_moral_minus_norm": 0.02821916928296939,
+     "adjusted_ci95": [
+      -0.020455433593498384,
+      0.0801515176015098
+     ]
+    },
+    "adjusted_for_minS+meanS": {
+     "unadjusted_moral_minus_norm": 0.055639640523677834,
+     "unadjusted_ci95": [
+      0.007597480794266284,
+      0.1064653449915797
+     ],
+     "adjusted_moral_minus_norm": 0.029191964806477302,
+     "adjusted_ci95": [
+      -0.019972311548500873,
+      0.07924604845052953
+     ]
+    },
+    "spearman_dip_vs_minS": {
+     "moral": -0.3228290696645127,
+     "norm": -0.02053405340534053,
+     "all": -0.19770262858718146
+    },
+    "reading": "mixed",
+    "timing": {
+     "moral": {
+      "n": 20,
+      "dip_depth_median": 0.9285714285714286,
+      "arrival_depth_median": 0.4464285714285714,
+      "frac_minimum_before_arrival": 0.0,
+      "frac_arrival_at_or_before_half": 0.85,
+      "spearman_dip_depth_vs_arrival": 0.4496240601503759
+     },
+     "norm": {
+      "n": 8,
+      "dip_depth_median": 0.9285714285714286,
+      "arrival_depth_median": 0.4642857142857143,
+      "frac_minimum_before_arrival": 0.0,
+      "frac_arrival_at_or_before_half": 0.75,
+      "spearman_dip_depth_vs_arrival": -0.14285714285714288
+     }
+    }
+   }
+  },
+  "Llama-3.2-3B-Instruct": {
+   "A1": {
+    "n": {
+     "moral": 72,
+     "norm": 103,
+     "descr": 39
+    },
+    "word_negativity": {
+     "moral": {
+      "minS_mean": -0.08921213909990103,
+      "meanS_mean": 0.055421210633357997,
+      "fracneg_mean": 0.15046296296296297
+     },
+     "norm": {
+      "minS_mean": -0.0027101612808092417,
+      "meanS_mean": 0.0917202004888562,
+      "fracneg_mean": 0.059708737864077675
+     },
+     "descr": {
+      "minS_mean": 0.02119916309721959,
+      "meanS_mean": 0.12356819540678132,
+      "fracneg_mean": 0.03205128205128205
+     }
+    },
+    "dip_mean": {
+     "moral": 0.39068973467672347,
+     "norm": 0.3578706923657486,
+     "descr": 0.2009699998799568
+    },
+    "adjusted_for_minS": {
+     "unadjusted_moral_minus_norm": 0.03281904231097488,
+     "unadjusted_ci95": [
+      -0.06655696206367517,
+      0.1316826715156289
+     ],
+     "adjusted_moral_minus_norm": -0.006518562052110849,
+     "adjusted_ci95": [
+      -0.11272004300236824,
+      0.09710071985774947
+     ]
+    },
+    "adjusted_for_minS+meanS": {
+     "unadjusted_moral_minus_norm": 0.03281904231097488,
+     "unadjusted_ci95": [
+      -0.0695348042163371,
+      0.13403000151495753
+     ],
+     "adjusted_moral_minus_norm": -0.006233175278781866,
+     "adjusted_ci95": [
+      -0.11253371485247063,
+      0.09956123724553971
+     ]
+    },
+    "spearman_dip_vs_minS": {
+     "moral": -0.2510129268763265,
+     "norm": -0.0029214075473355887,
+     "all": -0.17566113918896994
+    },
+    "reading": "lexical",
+    "timing": {
+     "moral": {
+      "n": 72,
+      "dip_depth_median": 0.5,
+      "arrival_depth_median": 0.6071428571428571,
+      "frac_minimum_before_arrival": 0.6388888888888888,
+      "frac_arrival_at_or_before_half": 0.027777777777777776,
+      "spearman_dip_depth_vs_arrival": 0.0771432246446717
+     },
+     "norm": {
+      "n": 103,
+      "dip_depth_median": 0.5,
+      "arrival_depth_median": 0.6071428571428571,
+      "frac_minimum_before_arrival": 0.5728155339805825,
+      "frac_arrival_at_or_before_half": 0.07766990291262135,
+      "spearman_dip_depth_vs_arrival": 0.26158678557307913
+     }
+    }
+   },
+   "B": {
+    "n": {
+     "moral": 69,
+     "norm": 103,
+     "descr": 39
+    },
+    "word_negativity": {
+     "moral": {
+      "minS_mean": -0.07829796000673989,
+      "meanS_mean": 0.06047542165438442,
+      "fracneg_mean": 0.13816425120772946
+     },
+     "norm": {
+      "minS_mean": -0.003347879702912517,
+      "meanS_mean": 0.09137733725312507,
+      "fracneg_mean": 0.06165048543689321
+     },
+     "descr": {
+      "minS_mean": 0.02119916309721959,
+      "meanS_mean": 0.12356819540678132,
+      "fracneg_mean": 0.03205128205128205
+     }
+    },
+    "dip_mean": {
+     "moral": 0.12371211628171454,
+     "norm": 0.1005435809608562,
+     "descr": 0.024896457604205724
+    },
+    "adjusted_for_minS": {
+     "unadjusted_moral_minus_norm": 0.023168535320858344,
+     "unadjusted_ci95": [
+      -0.05714400287409838,
+      0.10178155551517211
+     ],
+     "adjusted_moral_minus_norm": 0.0056133346096127,
+     "adjusted_ci95": [
+      -0.0748867007899183,
+      0.08394142655497053
+     ]
+    },
+    "adjusted_for_minS+meanS": {
+     "unadjusted_moral_minus_norm": 0.023168535320858344,
+     "unadjusted_ci95": [
+      -0.05430552726055921,
+      0.09877956561370098
+     ],
+     "adjusted_moral_minus_norm": 0.0059188334966059075,
+     "adjusted_ci95": [
+      -0.07204937545600013,
+      0.08149764389872292
+     ]
+    },
+    "spearman_dip_vs_minS": {
+     "moral": -0.008805261234928755,
+     "norm": -0.11731757676931863,
+     "all": -0.13038540642045965
+    },
+    "reading": "lexical",
+    "timing": {
+     "moral": {
+      "n": 15,
+      "dip_depth_median": 0.8928571428571429,
+      "arrival_depth_median": 0.4642857142857143,
+      "frac_minimum_before_arrival": 0.0,
+      "frac_arrival_at_or_before_half": 0.8666666666666667,
+      "spearman_dip_depth_vs_arrival": 0.24642857142857136
+     },
+     "norm": {
+      "n": 18,
+      "dip_depth_median": 0.8928571428571429,
+      "arrival_depth_median": 0.4642857142857143,
+      "frac_minimum_before_arrival": 0.0,
+      "frac_arrival_at_or_before_half": 0.7777777777777778,
+      "spearman_dip_depth_vs_arrival": 0.05675954592363261
+     }
+    }
+   }
+  },
+  "Qwen2.5-14B": {
+   "A1": {
+    "n": {
+     "moral": 79,
+     "norm": 99,
+     "descr": 36
+    },
+    "word_negativity": {
+     "moral": {
+      "minS_mean": -0.1501150832487907,
+      "meanS_mean": 0.13278647598020635,
+      "fracneg_mean": 0.18101265822784812
+     },
+     "norm": {
+      "minS_mean": 0.017366802973691562,
+      "meanS_mean": 0.18672032843615158,
+      "fracneg_mean": 0.057744107744107744
+     },
+     "descr": {
+      "minS_mean": 0.07290536884425415,
+      "meanS_mean": 0.2461509508339481,
+      "fracneg_mean": 0.019444444444444445
+     }
+    },
+    "dip_mean": {
+     "moral": 0.21303173115758242,
+     "norm": 0.08978586335329826,
+     "descr": 0.001428118470109333
+    },
+    "adjusted_for_minS": {
+     "unadjusted_moral_minus_norm": 0.12324586780428416,
+     "unadjusted_ci95": [
+      0.02323345536575402,
+      0.22666144572279287
+     ],
+     "adjusted_moral_minus_norm": 0.07222766980259279,
+     "adjusted_ci95": [
+      -0.04591880346636918,
+      0.188693715762961
+     ]
+    },
+    "adjusted_for_minS+meanS": {
+     "unadjusted_moral_minus_norm": 0.12324586780428416,
+     "unadjusted_ci95": [
+      0.02238218258297798,
+      0.22542916889737893
+     ],
+     "adjusted_moral_minus_norm": 0.07394788606027843,
+     "adjusted_ci95": [
+      -0.038168257764568746,
+      0.19103778188452947
+     ]
+    },
+    "spearman_dip_vs_minS": {
+     "moral": 0.10185004868549173,
+     "norm": -0.04776747062461348,
+     "all": -0.2144867466043818
+    },
+    "reading": "mixed",
+    "timing": {
+     "moral": {
+      "n": 25,
+      "dip_depth_median": 0.8541666666666666,
+      "arrival_depth_median": 0.6875,
+      "frac_minimum_before_arrival": 0.04,
+      "frac_arrival_at_or_before_half": 0.0,
+      "spearman_dip_depth_vs_arrival": -0.2276923076923077
+     },
+     "norm": {
+      "n": 22,
+      "dip_depth_median": 0.8541666666666666,
+      "arrival_depth_median": 0.6875,
+      "frac_minimum_before_arrival": 0.0,
+      "frac_arrival_at_or_before_half": 0.0,
+      "spearman_dip_depth_vs_arrival": -0.549407114624506
+     }
+    }
+   },
+   "B": {
+    "n": {
+     "moral": 79,
+     "norm": 106,
+     "descr": 40
+    },
+    "word_negativity": {
+     "moral": {
+      "minS_mean": -0.1501150832487907,
+      "meanS_mean": 0.13278647598020635,
+      "fracneg_mean": 0.18101265822784812
+     },
+     "norm": {
+      "minS_mean": 0.0153575459240391,
+      "meanS_mean": 0.18266524599957332,
+      "fracneg_mean": 0.05786163522012578
+     },
+     "descr": {
+      "minS_mean": 0.07113688276149333,
+      "meanS_mean": 0.23917837366616973,
+      "fracneg_mean": 0.017499999999999998
+     }
+    },
+    "dip_mean": {
+     "moral": 0.2106275375688112,
+     "norm": 0.09900068325980513,
+     "descr": 0.07660749889164435
+    },
+    "adjusted_for_minS": {
+     "unadjusted_moral_minus_norm": 0.11162685430900607,
+     "unadjusted_ci95": [
+      -0.010503421095274358,
+      0.24241710526932325
+     ],
+     "adjusted_moral_minus_norm": 0.017858497595695744,
+     "adjusted_ci95": [
+      -0.11924638761047661,
+      0.15663019605561296
+     ]
+    },
+    "adjusted_for_minS+meanS": {
+     "unadjusted_moral_minus_norm": 0.11162685430900607,
+     "unadjusted_ci95": [
+      -0.013577785967348942,
+      0.2450922416632386
+     ],
+     "adjusted_moral_minus_norm": 0.021794978768725805,
+     "adjusted_ci95": [
+      -0.11564126481457772,
+      0.16579852921167892
+     ]
+    },
+    "spearman_dip_vs_minS": {
+     "moral": -0.03425024342745862,
+     "norm": 0.05074942690883442,
+     "all": 0.04171618204804046
+    },
+    "reading": "lexical",
+    "timing": {
+     "moral": {
+      "n": 12,
+      "dip_depth_median": 0.9166666666666666,
+      "arrival_depth_median": 0.6041666666666666,
+      "frac_minimum_before_arrival": 0.0,
+      "frac_arrival_at_or_before_half": 0.0,
+      "spearman_dip_depth_vs_arrival": 0.4265734265734266
+     },
+     "norm": {
+      "n": 9,
+      "dip_depth_median": 0.9166666666666666,
+      "arrival_depth_median": 0.625,
+      "frac_minimum_before_arrival": 0.0,
+      "frac_arrival_at_or_before_half": 0.0,
+      "spearman_dip_depth_vs_arrival": 0.25
+     }
+    }
+   }
+  },
+  "Qwen2.5-14B-Instruct": {
+   "A1": {
+    "n": {
+     "moral": 79,
+     "norm": 99,
+     "descr": 18
+    },
+    "word_negativity": {
+     "moral": {
+      "minS_mean": -0.09871102768015647,
+      "meanS_mean": 0.11097186822350871,
+      "fracneg_mean": 0.1681434599156118
+     },
+     "norm": {
+      "minS_mean": 0.006431262768485179,
+      "meanS_mean": 0.14027381307031195,
+      "fracneg_mean": 0.06238576238576238
+     },
+     "descr": {
+      "minS_mean": 0.03699646683202849,
+      "meanS_mean": 0.17104763234534334,
+      "fracneg_mean": 0.0
+     }
+    },
+    "dip_mean": {
+     "moral": 0.11309256720773683,
+     "norm": 0.06418749279112113,
+     "descr": 0.0015187080140642729
+    },
+    "adjusted_for_minS": {
+     "unadjusted_moral_minus_norm": 0.04890507441661571,
+     "unadjusted_ci95": [
+      -0.03832643482709854,
+      0.14332030140880966
+     ],
+     "adjusted_moral_minus_norm": -0.002167465271253763,
+     "adjusted_ci95": [
+      -0.09059669962391963,
+      0.09014556840890058
+     ]
+    },
+    "adjusted_for_minS+meanS": {
+     "unadjusted_moral_minus_norm": 0.04890507441661571,
+     "unadjusted_ci95": [
+      -0.0389503693278082,
+      0.14615404507030993
+     ],
+     "adjusted_moral_minus_norm": -0.0041712630508485005,
+     "adjusted_ci95": [
+      -0.09001786641307102,
+      0.08802592560749223
+     ]
+    },
+    "spearman_dip_vs_minS": {
+     "moral": -0.058519961051606624,
+     "norm": -0.16557823129251698,
+     "all": -0.2623034688299373
+    },
+    "reading": "lexical",
+    "timing": {
+     "moral": {
+      "n": 11,
+      "dip_depth_median": 0.8541666666666666,
+      "arrival_depth_median": 0.7291666666666666,
+      "frac_minimum_before_arrival": 0.0,
+      "frac_arrival_at_or_before_half": 0.0,
+      "spearman_dip_depth_vs_arrival": -0.05454545454545456
+     },
+     "norm": {
+      "n": 14,
+      "dip_depth_median": 0.8541666666666666,
+      "arrival_depth_median": 0.6770833333333333,
+      "frac_minimum_before_arrival": 0.0,
+      "frac_arrival_at_or_before_half": 0.0,
+      "spearman_dip_depth_vs_arrival": -0.4461538461538462
+     }
+    }
+   },
+   "B": {
+    "n": {
+     "moral": 78,
+     "norm": 104,
+     "descr": 40
+    },
+    "word_negativity": {
+     "moral": {
+      "minS_mean": -0.09184089792446078,
+      "meanS_mean": 0.11201254483456644,
+      "fracneg_mean": 0.16773504273504272
+     },
+     "norm": {
+      "minS_mean": 0.008966895767326396,
+      "meanS_mean": 0.1392979456044593,
+      "fracneg_mean": 0.05890567765567764
+     },
+     "descr": {
+      "minS_mean": 0.03738878541626036,
+      "meanS_mean": 0.17294130903862728,
+      "fracneg_mean": 0.029166666666666664
+     }
+    },
+    "dip_mean": {
+     "moral": 0.09724707814433778,
+     "norm": 0.037486480642603334,
+     "descr": 0.05512628564320039
+    },
+    "adjusted_for_minS": {
+     "unadjusted_moral_minus_norm": 0.059760597501734444,
+     "unadjusted_ci95": [
+      -0.013256672204682783,
+      0.13863390763893094
+     ],
+     "adjusted_moral_minus_norm": 0.05523967851469075,
+     "adjusted_ci95": [
+      -0.02690126347188177,
+      0.14794243824445963
+     ]
+    },
+    "adjusted_for_minS+meanS": {
+     "unadjusted_moral_minus_norm": 0.059760597501734444,
+     "unadjusted_ci95": [
+      -0.012278086412229832,
+      0.1375725531281372
+     ],
+     "adjusted_moral_minus_norm": 0.059426793789489826,
+     "adjusted_ci95": [
+      -0.022804410551939328,
+      0.1518618352028567
+     ]
+    },
+    "spearman_dip_vs_minS": {
+     "moral": 0.05696834810758861,
+     "norm": -0.04581243998719727,
+     "all": 0.03240577996579052
+    },
+    "reading": "mixed",
+    "timing": {
+     "moral": {
+      "n": 8,
+      "dip_depth_median": 0.9583333333333334,
+      "arrival_depth_median": 0.6041666666666666,
+      "frac_minimum_before_arrival": 0.0,
+      "frac_arrival_at_or_before_half": 0.0,
+      "spearman_dip_depth_vs_arrival": 0.4047619047619048
+     },
+     "norm": {
+      "n": 7,
+      "dip_depth_median": 0.9166666666666666,
+      "arrival_depth_median": 0.5833333333333334,
+      "frac_minimum_before_arrival": 0.14285714285714285,
+      "frac_arrival_at_or_before_half": 0.2857142857142857,
+      "spearman_dip_depth_vs_arrival": 0.7500000000000002
+     }
+    }
+   }
+  },
+  "Qwen2.5-3B": {
+   "A1": {
+    "n": {
+     "moral": 78,
+     "norm": 98,
+     "descr": 39
+    },
+    "word_negativity": {
+     "moral": {
+      "minS_mean": -0.12082170013290568,
+      "meanS_mean": -0.010564459705104431,
+      "fracneg_mean": 0.4893162393162393
+     },
+     "norm": {
+      "minS_mean": -0.07239057258607781,
+      "meanS_mean": 0.012774536908536097,
+      "fracneg_mean": 0.4770408163265306
+     },
+     "descr": {
+      "minS_mean": -0.06361290191610654,
+      "meanS_mean": 0.0016274744342280238,
+      "fracneg_mean": 0.4269230769230769
+     }
+    },
+    "dip_mean": {
+     "moral": 1.0399778505887252,
+     "norm": 0.9921199173447665,
+     "descr": 0.641232039339136
+    },
+    "adjusted_for_minS": {
+     "unadjusted_moral_minus_norm": 0.047857933243958706,
+     "unadjusted_ci95": [
+      -0.04684370054692204,
+      0.13590927792380836
+     ],
+     "adjusted_moral_minus_norm": 0.017686339181850554,
+     "adjusted_ci95": [
+      -0.07963504473780905,
+      0.10468460595679469
+     ]
+    },
+    "adjusted_for_minS+meanS": {
+     "unadjusted_moral_minus_norm": 0.047857933243958706,
+     "unadjusted_ci95": [
+      -0.04734118985181663,
+      0.13806957270582168
+     ],
+     "adjusted_moral_minus_norm": 0.01620842078517795,
+     "adjusted_ci95": [
+      -0.08056973945396545,
+      0.10631660802832199
+     ]
+    },
+    "spearman_dip_vs_minS": {
+     "moral": -0.20927174091731052,
+     "norm": -0.1958507864251605,
+     "all": -0.2628438262213529
+    },
+    "reading": "lexical",
+    "timing": {
+     "moral": {
+      "n": 75,
+      "dip_depth_median": 0.9166666666666666,
+      "arrival_depth_median": 0.7777777777777778,
+      "frac_minimum_before_arrival": 0.04,
+      "frac_arrival_at_or_before_half": 0.0,
+      "spearman_dip_depth_vs_arrival": -0.15724039829302985
+     },
+     "norm": {
+      "n": 97,
+      "dip_depth_median": 0.9166666666666666,
+      "arrival_depth_median": 0.8055555555555556,
+      "frac_minimum_before_arrival": 0.0,
+      "frac_arrival_at_or_before_half": 0.010309278350515464,
+      "spearman_dip_depth_vs_arrival": 0.12301441195034712
+     }
+    }
+   },
+   "B": {
+    "n": {
+     "moral": 75,
+     "norm": 101,
+     "descr": 40
+    },
+    "word_negativity": {
+     "moral": {
+      "minS_mean": -0.11997039933999379,
+      "meanS_mean": -0.008618447060800257,
+      "fracneg_mean": 0.4902222222222223
+     },
+     "norm": {
+      "minS_mean": -0.0708030577158869,
+      "meanS_mean": 0.012833760366828885,
+      "fracneg_mean": 0.4722772277227723
+     },
+     "descr": {
+      "minS_mean": -0.06425218107178807,
+      "meanS_mean": 0.0006577738172685095,
+      "fracneg_mean": 0.43499999999999994
+     }
+    },
+    "dip_mean": {
+     "moral": 0.8943722600914044,
+     "norm": 0.7135288241337152,
+     "descr": 0.45249730392391924
+    },
+    "adjusted_for_minS": {
+     "unadjusted_moral_minus_norm": 0.18084343595768915,
+     "unadjusted_ci95": [
+      0.00890754767205738,
+      0.34367944189766536
+     ],
+     "adjusted_moral_minus_norm": 0.149779787162977,
+     "adjusted_ci95": [
+      -0.025147121672697115,
+      0.32028223985350296
+     ]
+    },
+    "adjusted_for_minS+meanS": {
+     "unadjusted_moral_minus_norm": 0.18084343595768915,
+     "unadjusted_ci95": [
+      0.016489133024395978,
+      0.3432897519885306
+     ],
+     "adjusted_moral_minus_norm": 0.14592491060440024,
+     "adjusted_ci95": [
+      -0.02230207354848587,
+      0.31702195545887796
+     ]
+    },
+    "spearman_dip_vs_minS": {
+     "moral": -0.1089900426742532,
+     "norm": -0.09593476994758299,
+     "all": -0.2052584574715107
+    },
+    "reading": "mixed",
+    "timing": {
+     "moral": {
+      "n": 57,
+      "dip_depth_median": 0.9444444444444444,
+      "arrival_depth_median": 0.6111111111111112,
+      "frac_minimum_before_arrival": 0.017543859649122806,
+      "frac_arrival_at_or_before_half": 0.017543859649122806,
+      "spearman_dip_depth_vs_arrival": 0.010370754472387868
+     },
+     "norm": {
+      "n": 73,
+      "dip_depth_median": 0.9444444444444444,
+      "arrival_depth_median": 0.6111111111111112,
+      "frac_minimum_before_arrival": 0.0,
+      "frac_arrival_at_or_before_half": 0.1232876712328767,
+      "spearman_dip_depth_vs_arrival": -0.21115636184129338
+     }
+    }
+   }
+  },
+  "Qwen2.5-3B-Instruct": {
+   "A1": {
+    "n": {
+     "moral": 76,
+     "norm": 103,
+     "descr": 40
+    },
+    "word_negativity": {
+     "moral": {
+      "minS_mean": -0.13908859658295114,
+      "meanS_mean": 0.08859984677119907,
+      "fracneg_mean": 0.16359649122807016
+     },
+     "norm": {
+      "minS_mean": -0.011031570311865172,
+      "meanS_mean": 0.1161321071127855,
+      "fracneg_mean": 0.061165048543689315
+     },
+     "descr": {
+      "minS_mean": -0.0072817039661458695,
+      "meanS_mean": 0.1489100094990378,
+      "fracneg_mean": 0.07916666666666665
+     }
+    },
+    "dip_mean": {
+     "moral": 0.3597745500525267,
+     "norm": 0.3022324965137883,
+     "descr": 0.05340752060778868
+    },
+    "adjusted_for_minS": {
+     "unadjusted_moral_minus_norm": 0.05754205353873837,
+     "unadjusted_ci95": [
+      -0.08468200749507074,
+      0.20298405640243047
+     ],
+     "adjusted_moral_minus_norm": 0.03774713615657139,
+     "adjusted_ci95": [
+      -0.12288029244137505,
+      0.19979358773828393
+     ]
+    },
+    "adjusted_for_minS+meanS": {
+     "unadjusted_moral_minus_norm": 0.05754205353873837,
+     "unadjusted_ci95": [
+      -0.08874476181258276,
+      0.20037227554987527
+     ],
+     "adjusted_moral_minus_norm": 0.05138870177446597,
+     "adjusted_ci95": [
+      -0.11255884478915645,
+      0.2087411831383593
+     ]
+    },
+    "spearman_dip_vs_minS": {
+     "moral": 0.014326725905673274,
+     "norm": -0.21132978957079473,
+     "all": -0.19116843945296885
+    },
+    "reading": "mixed",
+    "timing": {
+     "moral": {
+      "n": 55,
+      "dip_depth_median": 0.75,
+      "arrival_depth_median": 0.8055555555555556,
+      "frac_minimum_before_arrival": 0.4909090909090909,
+      "frac_arrival_at_or_before_half": 0.0,
+      "spearman_dip_depth_vs_arrival": 0.48823953823953836
+     },
+     "norm": {
+      "n": 49,
+      "dip_depth_median": 0.9166666666666666,
+      "arrival_depth_median": 0.8055555555555556,
+      "frac_minimum_before_arrival": 0.22448979591836735,
+      "frac_arrival_at_or_before_half": 0.0,
+      "spearman_dip_depth_vs_arrival": 0.19336734693877547
+     }
+    }
+   },
+   "B": {
+    "n": {
+     "moral": 76,
+     "norm": 104,
+     "descr": 40
+    },
+    "word_negativity": {
+     "moral": {
+      "minS_mean": -0.14679399850013541,
+      "meanS_mean": 0.08662943345255995,
+      "fracneg_mean": 0.16885964912280702
+     },
+     "norm": {
+      "minS_mean": -0.011647289852659854,
+      "meanS_mean": 0.11361640143147948,
+      "fracneg_mean": 0.06490384615384616
+     },
+     "descr": {
+      "minS_mean": -0.0072817039661458695,
+      "meanS_mean": 0.1489100094990378,
+      "fracneg_mean": 0.07916666666666665
+     }
+    },
+    "dip_mean": {
+     "moral": 0.18022469148161835,
+     "norm": 0.08157217141159488,
+     "descr": 0.06808700887376914
+    },
+    "adjusted_for_minS": {
+     "unadjusted_moral_minus_norm": 0.09865252007002347,
+     "unadjusted_ci95": [
+      -0.006040581460457976,
+      0.20394932147026162
+     ],
+     "adjusted_moral_minus_norm": 0.047261435306783936,
+     "adjusted_ci95": [
+      -0.06032209168573329,
+      0.1571359783070967
+     ]
+    },
+    "adjusted_for_minS+meanS": {
+     "unadjusted_moral_minus_norm": 0.09865252007002347,
+     "unadjusted_ci95": [
+      -0.0055936848361468556,
+      0.21021915314184889
+     ],
+     "adjusted_moral_minus_norm": 0.052975676308491475,
+     "adjusted_ci95": [
+      -0.0573862226725557,
+      0.16831964694455603
+     ]
+    },
+    "spearman_dip_vs_minS": {
+     "moral": -0.1679835953520164,
+     "norm": -0.009036594473487678,
+     "all": -0.16282041890422227
+    },
+    "reading": "lexical",
+    "timing": {
+     "moral": {
+      "n": 13,
+      "dip_depth_median": 0.9444444444444444,
+      "arrival_depth_median": 0.6111111111111112,
+      "frac_minimum_before_arrival": 0.0,
+      "frac_arrival_at_or_before_half": 0.07692307692307693,
+      "spearman_dip_depth_vs_arrival": -0.32417582417582413
+     },
+     "norm": {
+      "n": 10,
+      "dip_depth_median": 0.9444444444444444,
+      "arrival_depth_median": 0.6527777777777777,
+      "frac_minimum_before_arrival": 0.0,
+      "frac_arrival_at_or_before_half": 0.2,
+      "spearman_dip_depth_vs_arrival": 0.5272727272727272
+     }
+    }
+   }
+  },
+  "Qwen2.5-7B": {
+   "A1": {
+    "n": {
+     "moral": 79,
+     "norm": 104,
+     "descr": 40
+    },
+    "word_negativity": {
+     "moral": {
+      "minS_mean": -0.19817124627297744,
+      "meanS_mean": 0.1322789622454036,
+      "fracneg_mean": 0.18164556962025313
+     },
+     "norm": {
+      "minS_mean": -0.004412125741789798,
+      "meanS_mean": 0.1843222180324209,
+      "fracneg_mean": 0.05746336996336997
+     },
+     "descr": {
+      "minS_mean": 0.030240284628234804,
+      "meanS_mean": 0.24058444574436483,
+      "fracneg_mean": 0.0375
+     }
+    },
+    "dip_mean": {
+     "moral": 0.11587756299265257,
+     "norm": 0.06614166484216792,
+     "descr": 1.801830224508194e-05
+    },
+    "adjusted_for_minS": {
+     "unadjusted_moral_minus_norm": 0.04973589815048465,
+     "unadjusted_ci95": [
+      -0.009738824362218635,
+      0.11405940503126975
+     ],
+     "adjusted_moral_minus_norm": 0.01121263846347132,
+     "adjusted_ci95": [
+      -0.04394880104706415,
+      0.0711869610999083
+     ]
+    },
+    "adjusted_for_minS+meanS": {
+     "unadjusted_moral_minus_norm": 0.04973589815048465,
+     "unadjusted_ci95": [
+      -0.011396743451561497,
+      0.11094140415571514
+     ],
+     "adjusted_moral_minus_norm": 0.016573543065718323,
+     "adjusted_ci95": [
+      -0.03546357767222783,
+      0.07664870485140947
+     ]
+    },
+    "spearman_dip_vs_minS": {
+     "moral": -0.039045764362220056,
+     "norm": -0.003979515630001067,
+     "all": -0.007595399691812247
+    },
+    "reading": "lexical",
+    "timing": {
+     "moral": {
+      "n": 27,
+      "dip_depth_median": 0.8928571428571429,
+      "arrival_depth_median": 0.75,
+      "frac_minimum_before_arrival": 0.0,
+      "frac_arrival_at_or_before_half": 0.0,
+      "spearman_dip_depth_vs_arrival": 0.009157509157509158
+     },
+     "norm": {
+      "n": 29,
+      "dip_depth_median": 0.8928571428571429,
+      "arrival_depth_median": 0.75,
+      "frac_minimum_before_arrival": 0.0,
+      "frac_arrival_at_or_before_half": 0.0,
+      "spearman_dip_depth_vs_arrival": 0.3788177339901477
+     }
+    }
+   },
+   "B": {
+    "n": {
+     "moral": 77,
+     "norm": 107,
+     "descr": 40
+    },
+    "word_negativity": {
+     "moral": {
+      "minS_mean": -0.18775642498217934,
+      "meanS_mean": 0.13927742618315517,
+      "fracneg_mean": 0.1701298701298701
+     },
+     "norm": {
+      "minS_mean": -0.007393477762566236,
+      "meanS_mean": 0.18310232014126485,
+      "fracneg_mean": 0.05818869603916333
+     },
+     "descr": {
+      "minS_mean": 0.030240284628234804,
+      "meanS_mean": 0.24058444574436483,
+      "fracneg_mean": 0.0375
+     }
+    },
+    "dip_mean": {
+     "moral": 0.2126121085903071,
+     "norm": 0.059661333720937876,
+     "descr": 0.01762997803894848
+    },
+    "adjusted_for_minS": {
+     "unadjusted_moral_minus_norm": 0.15295077486936923,
+     "unadjusted_ci95": [
+      0.05827328433505428,
+      0.25298452579140623
+     ],
+     "adjusted_moral_minus_norm": 0.1038441489942158,
+     "adjusted_ci95": [
+      0.004938943680195864,
+      0.20364907606322352
+     ]
+    },
+    "adjusted_for_minS+meanS": {
+     "unadjusted_moral_minus_norm": 0.15295077486936923,
+     "unadjusted_ci95": [
+      0.05466477978934119,
+      0.25484811765728516
+     ],
+     "adjusted_moral_minus_norm": 0.12170110478072102,
+     "adjusted_ci95": [
+      0.016315643219154054,
+      0.2272689162943551
+     ]
+    },
+    "spearman_dip_vs_minS": {
+     "moral": -0.21520584678479412,
+     "norm": -0.0699661043515743,
+     "all": -0.12447469570787958
+    },
+    "reading": "moral content",
+    "timing": {
+     "moral": {
+      "n": 19,
+      "dip_depth_median": 0.9285714285714286,
+      "arrival_depth_median": 0.6785714285714286,
+      "frac_minimum_before_arrival": 0.0,
+      "frac_arrival_at_or_before_half": 0.15789473684210525,
+      "spearman_dip_depth_vs_arrival": -0.1719298245614035
+     },
+     "norm": {
+      "n": 7,
+      "dip_depth_median": 0.9285714285714286,
+      "arrival_depth_median": 0.6785714285714286,
+      "frac_minimum_before_arrival": 0.0,
+      "frac_arrival_at_or_before_half": 0.0,
+      "spearman_dip_depth_vs_arrival": 0.21428571428571433
+     }
+    }
+   }
+  },
+  "Qwen2.5-7B-Instruct": {
+   "A1": {
+    "n": {
+     "moral": 75,
+     "norm": 106,
+     "descr": 40
+    },
+    "word_negativity": {
+     "moral": {
+      "minS_mean": -0.1369517946666262,
+      "meanS_mean": 0.14452348754384245,
+      "fracneg_mean": 0.21866666666666665
+     },
+     "norm": {
+      "minS_mean": -0.01877445685876976,
+      "meanS_mean": 0.17648014036048712,
+      "fracneg_mean": 0.07605570530098832
+     },
+     "descr": {
+      "minS_mean": 0.006108310238778359,
+      "meanS_mean": 0.22349105089146182,
+      "fracneg_mean": 0.0375
+     }
+    },
+    "dip_mean": {
+     "moral": 0.15482382824289137,
+     "norm": 0.1765218854386217,
+     "descr": 0.002214440274133267
+    },
+    "adjusted_for_minS": {
+     "unadjusted_moral_minus_norm": -0.02169805719573034,
+     "unadjusted_ci95": [
+      -0.09995399818531962,
+      0.06207954302767934
+     ],
+     "adjusted_moral_minus_norm": -0.03736930406248437,
+     "adjusted_ci95": [
+      -0.12162591884863763,
+      0.052999869716358984
+     ]
+    },
+    "adjusted_for_minS+meanS": {
+     "unadjusted_moral_minus_norm": -0.02169805719573034,
+     "unadjusted_ci95": [
+      -0.10171780567379508,
+      0.06221111004778804
+     ],
+     "adjusted_moral_minus_norm": -0.03374020863083382,
+     "adjusted_ci95": [
+      -0.12149429147584068,
+      0.056699554900627315
+     ]
+    },
+    "spearman_dip_vs_minS": {
+     "moral": 0.17001422475106684,
+     "norm": -0.14209134191500616,
+     "all": 0.001974496092143151
+    },
+    "reading": "no moral excess to explain",
+    "timing": {
+     "moral": {
+      "n": 29,
+      "dip_depth_median": 0.9642857142857143,
+      "arrival_depth_median": 0.75,
+      "frac_minimum_before_arrival": 0.0,
+      "frac_arrival_at_or_before_half": 0.0,
+      "spearman_dip_depth_vs_arrival": 0.26009852216748763
+     },
+     "norm": {
+      "n": 52,
+      "dip_depth_median": 0.8928571428571429,
+      "arrival_depth_median": 0.7857142857142857,
+      "frac_minimum_before_arrival": 0.0,
+      "frac_arrival_at_or_before_half": 0.0,
+      "spearman_dip_depth_vs_arrival": 0.1562366601212328
+     }
+    }
+   },
+   "B": {
+    "n": {
+     "moral": 77,
+     "norm": 104,
+     "descr": 40
+    },
+    "word_negativity": {
+     "moral": {
+      "minS_mean": -0.14853960752688264,
+      "meanS_mean": 0.14000612916137609,
+      "fracneg_mean": 0.2331168831168831
+     },
+     "norm": {
+      "minS_mean": -0.019150495139876093,
+      "meanS_mean": 0.17686182386449809,
+      "fracneg_mean": 0.07463369963369963
+     },
+     "descr": {
+      "minS_mean": 0.006108310238778359,
+      "meanS_mean": 0.22349105089146182,
+      "fracneg_mean": 0.0375
+     }
+    },
+    "dip_mean": {
+     "moral": 0.18406977110161035,
+     "norm": 0.0431117254490866,
+     "descr": 0.021236485575778376
+    },
+    "adjusted_for_minS": {
+     "unadjusted_moral_minus_norm": 0.14095804565252376,
+     "unadjusted_ci95": [
+      0.047258421037808744,
+      0.2384420902874871
+     ],
+     "adjusted_moral_minus_norm": 0.07137687556539685,
+     "adjusted_ci95": [
+      -0.012881700535323068,
+      0.1576073610739601
+     ]
+    },
+    "adjusted_for_minS+meanS": {
+     "unadjusted_moral_minus_norm": 0.14095804565252376,
+     "unadjusted_ci95": [
+      0.05212812208724301,
+      0.2378572587792976
+     ],
+     "adjusted_moral_minus_norm": 0.08637018576357194,
+     "adjusted_ci95": [
+      0.002592766434228758,
+      0.1700327761930136
+     ]
+    },
+    "spearman_dip_vs_minS": {
+     "moral": -0.24278353225721644,
+     "norm": -0.040691347487463995,
+     "all": -0.10137747784806607
+    },
+    "reading": "mixed",
+    "timing": {
+     "moral": {
+      "n": 16,
+      "dip_depth_median": 0.9285714285714286,
+      "arrival_depth_median": 0.6785714285714286,
+      "frac_minimum_before_arrival": 0.0,
+      "frac_arrival_at_or_before_half": 0.3125,
+      "spearman_dip_depth_vs_arrival": 0.411764705882353
+     },
+     "norm": {
+      "n": 5,
+      "dip_depth_median": 0.8928571428571429,
+      "arrival_depth_median": 0.6785714285714286,
+      "frac_minimum_before_arrival": 0.0,
+      "frac_arrival_at_or_before_half": 0.2,
+      "spearman_dip_depth_vs_arrival": 0.0
+     }
+    }
+   }
+  },
+  "gemma-2b": {
+   "A1": {
+    "n": {
+     "moral": 74,
+     "norm": 99,
+     "descr": 39
+    },
+    "word_negativity": {
+     "moral": {
+      "minS_mean": -0.017868296734082537,
+      "meanS_mean": 0.18643295726852138,
+      "fracneg_mean": 0.11531531531531533
+     },
+     "norm": {
+      "minS_mean": 0.051667053261865874,
+      "meanS_mean": 0.23947279918891842,
+      "fracneg_mean": 0.04242424242424242
+     },
+     "descr": {
+      "minS_mean": 0.08021879129302807,
+      "meanS_mean": 0.2676392360168517,
+      "fracneg_mean": 0.03632478632478632
+     }
+    },
+    "dip_mean": {
+     "moral": 0.0012456497556453464,
+     "norm": 0.00020894871227665536,
+     "descr": 6.42495664051638e-06
+    },
+    "adjusted_for_minS": {
+     "unadjusted_moral_minus_norm": 0.001036701043368691,
+     "unadjusted_ci95": [
+      0.00036378796652522354,
+      0.001860828760617941
+     ],
+     "adjusted_moral_minus_norm": 0.0008595605715880003,
+     "adjusted_ci95": [
+      0.00024110950119977627,
+      0.0016524223296083703
+     ]
+    },
+    "adjusted_for_minS+meanS": {
+     "unadjusted_moral_minus_norm": 0.001036701043368691,
+     "unadjusted_ci95": [
+      0.0003746770596323089,
+      0.0018332766751808067
+     ],
+     "adjusted_moral_minus_norm": 0.0008531833079929923,
+     "adjusted_ci95": [
+      0.0002666565395377222,
+      0.001549887303996973
+     ]
+    },
+    "spearman_dip_vs_minS": {
+     "moral": -0.1840059237319511,
+     "norm": -0.1983055040197897,
+     "all": -0.1702433144876592
+    },
+    "reading": "moral content",
+    "timing": {}
+   },
+   "B": {
+    "n": {
+     "moral": 72,
+     "norm": 95,
+     "descr": 40
+    },
+    "word_negativity": {
+     "moral": {
+      "minS_mean": -0.00980113220349368,
+      "meanS_mean": 0.19192433016206553,
+      "fracneg_mean": 0.11851851851851852
+     },
+     "norm": {
+      "minS_mean": 0.04636903382641704,
+      "meanS_mean": 0.23568482943810523,
+      "fracneg_mean": 0.04631578947368421
+     },
+     "descr": {
+      "minS_mean": 0.0791957245208323,
+      "meanS_mean": 0.2646840722936516,
+      "fracneg_mean": 0.035416666666666666
+     }
+    },
+    "dip_mean": {
+     "moral": 0.0026885526761574285,
+     "norm": 0.0044232810837772345,
+     "descr": 1.3835467741545763e-07
+    },
+    "adjusted_for_minS": {
+     "unadjusted_moral_minus_norm": -0.001734728407619806,
+     "unadjusted_ci95": [
+      -0.010928106505669808,
+      0.004383213090990157
+     ],
+     "adjusted_moral_minus_norm": -0.004410108931175062,
+     "adjusted_ci95": [
+      -0.017443293052834357,
+      0.00400800813977069
+     ]
+    },
+    "adjusted_for_minS+meanS": {
+     "unadjusted_moral_minus_norm": -0.001734728407619806,
+     "unadjusted_ci95": [
+      -0.011020693758202476,
+      0.004138495722279013
+     ],
+     "adjusted_moral_minus_norm": -0.0036751360096088388,
+     "adjusted_ci95": [
+      -0.01398577269652255,
+      0.0034557669341600465
+     ]
+    },
+    "spearman_dip_vs_minS": {
+     "moral": -0.3178982571226446,
+     "norm": -0.1529255319148936,
+     "all": -0.3449916658548993
+    },
+    "reading": "no moral excess to explain",
+    "timing": {}
+   }
+  },
+  "gemma-2b-it": {
+   "A1": {
+    "n": {
+     "moral": 73,
+     "norm": 98,
+     "descr": 37
+    },
+    "word_negativity": {
+     "moral": {
+      "minS_mean": -0.08991755024180748,
+      "meanS_mean": 0.07991627966167807,
+      "fracneg_mean": 0.2742009132420092
+     },
+     "norm": {
+      "minS_mean": -0.08293628874100845,
+      "meanS_mean": 0.10255970708447198,
+      "fracneg_mean": 0.24608843537414962
+     },
+     "descr": {
+      "minS_mean": -0.009688495984735285,
+      "meanS_mean": 0.13798353391374524,
+      "fracneg_mean": 0.17207207207207206
+     }
+    },
+    "dip_mean": {
+     "moral": 0.7660695653083625,
+     "norm": 0.6613353280588958,
+     "descr": 0.6007542753254596
+    },
+    "adjusted_for_minS": {
+     "unadjusted_moral_minus_norm": 0.10473423724946662,
+     "unadjusted_ci95": [
+      -0.08141897691356931,
+      0.2929260888250934
+     ],
+     "adjusted_moral_minus_norm": 0.09714980352113822,
+     "adjusted_ci95": [
+      -0.08426280225385575,
+      0.27715578051872625
+     ]
+    },
+    "adjusted_for_minS+meanS": {
+     "unadjusted_moral_minus_norm": 0.10473423724946662,
+     "unadjusted_ci95": [
+      -0.08228035610489823,
+      0.2822612735530675
+     ],
+     "adjusted_moral_minus_norm": 0.08121215423338908,
+     "adjusted_ci95": [
+      -0.10176286802597315,
+      0.25674935366698814
+     ]
+    },
+    "spearman_dip_vs_minS": {
+     "moral": -0.34024435394298413,
+     "norm": -0.15650083838596354,
+     "all": -0.23089991625460732
+    },
+    "reading": "mixed",
+    "timing": {
+     "moral": {
+      "n": 48,
+      "dip_depth_median": 0.8888888888888888,
+      "arrival_depth_median": 0.7777777777777778,
+      "frac_minimum_before_arrival": 0.041666666666666664,
+      "frac_arrival_at_or_before_half": 0.0,
+      "spearman_dip_depth_vs_arrival": 0.3963308727746418
+     },
+     "norm": {
+      "n": 60,
+      "dip_depth_median": 0.8888888888888888,
+      "arrival_depth_median": 0.7777777777777778,
+      "frac_minimum_before_arrival": 0.03333333333333333,
+      "frac_arrival_at_or_before_half": 0.0,
+      "spearman_dip_depth_vs_arrival": 0.2375659905529314
+     }
+    }
+   },
+   "B": {
+    "n": {
+     "moral": 67,
+     "norm": 88,
+     "descr": 34
+    },
+    "word_negativity": {
+     "moral": {
+      "minS_mean": -0.08505090568848858,
+      "meanS_mean": 0.08278878240365957,
+      "fracneg_mean": 0.25945273631840793
+     },
+     "norm": {
+      "minS_mean": -0.08059825179314183,
+      "meanS_mean": 0.10601447200773086,
+      "fracneg_mean": 0.23314393939393938
+     },
+     "descr": {
+      "minS_mean": -0.011102858710794508,
+      "meanS_mean": 0.13404530037982174,
+      "fracneg_mean": 0.18627450980392157
+     }
+    },
+    "dip_mean": {
+     "moral": 0.11450447863706072,
+     "norm": 0.03866733644024274,
+     "descr": 0.052224888359244034
+    },
+    "adjusted_for_minS": {
+     "unadjusted_moral_minus_norm": 0.07583714219681797,
+     "unadjusted_ci95": [
+      -0.003649728158722109,
+      0.16241891715323908
+     ],
+     "adjusted_moral_minus_norm": 0.07362650944376911,
+     "adjusted_ci95": [
+      -0.002559109527732734,
+      0.1592395110992273
+     ]
+    },
+    "adjusted_for_minS+meanS": {
+     "unadjusted_moral_minus_norm": 0.07583714219681797,
+     "unadjusted_ci95": [
+      -0.0025790511022726463,
+      0.15861624890847756
+     ],
+     "adjusted_moral_minus_norm": 0.06916474655456241,
+     "adjusted_ci95": [
+      -0.003020551468707007,
+      0.1480287820671894
+     ]
+    },
+    "spearman_dip_vs_minS": {
+     "moral": -0.11613057706121799,
+     "norm": -0.0581346201260963,
+     "all": -0.15166640004265985
+    },
+    "reading": "mixed",
+    "timing": {
+     "moral": {
+      "n": 9,
+      "dip_depth_median": 0.9444444444444444,
+      "arrival_depth_median": 0.7222222222222222,
+      "frac_minimum_before_arrival": 0.0,
+      "frac_arrival_at_or_before_half": 0.0,
+      "spearman_dip_depth_vs_arrival": 0.5
+     },
+     "norm": {
+      "n": 10,
+      "dip_depth_median": 0.9166666666666666,
+      "arrival_depth_median": 0.5833333333333334,
+      "frac_minimum_before_arrival": 0.0,
+      "frac_arrival_at_or_before_half": 0.3,
+      "spearman_dip_depth_vs_arrival": 0.7818181818181817
+     }
+    }
+   }
+  }
+ },
+ "readings": {
+  "A1": {
+   "Llama-3.1-8B": "mixed",
+   "Llama-3.1-8B-Instruct": "lexical",
+   "Llama-3.2-1B": "moral content",
+   "Llama-3.2-1B-Instruct": "moral content",
+   "Llama-3.2-3B": "moral content",
+   "Llama-3.2-3B-Instruct": "lexical",
+   "Qwen2.5-14B": "mixed",
+   "Qwen2.5-14B-Instruct": "lexical",
+   "Qwen2.5-3B": "lexical",
+   "Qwen2.5-3B-Instruct": "mixed",
+   "Qwen2.5-7B": "lexical",
+   "Qwen2.5-7B-Instruct": "no moral excess to explain",
+   "gemma-2b": "moral content",
+   "gemma-2b-it": "mixed"
+  },
+  "B": {
+   "Llama-3.1-8B": "lexical",
+   "Llama-3.1-8B-Instruct": "mixed",
+   "Llama-3.2-1B": "no moral excess to explain",
+   "Llama-3.2-1B-Instruct": "mixed",
+   "Llama-3.2-3B": "mixed",
+   "Llama-3.2-3B-Instruct": "lexical",
+   "Qwen2.5-14B": "lexical",
+   "Qwen2.5-14B-Instruct": "mixed",
+   "Qwen2.5-3B": "mixed",
+   "Qwen2.5-3B-Instruct": "lexical",
+   "Qwen2.5-7B": "moral content",
+   "Qwen2.5-7B-Instruct": "mixed",
+   "gemma-2b": "no moral excess to explain",
+   "gemma-2b-it": "mixed"
+  }
+ }
+}

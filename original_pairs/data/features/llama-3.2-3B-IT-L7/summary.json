@@ -1,0 +1,20 @@
+{
+ "dictionary": "llama-3.2-3B-IT-L7",
+ "n_moral": 65,
+ "n_neutral": 83,
+ "n_norm": 190,
+ "vs_norm": {
+  "n_perm": 200000,
+  "n_significant": 62
+ },
+ "vs_neutral": {
+  "n_perm": 200000,
+  "n_significant": 205
+ },
+ "effect_size_at_matched_n": {
+  "n": 83,
+  "d_ge_0.8_vs_neutral": 127.0,
+  "d_ge_0.8_vs_norm": 7.95,
+  "ratio": 15.974842767295597
+ }
+}

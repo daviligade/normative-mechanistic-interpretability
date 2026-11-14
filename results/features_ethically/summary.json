@@ -1,0 +1,4175 @@
+{
+ "settings": {
+  "runs": "runs/features",
+  "runs_e": "runs/features_ethically",
+  "items": "stimuli/items_final.json",
+  "located": "located/features.json",
+  "out": "results/features_ethically",
+  "main": "results/features/summary.json",
+  "boot": 10000,
+  "perm": 20000,
+  "perm_calib": 20000,
+  "subsamples": 20,
+  "min_active": 5,
+  "seed": 20261026,
+  "no_h6": false,
+  "any_items": false
+ },
+ "accepted_pairs": true,
+ "item_file_note": "the item file is the set of accepted pairs",
+ "n_items": 227,
+ "counts": {
+  "layer7_or_deeper": {
+   "n": 10,
+   "either_wording": 10,
+   "word": 0,
+   "inconclusive": 0,
+   "conditions": [
+    "llama-3.1-8B-base",
+    "llama-3.2-1B-IT",
+    "llama-3.2-1B-IT-k128",
+    "llama-3.2-1B-base",
+    "llama-3.2-1B-base-k128",
+    "llama-3.2-3B-IT-L19",
+    "llama-3.2-3B-IT-L7",
+    "llama-3.2-3B-IT-k128",
+    "llama-3.2-3B-base",
+    "llama-3.2-3B-base-k128"
+   ]
+  },
+  "layer0_to_3": {
+   "n": 4,
+   "either_wording": 1,
+   "word": 3,
+   "inconclusive": 0,
+   "conditions": [
+    "llama-3.2-1B-base-MLP0",
+    "llama-3.2-3B-IT-L3",
+    "qwen-2.5-7b-IT",
+    "qwen-2.5-7b-base"
+   ]
+  },
+  "all": {
+   "n": 14,
+   "either_wording": 11,
+   "word": 3,
+   "inconclusive": 0,
+   "conditions": [
+    "llama-3.1-8B-base",
+    "llama-3.2-1B-IT",
+    "llama-3.2-1B-IT-k128",
+    "llama-3.2-1B-base",
+    "llama-3.2-1B-base-MLP0",
+    "llama-3.2-1B-base-k128",
+    "llama-3.2-3B-IT-L19",
+    "llama-3.2-3B-IT-L3",
+    "llama-3.2-3B-IT-L7",
+    "llama-3.2-3B-IT-k128",
+    "llama-3.2-3B-base",
+    "llama-3.2-3B-base-k128",
+    "qwen-2.5-7b-IT",
+    "qwen-2.5-7b-base"
+   ]
+  },
+  "H6_more": {
+   "A1": 12,
+   "A1e": 7,
+   "B": 3
+  },
+  "H6_conditions": {
+   "A1": 14,
+   "A1e": 14,
+   "B": 14
+  }
+ },
+ "conditions": {
+  "llama-3.1-8B-base": {
+   "condition": "llama-3.1-8B-base",
+   "model": "meta-llama/Llama-3.1-8B",
+   "layer": 12,
+   "site": "resid_post",
+   "n_items": 227,
+   "early": false,
+   "behaviour": {
+    "A1": {
+     "moral": {
+      "mass": 0.5014520873548463,
+      "gap": 0.7561793409986421,
+      "n_gap_at_least_0_02": 78,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.32908661163055175,
+      "gap": 0.4309402527896879,
+      "n_gap_at_least_0_02": 104,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.1584724419983104,
+      "gap": 0.22977186697535218,
+      "n_gap_at_least_0_02": 38,
+      "n": 40
+     }
+    },
+    "A1e": {
+     "moral": {
+      "mass": 0.42590932396706194,
+      "gap": 0.6494026778265833,
+      "n_gap_at_least_0_02": 78,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.2973405155831965,
+      "gap": 0.39652760194562303,
+      "n_gap_at_least_0_02": 103,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.14299037543823942,
+      "gap": 0.19587838219013065,
+      "n_gap_at_least_0_02": 37,
+      "n": 40
+     }
+    },
+    "B": {
+     "moral": {
+      "mass": 0.46339363129809497,
+      "gap": 0.6111524403793738,
+      "n_gap_at_least_0_02": 77,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.5005231060903133,
+      "gap": 0.6004252842193356,
+      "n_gap_at_least_0_02": 104,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.4096143784932792,
+      "gap": 0.6048292619176209,
+      "n_gap_at_least_0_02": 40,
+      "n": 40
+     }
+    }
+   },
+   "capture": {
+    "A1": {
+     "R2": {
+      "moral": -0.058865249156951904,
+      "norm": -0.10229546576738358,
+      "descr": -0.10910008102655411
+     },
+     "mean_R2": -0.08818870782852173,
+     "flagged": true
+    },
+    "A1e": {
+     "R2": {
+      "moral": -0.0590461902320385,
+      "norm": -0.10586602985858917,
+      "descr": -0.10480011999607086
+     },
+     "mean_R2": -0.08917782455682755,
+     "flagged": true
+    },
+    "B": {
+     "R2": {
+      "moral": 0.15151897072792053,
+      "norm": 0.09963425993919373,
+      "descr": 0.03403984755277634
+     },
+     "mean_R2": 0.10636113584041595,
+     "flagged": true
+    }
+   },
+   "sets": {
+    "original_vs_neutral_sig": {
+     "n_features": 37,
+     "mean_activation": {
+      "A1/moral": 1.8263976573944092,
+      "A1/norm": 1.723684310913086,
+      "A1/descr": 1.5645309686660767,
+      "A1e/moral": 1.370326042175293,
+      "A1e/norm": 1.296217441558838,
+      "A1e/descr": 1.16465163230896,
+      "B/moral": 0.19872848689556122,
+      "B/norm": 0.18095144629478455,
+      "B/descr": 0.02737344242632389
+     },
+     "A1e_over_A1/moral": {
+      "ratio": 0.7502889633178711,
+      "ci95": [
+       0.7375743165612221,
+       0.7626597627997398
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/moral": {
+      "ratio": 0.10880899429321289,
+      "ci95": [
+       0.1015098785981536,
+       0.11638373211026191
+      ]
+     },
+     "A1e_over_A1/norm": {
+      "ratio": 0.7520039677619934,
+      "ci95": [
+       0.7390245005488396,
+       0.7651682436466217
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/norm": {
+      "ratio": 0.10497945547103882,
+      "ci95": [
+       0.09925528969615698,
+       0.11086855456233025
+      ]
+     },
+     "A1e_over_A1/descr": {
+      "ratio": 0.744409441947937,
+      "ci95": [
+       0.7175782218575477,
+       0.7697881132364273
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/descr": {
+      "ratio": 0.0174962617456913,
+      "ci95": [
+       0.010932743595913053,
+       0.02494167676195502
+      ]
+     },
+     "A1e_descr_over_moral": {
+      "ratio": 0.8499084115028381,
+      "ci95": [
+       0.8186329081654549,
+       0.8803752183914184
+      ],
+      "reading": "follows the frame"
+     },
+     "A1e_norm_over_moral": {
+      "ratio": 0.9459189772605896,
+      "ci95": [
+       0.9219322919845581,
+       0.9703651830554009
+      ],
+      "reading": "follows the frame"
+     }
+    },
+    "original_vs_norm_sig": {
+     "n_features": 18,
+     "mean_activation": {
+      "A1/moral": 0.23901911079883575,
+      "A1/norm": 0.12579859793186188,
+      "A1/descr": 0.0895046591758728,
+      "A1e/moral": 0.4794284701347351,
+      "A1e/norm": 0.3300993740558624,
+      "A1e/descr": 0.27874618768692017,
+      "B/moral": 0.13739557564258575,
+      "B/norm": 0.20986764132976532,
+      "B/descr": 0.2714613378047943
+     },
+     "A1e_over_A1/moral": {
+      "ratio": 2.0058164596557617,
+      "ci95": [
+       1.7611795365810394,
+       2.309561496973038
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/moral": {
+      "ratio": 0.574830949306488,
+      "ci95": [
+       0.46253642067313194,
+       0.7060435235500335
+      ]
+     },
+     "A1e_over_A1/norm": {
+      "ratio": 2.624030590057373,
+      "ci95": [
+       2.2635819613933563,
+       3.072441095113754
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/norm": {
+      "ratio": 1.6682828664779663,
+      "ci95": [
+       1.3660212814807893,
+       2.051875895261764
+      ]
+     },
+     "A1e_over_A1/descr": {
+      "ratio": 3.1143205165863037,
+      "ci95": [
+       2.3049375116825104,
+       4.3328194975852945
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/descr": {
+      "ratio": 3.0329296588897705,
+      "ci95": [
+       2.3651683151721956,
+       4.0473278880119326
+      ]
+     },
+     "A1e_descr_over_moral": {
+      "ratio": 0.5814135074615479,
+      "ci95": [
+       0.4697799667716026,
+       0.7030494257807731
+      ],
+      "reading": "inconclusive"
+     },
+     "A1e_norm_over_moral": {
+      "ratio": 0.6885268688201904,
+      "ci95": [
+       0.5999354809522629,
+       0.7908857524394989
+      ],
+      "reading": "follows the frame"
+     }
+    }
+   },
+   "H6": {
+    "A1": {
+     "source": "main analysis",
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 7.35,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 2.45,
+      "prudential+aesthetic vs etiquette+epistemic": 1.0,
+      "prudential+epistemic vs etiquette+aesthetic": 6.5
+     },
+     "more": true
+    },
+    "A1e": {
+     "n_features_tested": 119,
+     "full_size": {
+      "n_moral": 80,
+      "n_norm": 107,
+      "n_significant": 25
+     },
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 8.3,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 1.65,
+      "prudential+aesthetic vs etiquette+epistemic": 0.15,
+      "prudential+epistemic vs etiquette+aesthetic": 2.05
+     },
+     "more": true,
+     "reading": "moral vs norm yields more features than any split of the norm kinds"
+    },
+    "B": {
+     "source": "main analysis",
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 10.7,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 2.95,
+      "prudential+aesthetic vs etiquette+epistemic": 9.1,
+      "prudential+epistemic vs etiquette+aesthetic": 18.05
+     },
+     "more": false
+    }
+   }
+  },
+  "llama-3.2-1B-IT": {
+   "condition": "llama-3.2-1B-IT",
+   "model": "meta-llama/Llama-3.2-1B-Instruct",
+   "layer": 7,
+   "site": "resid_post",
+   "n_items": 227,
+   "early": false,
+   "behaviour": {
+    "A1": {
+     "moral": {
+      "mass": 0.6687293643131852,
+      "gap": 0.4631318010389805,
+      "n_gap_at_least_0_02": 69,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.5146829440632713,
+      "gap": 0.2779776676444807,
+      "n_gap_at_least_0_02": 92,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.38772794967517255,
+      "gap": 0.3086122877895832,
+      "n_gap_at_least_0_02": 38,
+      "n": 40
+     }
+    },
+    "A1e": {
+     "moral": {
+      "mass": 0.6406566197052598,
+      "gap": 0.44086893945932387,
+      "n_gap_at_least_0_02": 74,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.41097451713388766,
+      "gap": 0.24187883316913497,
+      "n_gap_at_least_0_02": 93,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.23347970014438033,
+      "gap": 0.22701876610517502,
+      "n_gap_at_least_0_02": 38,
+      "n": 40
+     }
+    },
+    "B": {
+     "moral": {
+      "mass": 0.6049838489852846,
+      "gap": 0.6549965798854828,
+      "n_gap_at_least_0_02": 72,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.5688442026708866,
+      "gap": 0.43402545186734504,
+      "n_gap_at_least_0_02": 95,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.38442169283516703,
+      "gap": 0.42510183369740845,
+      "n_gap_at_least_0_02": 37,
+      "n": 40
+     }
+    }
+   },
+   "capture": {
+    "A1": {
+     "R2": {
+      "moral": -0.17716364562511444,
+      "norm": -0.24960117042064667,
+      "descr": -0.3111616373062134
+     },
+     "mean_R2": -0.2349201887845993,
+     "flagged": true
+    },
+    "A1e": {
+     "R2": {
+      "moral": -0.13399530947208405,
+      "norm": -0.2754676342010498,
+      "descr": -0.2806299924850464
+     },
+     "mean_R2": -0.22651921212673187,
+     "flagged": true
+    },
+    "B": {
+     "R2": {
+      "moral": 0.1886853277683258,
+      "norm": 0.12565848231315613,
+      "descr": 0.11478270590305328
+     },
+     "mean_R2": 0.14595414698123932,
+     "flagged": true
+    }
+   },
+   "sets": {
+    "original_vs_neutral_sig": {
+     "n_features": 86,
+     "mean_activation": {
+      "A1/moral": 0.1264486014842987,
+      "A1/norm": 0.11506430804729462,
+      "A1/descr": 0.09950036555528641,
+      "A1e/moral": 0.08061651140451431,
+      "A1e/norm": 0.07050810009241104,
+      "A1e/descr": 0.05615871027112007,
+      "B/moral": 0.010920670814812183,
+      "B/norm": 0.00416922802105546,
+      "B/descr": 0.002164725214242935
+     },
+     "A1e_over_A1/moral": {
+      "ratio": 0.6375437378883362,
+      "ci95": [
+       0.6257702231407165,
+       0.6494583532214164
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/moral": {
+      "ratio": 0.0863645076751709,
+      "ci95": [
+       0.07843570485711097,
+       0.09431431908160448
+      ]
+     },
+     "A1e_over_A1/norm": {
+      "ratio": 0.6127712726593018,
+      "ci95": [
+       0.6016773015260697,
+       0.6238261312246323
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/norm": {
+      "ratio": 0.036233894526958466,
+      "ci95": [
+       0.03274689689278602,
+       0.03969865264371038
+      ]
+     },
+     "A1e_over_A1/descr": {
+      "ratio": 0.5644070506095886,
+      "ci95": [
+       0.5426771998405456,
+       0.5854022711515426
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/descr": {
+      "ratio": 0.021755952388048172,
+      "ci95": [
+       0.015535431890748441,
+       0.028694420401006934
+      ]
+     },
+     "A1e_descr_over_moral": {
+      "ratio": 0.69661545753479,
+      "ci95": [
+       0.6606342270970345,
+       0.7358491823077202
+      ],
+      "reading": "follows the frame"
+     },
+     "A1e_norm_over_moral": {
+      "ratio": 0.8746111392974854,
+      "ci95": [
+       0.8469786018133163,
+       0.9025458946824074
+      ],
+      "reading": "follows the frame"
+     }
+    },
+    "original_vs_norm_sig": {
+     "n_features": 20,
+     "mean_activation": {
+      "A1/moral": 0.04469917342066765,
+      "A1/norm": 0.020800838246941566,
+      "A1/descr": 0.010031051933765411,
+      "A1e/moral": 0.03307846188545227,
+      "A1e/norm": 0.014377771876752377,
+      "A1e/descr": 0.00872955285012722,
+      "B/moral": 0.014488829299807549,
+      "B/norm": 0.007470018230378628,
+      "B/descr": 0.005135498009622097
+     },
+     "A1e_over_A1/moral": {
+      "ratio": 0.7400240302085876,
+      "ci95": [
+       0.6961065053939819,
+       0.7828044146299362
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/moral": {
+      "ratio": 0.32414087653160095,
+      "ci95": [
+       0.28607614859938624,
+       0.36100385859608647
+      ]
+     },
+     "A1e_over_A1/norm": {
+      "ratio": 0.6912111639976501,
+      "ci95": [
+       0.6313682287931442,
+       0.7543708577752113
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/norm": {
+      "ratio": 0.35912102460861206,
+      "ci95": [
+       0.29516988545656203,
+       0.42353575527667997
+      ]
+     },
+     "A1e_over_A1/descr": {
+      "ratio": 0.8702529668807983,
+      "ci95": [
+       0.7218257561326027,
+       1.0224634557962418
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/descr": {
+      "ratio": 0.5119600892066956,
+      "ci95": [
+       0.33220669999718666,
+       0.6761751994490623
+      ]
+     },
+     "A1e_descr_over_moral": {
+      "ratio": 0.2639044225215912,
+      "ci95": [
+       0.18131476193666457,
+       0.3580425150692463
+      ],
+      "reading": "follows the content"
+     },
+     "A1e_norm_over_moral": {
+      "ratio": 0.4346565902233124,
+      "ci95": [
+       0.3666466325521469,
+       0.5094296768307686
+      ],
+      "reading": "inconclusive"
+     }
+    }
+   },
+   "H6": {
+    "A1": {
+     "source": "main analysis",
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 15.0,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 0.0,
+      "prudential+aesthetic vs etiquette+epistemic": 0.15,
+      "prudential+epistemic vs etiquette+aesthetic": 0.65
+     },
+     "more": true
+    },
+    "A1e": {
+     "n_features_tested": 252,
+     "full_size": {
+      "n_moral": 80,
+      "n_norm": 107,
+      "n_significant": 54
+     },
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 16.25,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 1.3,
+      "prudential+aesthetic vs etiquette+epistemic": 2.8,
+      "prudential+epistemic vs etiquette+aesthetic": 1.0
+     },
+     "more": true,
+     "reading": "moral vs norm yields more features than any split of the norm kinds"
+    },
+    "B": {
+     "source": "main analysis",
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 14.3,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 6.75,
+      "prudential+aesthetic vs etiquette+epistemic": 3.3,
+      "prudential+epistemic vs etiquette+aesthetic": 13.35
+     },
+     "more": true
+    }
+   }
+  },
+  "llama-3.2-1B-IT-k128": {
+   "condition": "llama-3.2-1B-IT-k128",
+   "model": "meta-llama/Llama-3.2-1B-Instruct",
+   "layer": 7,
+   "site": "resid_post",
+   "n_items": 227,
+   "early": false,
+   "behaviour": {
+    "A1": {
+     "moral": {
+      "mass": 0.6687293643131852,
+      "gap": 0.4631318010389805,
+      "n_gap_at_least_0_02": 69,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.5146829440632713,
+      "gap": 0.2779776676444807,
+      "n_gap_at_least_0_02": 92,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.38772794967517255,
+      "gap": 0.3086122877895832,
+      "n_gap_at_least_0_02": 38,
+      "n": 40
+     }
+    },
+    "A1e": {
+     "moral": {
+      "mass": 0.6406566197052598,
+      "gap": 0.44086893945932387,
+      "n_gap_at_least_0_02": 74,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.41097451713388766,
+      "gap": 0.24187883316913497,
+      "n_gap_at_least_0_02": 93,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.23347970014438033,
+      "gap": 0.22701876610517502,
+      "n_gap_at_least_0_02": 38,
+      "n": 40
+     }
+    },
+    "B": {
+     "moral": {
+      "mass": 0.6049838489852846,
+      "gap": 0.6549965798854828,
+      "n_gap_at_least_0_02": 72,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.5688442026708866,
+      "gap": 0.43402545186734504,
+      "n_gap_at_least_0_02": 95,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.38442169283516703,
+      "gap": 0.42510183369740845,
+      "n_gap_at_least_0_02": 37,
+      "n": 40
+     }
+    }
+   },
+   "capture": {
+    "A1": {
+     "R2": {
+      "moral": -0.14226482808589935,
+      "norm": -0.2809480130672455,
+      "descr": -0.21733394265174866
+     },
+     "mean_R2": -0.22086334228515625,
+     "flagged": true
+    },
+    "A1e": {
+     "R2": {
+      "moral": -0.043532710522413254,
+      "norm": -0.17600250244140625,
+      "descr": -0.254994660615921
+     },
+     "mean_R2": -0.143236443400383,
+     "flagged": true
+    },
+    "B": {
+     "R2": {
+      "moral": 0.28456029295921326,
+      "norm": 0.21403823792934418,
+      "descr": 0.21916893124580383
+     },
+     "mean_R2": 0.23979590833187103,
+     "flagged": true
+    }
+   },
+   "sets": {
+    "original_vs_neutral_sig": {
+     "n_features": 163,
+     "mean_activation": {
+      "A1/moral": 0.08613315969705582,
+      "A1/norm": 0.07817315310239792,
+      "A1/descr": 0.06721748411655426,
+      "A1e/moral": 0.059678442776203156,
+      "A1e/norm": 0.05534246563911438,
+      "A1e/descr": 0.045571692287921906,
+      "B/moral": 0.012262143194675446,
+      "B/norm": 0.007729220204055309,
+      "B/descr": 0.005338156130164862
+     },
+     "A1e_over_A1/moral": {
+      "ratio": 0.6928625702857971,
+      "ci95": [
+       0.6822403147816658,
+       0.7033896058797836
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/moral": {
+      "ratio": 0.14236262440681458,
+      "ci95": [
+       0.13427774235606194,
+       0.15063732527196408
+      ]
+     },
+     "A1e_over_A1/norm": {
+      "ratio": 0.7079471945762634,
+      "ci95": [
+       0.6974738642573357,
+       0.7184685036540032
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/norm": {
+      "ratio": 0.0988730788230896,
+      "ci95": [
+       0.09399654995650053,
+       0.10379183180630207
+      ]
+     },
+     "A1e_over_A1/descr": {
+      "ratio": 0.6779738068580627,
+      "ci95": [
+       0.6585968092083931,
+       0.6977758944034577
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/descr": {
+      "ratio": 0.0794161856174469,
+      "ci95": [
+       0.07251823972910643,
+       0.08642868101596832
+      ]
+     },
+     "A1e_descr_over_moral": {
+      "ratio": 0.7636206746101379,
+      "ci95": [
+       0.7316784083843231,
+       0.797446522116661
+      ],
+      "reading": "follows the frame"
+     },
+     "A1e_norm_over_moral": {
+      "ratio": 0.9273443222045898,
+      "ci95": [
+       0.8979910224676132,
+       0.9577772378921509
+      ],
+      "reading": "follows the frame"
+     }
+    },
+    "original_vs_norm_sig": {
+     "n_features": 52,
+     "mean_activation": {
+      "A1/moral": 0.013097638264298439,
+      "A1/norm": 0.00268511357717216,
+      "A1/descr": 0.0012430043425410986,
+      "A1e/moral": 0.010677734389901161,
+      "A1e/norm": 0.003676989581435919,
+      "A1e/descr": 0.002818899927660823,
+      "B/moral": 0.009762858971953392,
+      "B/norm": 0.0063965036533772945,
+      "B/descr": 0.004926710389554501
+     },
+     "A1e_over_A1/moral": {
+      "ratio": 0.8152412176132202,
+      "ci95": [
+       0.7468670561909676,
+       0.8905696332454681
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/moral": {
+      "ratio": 0.745390772819519,
+      "ci95": [
+       0.6623881548643112,
+       0.8457225248217582
+      ]
+     },
+     "A1e_over_A1/norm": {
+      "ratio": 1.3693981170654297,
+      "ci95": [
+       1.177648162841797,
+       1.6269399017095563
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/norm": {
+      "ratio": 2.3822097778320312,
+      "ci95": [
+       1.9794499963521957,
+       2.8996248543262477
+      ]
+     },
+     "A1e_over_A1/descr": {
+      "ratio": 2.2678117752075195,
+      "ci95": [
+       1.69253813624382,
+       3.2597553014755247
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/descr": {
+      "ratio": 3.963550329208374,
+      "ci95": [
+       2.916951560974121,
+       5.822528648376464
+      ]
+     },
+     "A1e_descr_over_moral": {
+      "ratio": 0.2639979422092438,
+      "ci95": [
+       0.21887776851654053,
+       0.31687899380922313
+      ],
+      "reading": "follows the content"
+     },
+     "A1e_norm_over_moral": {
+      "ratio": 0.34436047077178955,
+      "ci95": [
+       0.2887401968240738,
+       0.4098727189004421
+      ],
+      "reading": "follows the content"
+     }
+    }
+   },
+   "H6": {
+    "A1": {
+     "source": "main analysis",
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 30.85,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 1.5,
+      "prudential+aesthetic vs etiquette+epistemic": 6.75,
+      "prudential+epistemic vs etiquette+aesthetic": 5.85
+     },
+     "more": true
+    },
+    "A1e": {
+     "n_features_tested": 490,
+     "full_size": {
+      "n_moral": 80,
+      "n_norm": 107,
+      "n_significant": 102
+     },
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 23.25,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 0.75,
+      "prudential+aesthetic vs etiquette+epistemic": 7.35,
+      "prudential+epistemic vs etiquette+aesthetic": 5.3
+     },
+     "more": true,
+     "reading": "moral vs norm yields more features than any split of the norm kinds"
+    },
+    "B": {
+     "source": "main analysis",
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 16.85,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 8.7,
+      "prudential+aesthetic vs etiquette+epistemic": 15.6,
+      "prudential+epistemic vs etiquette+aesthetic": 20.0
+     },
+     "more": false
+    }
+   }
+  },
+  "llama-3.2-1B-base": {
+   "condition": "llama-3.2-1B-base",
+   "model": "meta-llama/Llama-3.2-1B",
+   "layer": 7,
+   "site": "resid_post",
+   "n_items": 227,
+   "early": false,
+   "behaviour": {
+    "A1": {
+     "moral": {
+      "mass": 0.6864320097491146,
+      "gap": 0.4920419629663229,
+      "n_gap_at_least_0_02": 78,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.5999382519833395,
+      "gap": 0.3476169755525678,
+      "n_gap_at_least_0_02": 97,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.44480308024212717,
+      "gap": 0.3498266700655222,
+      "n_gap_at_least_0_02": 39,
+      "n": 40
+     }
+    },
+    "A1e": {
+     "moral": {
+      "mass": 0.5073306711390615,
+      "gap": 0.39325080402195456,
+      "n_gap_at_least_0_02": 78,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.4214257507402206,
+      "gap": 0.2832440756191717,
+      "n_gap_at_least_0_02": 97,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.2786694597452879,
+      "gap": 0.24734061397612095,
+      "n_gap_at_least_0_02": 39,
+      "n": 40
+     }
+    },
+    "B": {
+     "moral": {
+      "mass": 0.5606754475273192,
+      "gap": 0.3136144429445267,
+      "n_gap_at_least_0_02": 73,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.5473328704802128,
+      "gap": 0.24326565135085398,
+      "n_gap_at_least_0_02": 91,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.45851273108273743,
+      "gap": 0.2899749394506216,
+      "n_gap_at_least_0_02": 35,
+      "n": 40
+     }
+    }
+   },
+   "capture": {
+    "A1": {
+     "R2": {
+      "moral": -0.2070087492465973,
+      "norm": -0.25045791268348694,
+      "descr": -0.23473313450813293
+     },
+     "mean_R2": -0.23237451910972595,
+     "flagged": true
+    },
+    "A1e": {
+     "R2": {
+      "moral": -0.23125365376472473,
+      "norm": -0.3195662498474121,
+      "descr": -0.30530041456222534
+     },
+     "mean_R2": -0.2859290838241577,
+     "flagged": true
+    },
+    "B": {
+     "R2": {
+      "moral": 0.11272992938756943,
+      "norm": 0.11085592210292816,
+      "descr": 0.09193561226129532
+     },
+     "mean_R2": 0.108182393014431,
+     "flagged": true
+    }
+   },
+   "sets": {
+    "original_vs_neutral_sig": {
+     "n_features": 91,
+     "mean_activation": {
+      "A1/moral": 0.11869456619024277,
+      "A1/norm": 0.10748523473739624,
+      "A1/descr": 0.08278089016675949,
+      "A1e/moral": 0.08943458646535873,
+      "A1e/norm": 0.08391953259706497,
+      "A1e/descr": 0.06192321702837944,
+      "B/moral": 0.02711263857781887,
+      "B/norm": 0.021209081634879112,
+      "B/descr": 0.00649348646402359
+     },
+     "A1e_over_A1/moral": {
+      "ratio": 0.7534850835800171,
+      "ci95": [
+       0.743352709710598,
+       0.763866700232029
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/moral": {
+      "ratio": 0.2284235805273056,
+      "ci95": [
+       0.219768974930048,
+       0.23700127862393855
+      ]
+     },
+     "A1e_over_A1/norm": {
+      "ratio": 0.780754029750824,
+      "ci95": [
+       0.7692865058779716,
+       0.7926495417952537
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/norm": {
+      "ratio": 0.1973208785057068,
+      "ci95": [
+       0.18960057459771634,
+       0.20521356649696826
+      ]
+     },
+     "A1e_over_A1/descr": {
+      "ratio": 0.748037576675415,
+      "ci95": [
+       0.719356295466423,
+       0.7769471436738968
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/descr": {
+      "ratio": 0.07844185084104538,
+      "ci95": [
+       0.0661023085936904,
+       0.09107434377074242
+      ]
+     },
+     "A1e_descr_over_moral": {
+      "ratio": 0.6923855543136597,
+      "ci95": [
+       0.6625926226377488,
+       0.724662061035633
+      ],
+      "reading": "follows the frame"
+     },
+     "A1e_norm_over_moral": {
+      "ratio": 0.9383342266082764,
+      "ci95": [
+       0.9088895574212075,
+       0.9684391528367996
+      ],
+      "reading": "follows the frame"
+     }
+    },
+    "original_vs_norm_sig": {
+     "n_features": 32,
+     "mean_activation": {
+      "A1/moral": 0.01795302703976631,
+      "A1/norm": 0.008054750971496105,
+      "A1/descr": 0.0021508217323571444,
+      "A1e/moral": 0.024969791993498802,
+      "A1e/norm": 0.012979329563677311,
+      "A1e/descr": 0.004094982054084539,
+      "B/moral": 0.018822932615876198,
+      "B/norm": 0.01469013188034296,
+      "B/descr": 0.00905675906687975
+     },
+     "A1e_over_A1/moral": {
+      "ratio": 1.3908401727676392,
+      "ci95": [
+       1.2717091202735902,
+       1.5238002330064773
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/moral": {
+      "ratio": 1.0484545230865479,
+      "ci95": [
+       0.9259564355015755,
+       1.1971908241510392
+      ]
+     },
+     "A1e_over_A1/norm": {
+      "ratio": 1.611388087272644,
+      "ci95": [
+       1.4296375572681428,
+       1.83108392059803
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/norm": {
+      "ratio": 1.8237847089767456,
+      "ci95": [
+       1.5623972147703171,
+       2.1535935044288634
+      ]
+     },
+     "A1e_over_A1/descr": {
+      "ratio": 1.9039151668548584,
+      "ci95": [
+       1.2515225797891616,
+       3.102988612651824
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/descr": {
+      "ratio": 4.210836887359619,
+      "ci95": [
+       2.9929433345794676,
+       6.616756558418273
+      ]
+     },
+     "A1e_descr_over_moral": {
+      "ratio": 0.16399744153022766,
+      "ci95": [
+       0.12708710618317126,
+       0.20516769737005233
+      ],
+      "reading": "follows the content"
+     },
+     "A1e_norm_over_moral": {
+      "ratio": 0.5198012590408325,
+      "ci95": [
+       0.4390033632516861,
+       0.6111269310116768
+      ],
+      "reading": "inconclusive"
+     }
+    }
+   },
+   "H6": {
+    "A1": {
+     "source": "main analysis",
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 14.35,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 0.35,
+      "prudential+aesthetic vs etiquette+epistemic": 4.0,
+      "prudential+epistemic vs etiquette+aesthetic": 6.0
+     },
+     "more": true
+    },
+    "A1e": {
+     "n_features_tested": 223,
+     "full_size": {
+      "n_moral": 80,
+      "n_norm": 107,
+      "n_significant": 47
+     },
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 11.25,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 1.85,
+      "prudential+aesthetic vs etiquette+epistemic": 12.3,
+      "prudential+epistemic vs etiquette+aesthetic": 4.05
+     },
+     "more": false,
+     "reading": "moral vs norm yields no more features than norm kinds among themselves"
+    },
+    "B": {
+     "source": "main analysis",
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 6.2,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 8.75,
+      "prudential+aesthetic vs etiquette+epistemic": 2.3,
+      "prudential+epistemic vs etiquette+aesthetic": 9.7
+     },
+     "more": false
+    }
+   }
+  },
+  "llama-3.2-1B-base-MLP0": {
+   "condition": "llama-3.2-1B-base-MLP0",
+   "model": "meta-llama/Llama-3.2-1B",
+   "layer": 0,
+   "site": "mlp_out",
+   "n_items": 227,
+   "early": true,
+   "behaviour": {
+    "A1": {
+     "moral": {
+      "mass": 0.6864320097491146,
+      "gap": 0.4920419629663229,
+      "n_gap_at_least_0_02": 78,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.5999382519833395,
+      "gap": 0.3476169755525678,
+      "n_gap_at_least_0_02": 97,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.44480308024212717,
+      "gap": 0.3498266700655222,
+      "n_gap_at_least_0_02": 39,
+      "n": 40
+     }
+    },
+    "A1e": {
+     "moral": {
+      "mass": 0.5073306711390615,
+      "gap": 0.39325080402195456,
+      "n_gap_at_least_0_02": 78,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.4214257507402206,
+      "gap": 0.2832440756191717,
+      "n_gap_at_least_0_02": 97,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.2786694597452879,
+      "gap": 0.24734061397612095,
+      "n_gap_at_least_0_02": 39,
+      "n": 40
+     }
+    },
+    "B": {
+     "moral": {
+      "mass": 0.5606754475273192,
+      "gap": 0.3136144429445267,
+      "n_gap_at_least_0_02": 73,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.5473328704802128,
+      "gap": 0.24326565135085398,
+      "n_gap_at_least_0_02": 91,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.45851273108273743,
+      "gap": 0.2899749394506216,
+      "n_gap_at_least_0_02": 35,
+      "n": 40
+     }
+    }
+   },
+   "capture": {
+    "A1": {
+     "R2": {
+      "moral": -1.1940072774887085,
+      "norm": -2.1536967754364014,
+      "descr": -1.2693783044815063
+     },
+     "mean_R2": -1.6596531867980957,
+     "flagged": true
+    },
+    "A1e": {
+     "R2": {
+      "moral": -4.562402248382568,
+      "norm": -5.408725261688232,
+      "descr": -2.0962681770324707
+     },
+     "mean_R2": -4.526768207550049,
+     "flagged": true
+    },
+    "B": {
+     "R2": {
+      "moral": 0.32233577966690063,
+      "norm": 0.35537174344062805,
+      "descr": 0.4242502748966217
+     },
+     "mean_R2": 0.35586628317832947,
+     "flagged": true
+    }
+   },
+   "sets": {
+    "original_vs_neutral_sig": {
+     "n_features": 80,
+     "mean_activation": {
+      "A1/moral": 0.07746751606464386,
+      "A1/norm": 0.07706116139888763,
+      "A1/descr": 0.07693982869386673,
+      "A1e/moral": 0.00684682372957468,
+      "A1e/norm": 0.006902510765939951,
+      "A1e/descr": 0.006888064555823803,
+      "B/moral": 0.0009130369871854782,
+      "B/norm": 0.0009562840568833053,
+      "B/descr": 0.0008539987029507756
+     },
+     "A1e_over_A1/moral": {
+      "ratio": 0.08838316053152084,
+      "ci95": [
+       0.08804422672837972,
+       0.08872389923781157
+      ],
+      "reading": "the word 'morally'"
+     },
+     "B_over_A1/moral": {
+      "ratio": 0.011786062270402908,
+      "ci95": [
+       0.010107575939036906,
+       0.01367679014801979
+      ]
+     },
+     "A1e_over_A1/norm": {
+      "ratio": 0.08957184851169586,
+      "ci95": [
+       0.08928916919976473,
+       0.08985901456326247
+      ],
+      "reading": "the word 'morally'"
+     },
+     "B_over_A1/norm": {
+      "ratio": 0.01240941695868969,
+      "ci95": [
+       0.01096345956902951,
+       0.013961752597242593
+      ]
+     },
+     "A1e_over_A1/descr": {
+      "ratio": 0.08952534198760986,
+      "ci95": [
+       0.08925477769225836,
+       0.08979326263070106
+      ],
+      "reading": "the word 'morally'"
+     },
+     "B_over_A1/descr": {
+      "ratio": 0.011099565774202347,
+      "ci95": [
+       0.009188614576123655,
+       0.013044676952995358
+      ]
+     },
+     "A1e_descr_over_moral": {
+      "ratio": 1.0060234069824219,
+      "ci95": [
+       1.0031217604875564,
+       1.0088744401931762
+      ],
+      "reading": "follows the frame"
+     },
+     "A1e_norm_over_moral": {
+      "ratio": 1.0081332921981812,
+      "ci95": [
+       1.0050355821847916,
+       1.0112196296453475
+      ],
+      "reading": "follows the frame"
+     }
+    },
+    "original_vs_norm_sig": {
+     "n_features": 16,
+     "mean_activation": {
+      "A1/moral": 0.009609639644622803,
+      "A1/norm": 0.0076868911273777485,
+      "A1/descr": 0.006867694668471813,
+      "A1e/moral": 0.004428601358085871,
+      "A1e/norm": 0.004725295584648848,
+      "A1e/descr": 0.004746389575302601,
+      "B/moral": 0.00815418642014265,
+      "B/norm": 0.008371865376830101,
+      "B/descr": 0.011026501655578613
+     },
+     "A1e_over_A1/moral": {
+      "ratio": 0.4608498811721802,
+      "ci95": [
+       0.4190913625061512,
+       0.5072250977158546
+      ],
+      "reading": "inconclusive"
+     },
+     "B_over_A1/moral": {
+      "ratio": 0.8485423922538757,
+      "ci95": [
+       0.7711430504918099,
+       0.9384400933980942
+      ]
+     },
+     "A1e_over_A1/norm": {
+      "ratio": 0.6147212982177734,
+      "ci95": [
+       0.5745945885777474,
+       0.6584418088197708
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/norm": {
+      "ratio": 1.0891094207763672,
+      "ci95": [
+       1.0047055929899216,
+       1.1804176568984985
+      ]
+     },
+     "A1e_over_A1/descr": {
+      "ratio": 0.6911182999610901,
+      "ci95": [
+       0.6182876124978065,
+       0.7804725557565689
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/descr": {
+      "ratio": 1.6055608987808228,
+      "ci95": [
+       1.4320842027664185,
+       1.8118816673755644
+      ]
+     },
+     "A1e_descr_over_moral": {
+      "ratio": 1.0717581510543823,
+      "ci95": [
+       1.051086574792862,
+       1.093494027853012
+      ],
+      "reading": "follows the frame"
+     },
+     "A1e_norm_over_moral": {
+      "ratio": 1.0669950246810913,
+      "ci95": [
+       1.0488311231136322,
+       1.0854829549789429
+      ],
+      "reading": "follows the frame"
+     }
+    }
+   },
+   "H6": {
+    "A1": {
+     "source": "main analysis",
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 0.2,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 0.0,
+      "prudential+aesthetic vs etiquette+epistemic": 0.9,
+      "prudential+epistemic vs etiquette+aesthetic": 0.5
+     },
+     "more": false
+    },
+    "A1e": {
+     "n_features_tested": 80,
+     "full_size": {
+      "n_moral": 80,
+      "n_norm": 107,
+      "n_significant": 0
+     },
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 0.05,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 0.5,
+      "prudential+aesthetic vs etiquette+epistemic": 0.05,
+      "prudential+epistemic vs etiquette+aesthetic": 0.0
+     },
+     "more": false,
+     "reading": "moral vs norm yields no more features than norm kinds among themselves"
+    },
+    "B": {
+     "source": "main analysis",
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 0.05,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 0.7,
+      "prudential+aesthetic vs etiquette+epistemic": 0.15,
+      "prudential+epistemic vs etiquette+aesthetic": 0.8
+     },
+     "more": false
+    }
+   }
+  },
+  "llama-3.2-1B-base-k128": {
+   "condition": "llama-3.2-1B-base-k128",
+   "model": "meta-llama/Llama-3.2-1B",
+   "layer": 7,
+   "site": "resid_post",
+   "n_items": 227,
+   "early": false,
+   "behaviour": {
+    "A1": {
+     "moral": {
+      "mass": 0.6864320097491146,
+      "gap": 0.4920419629663229,
+      "n_gap_at_least_0_02": 78,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.5999382519833395,
+      "gap": 0.3476169755525678,
+      "n_gap_at_least_0_02": 97,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.44480308024212717,
+      "gap": 0.3498266700655222,
+      "n_gap_at_least_0_02": 39,
+      "n": 40
+     }
+    },
+    "A1e": {
+     "moral": {
+      "mass": 0.5073306711390615,
+      "gap": 0.39325080402195456,
+      "n_gap_at_least_0_02": 78,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.4214257507402206,
+      "gap": 0.2832440756191717,
+      "n_gap_at_least_0_02": 97,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.2786694597452879,
+      "gap": 0.24734061397612095,
+      "n_gap_at_least_0_02": 39,
+      "n": 40
+     }
+    },
+    "B": {
+     "moral": {
+      "mass": 0.5606754475273192,
+      "gap": 0.3136144429445267,
+      "n_gap_at_least_0_02": 73,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.5473328704802128,
+      "gap": 0.24326565135085398,
+      "n_gap_at_least_0_02": 91,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.45851273108273743,
+      "gap": 0.2899749394506216,
+      "n_gap_at_least_0_02": 35,
+      "n": 40
+     }
+    }
+   },
+   "capture": {
+    "A1": {
+     "R2": {
+      "moral": -0.1579212099313736,
+      "norm": -0.23195527493953705,
+      "descr": -0.1578056514263153
+     },
+     "mean_R2": -0.1927979588508606,
+     "flagged": true
+    },
+    "A1e": {
+     "R2": {
+      "moral": -0.2055535763502121,
+      "norm": -0.3060770034790039,
+      "descr": -0.2343035191297531
+     },
+     "mean_R2": -0.2580029368400574,
+     "flagged": true
+    },
+    "B": {
+     "R2": {
+      "moral": 0.22189970314502716,
+      "norm": 0.20823971927165985,
+      "descr": 0.20730909705162048
+     },
+     "mean_R2": 0.21288982033729553,
+     "flagged": true
+    }
+   },
+   "sets": {
+    "original_vs_neutral_sig": {
+     "n_features": 175,
+     "mean_activation": {
+      "A1/moral": 0.08354147523641586,
+      "A1/norm": 0.0766129195690155,
+      "A1/descr": 0.06063922494649887,
+      "A1e/moral": 0.06587771326303482,
+      "A1e/norm": 0.061847735196352005,
+      "A1e/descr": 0.04867901653051376,
+      "B/moral": 0.014413423836231232,
+      "B/norm": 0.011177467182278633,
+      "B/descr": 0.0069710081443190575
+     },
+     "A1e_over_A1/moral": {
+      "ratio": 0.7885629534721375,
+      "ci95": [
+       0.7790075778961182,
+       0.7977561935782432
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/moral": {
+      "ratio": 0.1725301593542099,
+      "ci95": [
+       0.16443892382085323,
+       0.1804734542965889
+      ]
+     },
+     "A1e_over_A1/norm": {
+      "ratio": 0.8072755336761475,
+      "ci95": [
+       0.7963602542877197,
+       0.8184784322977066
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/norm": {
+      "ratio": 0.1458953320980072,
+      "ci95": [
+       0.1407344166189432,
+       0.15116512589156628
+      ]
+     },
+     "A1e_over_A1/descr": {
+      "ratio": 0.8027644753456116,
+      "ci95": [
+       0.7796746164560318,
+       0.8264947265386582
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/descr": {
+      "ratio": 0.11495872586965561,
+      "ci95": [
+       0.10496213156729936,
+       0.1248165037482977
+      ]
+     },
+     "A1e_descr_over_moral": {
+      "ratio": 0.7389299869537354,
+      "ci95": [
+       0.7094282299280167,
+       0.7710674300789833
+      ],
+      "reading": "follows the frame"
+     },
+     "A1e_norm_over_moral": {
+      "ratio": 0.9388263821601868,
+      "ci95": [
+       0.9134120225906373,
+       0.965552905201912
+      ],
+      "reading": "follows the frame"
+     }
+    },
+    "original_vs_norm_sig": {
+     "n_features": 66,
+     "mean_activation": {
+      "A1/moral": 0.01853606477379799,
+      "A1/norm": 0.0071334815584123135,
+      "A1/descr": 0.002099274192005396,
+      "A1e/moral": 0.020456915721297264,
+      "A1e/norm": 0.009941366501152515,
+      "A1e/descr": 0.006469818763434887,
+      "B/moral": 0.013041740283370018,
+      "B/norm": 0.009712070226669312,
+      "B/descr": 0.007354354951530695
+     },
+     "A1e_over_A1/moral": {
+      "ratio": 1.1036278009414673,
+      "ci95": [
+       1.0324046164751053,
+       1.177985942363739
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/moral": {
+      "ratio": 0.7035873532295227,
+      "ci95": [
+       0.636311262845993,
+       0.7789522975683212
+      ]
+     },
+     "A1e_over_A1/norm": {
+      "ratio": 1.3936206102371216,
+      "ci95": [
+       1.2721246749162674,
+       1.5359040796756744
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/norm": {
+      "ratio": 1.3614768981933594,
+      "ci95": [
+       1.1909484714269638,
+       1.565262931585312
+      ]
+     },
+     "A1e_over_A1/descr": {
+      "ratio": 3.0819313526153564,
+      "ci95": [
+       2.5293067514896395,
+       3.9250620484352106
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/descr": {
+      "ratio": 3.5032846927642822,
+      "ci95": [
+       2.7781971216201784,
+       4.643756318092346
+      ]
+     },
+     "A1e_descr_over_moral": {
+      "ratio": 0.31626561284065247,
+      "ci95": [
+       0.26192851141095164,
+       0.3775834783911705
+      ],
+      "reading": "follows the content"
+     },
+     "A1e_norm_over_moral": {
+      "ratio": 0.4859660565853119,
+      "ci95": [
+       0.42163535878062247,
+       0.5605576068162917
+      ],
+      "reading": "inconclusive"
+     }
+    }
+   },
+   "H6": {
+    "A1": {
+     "source": "main analysis",
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 23.4,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 2.95,
+      "prudential+aesthetic vs etiquette+epistemic": 11.55,
+      "prudential+epistemic vs etiquette+aesthetic": 6.0
+     },
+     "more": true
+    },
+    "A1e": {
+     "n_features_tested": 444,
+     "full_size": {
+      "n_moral": 80,
+      "n_norm": 107,
+      "n_significant": 51
+     },
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 9.95,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 2.7,
+      "prudential+aesthetic vs etiquette+epistemic": 8.35,
+      "prudential+epistemic vs etiquette+aesthetic": 10.25
+     },
+     "more": false,
+     "reading": "moral vs norm yields no more features than norm kinds among themselves"
+    },
+    "B": {
+     "source": "main analysis",
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 16.35,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 8.2,
+      "prudential+aesthetic vs etiquette+epistemic": 13.0,
+      "prudential+epistemic vs etiquette+aesthetic": 18.65
+     },
+     "more": false
+    }
+   }
+  },
+  "llama-3.2-3B-IT-L19": {
+   "condition": "llama-3.2-3B-IT-L19",
+   "model": "meta-llama/Llama-3.2-3B-Instruct",
+   "layer": 19,
+   "site": "resid_post",
+   "n_items": 227,
+   "early": false,
+   "behaviour": {
+    "A1": {
+     "moral": {
+      "mass": 0.7461715871468186,
+      "gap": 1.0022543082013726,
+      "n_gap_at_least_0_02": 72,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.6400084375778091,
+      "gap": 0.8186462275057196,
+      "n_gap_at_least_0_02": 103,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.4895680155605078,
+      "gap": 0.653426711447537,
+      "n_gap_at_least_0_02": 39,
+      "n": 40
+     }
+    },
+    "A1e": {
+     "moral": {
+      "mass": 0.5737388907466083,
+      "gap": 0.807657938124612,
+      "n_gap_at_least_0_02": 76,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.3761050250102705,
+      "gap": 0.5106977371968956,
+      "n_gap_at_least_0_02": 103,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.18814692458836363,
+      "gap": 0.27632743220310657,
+      "n_gap_at_least_0_02": 39,
+      "n": 40
+     }
+    },
+    "B": {
+     "moral": {
+      "mass": 0.5721072420012205,
+      "gap": 0.765966081712395,
+      "n_gap_at_least_0_02": 69,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.5741805140381662,
+      "gap": 0.7511695785595922,
+      "n_gap_at_least_0_02": 103,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.4514539023861289,
+      "gap": 0.6693616138305515,
+      "n_gap_at_least_0_02": 39,
+      "n": 40
+     }
+    }
+   },
+   "capture": {
+    "A1": {
+     "R2": {
+      "moral": 0.4484180510044098,
+      "norm": 0.3232777416706085,
+      "descr": 0.37172931432724
+     },
+     "mean_R2": 0.3759177327156067,
+     "flagged": true
+    },
+    "A1e": {
+     "R2": {
+      "moral": 0.4301862120628357,
+      "norm": 0.33923423290252686,
+      "descr": 0.3571896255016327
+     },
+     "mean_R2": 0.37445175647735596,
+     "flagged": true
+    },
+    "B": {
+     "R2": {
+      "moral": 0.49450740218162537,
+      "norm": 0.46968725323677063,
+      "descr": 0.5080256462097168
+     },
+     "mean_R2": 0.48519009351730347,
+     "flagged": true
+    }
+   },
+   "sets": {
+    "original_vs_neutral_sig": {
+     "n_features": 153,
+     "mean_activation": {
+      "A1/moral": 0.5186818242073059,
+      "A1/norm": 0.508003830909729,
+      "A1/descr": 0.47813597321510315,
+      "A1e/moral": 0.41445931792259216,
+      "A1e/norm": 0.40411853790283203,
+      "A1e/descr": 0.4080200791358948,
+      "B/moral": 0.16997617483139038,
+      "B/norm": 0.13054877519607544,
+      "B/descr": 0.07150932401418686
+     },
+     "A1e_over_A1/moral": {
+      "ratio": 0.7990627288818359,
+      "ci95": [
+       0.7902268424630166,
+       0.8077479347586631
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/moral": {
+      "ratio": 0.327707976102829,
+      "ci95": [
+       0.31951151341199874,
+       0.3358298480510712
+      ]
+     },
+     "A1e_over_A1/norm": {
+      "ratio": 0.7955029606819153,
+      "ci95": [
+       0.7883337318897248,
+       0.8026626542210579
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/norm": {
+      "ratio": 0.25698384642601013,
+      "ci95": [
+       0.25024144649505614,
+       0.26379192918539046
+      ]
+     },
+     "A1e_over_A1/descr": {
+      "ratio": 0.8533557653427124,
+      "ci95": [
+       0.8406839668750763,
+       0.8658109724521637
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/descr": {
+      "ratio": 0.14955855906009674,
+      "ci95": [
+       0.13944974541664124,
+       0.1597495436668396
+      ]
+     },
+     "A1e_descr_over_moral": {
+      "ratio": 0.9844635128974915,
+      "ci95": [
+       0.9623935550451279,
+       1.006364607810974
+      ],
+      "reading": "follows the frame"
+     },
+     "A1e_norm_over_moral": {
+      "ratio": 0.9750499725341797,
+      "ci95": [
+       0.9564525112509727,
+       0.9935370832681656
+      ],
+      "reading": "follows the frame"
+     }
+    },
+    "original_vs_norm_sig": {
+     "n_features": 49,
+     "mean_activation": {
+      "A1/moral": 0.23369678854942322,
+      "A1/norm": 0.1998022496700287,
+      "A1/descr": 0.16830812394618988,
+      "A1e/moral": 0.2440439760684967,
+      "A1e/norm": 0.22558611631393433,
+      "A1e/descr": 0.23607683181762695,
+      "B/moral": 0.1325075775384903,
+      "B/norm": 0.10669435560703278,
+      "B/descr": 0.10279148817062378
+     },
+     "A1e_over_A1/moral": {
+      "ratio": 1.0442761182785034,
+      "ci95": [
+       1.0223564445972442,
+       1.0668615221977233
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/moral": {
+      "ratio": 0.5670064091682434,
+      "ci95": [
+       0.5418741598725318,
+       0.5920558258891105
+      ]
+     },
+     "A1e_over_A1/norm": {
+      "ratio": 1.12904691696167,
+      "ci95": [
+       1.1083863854408265,
+       1.1494310915470123
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/norm": {
+      "ratio": 0.5339998006820679,
+      "ci95": [
+       0.5105289027094841,
+       0.5575634956359863
+      ]
+     },
+     "A1e_over_A1/descr": {
+      "ratio": 1.4026466608047485,
+      "ci95": [
+       1.3614896565675736,
+       1.4454952210187912
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/descr": {
+      "ratio": 0.6107339859008789,
+      "ci95": [
+       0.56328354626894,
+       0.6564803004264832
+      ]
+     },
+     "A1e_descr_over_moral": {
+      "ratio": 0.9673536419868469,
+      "ci95": [
+       0.9159723982214928,
+       1.0205828577280045
+      ],
+      "reading": "follows the frame"
+     },
+     "A1e_norm_over_moral": {
+      "ratio": 0.9243666529655457,
+      "ci95": [
+       0.8810727313160897,
+       0.9706166118383407
+      ],
+      "reading": "follows the frame"
+     }
+    }
+   },
+   "H6": {
+    "A1": {
+     "source": "main analysis",
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 54.9,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 10.35,
+      "prudential+aesthetic vs etiquette+epistemic": 14.15,
+      "prudential+epistemic vs etiquette+aesthetic": 39.25
+     },
+     "more": true
+    },
+    "A1e": {
+     "n_features_tested": 421,
+     "full_size": {
+      "n_moral": 80,
+      "n_norm": 107,
+      "n_significant": 134
+     },
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 43.0,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 19.15,
+      "prudential+aesthetic vs etiquette+epistemic": 20.35,
+      "prudential+epistemic vs etiquette+aesthetic": 13.6
+     },
+     "more": true,
+     "reading": "moral vs norm yields more features than any split of the norm kinds"
+    },
+    "B": {
+     "source": "main analysis",
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 77.4,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 44.4,
+      "prudential+aesthetic vs etiquette+epistemic": 53.4,
+      "prudential+epistemic vs etiquette+aesthetic": 81.85
+     },
+     "more": false
+    }
+   }
+  },
+  "llama-3.2-3B-IT-L3": {
+   "condition": "llama-3.2-3B-IT-L3",
+   "model": "meta-llama/Llama-3.2-3B-Instruct",
+   "layer": 3,
+   "site": "resid_post",
+   "n_items": 227,
+   "early": true,
+   "behaviour": {
+    "A1": {
+     "moral": {
+      "mass": 0.7461715871468186,
+      "gap": 1.0022543082013726,
+      "n_gap_at_least_0_02": 72,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.6400084375778091,
+      "gap": 0.8186462275057196,
+      "n_gap_at_least_0_02": 103,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.4895680155605078,
+      "gap": 0.653426711447537,
+      "n_gap_at_least_0_02": 39,
+      "n": 40
+     }
+    },
+    "A1e": {
+     "moral": {
+      "mass": 0.5737388907466083,
+      "gap": 0.807657938124612,
+      "n_gap_at_least_0_02": 76,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.3761050250102705,
+      "gap": 0.5106977371968956,
+      "n_gap_at_least_0_02": 103,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.18814692458836363,
+      "gap": 0.27632743220310657,
+      "n_gap_at_least_0_02": 39,
+      "n": 40
+     }
+    },
+    "B": {
+     "moral": {
+      "mass": 0.5721072420012205,
+      "gap": 0.765966081712395,
+      "n_gap_at_least_0_02": 69,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.5741805140381662,
+      "gap": 0.7511695785595922,
+      "n_gap_at_least_0_02": 103,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.4514539023861289,
+      "gap": 0.6693616138305515,
+      "n_gap_at_least_0_02": 39,
+      "n": 40
+     }
+    }
+   },
+   "capture": {
+    "A1": {
+     "R2": {
+      "moral": 0.01808227226138115,
+      "norm": -0.048756375908851624,
+      "descr": -0.07931812852621078
+     },
+     "mean_R2": -0.03058623895049095,
+     "flagged": true
+    },
+    "A1e": {
+     "R2": {
+      "moral": -0.21124882996082306,
+      "norm": -0.3281692862510681,
+      "descr": -0.3383834958076477
+     },
+     "mean_R2": -0.28876370191574097,
+     "flagged": true
+    },
+    "B": {
+     "R2": {
+      "moral": 0.2660504877567291,
+      "norm": 0.22172217071056366,
+      "descr": 0.2133185863494873
+     },
+     "mean_R2": 0.23586367070674896,
+     "flagged": true
+    }
+   },
+   "sets": {
+    "original_vs_neutral_sig": {
+     "n_features": 171,
+     "mean_activation": {
+      "A1/moral": 0.08984094113111496,
+      "A1/norm": 0.08696657419204712,
+      "A1/descr": 0.07699225842952728,
+      "A1e/moral": 0.06953037530183792,
+      "A1e/norm": 0.06820154935121536,
+      "A1e/descr": 0.06297238171100616,
+      "B/moral": 0.01051088236272335,
+      "B/norm": 0.008839289657771587,
+      "B/descr": 0.005151973571628332
+     },
+     "A1e_over_A1/moral": {
+      "ratio": 0.7739275097846985,
+      "ci95": [
+       0.7674886628985405,
+       0.7805340096354485
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/moral": {
+      "ratio": 0.11699435114860535,
+      "ci95": [
+       0.11143091488629579,
+       0.12285794038325548
+      ]
+     },
+     "A1e_over_A1/norm": {
+      "ratio": 0.7842271327972412,
+      "ci95": [
+       0.7774869248270988,
+       0.7910279482603073
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/norm": {
+      "ratio": 0.10164008289575577,
+      "ci95": [
+       0.09736183807253837,
+       0.10585553757846355
+      ]
+     },
+     "A1e_over_A1/descr": {
+      "ratio": 0.8179053664207458,
+      "ci95": [
+       0.8074985891580582,
+       0.8287220492959022
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/descr": {
+      "ratio": 0.06691547483205795,
+      "ci95": [
+       0.06014290768653154,
+       0.07407104596495628
+      ]
+     },
+     "A1e_descr_over_moral": {
+      "ratio": 0.9056816101074219,
+      "ci95": [
+       0.889966806769371,
+       0.9225388333201409
+      ],
+      "reading": "follows the frame"
+     },
+     "A1e_norm_over_moral": {
+      "ratio": 0.9808885455131531,
+      "ci95": [
+       0.9654626235365867,
+       0.9958710759878159
+      ],
+      "reading": "follows the frame"
+     }
+    },
+    "original_vs_norm_sig": {
+     "n_features": 30,
+     "mean_activation": {
+      "A1/moral": 0.0074262297712266445,
+      "A1/norm": 0.003420445369556546,
+      "A1/descr": 0.002783915027976036,
+      "A1e/moral": 0.007492281496524811,
+      "A1e/norm": 0.0036475062370300293,
+      "A1e/descr": 0.00520754512399435,
+      "B/moral": 0.007620410528033972,
+      "B/norm": 0.0018034224631264806,
+      "B/descr": 0.001679280772805214
+     },
+     "A1e_over_A1/moral": {
+      "ratio": 1.0088943243026733,
+      "ci95": [
+       0.8784493610262871,
+       1.1552257508039474
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/moral": {
+      "ratio": 1.0261479616165161,
+      "ci95": [
+       0.8750593572854996,
+       1.2063208371400833
+      ]
+     },
+     "A1e_over_A1/norm": {
+      "ratio": 1.0663834810256958,
+      "ci95": [
+       0.8560577034950256,
+       1.3627286463975905
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/norm": {
+      "ratio": 0.5272478461265564,
+      "ci95": [
+       0.3769215889275074,
+       0.7271192133426666
+      ]
+     },
+     "A1e_over_A1/descr": {
+      "ratio": 1.870583415031433,
+      "ci95": [
+       1.4811531871557235,
+       2.4857754647731776
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/descr": {
+      "ratio": 0.6032083630561829,
+      "ci95": [
+       0.38342542573809624,
+       0.8815526708960533
+      ]
+     },
+     "A1e_descr_over_moral": {
+      "ratio": 0.6950546503067017,
+      "ci95": [
+       0.5736965924501419,
+       0.8456018313765525
+      ],
+      "reading": "follows the frame"
+     },
+     "A1e_norm_over_moral": {
+      "ratio": 0.48683518171310425,
+      "ci95": [
+       0.3870313584804535,
+       0.6093099877238273
+      ],
+      "reading": "inconclusive"
+     }
+    }
+   },
+   "H6": {
+    "A1": {
+     "source": "main analysis",
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 0.9,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 3.4,
+      "prudential+aesthetic vs etiquette+epistemic": 0.0,
+      "prudential+epistemic vs etiquette+aesthetic": 2.35
+     },
+     "more": false
+    },
+    "A1e": {
+     "n_features_tested": 400,
+     "full_size": {
+      "n_moral": 80,
+      "n_norm": 107,
+      "n_significant": 3
+     },
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 0.25,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 3.4,
+      "prudential+aesthetic vs etiquette+epistemic": 3.8,
+      "prudential+epistemic vs etiquette+aesthetic": 4.75
+     },
+     "more": false,
+     "reading": "moral vs norm yields no more features than norm kinds among themselves"
+    },
+    "B": {
+     "source": "main analysis",
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 4.4,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 3.35,
+      "prudential+aesthetic vs etiquette+epistemic": 1.8,
+      "prudential+epistemic vs etiquette+aesthetic": 0.2
+     },
+     "more": true
+    }
+   }
+  },
+  "llama-3.2-3B-IT-L7": {
+   "condition": "llama-3.2-3B-IT-L7",
+   "model": "meta-llama/Llama-3.2-3B-Instruct",
+   "layer": 7,
+   "site": "resid_post",
+   "n_items": 227,
+   "early": false,
+   "behaviour": {
+    "A1": {
+     "moral": {
+      "mass": 0.7461715871468186,
+      "gap": 1.0022543082013726,
+      "n_gap_at_least_0_02": 72,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.6400084375778091,
+      "gap": 0.8186462275057196,
+      "n_gap_at_least_0_02": 103,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.4895680155605078,
+      "gap": 0.653426711447537,
+      "n_gap_at_least_0_02": 39,
+      "n": 40
+     }
+    },
+    "A1e": {
+     "moral": {
+      "mass": 0.5737388907466083,
+      "gap": 0.807657938124612,
+      "n_gap_at_least_0_02": 76,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.3761050250102705,
+      "gap": 0.5106977371968956,
+      "n_gap_at_least_0_02": 103,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.18814692458836363,
+      "gap": 0.27632743220310657,
+      "n_gap_at_least_0_02": 39,
+      "n": 40
+     }
+    },
+    "B": {
+     "moral": {
+      "mass": 0.5721072420012205,
+      "gap": 0.765966081712395,
+      "n_gap_at_least_0_02": 69,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.5741805140381662,
+      "gap": 0.7511695785595922,
+      "n_gap_at_least_0_02": 103,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.4514539023861289,
+      "gap": 0.6693616138305515,
+      "n_gap_at_least_0_02": 39,
+      "n": 40
+     }
+    }
+   },
+   "capture": {
+    "A1": {
+     "R2": {
+      "moral": -0.09060478955507278,
+      "norm": -0.1944255232810974,
+      "descr": -0.22845809161663055
+     },
+     "mean_R2": -0.1638336479663849,
+     "flagged": true
+    },
+    "A1e": {
+     "R2": {
+      "moral": -0.08185248076915741,
+      "norm": -0.1779448390007019,
+      "descr": -0.24276575446128845
+     },
+     "mean_R2": -0.15550188720226288,
+     "flagged": true
+    },
+    "B": {
+     "R2": {
+      "moral": 0.3310188353061676,
+      "norm": 0.2720298767089844,
+      "descr": 0.21317696571350098
+     },
+     "mean_R2": 0.28244835138320923,
+     "flagged": true
+    }
+   },
+   "sets": {
+    "original_vs_neutral_sig": {
+     "n_features": 205,
+     "mean_activation": {
+      "A1/moral": 0.1162046417593956,
+      "A1/norm": 0.10681543499231339,
+      "A1/descr": 0.08909627050161362,
+      "A1e/moral": 0.10490971803665161,
+      "A1e/norm": 0.0983794555068016,
+      "A1e/descr": 0.08726982772350311,
+      "B/moral": 0.003799795638769865,
+      "B/norm": 0.0018952592508867383,
+      "B/descr": 0.0020003006793558598
+     },
+     "A1e_over_A1/moral": {
+      "ratio": 0.9028014540672302,
+      "ci95": [
+       0.8905643090605736,
+       0.9149803578853607
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/moral": {
+      "ratio": 0.03269917145371437,
+      "ci95": [
+       0.0290850761346519,
+       0.03632494919002056
+      ]
+     },
+     "A1e_over_A1/norm": {
+      "ratio": 0.9210228323936462,
+      "ci95": [
+       0.9116345062851906,
+       0.9306257575750351
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/norm": {
+      "ratio": 0.0177433080971241,
+      "ci95": [
+       0.01561460483353585,
+       0.01998413144610822
+      ]
+     },
+     "A1e_over_A1/descr": {
+      "ratio": 0.9795003533363342,
+      "ci95": [
+       0.9548125892877579,
+       1.0027824699878694
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/descr": {
+      "ratio": 0.02245100401341915,
+      "ci95": [
+       0.017862493777647613,
+       0.02741103088483214
+      ]
+     },
+     "A1e_descr_over_moral": {
+      "ratio": 0.8318564891815186,
+      "ci95": [
+       0.8047598376870155,
+       0.8595934614539147
+      ],
+      "reading": "follows the frame"
+     },
+     "A1e_norm_over_moral": {
+      "ratio": 0.9377534985542297,
+      "ci95": [
+       0.9189792171120643,
+       0.9570662498474121
+      ],
+      "reading": "follows the frame"
+     }
+    },
+    "original_vs_norm_sig": {
+     "n_features": 62,
+     "mean_activation": {
+      "A1/moral": 0.014425757341086864,
+      "A1/norm": 0.007931423373520374,
+      "A1/descr": 0.005772375501692295,
+      "A1e/moral": 0.02464727684855461,
+      "A1e/norm": 0.012536736205220222,
+      "A1e/descr": 0.0077652717009186745,
+      "B/moral": 0.011221055872738361,
+      "B/norm": 0.00860507320612669,
+      "B/descr": 0.007516258396208286
+     },
+     "A1e_over_A1/moral": {
+      "ratio": 1.7085603475570679,
+      "ci95": [
+       1.5969825714826584,
+       1.8427898347377776
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/moral": {
+      "ratio": 0.7778486609458923,
+      "ci95": [
+       0.7065592020750046,
+       0.8565566435456275
+      ]
+     },
+     "A1e_over_A1/norm": {
+      "ratio": 1.5806413888931274,
+      "ci95": [
+       1.4599630504846572,
+       1.712099277973175
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/norm": {
+      "ratio": 1.0849342346191406,
+      "ci95": [
+       0.9900251761078834,
+       1.1887254893779755
+      ]
+     },
+     "A1e_over_A1/descr": {
+      "ratio": 1.3452471494674683,
+      "ci95": [
+       1.1986437052488328,
+       1.5295607328414917
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/descr": {
+      "ratio": 1.3021084070205688,
+      "ci95": [
+       1.1631278485059737,
+       1.470552921295166
+      ]
+     },
+     "A1e_descr_over_moral": {
+      "ratio": 0.3150559663772583,
+      "ci95": [
+       0.26535271629691126,
+       0.36852330639958375
+      ],
+      "reading": "follows the content"
+     },
+     "A1e_norm_over_moral": {
+      "ratio": 0.5086458921432495,
+      "ci95": [
+       0.4540490500628948,
+       0.5677925437688827
+      ],
+      "reading": "inconclusive"
+     }
+    }
+   },
+   "H6": {
+    "A1": {
+     "source": "main analysis",
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 15.05,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 0.3,
+      "prudential+aesthetic vs etiquette+epistemic": 3.5,
+      "prudential+epistemic vs etiquette+aesthetic": 13.3
+     },
+     "more": true
+    },
+    "A1e": {
+     "n_features_tested": 470,
+     "full_size": {
+      "n_moral": 80,
+      "n_norm": 107,
+      "n_significant": 46
+     },
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 14.5,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 4.5,
+      "prudential+aesthetic vs etiquette+epistemic": 5.25,
+      "prudential+epistemic vs etiquette+aesthetic": 15.35
+     },
+     "more": false,
+     "reading": "moral vs norm yields no more features than norm kinds among themselves"
+    },
+    "B": {
+     "source": "main analysis",
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 19.75,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 4.9,
+      "prudential+aesthetic vs etiquette+epistemic": 15.75,
+      "prudential+epistemic vs etiquette+aesthetic": 27.45
+     },
+     "more": false
+    }
+   }
+  },
+  "llama-3.2-3B-IT-k128": {
+   "condition": "llama-3.2-3B-IT-k128",
+   "model": "meta-llama/Llama-3.2-3B-Instruct",
+   "layer": 11,
+   "site": "resid_post",
+   "n_items": 227,
+   "early": false,
+   "behaviour": {
+    "A1": {
+     "moral": {
+      "mass": 0.7461715871468186,
+      "gap": 1.0022543082013726,
+      "n_gap_at_least_0_02": 72,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.6400084375778091,
+      "gap": 0.8186462275057196,
+      "n_gap_at_least_0_02": 103,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.4895680155605078,
+      "gap": 0.653426711447537,
+      "n_gap_at_least_0_02": 39,
+      "n": 40
+     }
+    },
+    "A1e": {
+     "moral": {
+      "mass": 0.5737388907466083,
+      "gap": 0.807657938124612,
+      "n_gap_at_least_0_02": 76,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.3761050250102705,
+      "gap": 0.5106977371968956,
+      "n_gap_at_least_0_02": 103,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.18814692458836363,
+      "gap": 0.27632743220310657,
+      "n_gap_at_least_0_02": 39,
+      "n": 40
+     }
+    },
+    "B": {
+     "moral": {
+      "mass": 0.5721072420012205,
+      "gap": 0.765966081712395,
+      "n_gap_at_least_0_02": 69,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.5741805140381662,
+      "gap": 0.7511695785595922,
+      "n_gap_at_least_0_02": 103,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.4514539023861289,
+      "gap": 0.6693616138305515,
+      "n_gap_at_least_0_02": 39,
+      "n": 40
+     }
+    }
+   },
+   "capture": {
+    "A1": {
+     "R2": {
+      "moral": 0.01818344183266163,
+      "norm": -0.07944337278604507,
+      "descr": -0.0663532242178917
+     },
+     "mean_R2": -0.04273081198334694,
+     "flagged": true
+    },
+    "A1e": {
+     "R2": {
+      "moral": 0.08031683415174484,
+      "norm": -0.02862205170094967,
+      "descr": -0.04485320672392845
+     },
+     "mean_R2": 0.006910393480211496,
+     "flagged": true
+    },
+    "B": {
+     "R2": {
+      "moral": 0.375692754983902,
+      "norm": 0.33720049262046814,
+      "descr": 0.280548095703125
+     },
+     "mean_R2": 0.3407832384109497,
+     "flagged": true
+    }
+   },
+   "sets": {
+    "original_vs_neutral_sig": {
+     "n_features": 212,
+     "mean_activation": {
+      "A1/moral": 0.1347176730632782,
+      "A1/norm": 0.12452638149261475,
+      "A1/descr": 0.10926518589258194,
+      "A1e/moral": 0.11542506515979767,
+      "A1e/norm": 0.10841923952102661,
+      "A1e/descr": 0.10251107066869736,
+      "B/moral": 0.025259146466851234,
+      "B/norm": 0.018393624573946,
+      "B/descr": 0.017152924090623856
+     },
+     "A1e_over_A1/moral": {
+      "ratio": 0.8567923307418823,
+      "ci95": [
+       0.8464717835187912,
+       0.8668348878622055
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/moral": {
+      "ratio": 0.18749690055847168,
+      "ci95": [
+       0.17998365983366965,
+       0.19508997201919556
+      ]
+     },
+     "A1e_over_A1/norm": {
+      "ratio": 0.8706527948379517,
+      "ci95": [
+       0.8642998978495597,
+       0.8768377512693405
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/norm": {
+      "ratio": 0.14770865440368652,
+      "ci95": [
+       0.14054706543684006,
+       0.15474900417029858
+      ]
+     },
+     "A1e_over_A1/descr": {
+      "ratio": 0.9381860494613647,
+      "ci95": [
+       0.9213351786136628,
+       0.9556220754981041
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/descr": {
+      "ratio": 0.156984344124794,
+      "ci95": [
+       0.14765064157545565,
+       0.16625477746129036
+      ]
+     },
+     "A1e_descr_over_moral": {
+      "ratio": 0.8881179094314575,
+      "ci95": [
+       0.8659932985901833,
+       0.9106704592704773
+      ],
+      "reading": "follows the frame"
+     },
+     "A1e_norm_over_moral": {
+      "ratio": 0.9393041133880615,
+      "ci95": [
+       0.9208505198359489,
+       0.9579342931509018
+      ],
+      "reading": "follows the frame"
+     }
+    },
+    "original_vs_norm_sig": {
+     "n_features": 97,
+     "mean_activation": {
+      "A1/moral": 0.045538369566202164,
+      "A1/norm": 0.024098418653011322,
+      "A1/descr": 0.014418298378586769,
+      "A1e/moral": 0.055929698050022125,
+      "A1e/norm": 0.030585041269659996,
+      "A1e/descr": 0.019737493246793747,
+      "B/moral": 0.02272682823240757,
+      "B/norm": 0.020429188385605812,
+      "B/descr": 0.018881287425756454
+     },
+     "A1e_over_A1/moral": {
+      "ratio": 1.228188395500183,
+      "ci95": [
+       1.190488663315773,
+       1.2679414123296737
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/moral": {
+      "ratio": 0.49906986951828003,
+      "ci95": [
+       0.4651887513697147,
+       0.5351480364799499
+      ]
+     },
+     "A1e_over_A1/norm": {
+      "ratio": 1.2691720724105835,
+      "ci95": [
+       1.2309322208166122,
+       1.3071648001670837
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/norm": {
+      "ratio": 0.8477398157119751,
+      "ci95": [
+       0.7950637355446816,
+       0.9051559597253799
+      ]
+     },
+     "A1e_over_A1/descr": {
+      "ratio": 1.3689197301864624,
+      "ci95": [
+       1.2852646559476852,
+       1.4563896179199218
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/descr": {
+      "ratio": 1.3095364570617676,
+      "ci95": [
+       1.184668031334877,
+       1.447991394996643
+      ]
+     },
+     "A1e_descr_over_moral": {
+      "ratio": 0.3528982698917389,
+      "ci95": [
+       0.3266435042023659,
+       0.37949081137776375
+      ],
+      "reading": "follows the content"
+     },
+     "A1e_norm_over_moral": {
+      "ratio": 0.546847939491272,
+      "ci95": [
+       0.5094103902578354,
+       0.5870965197682381
+      ],
+      "reading": "follows the frame"
+     }
+    }
+   },
+   "H6": {
+    "A1": {
+     "source": "main analysis",
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 59.45,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 4.05,
+      "prudential+aesthetic vs etiquette+epistemic": 4.05,
+      "prudential+epistemic vs etiquette+aesthetic": 19.4
+     },
+     "more": true
+    },
+    "A1e": {
+     "n_features_tested": 636,
+     "full_size": {
+      "n_moral": 80,
+      "n_norm": 107,
+      "n_significant": 203
+     },
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 79.05,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 2.4,
+      "prudential+aesthetic vs etiquette+epistemic": 9.45,
+      "prudential+epistemic vs etiquette+aesthetic": 13.05
+     },
+     "more": true,
+     "reading": "moral vs norm yields more features than any split of the norm kinds"
+    },
+    "B": {
+     "source": "main analysis",
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 32.05,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 15.0,
+      "prudential+aesthetic vs etiquette+epistemic": 1.9,
+      "prudential+epistemic vs etiquette+aesthetic": 49.15
+     },
+     "more": false
+    }
+   }
+  },
+  "llama-3.2-3B-base": {
+   "condition": "llama-3.2-3B-base",
+   "model": "meta-llama/Llama-3.2-3B",
+   "layer": 11,
+   "site": "resid_post",
+   "n_items": 227,
+   "early": false,
+   "behaviour": {
+    "A1": {
+     "moral": {
+      "mass": 0.627345085144043,
+      "gap": 0.7277002654969692,
+      "n_gap_at_least_0_02": 79,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.5687819449143989,
+      "gap": 0.5480877043348606,
+      "n_gap_at_least_0_02": 104,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.36453538946807384,
+      "gap": 0.3886951256543398,
+      "n_gap_at_least_0_02": 40,
+      "n": 40
+     }
+    },
+    "A1e": {
+     "moral": {
+      "mass": 0.41210131123661997,
+      "gap": 0.44897435973398386,
+      "n_gap_at_least_0_02": 78,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.3965210539297523,
+      "gap": 0.3719390132507988,
+      "n_gap_at_least_0_02": 101,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.23221690924838184,
+      "gap": 0.22897648755460978,
+      "n_gap_at_least_0_02": 39,
+      "n": 40
+     }
+    },
+    "B": {
+     "moral": {
+      "mass": 0.435795777477324,
+      "gap": 0.5366224611178041,
+      "n_gap_at_least_0_02": 78,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.5323780212824986,
+      "gap": 0.4820268061302388,
+      "n_gap_at_least_0_02": 100,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.4710618371143937,
+      "gap": 0.4767278302460909,
+      "n_gap_at_least_0_02": 40,
+      "n": 40
+     }
+    }
+   },
+   "capture": {
+    "A1": {
+     "R2": {
+      "moral": -0.08269883692264557,
+      "norm": -0.14720243215560913,
+      "descr": -0.10797448456287384
+     },
+     "mean_R2": -0.11755746603012085,
+     "flagged": true
+    },
+    "A1e": {
+     "R2": {
+      "moral": -0.05368382856249809,
+      "norm": -0.09090781956911087,
+      "descr": -0.11918167769908905
+     },
+     "mean_R2": -0.0827714130282402,
+     "flagged": true
+    },
+    "B": {
+     "R2": {
+      "moral": 0.26091960072517395,
+      "norm": 0.2217572182416916,
+      "descr": 0.1503305435180664
+     },
+     "mean_R2": 0.22297273576259613,
+     "flagged": true
+    }
+   },
+   "sets": {
+    "original_vs_neutral_sig": {
+     "n_features": 100,
+     "mean_activation": {
+      "A1/moral": 0.18647578358650208,
+      "A1/norm": 0.1712711602449417,
+      "A1/descr": 0.14014694094657898,
+      "A1e/moral": 0.15577709674835205,
+      "A1e/norm": 0.14629359543323517,
+      "A1e/descr": 0.1403195858001709,
+      "B/moral": 0.02720906212925911,
+      "B/norm": 0.020003298297524452,
+      "B/descr": 0.005695526488125324
+     },
+     "A1e_over_A1/moral": {
+      "ratio": 0.8353744149208069,
+      "ci95": [
+       0.8246375411748886,
+       0.8462293446063995
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/moral": {
+      "ratio": 0.1459120362997055,
+      "ci95": [
+       0.13860585503280162,
+       0.15340309627354146
+      ]
+     },
+     "A1e_over_A1/norm": {
+      "ratio": 0.854163646697998,
+      "ci95": [
+       0.8419906482100487,
+       0.8665571436285973
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/norm": {
+      "ratio": 0.11679314821958542,
+      "ci95": [
+       0.11191331800073386,
+       0.1218594005331397
+      ]
+     },
+     "A1e_over_A1/descr": {
+      "ratio": 1.0012319087982178,
+      "ci95": [
+       0.9550124317407608,
+       1.047815316915512
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/descr": {
+      "ratio": 0.04063967615365982,
+      "ci95": [
+       0.03449836540967226,
+       0.04680406982079148
+      ]
+     },
+     "A1e_descr_over_moral": {
+      "ratio": 0.9007716178894043,
+      "ci95": [
+       0.8640723720192909,
+       0.9374159634113312
+      ],
+      "reading": "follows the frame"
+     },
+     "A1e_norm_over_moral": {
+      "ratio": 0.9391213655471802,
+      "ci95": [
+       0.918024392426014,
+       0.9608179464936256
+      ],
+      "reading": "follows the frame"
+     }
+    },
+    "original_vs_norm_sig": {
+     "n_features": 56,
+     "mean_activation": {
+      "A1/moral": 0.038722217082977295,
+      "A1/norm": 0.019107509404420853,
+      "A1/descr": 0.010313523933291435,
+      "A1e/moral": 0.052348792552948,
+      "A1e/norm": 0.025355031713843346,
+      "A1e/descr": 0.013459560461342335,
+      "B/moral": 0.02089928276836872,
+      "B/norm": 0.016142984852194786,
+      "B/descr": 0.01293084304779768
+     },
+     "A1e_over_A1/moral": {
+      "ratio": 1.3519058227539062,
+      "ci95": [
+       1.2832763224840165,
+       1.427480188012123
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/moral": {
+      "ratio": 0.53972327709198,
+      "ci95": [
+       0.4882021978497505,
+       0.5941007763147353
+      ]
+     },
+     "A1e_over_A1/norm": {
+      "ratio": 1.3269668817520142,
+      "ci95": [
+       1.2188255101442338,
+       1.4389174789190293
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/norm": {
+      "ratio": 0.8448503017425537,
+      "ci95": [
+       0.7445014655590058,
+       0.9534313902258873
+      ]
+     },
+     "A1e_over_A1/descr": {
+      "ratio": 1.305039882659912,
+      "ci95": [
+       1.04086292386055,
+       1.6527493089437484
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/descr": {
+      "ratio": 1.2537754774093628,
+      "ci95": [
+       1.0164897173643113,
+       1.5676068395376206
+      ]
+     },
+     "A1e_descr_over_moral": {
+      "ratio": 0.25711309909820557,
+      "ci95": [
+       0.21062568835914136,
+       0.3074072740972042
+      ],
+      "reading": "follows the content"
+     },
+     "A1e_norm_over_moral": {
+      "ratio": 0.48434796929359436,
+      "ci95": [
+       0.41701090186834333,
+       0.5597674548625946
+      ],
+      "reading": "inconclusive"
+     }
+    }
+   },
+   "H6": {
+    "A1": {
+     "source": "main analysis",
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 21.95,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 4.65,
+      "prudential+aesthetic vs etiquette+epistemic": 5.45,
+      "prudential+epistemic vs etiquette+aesthetic": 9.2
+     },
+     "more": true
+    },
+    "A1e": {
+     "n_features_tested": 359,
+     "full_size": {
+      "n_moral": 80,
+      "n_norm": 107,
+      "n_significant": 71
+     },
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 18.85,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 2.75,
+      "prudential+aesthetic vs etiquette+epistemic": 2.6,
+      "prudential+epistemic vs etiquette+aesthetic": 7.9
+     },
+     "more": true,
+     "reading": "moral vs norm yields more features than any split of the norm kinds"
+    },
+    "B": {
+     "source": "main analysis",
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 17.6,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 2.6,
+      "prudential+aesthetic vs etiquette+epistemic": 3.85,
+      "prudential+epistemic vs etiquette+aesthetic": 17.7
+     },
+     "more": false
+    }
+   }
+  },
+  "llama-3.2-3B-base-k128": {
+   "condition": "llama-3.2-3B-base-k128",
+   "model": "meta-llama/Llama-3.2-3B",
+   "layer": 11,
+   "site": "resid_post",
+   "n_items": 227,
+   "early": false,
+   "behaviour": {
+    "A1": {
+     "moral": {
+      "mass": 0.627345085144043,
+      "gap": 0.7277002654969692,
+      "n_gap_at_least_0_02": 79,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.5687819449143989,
+      "gap": 0.5480877043348606,
+      "n_gap_at_least_0_02": 104,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.36453538946807384,
+      "gap": 0.3886951256543398,
+      "n_gap_at_least_0_02": 40,
+      "n": 40
+     }
+    },
+    "A1e": {
+     "moral": {
+      "mass": 0.41210131123661997,
+      "gap": 0.44897435973398386,
+      "n_gap_at_least_0_02": 78,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.3965210539297523,
+      "gap": 0.3719390132507988,
+      "n_gap_at_least_0_02": 101,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.23221690924838184,
+      "gap": 0.22897648755460978,
+      "n_gap_at_least_0_02": 39,
+      "n": 40
+     }
+    },
+    "B": {
+     "moral": {
+      "mass": 0.435795777477324,
+      "gap": 0.5366224611178041,
+      "n_gap_at_least_0_02": 78,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.5323780212824986,
+      "gap": 0.4820268061302388,
+      "n_gap_at_least_0_02": 100,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.4710618371143937,
+      "gap": 0.4767278302460909,
+      "n_gap_at_least_0_02": 40,
+      "n": 40
+     }
+    }
+   },
+   "capture": {
+    "A1": {
+     "R2": {
+      "moral": -0.016723554581403732,
+      "norm": -0.03874565288424492,
+      "descr": 0.00788853783160448
+     },
+     "mean_R2": -0.02276708371937275,
+     "flagged": true
+    },
+    "A1e": {
+     "R2": {
+      "moral": 0.003042563796043396,
+      "norm": -0.02321694791316986,
+      "descr": -0.019685659557580948
+     },
+     "mean_R2": -0.013340241275727749,
+     "flagged": true
+    },
+    "B": {
+     "R2": {
+      "moral": 0.352926105260849,
+      "norm": 0.31580650806427,
+      "descr": 0.2562789022922516
+     },
+     "mean_R2": 0.3183988928794861,
+     "flagged": true
+    }
+   },
+   "sets": {
+    "original_vs_neutral_sig": {
+     "n_features": 222,
+     "mean_activation": {
+      "A1/moral": 0.11625641584396362,
+      "A1/norm": 0.10317280143499374,
+      "A1/descr": 0.08487100899219513,
+      "A1e/moral": 0.10013139247894287,
+      "A1e/norm": 0.08718936890363693,
+      "A1e/descr": 0.08180008083581924,
+      "B/moral": 0.021445609629154205,
+      "B/norm": 0.01653752103447914,
+      "B/descr": 0.009453980252146721
+     },
+     "A1e_over_A1/moral": {
+      "ratio": 0.8612977862358093,
+      "ci95": [
+       0.8532079622149468,
+       0.8693504065275193
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/moral": {
+      "ratio": 0.18446817994117737,
+      "ci95": [
+       0.17759954556822777,
+       0.19146234095096587
+      ]
+     },
+     "A1e_over_A1/norm": {
+      "ratio": 0.8450809717178345,
+      "ci95": [
+       0.8341310977935791,
+       0.8565554469823837
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/norm": {
+      "ratio": 0.16028954088687897,
+      "ci95": [
+       0.15431136935949324,
+       0.16649271510541439
+      ]
+     },
+     "A1e_over_A1/descr": {
+      "ratio": 0.9638165235519409,
+      "ci95": [
+       0.9302182331681251,
+       0.9985868781805038
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/descr": {
+      "ratio": 0.11139234155416489,
+      "ci95": [
+       0.10125309191644191,
+       0.12184422574937344
+      ]
+     },
+     "A1e_descr_over_moral": {
+      "ratio": 0.816927433013916,
+      "ci95": [
+       0.7879125148057937,
+       0.8468750417232513
+      ],
+      "reading": "follows the frame"
+     },
+     "A1e_norm_over_moral": {
+      "ratio": 0.8707495927810669,
+      "ci95": [
+       0.849214854836464,
+       0.8929104790091514
+      ],
+      "reading": "follows the frame"
+     }
+    },
+    "original_vs_norm_sig": {
+     "n_features": 124,
+     "mean_activation": {
+      "A1/moral": 0.02961980178952217,
+      "A1/norm": 0.012880952097475529,
+      "A1/descr": 0.007917502894997597,
+      "A1e/moral": 0.04039393737912178,
+      "A1e/norm": 0.019083911553025246,
+      "A1e/descr": 0.012974733486771584,
+      "B/moral": 0.013028365559875965,
+      "B/norm": 0.01290794275701046,
+      "B/descr": 0.01392749510705471
+     },
+     "A1e_over_A1/moral": {
+      "ratio": 1.3637477159500122,
+      "ci95": [
+       1.3051913946866989,
+       1.4273459583520889
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/moral": {
+      "ratio": 0.4398532211780548,
+      "ci95": [
+       0.4072383441030979,
+       0.47662799060344696
+      ]
+     },
+     "A1e_over_A1/norm": {
+      "ratio": 1.4815605878829956,
+      "ci95": [
+       1.394885179400444,
+       1.572264739871025
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/norm": {
+      "ratio": 1.002095341682434,
+      "ci95": [
+       0.9038028597831727,
+       1.115496787428856
+      ]
+     },
+     "A1e_over_A1/descr": {
+      "ratio": 1.6387406587600708,
+      "ci95": [
+       1.4214139372110366,
+       1.9007764637470246
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/descr": {
+      "ratio": 1.759076714515686,
+      "ci95": [
+       1.5406971871852875,
+       2.0300798535346987
+      ]
+     },
+     "A1e_descr_over_moral": {
+      "ratio": 0.3212049603462219,
+      "ci95": [
+       0.27594301998615267,
+       0.37011916488409036
+      ],
+      "reading": "follows the content"
+     },
+     "A1e_norm_over_moral": {
+      "ratio": 0.47244495153427124,
+      "ci95": [
+       0.424101448059082,
+       0.5257275775074958
+      ],
+      "reading": "inconclusive"
+     }
+    }
+   },
+   "H6": {
+    "A1": {
+     "source": "main analysis",
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 52.35,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 10.8,
+      "prudential+aesthetic vs etiquette+epistemic": 20.55,
+      "prudential+epistemic vs etiquette+aesthetic": 19.45
+     },
+     "more": true
+    },
+    "A1e": {
+     "n_features_tested": 714,
+     "full_size": {
+      "n_moral": 80,
+      "n_norm": 107,
+      "n_significant": 148
+     },
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 53.05,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 6.2,
+      "prudential+aesthetic vs etiquette+epistemic": 7.45,
+      "prudential+epistemic vs etiquette+aesthetic": 10.85
+     },
+     "more": true,
+     "reading": "moral vs norm yields more features than any split of the norm kinds"
+    },
+    "B": {
+     "source": "main analysis",
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 24.6,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 11.6,
+      "prudential+aesthetic vs etiquette+epistemic": 15.35,
+      "prudential+epistemic vs etiquette+aesthetic": 34.05
+     },
+     "more": false
+    }
+   }
+  },
+  "qwen-2.5-7b-IT": {
+   "condition": "qwen-2.5-7b-IT",
+   "model": "Qwen/Qwen2.5-7B-Instruct",
+   "layer": 0,
+   "site": "resid_post",
+   "n_items": 227,
+   "early": true,
+   "behaviour": {
+    "A1": {
+     "moral": {
+      "mass": 0.7850156962871552,
+      "gap": 1.1626680038869381,
+      "n_gap_at_least_0_02": 75,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.6966010824402916,
+      "gap": 0.9572096396342059,
+      "n_gap_at_least_0_02": 106,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.4611223377287388,
+      "gap": 0.7151728224009275,
+      "n_gap_at_least_0_02": 40,
+      "n": 40
+     }
+    },
+    "A1e": {
+     "moral": {
+      "mass": 0.5907870891038328,
+      "gap": 0.9920194505015388,
+      "n_gap_at_least_0_02": 80,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.4321897640023555,
+      "gap": 0.6652321159909261,
+      "n_gap_at_least_0_02": 106,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.28974701412953435,
+      "gap": 0.4215086438227445,
+      "n_gap_at_least_0_02": 39,
+      "n": 40
+     }
+    },
+    "B": {
+     "moral": {
+      "mass": 0.7957322388887406,
+      "gap": 1.2395542059093714,
+      "n_gap_at_least_0_02": 77,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.7457012097593854,
+      "gap": 1.1602924206857579,
+      "n_gap_at_least_0_02": 104,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.6749741538893431,
+      "gap": 1.211233036313206,
+      "n_gap_at_least_0_02": 40,
+      "n": 40
+     }
+    }
+   },
+   "capture": {
+    "A1": {
+     "R2": {
+      "moral": -0.09444896876811981,
+      "norm": -0.19900178909301758,
+      "descr": 0.1224135160446167
+     },
+     "mean_R2": -0.1055179238319397,
+     "flagged": true
+    },
+    "A1e": {
+     "R2": {
+      "moral": -0.027870172634720802,
+      "norm": 0.02213342860341072,
+      "descr": 0.20361466705799103
+     },
+     "mean_R2": 0.03649008274078369,
+     "flagged": true
+    },
+    "B": {
+     "R2": {
+      "moral": 0.32286617159843445,
+      "norm": 0.3787596523761749,
+      "descr": 0.4535163938999176
+     },
+     "mean_R2": 0.3722345232963562,
+     "flagged": true
+    }
+   },
+   "sets": {
+    "original_vs_neutral_sig": {
+     "n_features": 154,
+     "mean_activation": {
+      "A1/moral": 0.46598538756370544,
+      "A1/norm": 0.4587304890155792,
+      "A1/descr": 0.45820778608322144,
+      "A1e/moral": 0.05316222459077835,
+      "A1e/norm": 0.05353191867470741,
+      "A1e/descr": 0.05342224985361099,
+      "B/moral": 0.028272468596696854,
+      "B/norm": 0.0281677283346653,
+      "B/descr": 0.02903655730187893
+     },
+     "A1e_over_A1/moral": {
+      "ratio": 0.1140856072306633,
+      "ci95": [
+       0.11295037847012282,
+       0.11529852878302335
+      ],
+      "reading": "the word 'morally'"
+     },
+     "B_over_A1/moral": {
+      "ratio": 0.06067243590950966,
+      "ci95": [
+       0.059432086534798145,
+       0.06192188337445259
+      ]
+     },
+     "A1e_over_A1/norm": {
+      "ratio": 0.11669579148292542,
+      "ci95": [
+       0.11563077848404646,
+       0.1177547637373209
+      ],
+      "reading": "the word 'morally'"
+     },
+     "B_over_A1/norm": {
+      "ratio": 0.061403654515743256,
+      "ci95": [
+       0.060225261747837065,
+       0.06257822886109352
+      ]
+     },
+     "A1e_over_A1/descr": {
+      "ratio": 0.11658957600593567,
+      "ci95": [
+       0.11546860616654157,
+       0.11772437933832407
+      ],
+      "reading": "the word 'morally'"
+     },
+     "B_over_A1/descr": {
+      "ratio": 0.06336984783411026,
+      "ci95": [
+       0.061279477830976245,
+       0.06565465871244669
+      ]
+     },
+     "A1e_descr_over_moral": {
+      "ratio": 1.0048911571502686,
+      "ci95": [
+       0.9913916051387787,
+       1.0182048082351685
+      ],
+      "reading": "follows the frame"
+     },
+     "A1e_norm_over_moral": {
+      "ratio": 1.0069540739059448,
+      "ci95": [
+       0.9953385710716247,
+       1.0185853630304336
+      ],
+      "reading": "follows the frame"
+     }
+    },
+    "original_vs_norm_sig": {
+     "n_features": 21,
+     "mean_activation": {
+      "A1/moral": 0.05186055973172188,
+      "A1/norm": 0.02137727104127407,
+      "A1/descr": 0.0158364437520504,
+      "A1e/moral": 0.01800951361656189,
+      "A1e/norm": 0.015249146148562431,
+      "A1e/descr": 0.016372863203287125,
+      "B/moral": 0.02178160287439823,
+      "B/norm": 0.019175253808498383,
+      "B/descr": 0.021011153236031532
+     },
+     "A1e_over_A1/moral": {
+      "ratio": 0.3472680151462555,
+      "ci95": [
+       0.29996473491191866,
+       0.40523448437452314
+      ],
+      "reading": "the word 'morally'"
+     },
+     "B_over_A1/moral": {
+      "ratio": 0.4200032353401184,
+      "ci95": [
+       0.36526075601577757,
+       0.48507528007030487
+      ]
+     },
+     "A1e_over_A1/norm": {
+      "ratio": 0.7133345603942871,
+      "ci95": [
+       0.5942294657230377,
+       0.8751538887619972
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/norm": {
+      "ratio": 0.8969926238059998,
+      "ci95": [
+       0.7543022751808166,
+       1.0857728481292725
+      ]
+     },
+     "A1e_over_A1/descr": {
+      "ratio": 1.0338724851608276,
+      "ci95": [
+       0.8100097045302391,
+       1.3971174776554107
+      ],
+      "reading": "moral cue in either wording"
+     },
+     "B_over_A1/descr": {
+      "ratio": 1.3267595767974854,
+      "ci95": [
+       1.0746044874191285,
+       1.7377247303724288
+      ]
+     },
+     "A1e_descr_over_moral": {
+      "ratio": 0.9091230034828186,
+      "ci95": [
+       0.8115769147872924,
+       1.017994999885559
+      ],
+      "reading": "follows the frame"
+     },
+     "A1e_norm_over_moral": {
+      "ratio": 0.8467272520065308,
+      "ci95": [
+       0.7519607529044151,
+       0.954418459534645
+      ],
+      "reading": "follows the frame"
+     }
+    }
+   },
+   "H6": {
+    "A1": {
+     "source": "main analysis",
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 0.35,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 0.05,
+      "prudential+aesthetic vs etiquette+epistemic": 0.0,
+      "prudential+epistemic vs etiquette+aesthetic": 0.0
+     },
+     "more": true
+    },
+    "A1e": {
+     "n_features_tested": 276,
+     "full_size": {
+      "n_moral": 80,
+      "n_norm": 107,
+      "n_significant": 0
+     },
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 0.0,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 0.45,
+      "prudential+aesthetic vs etiquette+epistemic": 2.1,
+      "prudential+epistemic vs etiquette+aesthetic": 0.85
+     },
+     "more": false,
+     "reading": "moral vs norm yields no more features than norm kinds among themselves"
+    },
+    "B": {
+     "source": "main analysis",
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 0.25,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 0.05,
+      "prudential+aesthetic vs etiquette+epistemic": 0.05,
+      "prudential+epistemic vs etiquette+aesthetic": 0.0
+     },
+     "more": true
+    }
+   }
+  },
+  "qwen-2.5-7b-base": {
+   "condition": "qwen-2.5-7b-base",
+   "model": "Qwen/Qwen2.5-7B",
+   "layer": 0,
+   "site": "resid_post",
+   "n_items": 227,
+   "early": true,
+   "behaviour": {
+    "A1": {
+     "moral": {
+      "mass": 0.8022281661629677,
+      "gap": 1.1211468899622559,
+      "n_gap_at_least_0_02": 79,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.6733158351244214,
+      "gap": 0.8576715469499615,
+      "n_gap_at_least_0_02": 104,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.4734553510323167,
+      "gap": 0.5305066526867449,
+      "n_gap_at_least_0_02": 40,
+      "n": 40
+     }
+    },
+    "A1e": {
+     "moral": {
+      "mass": 0.6566339852288365,
+      "gap": 0.9405595540069044,
+      "n_gap_at_least_0_02": 80,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.5327294499865759,
+      "gap": 0.6882246449311203,
+      "n_gap_at_least_0_02": 106,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.315211798530072,
+      "gap": 0.3257327396888286,
+      "n_gap_at_least_0_02": 40,
+      "n": 40
+     }
+    },
+    "B": {
+     "moral": {
+      "mass": 0.7803592281416059,
+      "gap": 1.0553127909079194,
+      "n_gap_at_least_0_02": 77,
+      "n": 80
+     },
+     "norm": {
+      "mass": 0.7510266268504,
+      "gap": 1.0439139780040099,
+      "n_gap_at_least_0_02": 107,
+      "n": 107
+     },
+     "descr": {
+      "mass": 0.7234952673316002,
+      "gap": 1.0770570863038302,
+      "n_gap_at_least_0_02": 40,
+      "n": 40
+     }
+    }
+   },
+   "capture": {
+    "A1": {
+     "R2": {
+      "moral": -0.06842771917581558,
+      "norm": -0.11789648234844208,
+      "descr": 0.122950479388237
+     },
+     "mean_R2": -0.05802256613969803,
+     "flagged": true
+    },
+    "A1e": {
+     "R2": {
+      "moral": -0.0784490704536438,
+      "norm": -0.050120532512664795,
+      "descr": 0.1481209099292755
+     },
+     "mean_R2": -0.02517174370586872,
+     "flagged": true
+    },
+    "B": {
+     "R2": {
+      "moral": 0.30334633588790894,
+      "norm": 0.3789252042770386,
+      "descr": 0.46115151047706604
+     },
+     "mean_R2": 0.3667786717414856,
+     "flagged": true
+    }
+   },
+   "sets": {
+    "original_vs_neutral_sig": {
+     "n_features": 153,
+     "mean_activation": {
+      "A1/moral": 0.4811498522758484,
+      "A1/norm": 0.46695950627326965,
+      "A1/descr": 0.4712928235530853,
+      "A1e/moral": 0.038051407784223557,
+      "A1e/norm": 0.03769996389746666,
+      "A1e/descr": 0.03729890286922455,
+      "B/moral": 0.02073577605187893,
+      "B/norm": 0.020981434732675552,
+      "B/descr": 0.02090037800371647
+     },
+     "A1e_over_A1/moral": {
+      "ratio": 0.07908431440591812,
+      "ci95": [
+       0.07851123679429292,
+       0.07965724691748619
+      ],
+      "reading": "the word 'morally'"
+     },
+     "B_over_A1/moral": {
+      "ratio": 0.04309629648923874,
+      "ci95": [
+       0.04188471818342805,
+       0.04438550481572747
+      ]
+     },
+     "A1e_over_A1/norm": {
+      "ratio": 0.0807349756360054,
+      "ci95": [
+       0.08014853093773126,
+       0.08131594583392143
+      ],
+      "reading": "the word 'morally'"
+     },
+     "B_over_A1/norm": {
+      "ratio": 0.04493202269077301,
+      "ci95": [
+       0.04390389788895845,
+       0.046004859171807765
+      ]
+     },
+     "A1e_over_A1/descr": {
+      "ratio": 0.07914167642593384,
+      "ci95": [
+       0.07824069652706385,
+       0.08001730591058731
+      ],
+      "reading": "the word 'morally'"
+     },
+     "B_over_A1/descr": {
+      "ratio": 0.04434690624475479,
+      "ci95": [
+       0.04291715519502759,
+       0.04584422186017036
+      ]
+     },
+     "A1e_descr_over_moral": {
+      "ratio": 0.9802240133285522,
+      "ci95": [
+       0.9679566740989685,
+       0.9922939300537109
+      ],
+      "reading": "follows the frame"
+     },
+     "A1e_norm_over_moral": {
+      "ratio": 0.9907639622688293,
+      "ci95": [
+       0.9807985857129097,
+       1.0006618171930313
+      ],
+      "reading": "follows the frame"
+     }
+    },
+    "original_vs_norm_sig": {
+     "n_features": 22,
+     "mean_activation": {
+      "A1/moral": 0.05100208520889282,
+      "A1/norm": 0.023032188415527344,
+      "A1/descr": 0.019705545157194138,
+      "A1e/moral": 0.007750754244625568,
+      "A1e/norm": 0.0024435322266072035,
+      "A1e/descr": 0.0012972744880244136,
+      "B/moral": 0.019431445747613907,
+      "B/norm": 0.014164512045681477,
+      "B/descr": 0.014610151760280132
+     },
+     "A1e_over_A1/moral": {
+      "ratio": 0.15196935832500458,
+      "ci95": [
+       0.11528630312532187,
+       0.1902635935693979
+      ],
+      "reading": "the word 'morally'"
+     },
+     "B_over_A1/moral": {
+      "ratio": 0.38099315762519836,
+      "ci95": [
+       0.33129671961069107,
+       0.4415787637233734
+      ]
+     },
+     "A1e_over_A1/norm": {
+      "ratio": 0.10609205812215805,
+      "ci95": [
+       0.06836744789034128,
+       0.14921674244105815
+      ],
+      "reading": "the word 'morally'"
+     },
+     "B_over_A1/norm": {
+      "ratio": 0.6149876713752747,
+      "ci95": [
+       0.5094957649707794,
+       0.751425652205944
+      ]
+     },
+     "A1e_over_A1/descr": {
+      "ratio": 0.0658329650759697,
+      "ci95": [
+       0.02704157391563058,
+       0.11195148043334481
+      ],
+      "reading": "the word 'morally'"
+     },
+     "B_over_A1/descr": {
+      "ratio": 0.7414233684539795,
+      "ci95": [
+       0.6167205616831779,
+       0.8914580509066581
+      ]
+     },
+     "A1e_descr_over_moral": {
+      "ratio": 0.16737397015094757,
+      "ci95": [
+       0.06470646616071463,
+       0.3117687381803989
+      ],
+      "reading": "follows the content"
+     },
+     "A1e_norm_over_moral": {
+      "ratio": 0.3152638077735901,
+      "ci95": [
+       0.18501523472368717,
+       0.5036395370960235
+      ],
+      "reading": "inconclusive"
+     }
+    }
+   },
+   "H6": {
+    "A1": {
+     "source": "main analysis",
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 0.25,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 0.05,
+      "prudential+aesthetic vs etiquette+epistemic": 0.05,
+      "prudential+epistemic vs etiquette+aesthetic": 0.0
+     },
+     "more": true
+    },
+    "A1e": {
+     "n_features_tested": 278,
+     "full_size": {
+      "n_moral": 80,
+      "n_norm": 107,
+      "n_significant": 0
+     },
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 0.0,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 0.2,
+      "prudential+aesthetic vs etiquette+epistemic": 0.15,
+      "prudential+epistemic vs etiquette+aesthetic": 0.1
+     },
+     "more": false,
+     "reading": "moral vs norm yields no more features than norm kinds among themselves"
+    },
+    "B": {
+     "source": "main analysis",
+     "group_size_equalised": 46,
+     "moral_vs_norm_equalised": 0.05,
+     "norm_vs_norm_equalised": {
+      "prudential+etiquette vs aesthetic+epistemic": 0.0,
+      "prudential+aesthetic vs etiquette+epistemic": 0.0,
+      "prudential+epistemic vs etiquette+aesthetic": 0.3
+     },
+     "more": false
+    }
+   }
+  }
+ }
+}

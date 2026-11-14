@@ -1,0 +1,248 @@
+[
+ {
+  "id": "dc_f01",
+  "category": "descr",
+  "subtype": "conduct",
+  "accepted": true,
+  "no_better_votes": 3,
+  "conduct_votes": 3,
+  "unclear": 1,
+  "reasons": []
+ },
+ {
+  "id": "dc_f02",
+  "category": "descr",
+  "subtype": "conduct",
+  "accepted": true,
+  "no_better_votes": 3,
+  "conduct_votes": 3,
+  "unclear": 0,
+  "reasons": []
+ },
+ {
+  "id": "dc_f03",
+  "category": "descr",
+  "subtype": "conduct",
+  "accepted": true,
+  "no_better_votes": 3,
+  "conduct_votes": 3,
+  "unclear": 0,
+  "reasons": []
+ },
+ {
+  "id": "dc_f04",
+  "category": "descr",
+  "subtype": "conduct",
+  "accepted": true,
+  "no_better_votes": 3,
+  "conduct_votes": 3,
+  "unclear": 1,
+  "reasons": []
+ },
+ {
+  "id": "dc_f05",
+  "category": "descr",
+  "subtype": "conduct",
+  "accepted": true,
+  "no_better_votes": 3,
+  "conduct_votes": 3,
+  "unclear": 1,
+  "reasons": []
+ },
+ {
+  "id": "dc_f06",
+  "category": "descr",
+  "subtype": "conduct",
+  "accepted": true,
+  "no_better_votes": 2,
+  "conduct_votes": 3,
+  "unclear": 0,
+  "reasons": []
+ },
+ {
+  "id": "dc_f07",
+  "category": "descr",
+  "subtype": "conduct",
+  "accepted": true,
+  "no_better_votes": 3,
+  "conduct_votes": 3,
+  "unclear": 1,
+  "reasons": []
+ },
+ {
+  "id": "dc_f08",
+  "category": "descr",
+  "subtype": "conduct",
+  "accepted": true,
+  "no_better_votes": 3,
+  "conduct_votes": 3,
+  "unclear": 0,
+  "reasons": []
+ },
+ {
+  "id": "dc_f09",
+  "category": "descr",
+  "subtype": "conduct",
+  "accepted": true,
+  "no_better_votes": 2,
+  "conduct_votes": 3,
+  "unclear": 1,
+  "reasons": []
+ },
+ {
+  "id": "dc_f10",
+  "category": "descr",
+  "subtype": "conduct",
+  "accepted": true,
+  "no_better_votes": 3,
+  "conduct_votes": 3,
+  "unclear": 1,
+  "reasons": []
+ },
+ {
+  "id": "dc_f11",
+  "category": "descr",
+  "subtype": "conduct",
+  "accepted": true,
+  "no_better_votes": 3,
+  "conduct_votes": 3,
+  "unclear": 0,
+  "reasons": []
+ },
+ {
+  "id": "dc_f12",
+  "category": "descr",
+  "subtype": "conduct",
+  "accepted": false,
+  "no_better_votes": 3,
+  "conduct_votes": 3,
+  "unclear": 3,
+  "reasons": [
+   "unclear"
+  ]
+ },
+ {
+  "id": "dc_f13",
+  "category": "descr",
+  "subtype": "conduct",
+  "accepted": false,
+  "no_better_votes": 3,
+  "conduct_votes": 3,
+  "unclear": 2,
+  "reasons": [
+   "unclear"
+  ]
+ },
+ {
+  "id": "dc_f14",
+  "category": "descr",
+  "subtype": "conduct",
+  "accepted": true,
+  "no_better_votes": 3,
+  "conduct_votes": 3,
+  "unclear": 0,
+  "reasons": []
+ },
+ {
+  "id": "dc_f15",
+  "category": "descr",
+  "subtype": "conduct",
+  "accepted": true,
+  "no_better_votes": 3,
+  "conduct_votes": 3,
+  "unclear": 1,
+  "reasons": []
+ },
+ {
+  "id": "dc_f16",
+  "category": "descr",
+  "subtype": "conduct",
+  "accepted": true,
+  "no_better_votes": 3,
+  "conduct_votes": 3,
+  "unclear": 0,
+  "reasons": []
+ },
+ {
+  "id": "dc_f17",
+  "category": "descr",
+  "subtype": "conduct",
+  "accepted": true,
+  "no_better_votes": 3,
+  "conduct_votes": 3,
+  "unclear": 1,
+  "reasons": []
+ },
+ {
+  "id": "dc_f18",
+  "category": "descr",
+  "subtype": "conduct",
+  "accepted": false,
+  "no_better_votes": 0,
+  "conduct_votes": 3,
+  "unclear": 1,
+  "reasons": [
+   "an option was judged better"
+  ]
+ },
+ {
+  "id": "dc_f19",
+  "category": "descr",
+  "subtype": "conduct",
+  "accepted": true,
+  "no_better_votes": 3,
+  "conduct_votes": 3,
+  "unclear": 0,
+  "reasons": []
+ },
+ {
+  "id": "dc_f20",
+  "category": "descr",
+  "subtype": "conduct",
+  "accepted": true,
+  "no_better_votes": 3,
+  "conduct_votes": 3,
+  "unclear": 1,
+  "reasons": []
+ },
+ {
+  "id": "dc_f21",
+  "category": "descr",
+  "subtype": "conduct",
+  "accepted": true,
+  "no_better_votes": 3,
+  "conduct_votes": 3,
+  "unclear": 1,
+  "reasons": []
+ },
+ {
+  "id": "dc_f22",
+  "category": "descr",
+  "subtype": "conduct",
+  "accepted": true,
+  "no_better_votes": 3,
+  "conduct_votes": 3,
+  "unclear": 0,
+  "reasons": []
+ },
+ {
+  "id": "dc_f23",
+  "category": "descr",
+  "subtype": "conduct",
+  "accepted": true,
+  "no_better_votes": 3,
+  "conduct_votes": 3,
+  "unclear": 1,
+  "reasons": []
+ },
+ {
+  "id": "dc_f24",
+  "category": "descr",
+  "subtype": "conduct",
+  "accepted": true,
+  "no_better_votes": 2,
+  "conduct_votes": 3,
+  "unclear": 1,
+  "reasons": []
+ }
+]

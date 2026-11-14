@@ -1,0 +1,74 @@
+{
+ "encoder_check": {
+  "max_abs_diff": 3.7550926208496094e-06,
+  "same_active_set": 1.0
+ },
+ "n_features": 91,
+ "frame_swap": {
+  "moral, is morally": {
+   "n_prompts": 146,
+   "mean_activation": 0.14959600567817688,
+   "frac_features_on_ge_10pct_of_prompts": 1.0,
+   "frac_features_never_firing": 0.0
+  },
+  "norm, is morally": {
+   "n_prompts": 220,
+   "mean_activation": 0.10832671821117401,
+   "frac_features_on_ge_10pct_of_prompts": 0.5824175824175825,
+   "frac_features_never_firing": 0.10989010989010989
+  },
+  "neutral, is typically": {
+   "n_prompts": 210,
+   "mean_activation": 0.0005797867779619992,
+   "frac_features_on_ge_10pct_of_prompts": 0.01098901098901099,
+   "frac_features_never_firing": 0.8461538461538461
+  },
+  "neutral content, is morally": {
+   "n_prompts": 210,
+   "mean_activation": 0.0956721156835556,
+   "frac_features_on_ge_10pct_of_prompts": 0.5494505494505495,
+   "frac_features_never_firing": 0.13186813186813187
+  },
+  "moral content, is typically": {
+   "n_prompts": 146,
+   "mean_activation": 0.006758634466677904,
+   "frac_features_on_ge_10pct_of_prompts": 0.04395604395604396,
+   "frac_features_never_firing": 0.7582417582417582
+  },
+  "norm content, is typically": {
+   "n_prompts": 220,
+   "mean_activation": 0.004719140473753214,
+   "frac_features_on_ge_10pct_of_prompts": 0.02197802197802198,
+   "frac_features_never_firing": 0.8131868131868132
+  }
+ },
+ "dip": {
+  "moral": {
+   "n": 62,
+   "mean": 0.426091157378734,
+   "sd": 0.3332581217902852,
+   "median": 0.3134236969053745,
+   "mean_relative_to_gap": 1.097229640186131,
+   "median_relative_to_gap": 1.0465390762336892,
+   "sign_reversal_rate": 0.27419354838709675
+  },
+  "control": {
+   "n": 28,
+   "mean": 0.09607545294960608,
+   "sd": 0.25019798979763563,
+   "median": 2.967612044812995e-05,
+   "mean_relative_to_gap": 0.3890565198048751,
+   "median_relative_to_gap": 0.00021811100201145833,
+   "sign_reversal_rate": 0.35714285714285715
+  },
+  "norm": {
+   "n": 172,
+   "mean": 0.2217508970719749,
+   "sd": 0.1814775537471313,
+   "median": 0.1782463975250721,
+   "mean_relative_to_gap": 1.0150899337774917,
+   "median_relative_to_gap": 1.0318613916316588,
+   "sign_reversal_rate": 0.09883720930232558
+  }
+ }
+}

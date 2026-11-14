@@ -1,0 +1,410 @@
+{
+ "dc_f08": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"no clear difference; blue vs black ink is mostly a matter of preference\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "no clear difference; blue vs black ink is mostly a matter of preference"
+  }
+ },
+ "dc_f02": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"no clear difference; depends on context\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "no clear difference; depends on context"
+  }
+ },
+ "dc_f22": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"no clear difference; a matter of personal preference\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "no clear difference; a matter of personal preference"
+  }
+ },
+ "dc_f11": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"no clear difference; depends on how much shopping there is\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "no clear difference; depends on how much shopping there is"
+  }
+ },
+ "dc_f05": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": true, \"comment\": \"No clear difference without knowing context; Tuesday vs Thursday evening is arbitrary.\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": true,
+   "comment": "No clear difference without knowing context; Tuesday vs Thursday evening is arbitrary."
+  }
+ },
+ "dc_f01": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": true, \"comment\": \"no clear difference without knowing context such as weather or schedule\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": true,
+   "comment": "no clear difference without knowing context such as weather or schedule"
+  }
+ },
+ "dc_f12": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": true, \"comment\": \"no clear difference without knowing the garden; sun exposure or looks might matter but that would be a guess\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": true,
+   "comment": "no clear difference without knowing the garden; sun exposure or looks might matter but that would be a guess"
+  }
+ },
+ "dc_f14": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"no clear difference; timing only, depends on unstated context\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "no clear difference; timing only, depends on unstated context"
+  }
+ },
+ "dc_f09": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 1, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 2, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": true, \"comment\": \"depends on context; the front door is usually the expected or assigned entrance, so a small etiquette or custom gap, but rear boarding is often legitimate (e.g. airline-assigned or by seat row)\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 1,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 2,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": true,
+   "comment": "depends on context; the front door is usually the expected or assigned entrance, so a small etiquette or custom gap, but rear boarding is often legitimate (e.g. airline-assigned or by seat row)"
+  }
+ },
+ "dc_f03": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"no clear difference; a matter of personal routine\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "no clear difference; a matter of personal routine"
+  }
+ },
+ "dc_f06": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"no clear difference; depends on personal preference and the specific cinema\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "no clear difference; depends on personal preference and the specific cinema"
+  }
+ },
+ "dc_f15": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": true, \"comment\": \"no clear difference; depends on unspecified details like color suitability or dress code\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": true,
+   "comment": "no clear difference; depends on unspecified details like color suitability or dress code"
+  }
+ },
+ "dc_f19": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"no clear difference; paper color is a trivial matter of preference\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "no clear difference; paper color is a trivial matter of preference"
+  }
+ },
+ "dc_f10": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": true, \"comment\": \"No clear difference; which time is better depends on unstated context such as people's schedules.\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": true,
+   "comment": "No clear difference; which time is better depends on unstated context such as people's schedules."
+  }
+ },
+ "dc_f21": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": true, \"comment\": \"no clear difference without knowing the house; depends on unstated context\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": true,
+   "comment": "no clear difference without knowing the house; depends on unstated context"
+  }
+ },
+ "dc_f20": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": true, \"comment\": \"No way to tell which street is better without more context; the two options look equivalent.\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": true,
+   "comment": "No way to tell which street is better without more context; the two options look equivalent."
+  }
+ },
+ "dc_f16": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"no clear difference; only the day differs, and nothing is given that would make one day better\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "no clear difference; only the day differs, and nothing is given that would make one day better"
+  }
+ },
+ "dc_f24": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": true, \"comment\": \"No clear difference; depends on the person's plans, which I would have to guess.\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": true,
+   "comment": "No clear difference; depends on the person's plans, which I would have to guess."
+  }
+ },
+ "dc_f23": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": true, \"comment\": \"no clear difference; depends on unknown details about the counters\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": true,
+   "comment": "no clear difference; depends on unknown details about the counters"
+  }
+ },
+ "dc_f13": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": true, \"comment\": \"No clear difference without knowing the number of guests; depends on context\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": true,
+   "comment": "No clear difference without knowing the number of guests; depends on context"
+  }
+ },
+ "dc_f07": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": true, \"comment\": \"no clear difference; depends on unstated context such as when the friend is free\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": true,
+   "comment": "no clear difference; depends on unstated context such as when the friend is free"
+  }
+ },
+ "dc_f18": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 1, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 0, \"etiquette\": 2, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": true, \"comment\": \"Parking at the side entrance is slightly better because it keeps the main entrance clear. The phrases don't say whether there is a rack or a rule, so this depends on guessing.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 1,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 0,
+   "etiquette": 2,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": true,
+   "comment": "Parking at the side entrance is slightly better because it keeps the main entrance clear. The phrases don't say whether there is a rack or a rule, so this depends on guessing."
+  }
+ },
+ "dc_f17": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": true, \"comment\": \"No clear difference; depends on the map and purpose, so I see no better option.\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": true,
+   "comment": "No clear difference; depends on the map and purpose, so I see no better option."
+  }
+ },
+ "dc_f04": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": true, \"comment\": \"No clear difference without more context; which hook is better depends on unstated factors such as height, reach, or whether the hooks are shared.\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": true,
+   "comment": "No clear difference without more context; which hook is better depends on unstated factors such as height, reach, or whether the hooks are shared."
+  }
+ }
+}

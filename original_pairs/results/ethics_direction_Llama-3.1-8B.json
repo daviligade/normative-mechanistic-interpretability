@@ -1,0 +1,7 @@
+{
+ "model": "meta-llama/Llama-3.1-8B",
+ "layer": 12,
+ "n": 800,
+ "direction_norm": 1.103251576423645,
+ "auc": 0.7051143577208042
+}

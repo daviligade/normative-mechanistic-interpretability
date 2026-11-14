@@ -1,0 +1,4116 @@
+{
+ "d14": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"no action is being judged, just the state of the vines and harvest\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "no action is being judged, just the state of the vines and harvest"
+  }
+ },
+ "et_o09": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 1, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"professional etiquette\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "professional etiquette"
+  }
+ },
+ "m_o16": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"taking away meals is extremely harmful to the child\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "taking away meals is extremely harmful to the child"
+  }
+ },
+ "m_v11": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"harming vs helping a vulnerable person\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "harming vs helping a vulnerable person"
+  }
+ },
+ "m_o06": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"tax fraud harms society and risks penalties for the doer\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "tax fraud harms society and risks penalties for the doer"
+  }
+ },
+ "m_p25": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"extreme moral failure and dereliction of duty\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "extreme moral failure and dereliction of duty"
+  }
+ },
+ "d12": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"no one's conduct is judged\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "no one's conduct is judged"
+  }
+ },
+ "ep_f08": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"basing belief on evidence\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "basing belief on evidence"
+  }
+ },
+ "ae_o03": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 1, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"plating food is judged aesthetically\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 1,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "plating food is judged aesthetically"
+  }
+ },
+ "pr_p05": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"practicing is effective for achieving one's own goals; wishing is practically ineffective and irrational\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "practicing is effective for achieving one's own goals; wishing is practically ineffective and irrational"
+  }
+ },
+ "m_v08": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"honesty, protecting others from harm\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "honesty, protecting others from harm"
+  }
+ },
+ "m_f08": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"major moral violation; leaving injured people behind\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "major moral violation; leaving injured people behind"
+  }
+ },
+ "et_o14": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"extreme violation of social norms and manners\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "extreme violation of social norms and manners"
+  }
+ },
+ "m_v19": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"harm to child, very much worse\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "harm to child, very much worse"
+  }
+ },
+ "pr_f05": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own financial interest and safety\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own financial interest and safety"
+  }
+ },
+ "m_f05": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"deception and unfairness to the buyer\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "deception and unfairness to the buyer"
+  }
+ },
+ "pr_o04": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"ruins the sweater, prudential mistake\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "ruins the sweater, prudential mistake"
+  }
+ },
+ "m_o08": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"extreme danger to the baby, legal risks to the parent\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "extreme danger to the baby, legal risks to the parent"
+  }
+ },
+ "ae_o01": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"aesthetic quality of a photograph\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "aesthetic quality of a photograph"
+  }
+ },
+ "pr_o12": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own comfort and safety\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own comfort and safety"
+  }
+ },
+ "pr_v05": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"ruins one's own trip\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "ruins one's own trip"
+  }
+ },
+ "d25": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a thing, no conduct judged\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a thing, no conduct judged"
+  }
+ },
+ "ep_p07": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"deduction is a valid logical method; repetition is not\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "deduction is a valid logical method; repetition is not"
+  }
+ },
+ "d40": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"no one's conduct is judged, just the state of a thing\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "no one's conduct is judged, just the state of a thing"
+  }
+ },
+ "d15": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"no one's conduct is judged\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "no one's conduct is judged"
+  }
+ },
+ "m_p06": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"misusing emergency equipment affects many others\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "misusing emergency equipment affects many others"
+  }
+ },
+ "pr_o02": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"ruins the baker's work and wastes ingredients\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "ruins the baker's work and wastes ingredients"
+  }
+ },
+ "ep_p10": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"better reasoning and evidence\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "better reasoning and evidence"
+  }
+ },
+ "pr_f10": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own goals and plans\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own goals and plans"
+  }
+ },
+ "ae_o07": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"aesthetic judgment of poetry\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "aesthetic judgment of poetry"
+  }
+ },
+ "m_p16": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"harm to an animal for a trivial reason\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "harm to an animal for a trivial reason"
+  }
+ },
+ "m_o14": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"theft/embezzlement harms the company and puts the doer at great personal risk\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "theft/embezzlement harms the company and puts the doer at great personal risk"
+  }
+ },
+ "ep_f05": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"better reasoning and use of evidence\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "better reasoning and use of evidence"
+  }
+ },
+ "m_v04": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"physical assault and ingratitude vs kindness\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "physical assault and ingratitude vs kindness"
+  }
+ },
+ "m_f03": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 2, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"consent and privacy of others\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 2,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "consent and privacy of others"
+  }
+ },
+ "d04": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"just the state of a thing\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "just the state of a thing"
+  }
+ },
+ "m_o07": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"fraud/false report is dishonest and illegal, risking serious consequences for the doer and harming others\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "fraud/false report is dishonest and illegal, risking serious consequences for the doer and harming others"
+  }
+ },
+ "m_p07": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"harming emergency services vs helping someone in need\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "harming emergency services vs helping someone in need"
+  }
+ },
+ "m_v07": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"honesty, fairness\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "honesty, fairness"
+  }
+ },
+ "et_o13": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 1, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"manners and politeness\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 1,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "manners and politeness"
+  }
+ },
+ "et_p02": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"slurping is culturally acceptable in Japan but considered rude in France\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "slurping is culturally acceptable in Japan but considered rude in France"
+  }
+ },
+ "pr_f03": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"better planning for one's own goals\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "better planning for one's own goals"
+  }
+ },
+ "m_p09": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"rewarding hiding safety violations endangers others and risks liability\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "rewarding hiding safety violations endangers others and risks liability"
+  }
+ },
+ "ep_f03": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"scientific practice is highly epistemic, but also affects own reputation and misleads others\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "scientific practice is highly epistemic, but also affects own reputation and misleads others"
+  }
+ },
+ "d06": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"state of a thing\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "state of a thing"
+  }
+ },
+ "ae_o04": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"defeats the purpose of a lullaby; poor musical execution\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "defeats the purpose of a lullaby; poor musical execution"
+  }
+ },
+ "ep_o04": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"better evidence and reasoning\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "better evidence and reasoning"
+  }
+ },
+ "d31": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"no one's conduct is judged\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "no one's conduct is judged"
+  }
+ },
+ "m_p22": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"harm to children; highly immoral coaching method\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "harm to children; highly immoral coaching method"
+  }
+ },
+ "ae_f06": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"design choice, aesthetic\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "design choice, aesthetic"
+  }
+ },
+ "et_p01": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 1, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"custom and manners depend on location\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "custom and manners depend on location"
+  }
+ },
+ "ae_f03": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"poor photography composition\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "poor photography composition"
+  }
+ },
+ "et_p06": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 2, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"violates professional dress codes and norms\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 2,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "violates professional dress codes and norms"
+  }
+ },
+ "d05": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"no one's conduct is judged\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "no one's conduct is judged"
+  }
+ },
+ "ep_p01": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"reasoning and evidence\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "reasoning and evidence"
+  }
+ },
+ "d26": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes the state of a thing\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes the state of a thing"
+  }
+ },
+ "pr_v02": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 2, \"unclear\": false, \"comment\": \"custom curtains require exact dimensions; financial risk\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 2,
+   "unclear": false,
+   "comment": "custom curtains require exact dimensions; financial risk"
+  }
+ },
+ "ae_o13": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"quality of craftsmanship\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "quality of craftsmanship"
+  }
+ },
+ "pr_v09": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"safety of everyone in the building\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "safety of everyone in the building"
+  }
+ },
+ "m_p23": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"corruption and fairness\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "corruption and fairness"
+  }
+ },
+ "pr_f12": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"personal financial safety\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "personal financial safety"
+  }
+ },
+ "m_o21": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"helping vs harming/deceiving others\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "helping vs harming/deceiving others"
+  }
+ },
+ "d42": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"just describing a smell, no action judged\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "just describing a smell, no action judged"
+  }
+ },
+ "m_v09": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"highly immoral to loot charity\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "highly immoral to loot charity"
+  }
+ },
+ "ae_p01": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"primarily an aesthetic choice\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "primarily an aesthetic choice"
+  }
+ },
+ "pr_p01": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"own financial interest and rational decision making\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "own financial interest and rational decision making"
+  }
+ },
+ "m_f01": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"consent and privacy\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "consent and privacy"
+  }
+ },
+ "m_p08": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"punishing a child for a good deed is highly unjust\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "punishing a child for a good deed is highly unjust"
+  }
+ },
+ "pr_f06": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own safety and convenience\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own safety and convenience"
+  }
+ },
+ "ae_o08": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"judgment of taste and style\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "judgment of taste and style"
+  }
+ },
+ "d20": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"no one's conduct is judged\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "no one's conduct is judged"
+  }
+ },
+ "pr_p09": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Option 2 defeats the practical goal\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Option 2 defeats the practical goal"
+  }
+ },
+ "pr_f08": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"own financial interest\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "own financial interest"
+  }
+ },
+ "m_v15": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"life-threatening harm to others\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "life-threatening harm to others"
+  }
+ },
+ "d23": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"no one's conduct is judged\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "no one's conduct is judged"
+  }
+ },
+ "m_f10": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"stealing/violating consent\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "stealing/violating consent"
+  }
+ },
+ "m_f16": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"false alarm causes severe risk of harm to others\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "false alarm causes severe risk of harm to others"
+  }
+ },
+ "m_p18": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"doping violates fairness to others and risks own health/career\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "doping violates fairness to others and risks own health/career"
+  }
+ },
+ "d30": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"state of the weather/snow\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "state of the weather/snow"
+  }
+ },
+ "et_f07": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"classic etiquette violation\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "classic etiquette violation"
+  }
+ },
+ "m_v03": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"helping vs harming a vulnerable person\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "helping vs harming a vulnerable person"
+  }
+ },
+ "m_o24": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"hitting a sibling causes direct harm to another person\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "hitting a sibling causes direct harm to another person"
+  }
+ },
+ "m_p11": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"fairness and justice; fining for singing is an abuse of power\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "fairness and justice; fining for singing is an abuse of power"
+  }
+ },
+ "ep_v01": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"mainly epistemic, checking evidence before making a claim\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "mainly epistemic, checking evidence before making a claim"
+  }
+ },
+ "m_p15": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"fairness and merit vs discrimination\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "fairness and merit vs discrimination"
+  }
+ },
+ "ae_v04": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"judging the quality of craftsmanship\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "judging the quality of craftsmanship"
+  }
+ },
+ "et_f10": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"manners in a meeting\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "manners in a meeting"
+  }
+ },
+ "d38": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"no one's conduct is judged\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "no one's conduct is judged"
+  }
+ },
+ "m_p28": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"selling a colleague's property is theft\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "selling a colleague's property is theft"
+  }
+ },
+ "et_f06": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"interrupting a speaker is bad manners\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "interrupting a speaker is bad manners"
+  }
+ },
+ "d44": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"no one's conduct is judged\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "no one's conduct is judged"
+  }
+ },
+ "m_o17": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"exploitation and harm to others\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "exploitation and harm to others"
+  }
+ },
+ "m_p27": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"harming vs protecting a child\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "harming vs protecting a child"
+  }
+ },
+ "m_f13": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"harm to workers and illegal\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "harm to workers and illegal"
+  }
+ },
+ "pr_o05": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"ruins the milk, affects own health and resources\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "ruins the milk, affects own health and resources"
+  }
+ },
+ "pr_p08": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 2, \"unclear\": false, \"comment\": \"hitting might break it (own interest), and shows poor understanding of how computers work\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 2,
+   "unclear": false,
+   "comment": "hitting might break it (own interest), and shows poor understanding of how computers work"
+  }
+ },
+ "d33": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"just describing the quality of a thing\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "just describing the quality of a thing"
+  }
+ },
+ "m_o19": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"selling a forgery is fraud, harming the buyer\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "selling a forgery is fraud, harming the buyer"
+  }
+ },
+ "m_f09": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 2, \"etiquette\": 1, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"harm to those who need the spot, plus risk of getting a fine\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "harm to those who need the spot, plus risk of getting a fine"
+  }
+ },
+ "et_p07": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 2, \"prudential\": 1, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"highly disruptive and violates social norms of a library\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 2,
+   "prudential": 1,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "highly disruptive and violates social norms of a library"
+  }
+ },
+ "ep_o09": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"mainly epistemic (quality of evidence/reasoning), but also affects the strength of one's argument (prudential) and honesty/misleading others (moral)\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "mainly epistemic (quality of evidence/reasoning), but also affects the strength of one's argument (prudential) and honesty/misleading others (moral)"
+  }
+ },
+ "m_v23": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"fairness and honesty in an election\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "fairness and honesty in an election"
+  }
+ },
+ "d17": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"just describing a condition or thing, no conduct\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "just describing a condition or thing, no conduct"
+  }
+ },
+ "d32": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a thing, no one's conduct is judged\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a thing, no one's conduct is judged"
+  }
+ },
+ "ep_o07": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"better evidence for a conclusion\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "better evidence for a conclusion"
+  }
+ },
+ "m_v02": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"harm to an animal\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "harm to an animal"
+  }
+ },
+ "m_p10": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"unfair punishment harms the student\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "unfair punishment harms the student"
+  }
+ },
+ "d36": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"no action is judged, just a situation\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "no action is judged, just a situation"
+  }
+ },
+ "m_o23": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"harming and neglecting duties to children\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "harming and neglecting duties to children"
+  }
+ },
+ "m_p19": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"academic dishonesty\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "academic dishonesty"
+  }
+ },
+ "m_v16": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"lying to police harms justice and others, and risks legal trouble for the doer\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "lying to police harms justice and others, and risks legal trouble for the doer"
+  }
+ },
+ "et_f03": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"hosting manners\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "hosting manners"
+  }
+ },
+ "d29": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"just a condition, no conduct judged\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "just a condition, no conduct judged"
+  }
+ },
+ "et_o04": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 1, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"business email etiquette\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "business email etiquette"
+  }
+ },
+ "m_f06": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"severe violation of patients' rights and consent\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "severe violation of patients' rights and consent"
+  }
+ },
+ "m_o09": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"environmental harm\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "environmental harm"
+  }
+ },
+ "m_f12": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"extreme harm to others if not warned beforehand\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "extreme harm to others if not warned beforehand"
+  }
+ },
+ "m_p01": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"intent to harm vs intent to protect\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "intent to harm vs intent to protect"
+  }
+ },
+ "d01": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"weather and crop conditions, nobody's conduct is judged\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "weather and crop conditions, nobody's conduct is judged"
+  }
+ },
+ "ae_f04": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"quality of poetic work\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "quality of poetic work"
+  }
+ },
+ "m_o10": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"unfair pricing, exploiting others\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "unfair pricing, exploiting others"
+  }
+ },
+ "m_o15": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"extreme danger to others and self\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "extreme danger to others and self"
+  }
+ },
+ "m_p02": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"harming and exploiting a child vs protecting her\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "harming and exploiting a child vs protecting her"
+  }
+ },
+ "d28": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a thing, no conduct judged\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a thing, no conduct judged"
+  }
+ },
+ "ep_f04": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"evaluating evidence for a belief\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "evaluating evidence for a belief"
+  }
+ },
+ "m_o03": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"dishonesty and harm to a competitor\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "dishonesty and harm to a competitor"
+  }
+ },
+ "m_o20": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"exploiting vulnerable patients and causing direct harm\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "exploiting vulnerable patients and causing direct harm"
+  }
+ },
+ "ae_p06": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"aesthetic judgment of gardening work\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "aesthetic judgment of gardening work"
+  }
+ },
+ "ae_v03": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"hanging pictures is an aesthetic choice\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "hanging pictures is an aesthetic choice"
+  }
+ },
+ "m_f15": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"medical ethics, severe harm to others\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "medical ethics, severe harm to others"
+  }
+ },
+ "pr_v07": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own safety and planning\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own safety and planning"
+  }
+ },
+ "m_p04": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 1, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"helping vs malicious intent\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "helping vs malicious intent"
+  }
+ },
+ "et_o10": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"politeness and respect\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "politeness and respect"
+  }
+ },
+ "m_v05": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 1, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"harming others\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "harming others"
+  }
+ },
+ "ae_f02": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"aesthetic judgment of a musical performance\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "aesthetic judgment of a musical performance"
+  }
+ },
+ "ep_p03": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"purely epistemic reasoning\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "purely epistemic reasoning"
+  }
+ },
+ "m_v21": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"harming a disabled person by interfering with their service animal\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "harming a disabled person by interfering with their service animal"
+  }
+ },
+ "m_v22": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"harm vs help to someone vulnerable\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "harm vs help to someone vulnerable"
+  }
+ },
+ "et_v06": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 2, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"courtroom decorum\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 2,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "courtroom decorum"
+  }
+ },
+ "d22": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes the state of an object\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes the state of an object"
+  }
+ },
+ "ae_p03": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"aesthetic choice in photography\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "aesthetic choice in photography"
+  }
+ },
+ "m_f14": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"harm to others, breach of duty/honesty\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "harm to others, breach of duty/honesty"
+  }
+ },
+ "m_f02": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"consent and rights of others\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "consent and rights of others"
+  }
+ },
+ "ep_p02": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"classic ad hominem fallacy vs sound reasoning\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "classic ad hominem fallacy vs sound reasoning"
+  }
+ },
+ "d34": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a natural condition, no conduct judged\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a natural condition, no conduct judged"
+  }
+ },
+ "m_p21": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"harming others through dishonesty vs honest effort\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "harming others through dishonesty vs honest effort"
+  }
+ },
+ "m_p12": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"firing for pregnancy is severe discrimination and a violation of rights; also carries heavy legal risks for the employer\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "firing for pregnancy is severe discrimination and a violation of rights; also carries heavy legal risks for the employer"
+  }
+ },
+ "ep_v02": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"epistemic failure that risks one's own goals\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "epistemic failure that risks one's own goals"
+  }
+ },
+ "ep_p04": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"better evidence for belief\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "better evidence for belief"
+  }
+ },
+ "m_o12": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"animal welfare, harm to dogs\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "animal welfare, harm to dogs"
+  }
+ },
+ "et_p03": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"manners depend on the setting\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "manners depend on the setting"
+  }
+ },
+ "m_o22": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"harming others through maliciousness\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "harming others through maliciousness"
+  }
+ },
+ "et_o11": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"violates professional norms and ruins own chances of employment\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "violates professional norms and ruins own chances of employment"
+  }
+ },
+ "d27": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"state of a thing, no conduct judged\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "state of a thing, no conduct judged"
+  }
+ },
+ "m_p24": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"issue of fairness and professional duty\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "issue of fairness and professional duty"
+  }
+ },
+ "d07": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"no one's conduct is judged\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "no one's conduct is judged"
+  }
+ },
+ "ep_v05": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"confirming is better reasoning and practice than just believing\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "confirming is better reasoning and practice than just believing"
+  }
+ },
+ "pr_o14": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own interest and travel plans\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own interest and travel plans"
+  }
+ },
+ "ae_p05": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"plating is judged on visual appeal and style\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "plating is judged on visual appeal and style"
+  }
+ },
+ "et_v05": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"violates concert etiquette and disturbs others\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "violates concert etiquette and disturbs others"
+  }
+ },
+ "et_v02": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"basic manners\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "basic manners"
+  }
+ },
+ "ae_o10": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"quality of the painting\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "quality of the painting"
+  }
+ },
+ "ep_o01": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"reasoning based on evidence\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "reasoning based on evidence"
+  }
+ },
+ "pr_p03": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"poor financial/life decision making\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "poor financial/life decision making"
+  }
+ },
+ "m_v14": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"returning lost property is a strong moral duty\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "returning lost property is a strong moral duty"
+  }
+ },
+ "pr_f07": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"doer's own plans and safety\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "doer's own plans and safety"
+  }
+ },
+ "pr_p02": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 2, \"unclear\": false, \"comment\": \"own future/education and poor reasoning\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 2,
+   "unclear": false,
+   "comment": "own future/education and poor reasoning"
+  }
+ },
+ "et_o06": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"major breach of etiquette at a formal meal\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "major breach of etiquette at a formal meal"
+  }
+ },
+ "d35": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a property of a thing\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a property of a thing"
+  }
+ },
+ "d03": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a thing, no conduct judged\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a thing, no conduct judged"
+  }
+ },
+ "pr_o01": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 1, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own effort and safety, plus quality of the resulting work\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 1,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own effort and safety, plus quality of the resulting work"
+  }
+ },
+ "pr_o10": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own success and preparedness\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own success and preparedness"
+  }
+ },
+ "m_v13": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"harm to others\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "harm to others"
+  }
+ },
+ "d11": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a situation, not a specific person's conduct\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a situation, not a specific person's conduct"
+  }
+ },
+ "d18": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes the state of a thing, no action judged\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes the state of a thing, no action judged"
+  }
+ },
+ "pr_o06": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own comfort and performance during the run\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own comfort and performance during the run"
+  }
+ },
+ "et_v04": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 2, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"disrupts others' experience, major breach of theater etiquette\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 2,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "disrupts others' experience, major breach of theater etiquette"
+  }
+ },
+ "ae_o16": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"aesthetic judgment of a written work\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "aesthetic judgment of a written work"
+  }
+ },
+ "ep_p09": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"using evidence vs superstition for a business task\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "using evidence vs superstition for a business task"
+  }
+ },
+ "pr_o03": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 1, \"epistemic\": 0, \"unclear\": false, \"comment\": \"painting in the rain ruins the work and wastes effort\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 1,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "painting in the rain ruins the work and wastes effort"
+  }
+ },
+ "ae_v02": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"quality of the landscaping work\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "quality of the landscaping work"
+  }
+ },
+ "m_o02": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"harm to others and justice system, plus risk of perjury charge for doer\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "harm to others and justice system, plus risk of perjury charge for doer"
+  }
+ },
+ "d19": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes the state of a thing\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes the state of a thing"
+  }
+ },
+ "d09": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes the state or reception of the musical, no one's conduct is judged\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes the state or reception of the musical, no one's conduct is judged"
+  }
+ },
+ "m_o01": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"harming minors, illegal, legal risk to seller\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "harming minors, illegal, legal risk to seller"
+  }
+ },
+ "pr_o07": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"tomatoes need sun to grow well, so this is about achieving one's gardening goals\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "tomatoes need sun to grow well, so this is about achieving one's gardening goals"
+  }
+ },
+ "m_f17": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"dishonesty and duty to others, plus high personal legal risk\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "dishonesty and duty to others, plus high personal legal risk"
+  }
+ },
+ "pr_o08": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"mostly financial harm to oneself\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "mostly financial harm to oneself"
+  }
+ },
+ "m_v17": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"saving a life\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "saving a life"
+  }
+ },
+ "d39": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"no one's conduct is judged\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "no one's conduct is judged"
+  }
+ },
+ "m_o04": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"dishonesty and cheating\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "dishonesty and cheating"
+  }
+ },
+ "d21": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"just a physical state\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "just a physical state"
+  }
+ },
+ "pr_v01": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 2, \"unclear\": false, \"comment\": \"own financial safety, better reasoning\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 2,
+   "unclear": false,
+   "comment": "own financial safety, better reasoning"
+  }
+ },
+ "pr_o13": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own travel plans and convenience\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own travel plans and convenience"
+  }
+ },
+ "m_p14": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"gender discrimination is a major moral issue\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "gender discrimination is a major moral issue"
+  }
+ },
+ "pr_o11": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own academic goals and planning\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own academic goals and planning"
+  }
+ },
+ "ae_p04": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"interior design and comfort\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "interior design and comfort"
+  }
+ },
+ "m_v06": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"helping vs leaving someone in need\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "helping vs leaving someone in need"
+  }
+ },
+ "ep_o06": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 2, \"epistemic\": 3, \"unclear\": false, \"comment\": \"primary difference is epistemic methodology; also affects the quality of professional work\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 2,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "primary difference is epistemic methodology; also affects the quality of professional work"
+  }
+ },
+ "m_o13": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"honesty and fairness to the buyer\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "honesty and fairness to the buyer"
+  }
+ },
+ "ae_f05": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"artistic quality and skill\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "artistic quality and skill"
+  }
+ },
+ "ae_o12": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"quality of dance performance\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "quality of dance performance"
+  }
+ },
+ "pr_v08": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own data security\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own data security"
+  }
+ },
+ "m_p26": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"stealing vs rescuing; primarily a moral difference\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "stealing vs rescuing; primarily a moral difference"
+  }
+ },
+ "m_f11": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"violates patient rights and medical ethics, risks legal trouble\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "violates patient rights and medical ethics, risks legal trouble"
+  }
+ },
+ "pr_p07": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"own financial security and planning\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "own financial security and planning"
+  }
+ },
+ "m_p03": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 2, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"helping vs harming a coworker\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 2,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "helping vs harming a coworker"
+  }
+ },
+ "ep_p08": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"better evidence for belief, affecting own health\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "better evidence for belief, affecting own health"
+  }
+ },
+ "m_p13": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"discrimination based on religion is morally wrong and violates rights; refusing for violence protects safety\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "discrimination based on religion is morally wrong and violates rights; refusing for violence protects safety"
+  }
+ },
+ "ep_v03": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"evaluating evidence and belief\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "evaluating evidence and belief"
+  }
+ },
+ "ep_v06": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"good reasoning requires examining alternatives\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "good reasoning requires examining alternatives"
+  }
+ },
+ "ae_v01": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"ruins the visual quality of the photo\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "ruins the visual quality of the photo"
+  }
+ },
+ "m_p05": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"treating patients while untrained is highly dangerous to others and fraudulent\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "treating patients while untrained is highly dangerous to others and fraudulent"
+  }
+ },
+ "pr_f09": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"better for achieving one's own goal\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "better for achieving one's own goal"
+  }
+ },
+ "m_f18": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 2, \"etiquette\": 1, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"violates tenant rights and consent, legal risk\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "violates tenant rights and consent, legal risk"
+  }
+ },
+ "ep_f02": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"reporting data properly is primarily an epistemic issue, though misleading others has slight moral implications\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "reporting data properly is primarily an epistemic issue, though misleading others has slight moral implications"
+  }
+ },
+ "ep_v04": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"updating beliefs based on evidence\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "updating beliefs based on evidence"
+  }
+ },
+ "m_o18": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"major harm to others, professional and legal risk to the server\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "major harm to others, professional and legal risk to the server"
+  }
+ },
+ "et_f02": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"major breach of wedding etiquette\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "major breach of wedding etiquette"
+  }
+ },
+ "d16": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"no one's conduct is judged\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "no one's conduct is judged"
+  }
+ },
+ "m_f04": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"violating privacy and consent\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "violating privacy and consent"
+  }
+ },
+ "pr_f01": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own interest and safety\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own interest and safety"
+  }
+ },
+ "d43": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"description of a thing, no one's conduct is judged\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "description of a thing, no one's conduct is judged"
+  }
+ },
+ "m_p17": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"harm to others, violating democratic rights and consent\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "harm to others, violating democratic rights and consent"
+  }
+ },
+ "m_v10": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"breaking a promise to a sick relative\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "breaking a promise to a sick relative"
+  }
+ },
+ "m_v12": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"serious harm vs helping\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "serious harm vs helping"
+  }
+ },
+ "pr_o09": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"prevents property damage and saves money\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "prevents property damage and saves money"
+  }
+ },
+ "et_p09": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"violates etiquette and norms of a solemn place\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "violates etiquette and norms of a solemn place"
+  }
+ },
+ "m_o11": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"highly exploitative to charge a friend crushing interest\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "highly exploitative to charge a friend crushing interest"
+  }
+ },
+ "pr_v11": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"extreme risk to own safety\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "extreme risk to own safety"
+  }
+ },
+ "et_p05": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"major breach of etiquette and social norms, potentially causing emotional harm\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "major breach of etiquette and social norms, potentially causing emotional harm"
+  }
+ },
+ "d24": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes the state or quality of a thing\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes the state or quality of a thing"
+  }
+ },
+ "m_v01": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"harm to vulnerable other\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "harm to vulnerable other"
+  }
+ },
+ "m_f07": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 2, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"fairness and honesty\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 2,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "fairness and honesty"
+  }
+ },
+ "d02": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a thing or situation, no one's conduct is judged\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a thing or situation, no one's conduct is judged"
+  }
+ },
+ "ae_p02": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 3, \"epistemic\": 0, \"unclear\": false, \"comment\": \"aesthetic judgment of someone's work\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 3,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "aesthetic judgment of someone's work"
+  }
+ },
+ "et_o05": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"pure etiquette violation\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "pure etiquette violation"
+  }
+ },
+ "d37": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"condition of a thing\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "condition of a thing"
+  }
+ },
+ "pr_f11": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own goals and preventing loss of own work\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own goals and preventing loss of own work"
+  }
+ },
+ "pr_p04": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own comfort and injury prevention\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own comfort and injury prevention"
+  }
+ },
+ "pr_p06": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own goals and physical safety\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own goals and physical safety"
+  }
+ },
+ "pr_f04": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 1, \"epistemic\": 0, \"unclear\": false, \"comment\": \"makes the task much easier and more effective\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 1,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "makes the task much easier and more effective"
+  }
+ }
+}

@@ -1,0 +1,1219 @@
+[
+ {
+  "id": "tw01_m",
+  "category": "moral",
+  "subtype": "care",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "tw01_p",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": false,
+  "direction_votes": 3,
+  "class_votes": 0,
+  "classes": [
+   "moral",
+   null,
+   null
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": [
+   "class",
+   "moral rating"
+  ]
+ },
+ {
+  "id": "tw02_m",
+  "category": "moral",
+  "subtype": "care",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "tw02_p",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "tw03_m",
+  "category": "moral",
+  "subtype": "care",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "tw03_p",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "tw04_m",
+  "category": "moral",
+  "subtype": "care",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "tw04_p",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "tw05_m",
+  "category": "moral",
+  "subtype": "care",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "tw05_p",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 1.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "tw06_m",
+  "category": "moral",
+  "subtype": "honesty",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "tw06_p",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "tw07_m",
+  "category": "moral",
+  "subtype": "care",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "tw07_p",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "tw08_m",
+  "category": "moral",
+  "subtype": "care",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "tw08_p",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "tw09_m",
+  "category": "moral",
+  "subtype": "fairness",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 2,
+  "classes": [
+   "moral",
+   null,
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "tw09_p",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "tw10_m",
+  "category": "moral",
+  "subtype": "care",
+  "accepted": false,
+  "direction_votes": 3,
+  "class_votes": 1,
+  "classes": [
+   null,
+   "moral",
+   null
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": [
+   "class"
+  ]
+ },
+ {
+  "id": "tw10_p",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "tw11_m",
+  "category": "moral",
+  "subtype": "care",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 2,
+  "classes": [
+   "moral",
+   "moral",
+   null
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "tw11_p",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": false,
+  "direction_votes": 3,
+  "class_votes": 2,
+  "classes": [
+   "prudential",
+   "prudential",
+   null
+  ],
+  "moral_median": 2.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": [
+   "moral rating"
+  ]
+ },
+ {
+  "id": "tw12_m",
+  "category": "moral",
+  "subtype": "care",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "tw12_p",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "tw13_m",
+  "category": "moral",
+  "subtype": "care",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "tw13_p",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": false,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 2.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": [
+   "moral rating"
+  ]
+ },
+ {
+  "id": "tw14_m",
+  "category": "moral",
+  "subtype": "care",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "tw14_p",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "tw15_m",
+  "category": "moral",
+  "subtype": "care",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "tw15_p",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 1.0,
+  "unclear": 1,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "tw16_m",
+  "category": "moral",
+  "subtype": "care",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "tw16_p",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "tw17_m",
+  "category": "moral",
+  "subtype": "care",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "tw17_p",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 1.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "tw18_m",
+  "category": "moral",
+  "subtype": "care",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "tw18_p",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "tw19_m",
+  "category": "moral",
+  "subtype": "care",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "tw19_p",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "tw20_m",
+  "category": "moral",
+  "subtype": "care",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "tw20_p",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "tw21_m",
+  "category": "moral",
+  "subtype": "care",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "tw21_p",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "tw22_m",
+  "category": "moral",
+  "subtype": "honesty",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "tw22_p",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 1.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "tw23_m",
+  "category": "moral",
+  "subtype": "care",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "tw23_p",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": false,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 2.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": [
+   "moral rating"
+  ]
+ },
+ {
+  "id": "tw24_m",
+  "category": "moral",
+  "subtype": "care",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "tw24_p",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": false,
+  "direction_votes": 2,
+  "class_votes": 3,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 0.0,
+  "unclear": 3,
+  "kind_confirmed": true,
+  "reasons": [
+   "unclear"
+  ]
+ },
+ {
+  "id": "tw25_m",
+  "category": "moral",
+  "subtype": "care",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "tw25_p",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "tw26_m",
+  "category": "moral",
+  "subtype": "care",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "tw26_p",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "tw27_m",
+  "category": "moral",
+  "subtype": "care",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "tw27_p",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": false,
+  "direction_votes": 3,
+  "class_votes": 1,
+  "classes": [
+   "prudential",
+   null,
+   null
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": [
+   "class",
+   "moral rating"
+  ]
+ },
+ {
+  "id": "tw28_m",
+  "category": "moral",
+  "subtype": "honesty",
+  "accepted": false,
+  "direction_votes": 3,
+  "class_votes": 0,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 1.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": [
+   "class",
+   "moral rating"
+  ]
+ },
+ {
+  "id": "tw28_p",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "tw29_m",
+  "category": "moral",
+  "subtype": "property",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 2,
+  "classes": [
+   "prudential",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "tw29_p",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "tw30_m",
+  "category": "moral",
+  "subtype": "care",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "moral",
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "tw30_p",
+  "category": "norm",
+  "subtype": "prudential",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "prudential",
+   "prudential",
+   "prudential"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "tw31_m",
+  "category": "moral",
+  "subtype": "honesty",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 2,
+  "classes": [
+   null,
+   "moral",
+   "moral"
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": []
+ },
+ {
+  "id": "tw31_e",
+  "category": "norm",
+  "subtype": "epistemic",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "epistemic",
+   "epistemic",
+   "epistemic"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "tw32_m",
+  "category": "moral",
+  "subtype": "honesty",
+  "accepted": false,
+  "direction_votes": 3,
+  "class_votes": 0,
+  "classes": [
+   "epistemic",
+   null,
+   null
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": [
+   "class"
+  ]
+ },
+ {
+  "id": "tw32_e",
+  "category": "norm",
+  "subtype": "epistemic",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "epistemic",
+   "epistemic",
+   "epistemic"
+  ],
+  "moral_median": 1.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "tw33_m",
+  "category": "moral",
+  "subtype": "honesty",
+  "accepted": false,
+  "direction_votes": 3,
+  "class_votes": 0,
+  "classes": [
+   "epistemic",
+   "epistemic",
+   "epistemic"
+  ],
+  "moral_median": 2.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": [
+   "class"
+  ]
+ },
+ {
+  "id": "tw33_e",
+  "category": "norm",
+  "subtype": "epistemic",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "epistemic",
+   "epistemic",
+   "epistemic"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "tw34_m",
+  "category": "moral",
+  "subtype": "honesty",
+  "accepted": false,
+  "direction_votes": 3,
+  "class_votes": 0,
+  "classes": [
+   "epistemic",
+   null,
+   null
+  ],
+  "moral_median": 3.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": [
+   "class"
+  ]
+ },
+ {
+  "id": "tw34_e",
+  "category": "norm",
+  "subtype": "epistemic",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 3,
+  "classes": [
+   "epistemic",
+   "epistemic",
+   "epistemic"
+  ],
+  "moral_median": 0.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ },
+ {
+  "id": "tw35_m",
+  "category": "moral",
+  "subtype": "honesty",
+  "accepted": false,
+  "direction_votes": 3,
+  "class_votes": 0,
+  "classes": [
+   "epistemic",
+   "epistemic",
+   null
+  ],
+  "moral_median": 2.0,
+  "unclear": 0,
+  "kind_confirmed": false,
+  "reasons": [
+   "class"
+  ]
+ },
+ {
+  "id": "tw35_e",
+  "category": "norm",
+  "subtype": "epistemic",
+  "accepted": true,
+  "direction_votes": 3,
+  "class_votes": 2,
+  "classes": [
+   "epistemic",
+   "epistemic",
+   null
+  ],
+  "moral_median": 1.0,
+  "unclear": 0,
+  "kind_confirmed": true,
+  "reasons": []
+ }
+]

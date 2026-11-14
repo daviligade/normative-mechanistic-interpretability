@@ -1,0 +1,1124 @@
+{
+ "dp_v02": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 1, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"a matter of luck; nobody's conduct is judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 1,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "a matter of luck; nobody's conduct is judged"
+  }
+ },
+ "dp_v03": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"a matter of luck; nobody's conduct is judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "a matter of luck; nobody's conduct is judged"
+  }
+ },
+ "dp_v01": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 1, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"a matter of luck, no one's conduct is judged; winning is simply the nicer outcome\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 1,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "a matter of luck, no one's conduct is judged; winning is simply the nicer outcome"
+  }
+ },
+ "dp_v14": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"random draw outcome is luck; no one's conduct is judged. Getting a place is better.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "random draw outcome is luck; no one's conduct is judged. Getting a place is better."
+  }
+ },
+ "dp_o16": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 1, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"Weather condition; nobody's choice is compared. A freezing wind is worse than a gentle one.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 1,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "Weather condition; nobody's choice is compared. A freezing wind is worse than a gentle one."
+  }
+ },
+ "dp_p08": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes the state of the garden; no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes the state of the garden; no one's conduct is judged"
+  }
+ },
+ "dp_o15": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"a situation or outcome, not anyone's conduct; normal results are better\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "a situation or outcome, not anyone's conduct; normal results are better"
+  }
+ },
+ "dp_v04": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 1, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": true, \"comment\": \"Mostly a matter of luck or circumstance. 'Missing' a calm sea is ambiguous, since it could mean not being there or failing to notice it. No one's conduct is clearly judged.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 1,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": true,
+   "comment": "Mostly a matter of luck or circumstance. 'Missing' a calm sea is ambiguous, since it could mean not being there or failing to notice it. No one's conduct is clearly judged."
+  }
+ },
+ "dp_p04": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"a situation that is better or worse; nobody's conduct is judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "a situation that is better or worse; nobody's conduct is judged"
+  }
+ },
+ "dp_v07": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 1, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"Enjoying is the nicer experience than merely bearing it. It describes a person's experience or state, not conduct that is judged.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 1,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "Enjoying is the nicer experience than merely bearing it. It describes a person's experience or state, not conduct that is judged."
+  }
+ },
+ "dp_f15": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"an outcome or condition; no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "an outcome or condition; no one's conduct is judged"
+  }
+ },
+ "dp_f01": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"having a fever is a condition, not a choice; no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "having a fever is a condition, not a choice; no one's conduct is judged"
+  }
+ },
+ "dp_f11": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"a circumstance, not anyone's conduct; growing up with clean water is clearly better\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "a circumstance, not anyone's conduct; growing up with clean water is clearly better"
+  }
+ },
+ "dp_o02": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 1, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"\\\"Ending up\\\" suggests circumstance, not a choice; a spacious seat is better, but this is a state of affairs.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 1,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "\"Ending up\" suggests circumstance, not a choice; a spacious seat is better, but this is a state of affairs."
+  }
+ },
+ "dp_f06": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 1, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"a condition, not anyone's conduct; waking without a headache is mildly better\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 1,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "a condition, not anyone's conduct; waking without a headache is mildly better"
+  }
+ },
+ "dp_o04": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"A sleepless night is mostly a condition or circumstance, not clearly a choice. If it were chosen, it would be a prudential matter.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "A sleepless night is mostly a condition or circumstance, not clearly a choice. If it were chosen, it would be a prudential matter."
+  }
+ },
+ "dp_o01": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 1, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"weather is a condition; nobody's conduct is judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 1,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "weather is a condition; nobody's conduct is judged"
+  }
+ },
+ "dp_o13": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"the difference is the tent's condition (dry vs leaking); no choice by anyone is described, though it could be read as a choice of shelter\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "the difference is the tent's condition (dry vs leaking); no choice by anyone is described, though it could be read as a choice of shelter"
+  }
+ },
+ "dp_f05": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 1, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"a state of health; no one's conduct is judged. Option 2 is better, and only a little.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 1,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "a state of health; no one's conduct is judged. Option 2 is better, and only a little."
+  }
+ },
+ "dp_v06": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 1, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"Enjoying is more pleasant than merely bearing; this describes an experience or condition, not anyone's conduct being judged.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 1,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "Enjoying is more pleasant than merely bearing; this describes an experience or condition, not anyone's conduct being judged."
+  }
+ },
+ "dp_o14": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"a situation; no one's conduct is judged. Option 2 is better because the queue is shorter.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "a situation; no one's conduct is judged. Option 2 is better because the queue is shorter."
+  }
+ },
+ "dp_v13": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 1, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a person's state (cold vs comfortable), not a choice or piece of work; shivering is not something chosen\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 1,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a person's state (cold vs comfortable), not a choice or piece of work; shivering is not something chosen"
+  }
+ },
+ "dp_f12": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"a bodily condition; no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "a bodily condition; no one's conduct is judged"
+  }
+ },
+ "dp_p03": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 0, \"q2\": null, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"both are the same act of checking; the difference is only what the forecast says, and nobody's conduct is judged\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "both are the same act of checking; the difference is only what the forecast says, and nobody's conduct is judged"
+  }
+ },
+ "dp_v09": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a condition, not anyone's choice or work; flourishing is better than suffering\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a condition, not anyone's choice or work; flourishing is better than suffering"
+  }
+ },
+ "dp_p10": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"a broken camera is just a worse state of affairs; no one's conduct differs\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "a broken camera is just a worse state of affairs; no one's conduct differs"
+  }
+ },
+ "dp_v08": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes how a thing (likely a plant) fares; no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes how a thing (likely a plant) fares; no one's conduct is judged"
+  }
+ },
+ "dp_f09": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 1, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Arriving before the storm avoids getting caught in it, which mostly benefits the traveler's own comfort and safety. The difference is small.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 1,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Arriving before the storm avoids getting caught in it, which mostly benefits the traveler's own comfort and safety. The difference is small."
+  }
+ },
+ "dp_o12": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a circumstance or condition; no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a circumstance or condition; no one's conduct is judged"
+  }
+ },
+ "dp_v16": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"a patient's condition, not anyone's conduct; recovering is clearly better\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "a patient's condition, not anyone's conduct; recovering is clearly better"
+  }
+ },
+ "dp_p12": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes the state of the apples; no one's conduct differs\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes the state of the apples; no one's conduct differs"
+  }
+ },
+ "dp_o18": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a condition of the surroundings; no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a condition of the surroundings; no one's conduct is judged"
+  }
+ },
+ "dp_f16": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"Arriving before the storm is safer and wiser for the traveler. Slightly ambiguous whether anyone's choice is judged, but timing reflects the person's planning.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "Arriving before the storm is safer and wiser for the traveler. Slightly ambiguous whether anyone's choice is judged, but timing reflects the person's planning."
+  }
+ },
+ "dp_f03": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"seasickness is a condition, not a choice; nobody's conduct is judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "seasickness is a condition, not a choice; nobody's conduct is judged"
+  }
+ },
+ "dp_o10": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"a situation that is better or worse; no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "a situation that is better or worse; no one's conduct is judged"
+  }
+ },
+ "dp_p15": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 1, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"state of the path; no one's conduct differs, only the condition found\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 1,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "state of the path; no one's conduct differs, only the condition found"
+  }
+ },
+ "dp_f07": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"a condition or state, not anyone's conduct\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "a condition or state, not anyone's conduct"
+  }
+ },
+ "dp_o05": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"a condition one is born with; nobody's conduct is judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "a condition one is born with; nobody's conduct is judged"
+  }
+ },
+ "dp_o17": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"a rich harvest versus a failed one is mostly luck or circumstance; no particular conduct is judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "a rich harvest versus a failed one is mostly luck or circumstance; no particular conduct is judged"
+  }
+ },
+ "dp_p14": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"a situation found on arrival; no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "a situation found on arrival; no one's conduct is judged"
+  }
+ },
+ "dp_p11": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"state of a bridge; no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "state of a bridge; no one's conduct is judged"
+  }
+ },
+ "dp_p01": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"the act of opening is the same; only the outcome differs (winning vs losing), so no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "the act of opening is the same; only the outcome differs (winning vs losing), so no one's conduct is judged"
+  }
+ },
+ "dp_f04": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 1, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"Having blisters is a condition, and no one's choice is compared. It could be read as a prudential issue if it came from poor footwear, but the phrase doesn't say that.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 1,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "Having blisters is a condition, and no one's choice is compared. It could be read as a prudential issue if it came from poor footwear, but the phrase doesn't say that."
+  }
+ },
+ "dp_f13": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a condition or situation; no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a condition or situation; no one's conduct is judged"
+  }
+ },
+ "dp_p02": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"the options differ only in the outcome (benign vs malignant); the caller's conduct is the same in both\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "the options differ only in the outcome (benign vs malignant); the caller's conduct is the same in both"
+  }
+ },
+ "dp_p09": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"a clear view is better; this is a matter of luck or weather, so no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "a clear view is better; this is a matter of luck or weather, so no one's conduct is judged"
+  }
+ },
+ "dp_o03": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"the state of the inherited house differs; no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "the state of the inherited house differs; no one's conduct is judged"
+  }
+ },
+ "dp_p05": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"a situation, not anyone's conduct; the leaking roof is the worse state\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "a situation, not anyone's conduct; the leaking roof is the worse state"
+  }
+ },
+ "dp_v11": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": true, \"comment\": \"depends on whether the news is good or bad; no clear better option without guessing\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": true,
+   "comment": "depends on whether the news is good or bad; no clear better option without guessing"
+  }
+ },
+ "dp_o11": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"weather is a condition; no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "weather is a condition; no one's conduct is judged"
+  }
+ },
+ "dp_o09": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"state of the cellar; nobody's conduct is judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "state of the cellar; nobody's conduct is judged"
+  }
+ },
+ "dp_v12": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 1, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes what happens at the clock change (fall back vs. spring forward), not anyone's choice; gaining sleep is nicer\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 1,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes what happens at the clock change (fall back vs. spring forward), not anyone's choice; gaining sleep is nicer"
+  }
+ },
+ "dp_f02": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"a condition, not a choice; having a toothache is just worse\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "a condition, not a choice; having a toothache is just worse"
+  }
+ },
+ "dp_f14": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 1, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": true, \"comment\": \"Having a cough is a condition rather than a choice. It is unclear whether the phrase judges conduct, such as disturbing others, or just a state. I read it as a state, so Q3 is N.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 1,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": true,
+   "comment": "Having a cough is a condition rather than a choice. It is unclear whether the phrase judges conduct, such as disturbing others, or just a state. I read it as a state, so Q3 is N."
+  }
+ },
+ "dp_p16": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 0, \"q2\": null, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"Neither option is better; they describe different weather observations, and nobody's conduct is judged.\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "Neither option is better; they describe different weather observations, and nobody's conduct is judged."
+  }
+ },
+ "dp_f08": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 1, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes the train's condition; nobody's conduct is judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 1,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes the train's condition; nobody's conduct is judged"
+  }
+ },
+ "dp_v15": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a condition or situation; prospering is better than struggling, with no particular conduct judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a condition or situation; prospering is better than struggling, with no particular conduct judged"
+  }
+ },
+ "dp_p06": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"a situation or condition, not anyone's conduct; gone is better than back\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "a situation or condition, not anyone's conduct; gone is better than back"
+  }
+ },
+ "dp_v10": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 1, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"Both describe a person's condition from the weather. Neither involves a choice or work being judged. Benefiting is just better than aching.\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 1,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "Both describe a person's condition from the weather. Neither involves a choice or work being judged. Benefiting is just better than aching."
+  }
+ },
+ "dp_v05": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 1, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"weather luck; no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 1,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "weather luck; no one's conduct is judged"
+  }
+ },
+ "dp_o07": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 1, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": true, \"comment\": \"Drawing a straw is chance; nobody's conduct differs. The outcome depends on what the straws decide, which is not stated. Usually the short straw is the unlucky one.\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 1,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": true,
+   "comment": "Drawing a straw is chance; nobody's conduct differs. The outcome depends on what the straws decide, which is not stated. Usually the short straw is the unlucky one."
+  }
+ },
+ "dp_p13": {
+  "model": "claude-sonnet-5-5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 1, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"the water's temperature is just luck; nobody's choice differs\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 1,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "the water's temperature is just luck; nobody's choice differs"
+  }
+ },
+ "dp_o08": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"a state or condition; no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "a state or condition; no one's conduct is judged"
+  }
+ },
+ "dp_f10": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"a circumstance of birth, not anyone's conduct; being born after is luckier\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "a circumstance of birth, not anyone's conduct; being born after is luckier"
+  }
+ },
+ "dp_o06": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"'ending up' suggests luck or circumstance; the rooms differ in condition and nobody's conduct is judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "'ending up' suggests luck or circumstance; the rooms differ in condition and nobody's conduct is judged"
+  }
+ },
+ "dp_p07": {
+  "model": "claude-sonnet-5-5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"state of the bread; no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "state of the bread; no one's conduct is judged"
+  }
+ }
+}

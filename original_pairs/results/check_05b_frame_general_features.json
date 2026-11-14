@@ -1,0 +1,282 @@
+{
+ "llama-3.2-1B-base": {
+  "all": {
+   "n_features": 16384,
+   "large_vs_neutral": 60.0,
+   "large_vs_norm": 7.7,
+   "ratio": 7.792207792207792
+  },
+  "active_in_both_frames": {
+   "n_features": 20,
+   "large_vs_neutral": 1.0,
+   "large_vs_norm": 0.0,
+   "ratio": 999999999.9999999
+  },
+  "active_only_with_moral_frame": {
+   "n_features": 92,
+   "large_vs_neutral": 56.0,
+   "large_vs_norm": 7.7,
+   "ratio": 7.2727272727272725
+  }
+ },
+ "llama-3.2-1B-base-k128": {
+  "all": {
+   "n_features": 16384,
+   "large_vs_neutral": 109.0,
+   "large_vs_norm": 11.4,
+   "ratio": 9.56140350877193
+  },
+  "active_in_both_frames": {
+   "n_features": 48,
+   "large_vs_neutral": 0.0,
+   "large_vs_norm": 0.25,
+   "ratio": 0.0
+  },
+  "active_only_with_moral_frame": {
+   "n_features": 142,
+   "large_vs_neutral": 86.0,
+   "large_vs_norm": 8.1,
+   "ratio": 10.617283950617285
+  }
+ },
+ "llama-3.2-1B-IT": {
+  "all": {
+   "n_features": 16384,
+   "large_vs_neutral": 62.0,
+   "large_vs_norm": 10.45,
+   "ratio": 5.933014354066986
+  },
+  "active_in_both_frames": {
+   "n_features": 21,
+   "large_vs_neutral": 0.0,
+   "large_vs_norm": 1.0,
+   "ratio": 0.0
+  },
+  "active_only_with_moral_frame": {
+   "n_features": 76,
+   "large_vs_neutral": 51.0,
+   "large_vs_norm": 6.6,
+   "ratio": 7.7272727272727275
+  }
+ },
+ "llama-3.2-1B-IT-k128": {
+  "all": {
+   "n_features": 16384,
+   "large_vs_neutral": 114.0,
+   "large_vs_norm": 12.95,
+   "ratio": 8.803088803088803
+  },
+  "active_in_both_frames": {
+   "n_features": 48,
+   "large_vs_neutral": 0.0,
+   "large_vs_norm": 1.0,
+   "ratio": 0.0
+  },
+  "active_only_with_moral_frame": {
+   "n_features": 138,
+   "large_vs_neutral": 92.0,
+   "large_vs_norm": 7.4,
+   "ratio": 12.432432432432432
+  }
+ },
+ "llama-3.2-1B-base-MLP0": {
+  "all": {
+   "n_features": 16384,
+   "large_vs_neutral": 68.0,
+   "large_vs_norm": 3.4,
+   "ratio": 20.0
+  },
+  "active_in_both_frames": {
+   "n_features": 18,
+   "large_vs_neutral": 2.0,
+   "large_vs_norm": 1.65,
+   "ratio": 1.2121212121212122
+  },
+  "active_only_with_moral_frame": {
+   "n_features": 65,
+   "large_vs_neutral": 57.0,
+   "large_vs_norm": 0.8,
+   "ratio": 71.25
+  }
+ },
+ "llama-3.2-3B-base": {
+  "all": {
+   "n_features": 24576,
+   "large_vs_neutral": 62.0,
+   "large_vs_norm": 13.15,
+   "ratio": 4.7148288973384025
+  },
+  "active_in_both_frames": {
+   "n_features": 16,
+   "large_vs_neutral": 1.0,
+   "large_vs_norm": 0.25,
+   "ratio": 4.0
+  },
+  "active_only_with_moral_frame": {
+   "n_features": 97,
+   "large_vs_neutral": 57.0,
+   "large_vs_norm": 10.55,
+   "ratio": 5.402843601895734
+  }
+ },
+ "llama-3.2-3B-base-k128": {
+  "all": {
+   "n_features": 24576,
+   "large_vs_neutral": 122.0,
+   "large_vs_norm": 31.15,
+   "ratio": 3.9165329052969504
+  },
+  "active_in_both_frames": {
+   "n_features": 44,
+   "large_vs_neutral": 0.0,
+   "large_vs_norm": 0.75,
+   "ratio": 0.0
+  },
+  "active_only_with_moral_frame": {
+   "n_features": 175,
+   "large_vs_neutral": 104.0,
+   "large_vs_norm": 24.4,
+   "ratio": 4.262295081967213
+  }
+ },
+ "llama-3.2-3B-IT-k128": {
+  "all": {
+   "n_features": 24576,
+   "large_vs_neutral": 134.0,
+   "large_vs_norm": 32.25,
+   "ratio": 4.155038759689923
+  },
+  "active_in_both_frames": {
+   "n_features": 54,
+   "large_vs_neutral": 4.0,
+   "large_vs_norm": 4.25,
+   "ratio": 0.9411764705882353
+  },
+  "active_only_with_moral_frame": {
+   "n_features": 166,
+   "large_vs_neutral": 109.0,
+   "large_vs_norm": 20.1,
+   "ratio": 5.422885572139303
+  }
+ },
+ "llama-3.2-3B-IT-L3": {
+  "all": {
+   "n_features": 24576,
+   "large_vs_neutral": 117.0,
+   "large_vs_norm": 9.55,
+   "ratio": 12.25130890052356
+  },
+  "active_in_both_frames": {
+   "n_features": 55,
+   "large_vs_neutral": 7.0,
+   "large_vs_norm": 1.0,
+   "ratio": 7.0
+  },
+  "active_only_with_moral_frame": {
+   "n_features": 117,
+   "large_vs_neutral": 80.0,
+   "large_vs_norm": 3.55,
+   "ratio": 22.535211267605636
+  }
+ },
+ "llama-3.2-3B-IT-L7": {
+  "all": {
+   "n_features": 24576,
+   "large_vs_neutral": 127.0,
+   "large_vs_norm": 7.3,
+   "ratio": 17.397260273972602
+  },
+  "active_in_both_frames": {
+   "n_features": 37,
+   "large_vs_neutral": 0.0,
+   "large_vs_norm": 1.2,
+   "ratio": 0.0
+  },
+  "active_only_with_moral_frame": {
+   "n_features": 183,
+   "large_vs_neutral": 109.0,
+   "large_vs_norm": 4.05,
+   "ratio": 26.913580246913583
+  }
+ },
+ "llama-3.2-3B-IT-L19": {
+  "all": {
+   "n_features": 24576,
+   "large_vs_neutral": 113.0,
+   "large_vs_norm": 20.2,
+   "ratio": 5.594059405940595
+  },
+  "active_in_both_frames": {
+   "n_features": 61,
+   "large_vs_neutral": 1.0,
+   "large_vs_norm": 6.0,
+   "ratio": 0.16666666666666666
+  },
+  "active_only_with_moral_frame": {
+   "n_features": 106,
+   "large_vs_neutral": 81.0,
+   "large_vs_norm": 8.25,
+   "ratio": 9.818181818181818
+  }
+ },
+ "llama-3.1-8B-base": {
+  "all": {
+   "n_features": 32768,
+   "large_vs_neutral": 27.0,
+   "large_vs_norm": 5.75,
+   "ratio": 4.695652173913044
+  },
+  "active_in_both_frames": {
+   "n_features": 9,
+   "large_vs_neutral": 0.0,
+   "large_vs_norm": 0.8,
+   "ratio": 0.0
+  },
+  "active_only_with_moral_frame": {
+   "n_features": 37,
+   "large_vs_neutral": 26.0,
+   "large_vs_norm": 3.9,
+   "ratio": 6.666666666666667
+  }
+ },
+ "qwen-2.5-7b-base": {
+  "all": {
+   "n_features": 28672,
+   "large_vs_neutral": 124.0,
+   "large_vs_norm": 8.6,
+   "ratio": 14.418604651162791
+  },
+  "active_in_both_frames": {
+   "n_features": 51,
+   "large_vs_neutral": 4.0,
+   "large_vs_norm": 2.35,
+   "ratio": 1.702127659574468
+  },
+  "active_only_with_moral_frame": {
+   "n_features": 125,
+   "large_vs_neutral": 104.0,
+   "large_vs_norm": 4.6,
+   "ratio": 22.608695652173914
+  }
+ },
+ "qwen-2.5-7b-IT": {
+  "all": {
+   "n_features": 28672,
+   "large_vs_neutral": 123.0,
+   "large_vs_norm": 6.45,
+   "ratio": 19.069767441860463
+  },
+  "active_in_both_frames": {
+   "n_features": 44,
+   "large_vs_neutral": 3.0,
+   "large_vs_norm": 1.65,
+   "ratio": 1.8181818181818183
+  },
+  "active_only_with_moral_frame": {
+   "n_features": 115,
+   "large_vs_neutral": 102.0,
+   "large_vs_norm": 2.7,
+   "ratio": 37.77777777777778
+  }
+ }
+}

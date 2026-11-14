@@ -1,0 +1,1192 @@
+{
+ "tw19_p": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":1,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":1,\"unclear\":false,\"comment\":\"own safety risk; possible burden on rescuers\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "own safety risk; possible burden on rescuers"
+  }
+ },
+ "tw09_p": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":2,\"unclear\":false,\"comment\":\"better for one's own financial interests and based on better information\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 2,
+   "unclear": false,
+   "comment": "better for one's own financial interests and based on better information"
+  }
+ },
+ "tw26_p": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":1,\"unclear\":false,\"comment\":\"own safety; identifying them is much wiser\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "own safety; identifying them is much wiser"
+  }
+ },
+ "tw02_p": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"own safety\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own safety"
+  }
+ },
+ "tw24_p": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": true, \"comment\": \"own safety; slightly odd because lighting after stepping back may require a remote method\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": true,
+   "comment": "own safety; slightly odd because lighting after stepping back may require a remote method"
+  }
+ },
+ "tw30_m": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"trainee's safety; radio reduces danger\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "trainee's safety; radio reduces danger"
+  }
+ },
+ "tw05_p": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"yearly replacement protects your own safety; possible slight risk to others\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "yearly replacement protects your own safety; possible slight risk to others"
+  }
+ },
+ "tw23_p": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":2,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"unsafe for the rider and potentially others\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 2,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "unsafe for the rider and potentially others"
+  }
+ },
+ "tw06_m": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"selling expired food risks customers' health and is dishonest\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "selling expired food risks customers' health and is dishonest"
+  }
+ },
+ "tw31_m": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 2, \"unclear\": false, \"comment\": \"patient's interests and accuracy of medical information\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 2,
+   "unclear": false,
+   "comment": "patient's interests and accuracy of medical information"
+  }
+ },
+ "tw19_m": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":1,\"unclear\":false,\"comment\":\"passenger safety; waiting for warning to lift is much better\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "passenger safety; waiting for warning to lift is much better"
+  }
+ },
+ "tw04_m": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"child's safety; parental responsibility\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "child's safety; parental responsibility"
+  }
+ },
+ "tw12_p": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own sun protection and safety\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own sun protection and safety"
+  }
+ },
+ "tw07_p": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"checking the ladder protects the climber's own safety\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "checking the ladder protects the climber's own safety"
+  }
+ },
+ "tw10_p": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"protecting one's own data\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "protecting one's own data"
+  }
+ },
+ "tw18_p": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"own hygiene and health\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own hygiene and health"
+  }
+ },
+ "tw07_m": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"checking protects the apprentice from serious harm\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "checking protects the apprentice from serious harm"
+  }
+ },
+ "tw10_m": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":1,\"unclear\":false,\"comment\":\"protecting patient files and avoiding serious data loss\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "protecting patient files and avoiding serious data loss"
+  }
+ },
+ "tw05_m": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"tenant safety and landlord responsibility\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "tenant safety and landlord responsibility"
+  }
+ },
+ "tw21_m": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"students' safety is at stake\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "students' safety is at stake"
+  }
+ },
+ "tw14_p": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"protecting one's own security\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "protecting one's own security"
+  }
+ },
+ "tw21_p": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"checking the tank is important for the diver's own safety\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "checking the tank is important for the diver's own safety"
+  }
+ },
+ "tw08_m": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"pupils' safety; responsibility to wait for lifeguard\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "pupils' safety; responsibility to wait for lifeguard"
+  }
+ },
+ "tw03_p": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"own health risk from undercooked chicken\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own health risk from undercooked chicken"
+  }
+ },
+ "tw06_p": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own health risk\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own health risk"
+  }
+ },
+ "tw33_m": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":2,\"q3\":\"Y\",\"moral\":2,\"prudential\":0,\"etiquette\":1,\"aesthetic\":0,\"epistemic\":3,\"unclear\":false,\"comment\":\"checking makes it more responsible and better supported\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 2,
+   "prudential": 0,
+   "etiquette": 1,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "checking makes it more responsible and better supported"
+  }
+ },
+ "tw15_m": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"tenant safety and duty of care\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "tenant safety and duty of care"
+  }
+ },
+ "tw26_m": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 2, \"unclear\": false, \"comment\": \"serious risk to guests; identification is needed evidence\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 2,
+   "unclear": false,
+   "comment": "serious risk to guests; identification is needed evidence"
+  }
+ },
+ "tw11_p": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 2, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"safer for self and others after adequate sleep\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 2,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "safer for self and others after adequate sleep"
+  }
+ },
+ "tw01_p": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"drunk driving endangers others and oneself\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "drunk driving endangers others and oneself"
+  }
+ },
+ "tw31_e": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"better-supported belief after checking\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "better-supported belief after checking"
+  }
+ },
+ "tw13_p": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 2, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"serious safety risk to self and potentially others\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 2,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "serious safety risk to self and potentially others"
+  }
+ },
+ "tw11_m": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":2,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"safety of passengers and driver\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "safety of passengers and driver"
+  }
+ },
+ "tw20_m": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 2, \"unclear\": false, \"comment\": \"baby's safety; reading dosage is responsible and evidence-based\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 2,
+   "unclear": false,
+   "comment": "baby's safety; reading dosage is responsible and evidence-based"
+  }
+ },
+ "tw35_e": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":1,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":3,\"unclear\":false,\"comment\":\"better evidence from surveying all classrooms\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "better evidence from surveying all classrooms"
+  }
+ },
+ "tw29_m": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"using brother's money; written agreement better protects his interests\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "using brother's money; written agreement better protects his interests"
+  }
+ },
+ "tw16_m": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"children's safety; duty of care\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "children's safety; duty of care"
+  }
+ },
+ "tw28_p": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 2, \"unclear\": false, \"comment\": \"checking references is wiser for one's own interests and better supported by evidence\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 2,
+   "unclear": false,
+   "comment": "checking references is wiser for one's own interests and better supported by evidence"
+  }
+ },
+ "tw32_e": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"better reasoning based on full evidence; possible fairness issue\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "better reasoning based on full evidence; possible fairness issue"
+  }
+ },
+ "tw22_m": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"unfixed faulty wiring risks harm to buyers/occupants\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "unfixed faulty wiring risks harm to buyers/occupants"
+  }
+ },
+ "tw04_p": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"own safety\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own safety"
+  }
+ },
+ "tw17_m": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":2,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"school-zone safety; 90 km/h endangers others and the driver\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "school-zone safety; 90 km/h endangers others and the driver"
+  }
+ },
+ "tw09_m": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"duty to clients and informed decision-making\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "duty to clients and informed decision-making"
+  }
+ },
+ "tw16_p": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"own safety; life jacket is much wiser\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own safety; life jacket is much wiser"
+  }
+ },
+ "tw01_m": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":2,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"drunk driving endangers children and others; also risky for the driver\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "drunk driving endangers children and others; also risky for the driver"
+  }
+ },
+ "tw27_p": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"driving sleep-deprived endangers self and others\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "driving sleep-deprived endangers self and others"
+  }
+ },
+ "tw12_m": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":2,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"children's safety from sun/heat\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "children's safety from sun/heat"
+  }
+ },
+ "tw15_p": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":1,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"inspection is safer for the owner; possible risk to others too\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "inspection is safer for the owner; possible risk to others too"
+  }
+ },
+ "tw32_m": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 3, \"unclear\": false, \"comment\": \"fairness to the accused and better evidence/reasoning\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "fairness to the accused and better evidence/reasoning"
+  }
+ },
+ "tw14_m": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":2,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"protects customers' security; also prudent for the business\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "protects customers' security; also prudent for the business"
+  }
+ },
+ "tw28_m": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":1,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":2,\"unclear\":false,\"comment\":\"checking references is more prudent and better-supported; possible duty to lender\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 2,
+   "unclear": false,
+   "comment": "checking references is more prudent and better-supported; possible duty to lender"
+  }
+ },
+ "tw25_p": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":1,\"unclear\":false,\"comment\":\"own safety; testing ice is the safer choice\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "own safety; testing ice is the safer choice"
+  }
+ },
+ "tw20_p": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":1,\"unclear\":false,\"comment\":\"own safety; reading dosage is more prudent\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "own safety; reading dosage is more prudent"
+  }
+ },
+ "tw33_e": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":3,\"unclear\":false,\"comment\":\"checking makes the belief better supported\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "checking makes the belief better supported"
+  }
+ },
+ "tw03_m": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"risk of harming guests with undercooked chicken\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "risk of harming guests with undercooked chicken"
+  }
+ },
+ "tw23_m": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"friend's safety is at stake\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "friend's safety is at stake"
+  }
+ },
+ "tw08_p": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own safety is better once lifeguard is present\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own safety is better once lifeguard is present"
+  }
+ },
+ "tw34_m": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":3,\"unclear\":false,\"comment\":\"assurance without inspection is dishonest or poorly supported\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "assurance without inspection is dishonest or poorly supported"
+  }
+ },
+ "tw25_m": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 3, \"prudential\": 1, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 1, \"unclear\": false, \"comment\": \"children's safety; testing the ice is the responsible choice\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 1,
+   "unclear": false,
+   "comment": "children's safety; testing the ice is the responsible choice"
+  }
+ },
+ "tw18_m": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"food safety and risk to customers\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "food safety and risk to customers"
+  }
+ },
+ "tw29_p": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"written agreement protects the lender's savings and clarifies terms\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "written agreement protects the lender's savings and clarifies terms"
+  }
+ },
+ "tw02_m": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"child's safety is at stake\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "child's safety is at stake"
+  }
+ },
+ "tw34_e": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":3,\"unclear\":false,\"comment\":\"better-supported conclusion\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "better-supported conclusion"
+  }
+ },
+ "tw17_p": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":1,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"own safety on icy road; possible risk to others\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own safety on icy road; possible risk to others"
+  }
+ },
+ "tw22_p": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":2,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"safety risk from faulty wiring, especially to oneself and possibly others\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 2,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "safety risk from faulty wiring, especially to oneself and possibly others"
+  }
+ },
+ "tw24_m": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"crowd safety; some risk to the person lighting them too\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "crowd safety; some risk to the person lighting them too"
+  }
+ },
+ "tw13_m": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"safety of renters and others\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "safety of renters and others"
+  }
+ },
+ "tw27_m": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"Y\",\"moral\":3,\"prudential\":2,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"patient safety and quality of care; also practical risk for the hospital/surgeon\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 3,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "patient safety and quality of care; also practical risk for the hospital/surgeon"
+  }
+ },
+ "tw35_m": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":2,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":3,\"unclear\":false,\"comment\":\"better evidence supports the claim; parents' and children's safety may be affected\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 2,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 3,
+   "unclear": false,
+   "comment": "better evidence supports the claim; parents' and children's safety may be affected"
+  }
+ },
+ "tw30_p": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"radio improves the walker's own safety\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "radio improves the walker's own safety"
+  }
+ }
+}

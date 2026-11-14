@@ -1,0 +1,673 @@
+{
+ "settings": {
+  "study_runs": "runs/heads",
+  "study_items": "stimuli/items_final.json",
+  "new_runs": [
+   "runs/heads_followup_person"
+  ],
+  "new_items": "stimuli/items_followup_person.json",
+  "new_run_file": "stimuli/items_followup_person_run.json",
+  "no_controls": false,
+  "located": "located/heads.json",
+  "out": "results/heads_person__all",
+  "check": "results/heads",
+  "frames": [
+   "A1",
+   "B",
+   "A0"
+  ],
+  "subset": "all",
+  "headset": "located",
+  "condition": "p2r_all",
+  "readout": "S",
+  "tau": 0.02,
+  "min_items": 30,
+  "min_items_descr": 20,
+  "min_items_kind": 10,
+  "include_on": "S",
+  "tau_ld": 0.1,
+  "kind": null,
+  "boot": 10000,
+  "seed": 20260920,
+  "models": null
+ },
+ "note": "exploratory",
+ "n_pairs": {
+  "moral": 80,
+  "norm": 107,
+  "thing": 40,
+  "person": 66
+ },
+ "control_pairs": {
+  "candidates": 66,
+  "accepted_by_screen": 58,
+  "screen": [
+   "llm"
+  ],
+  "used": 66,
+  "subset": "all",
+  "acceptance_file_sha256": "bbb9e42cbd3d4491a91dcfec6032c0eff818ee5c52f5167885c5c7d434608332"
+ },
+ "models": [
+  "Llama-3.1-8B",
+  "Llama-3.1-8B-Instruct",
+  "Llama-3.2-1B",
+  "Llama-3.2-1B-Instruct",
+  "Llama-3.2-3B",
+  "Llama-3.2-3B-Instruct",
+  "Qwen2.5-14B",
+  "Qwen2.5-14B-Instruct",
+  "Qwen2.5-3B",
+  "Qwen2.5-3B-Instruct",
+  "Qwen2.5-7B",
+  "Qwen2.5-7B-Instruct",
+  "gemma-2b",
+  "gemma-2b-it"
+ ],
+ "frames": [
+  "A1",
+  "B",
+  "A0"
+ ],
+ "pooled": [
+  {
+   "frame": "A1",
+   "contrast": "norm/person",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.1314600976471711,
+   "ci95": [
+    1.0629310760234323,
+    1.2066412741716726
+   ],
+   "models_with_interval_above_1": 8,
+   "models_with_interval_below_1": 2,
+   "pooled_ratio_within_template_types": 1.125422203180019,
+   "ci95_within_template_types": [
+    1.0663189581184789,
+    1.1852146029673583
+   ]
+  },
+  {
+   "frame": "A1",
+   "contrast": "moral/person",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.1276312176212056,
+   "ci95": [
+    1.0503703621554885,
+    1.2099428302969382
+   ],
+   "models_with_interval_above_1": 6,
+   "models_with_interval_below_1": 2,
+   "pooled_ratio_within_template_types": 1.131834973716906,
+   "ci95_within_template_types": [
+    1.0640210750281585,
+    1.2019888282860367
+   ]
+  },
+  {
+   "frame": "A1",
+   "contrast": "person/thing",
+   "n_models": 13,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [
+    "Qwen2.5-14B-Instruct"
+   ],
+   "pooled_ratio": 1.0647519871414115,
+   "ci95": [
+    0.9983061555321986,
+    1.1317063352535843
+   ],
+   "models_with_interval_above_1": 5,
+   "models_with_interval_below_1": 1
+  },
+  {
+   "frame": "A1",
+   "contrast": "norm/thing",
+   "n_models": 13,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [
+    "Qwen2.5-14B-Instruct"
+   ],
+   "pooled_ratio": 1.1926744369036084,
+   "ci95": [
+    1.127887320225559,
+    1.2593743006751397
+   ],
+   "models_with_interval_above_1": 9,
+   "models_with_interval_below_1": 0
+  },
+  {
+   "frame": "A1",
+   "contrast": "moral/thing",
+   "n_models": 13,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [
+    "Qwen2.5-14B-Instruct"
+   ],
+   "pooled_ratio": 1.1852429099794706,
+   "ci95": [
+    1.1109912687147434,
+    1.2615435193097455
+   ],
+   "models_with_interval_above_1": 6,
+   "models_with_interval_below_1": 1
+  },
+  {
+   "frame": "A1",
+   "contrast": "moral/norm",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.996615972613258,
+   "ci95": [
+    0.9336936155656259,
+    1.0620613329637663
+   ],
+   "models_with_interval_above_1": 2,
+   "models_with_interval_below_1": 2
+  },
+  {
+   "frame": "B",
+   "contrast": "norm/person",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.0177690478465629,
+   "ci95": [
+    0.9404235545907268,
+    1.1058000271165571
+   ],
+   "models_with_interval_above_1": 4,
+   "models_with_interval_below_1": 3,
+   "pooled_ratio_within_template_types": 1.005353178334183,
+   "ci95_within_template_types": [
+    0.9421446734787504,
+    1.0746408353325774
+   ]
+  },
+  {
+   "frame": "B",
+   "contrast": "moral/person",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.9136241979555841,
+   "ci95": [
+    0.8430711637267893,
+    0.9943131387332853
+   ],
+   "models_with_interval_above_1": 1,
+   "models_with_interval_below_1": 5,
+   "pooled_ratio_within_template_types": 0.9110402000316845,
+   "ci95_within_template_types": [
+    0.8498247965861662,
+    0.9775547641024679
+   ]
+  },
+  {
+   "frame": "B",
+   "contrast": "person/thing",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.1902644116737118,
+   "ci95": [
+    1.0924466799184216,
+    1.2885003334077054
+   ],
+   "models_with_interval_above_1": 8,
+   "models_with_interval_below_1": 0
+  },
+  {
+   "frame": "B",
+   "contrast": "norm/thing",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.211414271736482,
+   "ci95": [
+    1.143247826234079,
+    1.2822096091103812
+   ],
+   "models_with_interval_above_1": 10,
+   "models_with_interval_below_1": 0
+  },
+  {
+   "frame": "B",
+   "contrast": "moral/thing",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.0874543632778042,
+   "ci95": [
+    1.0208820115723194,
+    1.1575545270096532
+   ],
+   "models_with_interval_above_1": 5,
+   "models_with_interval_below_1": 1
+  },
+  {
+   "frame": "B",
+   "contrast": "moral/norm",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.8976734001429915,
+   "ci95": [
+    0.8461740577644391,
+    0.951182609305445
+   ],
+   "models_with_interval_above_1": 0,
+   "models_with_interval_below_1": 6
+  },
+  {
+   "frame": "A0",
+   "contrast": "norm/thing",
+   "n_models": 13,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [
+    "Qwen2.5-3B"
+   ],
+   "pooled_ratio": 1.1395013304215895,
+   "ci95": [
+    1.0770520359753426,
+    1.2094274409155066
+   ],
+   "models_with_interval_above_1": 5,
+   "models_with_interval_below_1": 0
+  },
+  {
+   "frame": "A0",
+   "contrast": "moral/thing",
+   "n_models": 13,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [
+    "Qwen2.5-3B"
+   ],
+   "pooled_ratio": 1.2696071761285688,
+   "ci95": [
+    1.1915937519440225,
+    1.3527536731932202
+   ],
+   "models_with_interval_above_1": 11,
+   "models_with_interval_below_1": 0
+  },
+  {
+   "frame": "A0",
+   "contrast": "moral/norm",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 1.1166975235170657,
+   "ci95": [
+    1.0544857905499414,
+    1.1810208638007023
+   ],
+   "models_with_interval_above_1": 5,
+   "models_with_interval_below_1": 0
+  }
+ ],
+ "multiple_of_random": [
+  {
+   "frame": "A1",
+   "models": "all groups",
+   "n_models": 13,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "moral": 5.4386891755853695,
+   "norm": 5.472789976475847,
+   "thing": 4.588670490447548,
+   "person": 4.885795967801589
+  },
+  {
+   "frame": "A1",
+   "models": "study groups",
+   "n_models": 13,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "moral": 5.4386891755853695,
+   "norm": 5.472789976475847,
+   "thing": 4.588670490447548
+  },
+  {
+   "frame": "B",
+   "models": "all groups",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "moral": 4.364996721586015,
+   "norm": 4.862566657460746,
+   "thing": 4.013958550464448,
+   "person": 4.777671970145735
+  },
+  {
+   "frame": "B",
+   "models": "study groups",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "moral": 4.364996721586015,
+   "norm": 4.862566657460746,
+   "thing": 4.013958550464448
+  },
+  {
+   "frame": "A0",
+   "models": "study groups",
+   "n_models": 13,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "moral": 5.4449558022448485,
+   "norm": 4.886971725602874,
+   "thing": 4.288693330295286
+  }
+ ],
+ "reading": {
+  "A1": "norm/person 1.13 [1.06, 1.21] (above 1); person/thing 1.06 [1.00, 1.13] (includes 1): the fifth comes with the standard: the located heads carry more when conduct is judged than when something good or bad happens to a person",
+  "B": "norm/person 1.02 [0.94, 1.11] (includes 1); person/thing 1.19 [1.09, 1.29] (above 1): the fifth comes from the form of the phrase, not from the standard: on the control pairs the located heads carry what they carry on normative pairs",
+  "A0": "not available (a group is missing or has too few included pairs)"
+ },
+ "check": {
+  "reference": "results/heads",
+  "per_model_rows_compared": 122,
+  "pooled_rows_compared": 9,
+  "largest_difference": {
+   "per_model_ratio": 0.0,
+   "per_model_ci": 0.0,
+   "pooled_ratio": 0.0,
+   "pooled_ci": 0.0
+  },
+  "not_in_reference": [],
+  "same": true
+ }
+}

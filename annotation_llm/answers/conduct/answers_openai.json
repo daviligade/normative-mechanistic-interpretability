@@ -1,0 +1,410 @@
+{
+ "dc_f19": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 0, \"q2\": null, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 0, \"etiquette\": 0, \"aesthetic\": 1, \"epistemic\": 0, \"unclear\": false, \"comment\": \"paper color makes no clear difference\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 1,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "paper color makes no clear difference"
+  }
+ },
+ "dc_f01": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":0,\"q2\":null,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"no clear difference without context\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "no clear difference without context"
+  }
+ },
+ "dc_f16": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":0,\"q2\":null,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"no clear difference without further context\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "no clear difference without further context"
+  }
+ },
+ "dc_f07": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":0,\"q2\":null,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"no context makes either time better\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "no context makes either time better"
+  }
+ },
+ "dc_f11": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":0,\"q2\":null,\"q3\":\"Y\",\"moral\":0,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"depends on convenience and weight; no clear better option\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "depends on convenience and weight; no clear better option"
+  }
+ },
+ "dc_f08": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":0,\"q2\":null,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":1,\"aesthetic\":1,\"epistemic\":0,\"unclear\":false,\"comment\":\"both ink colors are generally acceptable; only slight convention/style difference\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 1,
+   "aesthetic": 1,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "both ink colors are generally acceptable; only slight convention/style difference"
+  }
+ },
+ "dc_f17": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":0,\"q2\":null,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"no clear difference without context\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "no clear difference without context"
+  }
+ },
+ "dc_f13": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":0,\"q2\":null,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"no clear difference without knowing how many people are being served\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "no clear difference without knowing how many people are being served"
+  }
+ },
+ "dc_f18": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":1,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":2,\"aesthetic\":1,\"epistemic\":0,\"unclear\":false,\"comment\":\"side entrance seems more appropriate and less conspicuous\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 1,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 2,
+   "aesthetic": 1,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "side entrance seems more appropriate and less conspicuous"
+  }
+ },
+ "dc_f23": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":0,\"q2\":null,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"no clear reason first or second counter is better\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "no clear reason first or second counter is better"
+  }
+ },
+ "dc_f10": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":0,\"q2\":null,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"no context makes either time better\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "no context makes either time better"
+  }
+ },
+ "dc_f02": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":0,\"q2\":null,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"no clear difference without context\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "no clear difference without context"
+  }
+ },
+ "dc_f04": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":0,\"q2\":null,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"no clear difference without context\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "no clear difference without context"
+  }
+ },
+ "dc_f09": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":0,\"q2\":null,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"no clear difference without airline or boarding instructions\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "no clear difference without airline or boarding instructions"
+  }
+ },
+ "dc_f21": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":0,\"q2\":null,\"q3\":\"Y\",\"moral\":0,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"no clear advantage; at most a convenience/storage choice\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "no clear advantage; at most a convenience/storage choice"
+  }
+ },
+ "dc_f20": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":0,\"q2\":null,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"no basis to prefer one street over the other\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "no basis to prefer one street over the other"
+  }
+ },
+ "dc_f05": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":0,\"q2\":null,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"no clear difference without context\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "no clear difference without context"
+  }
+ },
+ "dc_f24": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":1,\"q2\":1,\"q3\":\"Y\",\"moral\":0,\"prudential\":2,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"slightly better for one's own rest on Saturday\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 1,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "slightly better for one's own rest on Saturday"
+  }
+ },
+ "dc_f15": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":0,\"q2\":null,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":1,\"aesthetic\":1,\"epistemic\":0,\"unclear\":false,\"comment\":\"both colors seem acceptable for an office\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 1,
+   "aesthetic": 1,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "both colors seem acceptable for an office"
+  }
+ },
+ "dc_f14": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":0,\"q2\":null,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"no clear difference without context\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "no clear difference without context"
+  }
+ },
+ "dc_f03": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":0,\"q2\":null,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"no clear difference; just timing preference\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "no clear difference; just timing preference"
+  }
+ },
+ "dc_f22": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":0,\"q2\":null,\"q3\":\"Y\",\"moral\":0,\"prudential\":1,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"mere personal food preference; no clear better option\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 1,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "mere personal food preference; no clear better option"
+  }
+ },
+ "dc_f12": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":0,\"q2\":null,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":true,\"comment\":\"no basis to prefer north or south without context\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": true,
+   "comment": "no basis to prefer north or south without context"
+  }
+ },
+ "dc_f06": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 1, \"q2\": 1, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 2, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"slightly better viewing comfort\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 1,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 2,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "slightly better viewing comfort"
+  }
+ }
+}

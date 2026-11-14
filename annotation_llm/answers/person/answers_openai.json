@@ -1,0 +1,1124 @@
+{
+ "dp_v02": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":1,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"better luck or advantage, not someone’s conduct\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 1,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "better luck or advantage, not someone’s conduct"
+  }
+ },
+ "dp_v01": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"better outcome, but no action or conduct judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "better outcome, but no action or conduct judged"
+  }
+ },
+ "dp_v03": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"winning the jackpot is much better; this is an outcome, not conduct\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "winning the jackpot is much better; this is an outcome, not conduct"
+  }
+ },
+ "dp_p05": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a bad situation, not someone’s conduct\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a bad situation, not someone’s conduct"
+  }
+ },
+ "dp_v10": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"a better condition, not a judged action\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "a better condition, not a judged action"
+  }
+ },
+ "dp_v04": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": true, \"comment\": \"finding calm seas is better for the trip; wording of 'missing a calm sea' is a bit awkward\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": true,
+   "comment": "finding calm seas is better for the trip; wording of 'missing a calm sea' is a bit awkward"
+  }
+ },
+ "dp_v11": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":0,\"q2\":null,\"q3\":\"Y\",\"moral\":0,\"prudential\":0,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":true,\"comment\":\"depends on whether the hospital news is good or bad\"}",
+  "parsed": {
+   "q1": 0,
+   "q2": null,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 0,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": true,
+   "comment": "depends on whether the hospital news is good or bad"
+  }
+ },
+ "dp_f12": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"better condition; no conduct judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "better condition; no conduct judged"
+  }
+ },
+ "dp_v13": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":2,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"describes a condition during the storm, not conduct\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a condition during the storm, not conduct"
+  }
+ },
+ "dp_o04": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"better condition before travel; no action judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "better condition before travel; no action judged"
+  }
+ },
+ "dp_f08": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"on-schedule train is better; mainly a situation, not conduct\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "on-schedule train is better; mainly a situation, not conduct"
+  }
+ },
+ "dp_v07": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"enjoying the trip is better for the person's own experience\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "enjoying the trip is better for the person's own experience"
+  }
+ },
+ "dp_f10": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"condition/timing of birth; worse situation, no action judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "condition/timing of birth; worse situation, no action judged"
+  }
+ },
+ "dp_f02": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"comfort/health condition, no conduct judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "comfort/health condition, no conduct judged"
+  }
+ },
+ "dp_o10": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"happy news is much better; no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "happy news is much better; no one's conduct is judged"
+  }
+ },
+ "dp_v14": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"better outcome, but no conduct judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "better outcome, but no conduct judged"
+  }
+ },
+ "dp_v09": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"better condition or outcome, not judging conduct\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "better condition or outcome, not judging conduct"
+  }
+ },
+ "dp_o05": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"condition at birth; no action judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "condition at birth; no action judged"
+  }
+ },
+ "dp_f04": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"better outcome/condition for the hiker; no action judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "better outcome/condition for the hiker; no action judged"
+  }
+ },
+ "dp_o06": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"quiet room is preferable; just a situation\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "quiet room is preferable; just a situation"
+  }
+ },
+ "dp_v15": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a condition after disaster, not a judged action\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a condition after disaster, not a judged action"
+  }
+ },
+ "dp_v06": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"enjoying is better for the person's own experience than merely bearing it\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "enjoying is better for the person's own experience than merely bearing it"
+  }
+ },
+ "dp_v12": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"getting sleep is better, but no one's action is being judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "getting sleep is better, but no one's action is being judged"
+  }
+ },
+ "dp_p04": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"better situation for the traveler; no action judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "better situation for the traveler; no action judged"
+  }
+ },
+ "dp_f06": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"better condition; no one's action judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "better condition; no one's action judged"
+  }
+ },
+ "dp_o14": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"an endless queue is worse as a situation; no conduct judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "an endless queue is worse as a situation; no conduct judged"
+  }
+ },
+ "dp_f13": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"condition in old age; retaining memory is much better\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "condition in old age; retaining memory is much better"
+  }
+ },
+ "dp_f05": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"health condition, not conduct\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "health condition, not conduct"
+  }
+ },
+ "dp_p01": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"better outcome, not different conduct\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "better outcome, not different conduct"
+  }
+ },
+ "dp_p09": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"better outcome/condition, not judging conduct\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "better outcome/condition, not judging conduct"
+  }
+ },
+ "dp_p06": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"health condition; no action judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "health condition; no action judged"
+  }
+ },
+ "dp_p02": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"benign result is much better; no conduct judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "benign result is much better; no conduct judged"
+  }
+ },
+ "dp_p07": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"fresh bread is better; no conduct judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "fresh bread is better; no conduct judged"
+  }
+ },
+ "dp_f03": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"seasickness is an unpleasant condition, not a judged action\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "seasickness is an unpleasant condition, not a judged action"
+  }
+ },
+ "dp_f15": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"better medical outcome; no action judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "better medical outcome; no action judged"
+  }
+ },
+ "dp_o09": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"dry cellar is much better than flooded; condition, not conduct\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "dry cellar is much better than flooded; condition, not conduct"
+  }
+ },
+ "dp_p08": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"better garden condition, not judging the looking\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "better garden condition, not judging the looking"
+  }
+ },
+ "dp_o07": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"short straw means an unlucky outcome\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "short straw means an unlucky outcome"
+  }
+ },
+ "dp_v08": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"describes a condition thriving versus struggling\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a condition thriving versus struggling"
+  }
+ },
+ "dp_o01": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 1, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"sunny birthday morning is nicer; no conduct judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 1,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "sunny birthday morning is nicer; no conduct judged"
+  }
+ },
+ "dp_f01": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"health condition, not conduct\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "health condition, not conduct"
+  }
+ },
+ "dp_f16": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"safer and better for the traveler to arrive before the storm\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "safer and better for the traveler to arrive before the storm"
+  }
+ },
+ "dp_o11": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"better condition for a picnic; no action judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "better condition for a picnic; no action judged"
+  }
+ },
+ "dp_f07": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":2,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"better health condition; no action judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "better health condition; no action judged"
+  }
+ },
+ "dp_f14": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 1, \"etiquette\": 2, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"coughing during a concert can disturb others; may also be unwise for health\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 1,
+   "etiquette": 2,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "coughing during a concert can disturb others; may also be unwise for health"
+  }
+ },
+ "dp_o16": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"gentle wind is more pleasant than freezing wind; no conduct judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "gentle wind is more pleasant than freezing wind; no conduct judged"
+  }
+ },
+ "dp_f11": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"condition affecting health and wellbeing; no specific conduct judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "condition affecting health and wellbeing; no specific conduct judged"
+  }
+ },
+ "dp_o18": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"condition of the living environment; no conduct judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "condition of the living environment; no conduct judged"
+  }
+ },
+ "dp_o08": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"health condition, not conduct\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "health condition, not conduct"
+  }
+ },
+ "dp_p14": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"better situation; stove condition, not conduct\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "better situation; stove condition, not conduct"
+  }
+ },
+ "dp_p13": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"water condition affects the experience\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "water condition affects the experience"
+  }
+ },
+ "dp_p15": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":2,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"dry path is better; condition, not conduct\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "dry path is better; condition, not conduct"
+  }
+ },
+ "dp_v16": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"better health outcome; no action judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "better health outcome; no action judged"
+  }
+ },
+ "dp_p11": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"better situation; bridge condition, not conduct\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "better situation; bridge condition, not conduct"
+  }
+ },
+ "dp_o17": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\":1,\"q2\":3,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"a much better outcome/situation, not directly judging conduct\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "a much better outcome/situation, not directly judging conduct"
+  }
+ },
+ "dp_o03": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"better condition of the inherited house\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "better condition of the inherited house"
+  }
+ },
+ "dp_p12": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":2,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"better to find ripe apples; mainly a condition, not conduct\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "better to find ripe apples; mainly a condition, not conduct"
+  }
+ },
+ "dp_o02": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"more comfortable situation, no conduct judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "more comfortable situation, no conduct judged"
+  }
+ },
+ "dp_o12": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"life condition, not conduct\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "life condition, not conduct"
+  }
+ },
+ "dp_o15": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"better health indication; no conduct judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "better health indication; no conduct judged"
+  }
+ },
+ "dp_f09": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"better for the person's own safety and convenience\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "better for the person's own safety and convenience"
+  }
+ },
+ "dp_p03": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"sunshine is a better forecast than storms\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "sunshine is a better forecast than storms"
+  }
+ },
+ "dp_p16": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":1,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"clouds lifting suggests nicer weather\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 1,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "clouds lifting suggests nicer weather"
+  }
+ },
+ "dp_p10": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":3,\"q3\":\"N\",\"moral\":null,\"prudential\":null,\"etiquette\":null,\"aesthetic\":null,\"epistemic\":null,\"unclear\":false,\"comment\":\"intact camera is much better; no one's conduct is directly judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "intact camera is much better; no one's conduct is directly judged"
+  }
+ },
+ "dp_o13": {
+  "model": "gpt-5.5",
+  "side": 2,
+  "raw": "{\"q1\":2,\"q2\":2,\"q3\":\"Y\",\"moral\":0,\"prudential\":3,\"etiquette\":0,\"aesthetic\":0,\"epistemic\":0,\"unclear\":false,\"comment\":\"own comfort and safety during the storm\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own comfort and safety during the storm"
+  }
+ },
+ "dp_v05": {
+  "model": "gpt-5.5",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"better weather for the fair\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "better weather for the fair"
+  }
+ }
+}

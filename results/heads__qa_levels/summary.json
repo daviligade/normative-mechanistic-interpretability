@@ -1,0 +1,197 @@
+{
+ "settings": {
+  "study_runs": "runs/heads_qa",
+  "study_items": "stimuli/items_final.json",
+  "new_runs": [
+   "runs/heads_followup_person"
+  ],
+  "new_items": "stimuli/items_followup_person.json",
+  "new_run_file": "stimuli/items_followup_person_run.json",
+  "no_controls": true,
+  "located": "located/heads.json",
+  "out": "results/heads__qa_levels",
+  "check": "results/heads__qa",
+  "frames": [
+   "QA"
+  ],
+  "subset": "accepted",
+  "headset": "located",
+  "condition": "p2r_all",
+  "readout": "S",
+  "tau": 0.02,
+  "min_items": 30,
+  "min_items_descr": 20,
+  "min_items_kind": 10,
+  "include_on": "S",
+  "tau_ld": 0.1,
+  "kind": null,
+  "boot": 10000,
+  "seed": 20260920,
+  "models": null
+ },
+ "note": "exploratory",
+ "n_pairs": {
+  "moral": 80,
+  "norm": 107,
+  "thing": 40
+ },
+ "control_pairs": {
+  "candidates": 0,
+  "accepted_by_screen": 0,
+  "screen": [],
+  "used": 0,
+  "subset": "accepted",
+  "acceptance_file_sha256": null
+ },
+ "models": [
+  "Llama-3.1-8B",
+  "Llama-3.1-8B-Instruct",
+  "Llama-3.2-1B",
+  "Llama-3.2-1B-Instruct",
+  "Llama-3.2-3B",
+  "Llama-3.2-3B-Instruct",
+  "Qwen2.5-14B",
+  "Qwen2.5-14B-Instruct",
+  "Qwen2.5-3B",
+  "Qwen2.5-3B-Instruct",
+  "Qwen2.5-7B",
+  "Qwen2.5-7B-Instruct",
+  "gemma-2b",
+  "gemma-2b-it"
+ ],
+ "frames": [
+  "QA"
+ ],
+ "pooled": [
+  {
+   "frame": "QA",
+   "contrast": "norm/thing",
+   "n_models": 13,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [
+    "Qwen2.5-3B-Instruct"
+   ],
+   "pooled_ratio": 1.2371493487577352,
+   "ci95": [
+    1.1370659770973652,
+    1.3392695629105194
+   ],
+   "models_with_interval_above_1": 8,
+   "models_with_interval_below_1": 0
+  },
+  {
+   "frame": "QA",
+   "contrast": "moral/thing",
+   "n_models": 13,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [
+    "Qwen2.5-3B-Instruct"
+   ],
+   "pooled_ratio": 1.0764251458914444,
+   "ci95": [
+    0.9867398672911193,
+    1.171080666225743
+   ],
+   "models_with_interval_above_1": 5,
+   "models_with_interval_below_1": 1
+  },
+  {
+   "frame": "QA",
+   "contrast": "moral/norm",
+   "n_models": 14,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-3B-Instruct",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "models_left_out": [],
+   "pooled_ratio": 0.8941315935063184,
+   "ci95": [
+    0.8183981362741078,
+    0.9767073752423286
+   ],
+   "models_with_interval_above_1": 3,
+   "models_with_interval_below_1": 6
+  }
+ ],
+ "multiple_of_random": [
+  {
+   "frame": "QA",
+   "models": "all groups",
+   "n_models": 13,
+   "models_used": [
+    "Llama-3.1-8B",
+    "Llama-3.1-8B-Instruct",
+    "Llama-3.2-1B",
+    "Llama-3.2-1B-Instruct",
+    "Llama-3.2-3B",
+    "Llama-3.2-3B-Instruct",
+    "Qwen2.5-14B",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-3B",
+    "Qwen2.5-7B",
+    "Qwen2.5-7B-Instruct",
+    "gemma-2b",
+    "gemma-2b-it"
+   ],
+   "moral": 4.3490455300103115,
+   "norm": 4.998414316010508,
+   "thing": 4.04026750459369
+  }
+ ],
+ "reading": {
+  "QA": "not available (a group is missing or has too few included pairs)"
+ },
+ "check": {
+  "reference": "results/heads__qa",
+  "per_model_rows_compared": 40,
+  "pooled_rows_compared": 3,
+  "largest_difference": {
+   "per_model_ratio": 0.0,
+   "per_model_ci": 0.0,
+   "pooled_ratio": 0.0,
+   "pooled_ci": 0.0
+  },
+  "not_in_reference": [],
+  "same": true
+ }
+}

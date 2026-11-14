@@ -1,0 +1,2288 @@
+{
+ "settings": {
+  "runs": "runs/heads",
+  "items": "stimuli/items_final.json",
+  "located": "located/heads.json",
+  "out": "results/heads_specific",
+  "condition": "p2r_all",
+  "readout": "S",
+  "tau": 0.02,
+  "k": 10,
+  "splits": 200,
+  "subsamples": 20,
+  "seed": 20260920,
+  "models": null,
+  "any_items": false
+ },
+ "accepted_pairs": true,
+ "models": {
+  "Llama-3.1-8B": {
+   "A0": {
+    "n_moral": 78,
+    "n_norm": 98,
+    "n_heads": 1024,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.4571278095245361,
+     "p2_5": 1.2497963905334473,
+     "p97_5": 1.6465625941753388,
+     "share_above_1": 1.0
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.216644002199173,
+     "p2_5": 0.9533307522535324,
+     "p97_5": 1.381170430779457,
+     "share_above_1": 0.95
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.2354975941777229,
+      "p2_5": 1.053715169429779,
+      "p97_5": 1.4346885204315185,
+      "share_above_1": 0.995,
+      "n1": 30,
+      "n2": 41
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.2524621671438216,
+      "p2_5": 0.970627911388874,
+      "p97_5": 1.5117370337247849,
+      "share_above_1": 0.96,
+      "n1": 34,
+      "n2": 37
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.1410091134905815,
+      "p2_5": 0.8857245028018952,
+      "p97_5": 1.4198469668626785,
+      "share_above_1": 0.875,
+      "n1": 37,
+      "n2": 34
+     }
+    },
+    "heads_differing_full": 120,
+    "group_size_equalised": 30,
+    "heads_differing_moral_vs_norm_equalised": 1.2,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 0.05,
+     "prudential+aesthetic vs etiquette+epistemic": 0.1,
+     "prudential+epistemic vs etiquette+aesthetic": 0.85
+    },
+    "more_heads_than_any_split": true,
+    "moral_specific_heads": false
+   },
+   "A1": {
+    "n_moral": 78,
+    "n_norm": 104,
+    "n_heads": 1024,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.6139664554595947,
+     "p2_5": 1.3147646963596344,
+     "p97_5": 1.8672825306653977,
+     "share_above_1": 1.0
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.3292735230922699,
+     "p2_5": 1.1510523170232774,
+     "p97_5": 1.512879329919815,
+     "share_above_1": 1.0
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.1088704770803453,
+      "p2_5": 0.8738772809505463,
+      "p97_5": 1.3234354555606842,
+      "share_above_1": 0.805,
+      "n1": 33,
+      "n2": 44
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.3531622165441513,
+      "p2_5": 0.9612452879548072,
+      "p97_5": 1.8923520624637604,
+      "share_above_1": 0.96,
+      "n1": 36,
+      "n2": 41
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.3291597610712051,
+      "p2_5": 1.011227935552597,
+      "p97_5": 1.63553187251091,
+      "share_above_1": 0.975,
+      "n1": 38,
+      "n2": 39
+     }
+    },
+    "heads_differing_full": 182,
+    "group_size_equalised": 33,
+    "heads_differing_moral_vs_norm_equalised": 38.85,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 0.5,
+     "prudential+aesthetic vs etiquette+epistemic": 0.05,
+     "prudential+epistemic vs etiquette+aesthetic": 33.2
+    },
+    "more_heads_than_any_split": true,
+    "moral_specific_heads": false
+   },
+   "B": {
+    "n_moral": 77,
+    "n_norm": 104,
+    "n_heads": 1024,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.2544149219989777,
+     "p2_5": 1.1051823645830154,
+     "p97_5": 1.4560844153165817,
+     "share_above_1": 1.0
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.3295103538036346,
+     "p2_5": 1.1665438652038573,
+     "p97_5": 1.5810426741838455,
+     "share_above_1": 1.0
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.138941542804241,
+      "p2_5": 0.9297192379832268,
+      "p97_5": 1.4093540996313096,
+      "share_above_1": 0.835,
+      "n1": 31,
+      "n2": 46
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.3259540396928786,
+      "p2_5": 1.074154829978943,
+      "p97_5": 1.5918358862400057,
+      "share_above_1": 1.0,
+      "n1": 35,
+      "n2": 42
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.1937295350432395,
+      "p2_5": 0.8864447265863419,
+      "p97_5": 1.528121930360794,
+      "share_above_1": 0.89,
+      "n1": 37,
+      "n2": 40
+     }
+    },
+    "heads_differing_full": 88,
+    "group_size_equalised": 31,
+    "heads_differing_moral_vs_norm_equalised": 5.15,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 0.45,
+     "prudential+aesthetic vs etiquette+epistemic": 0.55,
+     "prudential+epistemic vs etiquette+aesthetic": 0.05
+    },
+    "more_heads_than_any_split": true,
+    "moral_specific_heads": false
+   }
+  },
+  "Llama-3.1-8B-Instruct": {
+   "A0": {
+    "n_moral": 77,
+    "n_norm": 104,
+    "n_heads": 1024,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.4140046352148057,
+     "p2_5": 1.2474045634269715,
+     "p97_5": 1.6094238042831424,
+     "share_above_1": 1.0
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.193497731089592,
+     "p2_5": 0.9457091987133026,
+     "p97_5": 1.396003782749176,
+     "share_above_1": 0.91
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.1991683766245842,
+      "p2_5": 1.0027396947145462,
+      "p97_5": 1.4035110771656039,
+      "share_above_1": 0.975,
+      "n1": 33,
+      "n2": 43
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.1706720745563508,
+      "p2_5": 0.8686404556035996,
+      "p97_5": 1.4497992873191834,
+      "share_above_1": 0.875,
+      "n1": 35,
+      "n2": 41
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.0874698069691657,
+      "p2_5": 0.8979942798614502,
+      "p97_5": 1.323064911365509,
+      "share_above_1": 0.795,
+      "n1": 38,
+      "n2": 38
+     }
+    },
+    "heads_differing_full": 128,
+    "group_size_equalised": 33,
+    "heads_differing_moral_vs_norm_equalised": 10.9,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 0.0,
+     "prudential+aesthetic vs etiquette+epistemic": 0.55,
+     "prudential+epistemic vs etiquette+aesthetic": 1.55
+    },
+    "more_heads_than_any_split": true,
+    "moral_specific_heads": false
+   },
+   "A1": {
+    "n_moral": 78,
+    "n_norm": 107,
+    "n_heads": 1024,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.4052712965011596,
+     "p2_5": 1.1514222890138626,
+     "p97_5": 1.6882194817066194,
+     "share_above_1": 1.0
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.2655653578042985,
+     "p2_5": 1.109890028834343,
+     "p97_5": 1.4389464259147644,
+     "share_above_1": 1.0
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.112592420578003,
+      "p2_5": 0.8983680069446563,
+      "p97_5": 1.3604675441980363,
+      "share_above_1": 0.85,
+      "n1": 33,
+      "n2": 46
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.3279381996393205,
+      "p2_5": 0.8888852670788765,
+      "p97_5": 1.979372787475586,
+      "share_above_1": 0.895,
+      "n1": 37,
+      "n2": 42
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.2046703219413757,
+      "p2_5": 0.9494319677352906,
+      "p97_5": 1.4947853475809096,
+      "share_above_1": 0.92,
+      "n1": 39,
+      "n2": 40
+     }
+    },
+    "heads_differing_full": 215,
+    "group_size_equalised": 33,
+    "heads_differing_moral_vs_norm_equalised": 48.9,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 2.1,
+     "prudential+aesthetic vs etiquette+epistemic": 2.5,
+     "prudential+epistemic vs etiquette+aesthetic": 16.0
+    },
+    "more_heads_than_any_split": true,
+    "moral_specific_heads": false
+   },
+   "B": {
+    "n_moral": 78,
+    "n_norm": 103,
+    "n_heads": 1024,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.2420633149147033,
+     "p2_5": 1.1077103823423387,
+     "p97_5": 1.3784602344036103,
+     "share_above_1": 1.0
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.4080671298503875,
+     "p2_5": 1.2103419184684754,
+     "p97_5": 1.611058735847473,
+     "share_above_1": 1.0
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.1218175372481347,
+      "p2_5": 0.8620817333459854,
+      "p97_5": 1.407541450858116,
+      "share_above_1": 0.77,
+      "n1": 31,
+      "n2": 45
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.3258035388588905,
+      "p2_5": 1.031553614139557,
+      "p97_5": 1.6362413823604585,
+      "share_above_1": 0.985,
+      "n1": 34,
+      "n2": 42
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.0738405054807663,
+      "p2_5": 0.8548030391335487,
+      "p97_5": 1.2751124650239944,
+      "share_above_1": 0.735,
+      "n1": 37,
+      "n2": 39
+     }
+    },
+    "heads_differing_full": 78,
+    "group_size_equalised": 31,
+    "heads_differing_moral_vs_norm_equalised": 8.55,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 0.05,
+     "prudential+aesthetic vs etiquette+epistemic": 1.45,
+     "prudential+epistemic vs etiquette+aesthetic": 2.2
+    },
+    "more_heads_than_any_split": true,
+    "moral_specific_heads": false
+   }
+  },
+  "Llama-3.2-1B": {
+   "A0": {
+    "n_moral": 74,
+    "n_norm": 82,
+    "n_heads": 512,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.2549254781007766,
+     "p2_5": 1.1146962732076644,
+     "p97_5": 1.4253943860530853,
+     "share_above_1": 1.0
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.1512673833966256,
+     "p2_5": 0.9931771948933601,
+     "p97_5": 1.284487894177437,
+     "share_above_1": 0.97
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.1298644775152207,
+      "p2_5": 0.8260114997625351,
+      "p97_5": 1.3792814671993257,
+      "share_above_1": 0.85,
+      "n1": 23,
+      "n2": 38
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.1492615097761154,
+      "p2_5": 0.9605645805597305,
+      "p97_5": 1.3735193103551866,
+      "share_above_1": 0.93,
+      "n1": 29,
+      "n2": 32
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.1995548790693282,
+      "p2_5": 0.9241388753056526,
+      "p97_5": 1.5068397849798203,
+      "share_above_1": 0.925,
+      "n1": 33,
+      "n2": 28
+     }
+    },
+    "heads_differing_full": 9,
+    "group_size_equalised": 23,
+    "heads_differing_moral_vs_norm_equalised": 0.15,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 0.0,
+     "prudential+aesthetic vs etiquette+epistemic": 0.05,
+     "prudential+epistemic vs etiquette+aesthetic": 1.45
+    },
+    "more_heads_than_any_split": false,
+    "moral_specific_heads": false
+   },
+   "A1": {
+    "n_moral": 78,
+    "n_norm": 97,
+    "n_heads": 512,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.1404129669070244,
+     "p2_5": 1.0255101144313812,
+     "p97_5": 1.2664706349372865,
+     "share_above_1": 0.995
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.1230689141154289,
+     "p2_5": 0.9645672097802163,
+     "p97_5": 1.240459668636322,
+     "share_above_1": 0.94
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.1227893882989883,
+      "p2_5": 0.9107796639204025,
+      "p97_5": 1.3497162073850633,
+      "share_above_1": 0.865,
+      "n1": 28,
+      "n2": 43
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.383954982161522,
+      "p2_5": 1.1737700253725052,
+      "p97_5": 1.619779169559479,
+      "share_above_1": 1.0,
+      "n1": 35,
+      "n2": 36
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.1065306943655013,
+      "p2_5": 0.9069489866495133,
+      "p97_5": 1.342436271905899,
+      "share_above_1": 0.825,
+      "n1": 36,
+      "n2": 35
+     }
+    },
+    "heads_differing_full": 1,
+    "group_size_equalised": 28,
+    "heads_differing_moral_vs_norm_equalised": 0.1,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 0.65,
+     "prudential+aesthetic vs etiquette+epistemic": 1.15,
+     "prudential+epistemic vs etiquette+aesthetic": 0.1
+    },
+    "more_heads_than_any_split": false,
+    "moral_specific_heads": false
+   },
+   "B": {
+    "n_moral": 73,
+    "n_norm": 91,
+    "n_heads": 512,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.218676710128784,
+     "p2_5": 1.0469509214162827,
+     "p97_5": 1.400302428007126,
+     "share_above_1": 0.98
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.1751051038503646,
+     "p2_5": 0.9895121589303016,
+     "p97_5": 1.3610856533050537,
+     "share_above_1": 0.97
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.1515772753953935,
+      "p2_5": 0.8556231275200844,
+      "p97_5": 1.439186292886734,
+      "share_above_1": 0.8,
+      "n1": 24,
+      "n2": 44
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.5747000044584274,
+      "p2_5": 1.3005619168281555,
+      "p97_5": 1.8678914487361908,
+      "share_above_1": 1.0,
+      "n1": 33,
+      "n2": 35
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.0138690054416657,
+      "p2_5": 0.8098401486873626,
+      "p97_5": 1.187391918897629,
+      "share_above_1": 0.54,
+      "n1": 33,
+      "n2": 35
+     }
+    },
+    "heads_differing_full": 26,
+    "group_size_equalised": 24,
+    "heads_differing_moral_vs_norm_equalised": 0.2,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 0.75,
+     "prudential+aesthetic vs etiquette+epistemic": 5.25,
+     "prudential+epistemic vs etiquette+aesthetic": 0.2
+    },
+    "more_heads_than_any_split": false,
+    "moral_specific_heads": false
+   }
+  },
+  "Llama-3.2-1B-Instruct": {
+   "A0": {
+    "n_moral": 72,
+    "n_norm": 86,
+    "n_heads": 512,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.456230497956276,
+     "p2_5": 1.2678145706653594,
+     "p97_5": 1.6427694082260131,
+     "share_above_1": 1.0
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.4111294114589692,
+     "p2_5": 1.202859354019165,
+     "p97_5": 1.630397865176201,
+     "share_above_1": 1.0
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.0447750070691109,
+      "p2_5": 0.751272962987423,
+      "p97_5": 1.3762555688619615,
+      "share_above_1": 0.59,
+      "n1": 26,
+      "n2": 40
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.298822322487831,
+      "p2_5": 1.0984721899032592,
+      "p97_5": 1.599233466386795,
+      "share_above_1": 1.0,
+      "n1": 31,
+      "n2": 35
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.0958106541633605,
+      "p2_5": 0.8769795909523964,
+      "p97_5": 1.3142114758491517,
+      "share_above_1": 0.78,
+      "n1": 31,
+      "n2": 35
+     }
+    },
+    "heads_differing_full": 65,
+    "group_size_equalised": 26,
+    "heads_differing_moral_vs_norm_equalised": 5.15,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 0.0,
+     "prudential+aesthetic vs etiquette+epistemic": 0.0,
+     "prudential+epistemic vs etiquette+aesthetic": 0.0
+    },
+    "more_heads_than_any_split": true,
+    "moral_specific_heads": false
+   },
+   "A1": {
+    "n_moral": 69,
+    "n_norm": 92,
+    "n_heads": 512,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.3756720060110093,
+     "p2_5": 1.1211021959781646,
+     "p97_5": 1.6346444368362427,
+     "share_above_1": 1.0
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.3335997194051743,
+     "p2_5": 1.1093760162591935,
+     "p97_5": 1.581538301706314,
+     "share_above_1": 1.0
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 0.9637151718139648,
+      "p2_5": 0.7814927473664284,
+      "p97_5": 1.1434895426034928,
+      "share_above_1": 0.39,
+      "n1": 28,
+      "n2": 41
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.4667388612031937,
+      "p2_5": 1.2327339112758637,
+      "p97_5": 1.75912202000618,
+      "share_above_1": 1.0,
+      "n1": 32,
+      "n2": 37
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.311167604625225,
+      "p2_5": 0.9568672582507134,
+      "p97_5": 1.7079486906528474,
+      "share_above_1": 0.95,
+      "n1": 33,
+      "n2": 36
+     }
+    },
+    "heads_differing_full": 29,
+    "group_size_equalised": 28,
+    "heads_differing_moral_vs_norm_equalised": 0.9,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 0.0,
+     "prudential+aesthetic vs etiquette+epistemic": 3.35,
+     "prudential+epistemic vs etiquette+aesthetic": 0.7
+    },
+    "more_heads_than_any_split": false,
+    "moral_specific_heads": false
+   },
+   "B": {
+    "n_moral": 72,
+    "n_norm": 95,
+    "n_heads": 512,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.271044792532921,
+     "p2_5": 1.076792687177658,
+     "p97_5": 1.493405005335808,
+     "share_above_1": 1.0
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.135040563941002,
+     "p2_5": 0.8539319202303887,
+     "p97_5": 1.3559942215681076,
+     "share_above_1": 0.86
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 0.9329796054959297,
+      "p2_5": 0.7211263865232468,
+      "p97_5": 1.1572609812021255,
+      "share_above_1": 0.28,
+      "n1": 25,
+      "n2": 43
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.352488768696785,
+      "p2_5": 1.1351195394992828,
+      "p97_5": 1.5878130733966827,
+      "share_above_1": 1.0,
+      "n1": 32,
+      "n2": 36
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.1743201461434365,
+      "p2_5": 0.8326645776629448,
+      "p97_5": 1.599337249994278,
+      "share_above_1": 0.765,
+      "n1": 35,
+      "n2": 33
+     }
+    },
+    "heads_differing_full": 17,
+    "group_size_equalised": 25,
+    "heads_differing_moral_vs_norm_equalised": 0.05,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 0.05,
+     "prudential+aesthetic vs etiquette+epistemic": 0.25,
+     "prudential+epistemic vs etiquette+aesthetic": 1.7
+    },
+    "more_heads_than_any_split": false,
+    "moral_specific_heads": false
+   }
+  },
+  "Llama-3.2-3B": {
+   "A0": {
+    "n_moral": 78,
+    "n_norm": 90,
+    "n_heads": 672,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.341731196641922,
+     "p2_5": 1.1368889331817627,
+     "p97_5": 1.554104459285736,
+     "share_above_1": 1.0
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.1771701139211654,
+     "p2_5": 1.0367970436811447,
+     "p97_5": 1.3106097161769867,
+     "share_above_1": 0.985
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.015296119749546,
+      "p2_5": 0.8200287356972694,
+      "p97_5": 1.2113898128271103,
+      "share_above_1": 0.525,
+      "n1": 29,
+      "n2": 37
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.0976380610466003,
+      "p2_5": 0.8223511323332786,
+      "p97_5": 1.3317797929048538,
+      "share_above_1": 0.8,
+      "n1": 32,
+      "n2": 34
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.3245105594396591,
+      "p2_5": 1.1078879058361053,
+      "p97_5": 1.5672364503145217,
+      "share_above_1": 1.0,
+      "n1": 35,
+      "n2": 31
+     }
+    },
+    "heads_differing_full": 31,
+    "group_size_equalised": 29,
+    "heads_differing_moral_vs_norm_equalised": 0.25,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 0.0,
+     "prudential+aesthetic vs etiquette+epistemic": 0.1,
+     "prudential+epistemic vs etiquette+aesthetic": 0.35
+    },
+    "more_heads_than_any_split": false,
+    "moral_specific_heads": false
+   },
+   "A1": {
+    "n_moral": 79,
+    "n_norm": 104,
+    "n_heads": 672,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.2360568395256997,
+     "p2_5": 1.0009773045778274,
+     "p97_5": 1.4685464054346085,
+     "share_above_1": 0.98
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.2178481674194337,
+     "p2_5": 1.0484988242387772,
+     "p97_5": 1.3558979660272599,
+     "share_above_1": 1.0
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.1338623142242432,
+      "p2_5": 0.8972812280058861,
+      "p97_5": 1.4062365561723709,
+      "share_above_1": 0.86,
+      "n1": 31,
+      "n2": 46
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.1251967257261277,
+      "p2_5": 0.8693558245897293,
+      "p97_5": 1.4139136135578156,
+      "share_above_1": 0.82,
+      "n1": 36,
+      "n2": 41
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.2629260358214378,
+      "p2_5": 1.0454231530427933,
+      "p97_5": 1.533553022146225,
+      "share_above_1": 0.99,
+      "n1": 38,
+      "n2": 39
+     }
+    },
+    "heads_differing_full": 36,
+    "group_size_equalised": 31,
+    "heads_differing_moral_vs_norm_equalised": 2.15,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 0.1,
+     "prudential+aesthetic vs etiquette+epistemic": 0.3,
+     "prudential+epistemic vs etiquette+aesthetic": 0.4
+    },
+    "more_heads_than_any_split": true,
+    "moral_specific_heads": false
+   },
+   "B": {
+    "n_moral": 78,
+    "n_norm": 100,
+    "n_heads": 672,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.4124228632450104,
+     "p2_5": 1.18829288482666,
+     "p97_5": 1.6344047635793686,
+     "share_above_1": 1.0
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.2597548097372055,
+     "p2_5": 1.0835710376501084,
+     "p97_5": 1.442054307460785,
+     "share_above_1": 1.0
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.3359752449393272,
+      "p2_5": 0.8582504287362098,
+      "p97_5": 1.8207331478595736,
+      "share_above_1": 0.9,
+      "n1": 29,
+      "n2": 44
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.1668052235245705,
+      "p2_5": 0.869691078364849,
+      "p97_5": 1.5428060919046402,
+      "share_above_1": 0.795,
+      "n1": 33,
+      "n2": 40
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.2062512338161469,
+      "p2_5": 0.8820122122764588,
+      "p97_5": 1.4861305296421052,
+      "share_above_1": 0.895,
+      "n1": 35,
+      "n2": 38
+     }
+    },
+    "heads_differing_full": 92,
+    "group_size_equalised": 29,
+    "heads_differing_moral_vs_norm_equalised": 4.8,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 0.0,
+     "prudential+aesthetic vs etiquette+epistemic": 0.45,
+     "prudential+epistemic vs etiquette+aesthetic": 0.3
+    },
+    "more_heads_than_any_split": true,
+    "moral_specific_heads": false
+   }
+  },
+  "Llama-3.2-3B-Instruct": {
+   "A0": {
+    "n_moral": 77,
+    "n_norm": 95,
+    "n_heads": 672,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.3330072945356368,
+     "p2_5": 1.1183281421661377,
+     "p97_5": 1.5447124660015106,
+     "share_above_1": 1.0
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.1533457604050636,
+     "p2_5": 0.9752780079841614,
+     "p97_5": 1.3398426949977875,
+     "share_above_1": 0.94
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.0841536545753478,
+      "p2_5": 0.9109941944479942,
+      "p97_5": 1.3015601962804795,
+      "share_above_1": 0.795,
+      "n1": 30,
+      "n2": 42
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.1735063472390175,
+      "p2_5": 0.9154413744807244,
+      "p97_5": 1.4596753746271136,
+      "share_above_1": 0.89,
+      "n1": 32,
+      "n2": 40
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.1799022755026818,
+      "p2_5": 0.9436193272471428,
+      "p97_5": 1.5146036893129349,
+      "share_above_1": 0.925,
+      "n1": 36,
+      "n2": 36
+     }
+    },
+    "heads_differing_full": 96,
+    "group_size_equalised": 30,
+    "heads_differing_moral_vs_norm_equalised": 4.05,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 0.0,
+     "prudential+aesthetic vs etiquette+epistemic": 0.0,
+     "prudential+epistemic vs etiquette+aesthetic": 0.0
+    },
+    "more_heads_than_any_split": true,
+    "moral_specific_heads": false
+   },
+   "A1": {
+    "n_moral": 72,
+    "n_norm": 103,
+    "n_heads": 672,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.2189352890849114,
+     "p2_5": 0.9539633691310883,
+     "p97_5": 1.4959617227315904,
+     "share_above_1": 0.94
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.3574796777963638,
+     "p2_5": 1.0323664605617524,
+     "p97_5": 1.7665449231863024,
+     "share_above_1": 0.99
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.2629883009195328,
+      "p2_5": 1.0170124620199203,
+      "p97_5": 1.495988067984581,
+      "share_above_1": 0.98,
+      "n1": 31,
+      "n2": 46
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.2645752868056297,
+      "p2_5": 0.9167188167572021,
+      "p97_5": 1.7425184816122055,
+      "share_above_1": 0.895,
+      "n1": 35,
+      "n2": 42
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.2323211354017258,
+      "p2_5": 0.9081230342388154,
+      "p97_5": 1.6428978592157364,
+      "share_above_1": 0.91,
+      "n1": 37,
+      "n2": 40
+     }
+    },
+    "heads_differing_full": 160,
+    "group_size_equalised": 31,
+    "heads_differing_moral_vs_norm_equalised": 34.6,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 0.0,
+     "prudential+aesthetic vs etiquette+epistemic": 1.0,
+     "prudential+epistemic vs etiquette+aesthetic": 0.1
+    },
+    "more_heads_than_any_split": true,
+    "moral_specific_heads": false
+   },
+   "B": {
+    "n_moral": 69,
+    "n_norm": 103,
+    "n_heads": 672,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.3686651355028152,
+     "p2_5": 1.164175084233284,
+     "p97_5": 1.5825867116451264,
+     "share_above_1": 1.0
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.4399670994281768,
+     "p2_5": 1.2554113060235976,
+     "p97_5": 1.623730930685997,
+     "share_above_1": 1.0
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.144843647480011,
+      "p2_5": 0.8008407413959503,
+      "p97_5": 1.4774721145629883,
+      "share_above_1": 0.76,
+      "n1": 31,
+      "n2": 46
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.2703321301937103,
+      "p2_5": 0.9492659240961074,
+      "p97_5": 1.6155112653970718,
+      "share_above_1": 0.945,
+      "n1": 35,
+      "n2": 42
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.210199073255062,
+      "p2_5": 0.8978054270148277,
+      "p97_5": 1.4837598502635956,
+      "share_above_1": 0.92,
+      "n1": 37,
+      "n2": 40
+     }
+    },
+    "heads_differing_full": 76,
+    "group_size_equalised": 31,
+    "heads_differing_moral_vs_norm_equalised": 8.75,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 0.25,
+     "prudential+aesthetic vs etiquette+epistemic": 0.65,
+     "prudential+epistemic vs etiquette+aesthetic": 1.4
+    },
+    "more_heads_than_any_split": true,
+    "moral_specific_heads": false
+   }
+  },
+  "Qwen2.5-14B": {
+   "A0": {
+    "n_moral": 80,
+    "n_norm": 101,
+    "n_heads": 1920,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.3898761695623398,
+     "p2_5": 1.1945646196603774,
+     "p97_5": 1.6034791618585587,
+     "share_above_1": 1.0
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.126694908440113,
+     "p2_5": 0.8702282428741455,
+     "p97_5": 1.391929030418396,
+     "share_above_1": 0.84
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.165943375825882,
+      "p2_5": 0.9130541905760765,
+      "p97_5": 1.5262164890766146,
+      "share_above_1": 0.84,
+      "n1": 31,
+      "n2": 43
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 0.914331137239933,
+      "p2_5": 0.659536637365818,
+      "p97_5": 1.2147956609725952,
+      "share_above_1": 0.225,
+      "n1": 35,
+      "n2": 39
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.0410785406827927,
+      "p2_5": 0.8126916155219078,
+      "p97_5": 1.2420537382364274,
+      "share_above_1": 0.695,
+      "n1": 36,
+      "n2": 38
+     }
+    },
+    "heads_differing_full": 71,
+    "group_size_equalised": 31,
+    "heads_differing_moral_vs_norm_equalised": 1.1,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 0.15,
+     "prudential+aesthetic vs etiquette+epistemic": 0.0,
+     "prudential+epistemic vs etiquette+aesthetic": 0.0
+    },
+    "more_heads_than_any_split": true,
+    "moral_specific_heads": false
+   },
+   "A1": {
+    "n_moral": 79,
+    "n_norm": 99,
+    "n_heads": 1920,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.3178849911689758,
+     "p2_5": 1.098849844932556,
+     "p97_5": 1.5692262262105943,
+     "share_above_1": 1.0
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.6134311312437057,
+     "p2_5": 1.1956409126520158,
+     "p97_5": 2.1160922706127168,
+     "share_above_1": 1.0
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.420755764245987,
+      "p2_5": 1.2191267699003219,
+      "p97_5": 1.6796018272638322,
+      "share_above_1": 1.0,
+      "n1": 30,
+      "n2": 44
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.0949729058146476,
+      "p2_5": 0.806424044072628,
+      "p97_5": 1.4031864762306214,
+      "share_above_1": 0.745,
+      "n1": 33,
+      "n2": 41
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.1014016884565354,
+      "p2_5": 0.8783350557088851,
+      "p97_5": 1.3211847186088561,
+      "share_above_1": 0.83,
+      "n1": 35,
+      "n2": 39
+     }
+    },
+    "heads_differing_full": 480,
+    "group_size_equalised": 30,
+    "heads_differing_moral_vs_norm_equalised": 98.2,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 15.1,
+     "prudential+aesthetic vs etiquette+epistemic": 0.2,
+     "prudential+epistemic vs etiquette+aesthetic": 1.25
+    },
+    "more_heads_than_any_split": true,
+    "moral_specific_heads": false
+   },
+   "B": {
+    "n_moral": 79,
+    "n_norm": 106,
+    "n_heads": 1920,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.2618379113078118,
+     "p2_5": 0.7869584187865257,
+     "p97_5": 1.5093869119882584,
+     "share_above_1": 0.915
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.3750899568200112,
+     "p2_5": 1.1280839890241623,
+     "p97_5": 1.6946883082389834,
+     "share_above_1": 0.995
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.214571979045868,
+      "p2_5": 0.8417381986975669,
+      "p97_5": 1.5528447151184084,
+      "share_above_1": 0.84,
+      "n1": 33,
+      "n2": 46
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.3179645499587058,
+      "p2_5": 0.8311270162463188,
+      "p97_5": 1.9541719347238542,
+      "share_above_1": 0.895,
+      "n1": 37,
+      "n2": 42
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.1717496722936631,
+      "p2_5": 0.8103203520178796,
+      "p97_5": 1.4323529958724976,
+      "share_above_1": 0.89,
+      "n1": 39,
+      "n2": 40
+     }
+    },
+    "heads_differing_full": 174,
+    "group_size_equalised": 33,
+    "heads_differing_moral_vs_norm_equalised": 12.65,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 0.0,
+     "prudential+aesthetic vs etiquette+epistemic": 0.0,
+     "prudential+epistemic vs etiquette+aesthetic": 0.05
+    },
+    "more_heads_than_any_split": true,
+    "moral_specific_heads": false
+   }
+  },
+  "Qwen2.5-14B-Instruct": {
+   "A0": {
+    "n_moral": 80,
+    "n_norm": 95,
+    "n_heads": 1920,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.2814726665616036,
+     "p2_5": 0.92815992385149,
+     "p97_5": 1.6457757860422135,
+     "share_above_1": 0.935
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.0468968948721886,
+     "p2_5": 0.6753509044647217,
+     "p97_5": 1.3605874717235564,
+     "share_above_1": 0.62
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.7158777058124541,
+      "p2_5": 0.9596443504095078,
+      "p97_5": 2.676506590843201,
+      "share_above_1": 0.96,
+      "n1": 29,
+      "n2": 41
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.0720857295393944,
+      "p2_5": 0.6532996758818627,
+      "p97_5": 1.6094119668006897,
+      "share_above_1": 0.595,
+      "n1": 34,
+      "n2": 36
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.042600588798523,
+      "p2_5": 0.5991915121674538,
+      "p97_5": 1.4526895612478257,
+      "share_above_1": 0.555,
+      "n1": 33,
+      "n2": 37
+     }
+    },
+    "heads_differing_full": 43,
+    "group_size_equalised": 29,
+    "heads_differing_moral_vs_norm_equalised": 0.5,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 0.5,
+     "prudential+aesthetic vs etiquette+epistemic": 0.0,
+     "prudential+epistemic vs etiquette+aesthetic": 0.0
+    },
+    "more_heads_than_any_split": false,
+    "moral_specific_heads": false
+   },
+   "A1": {
+    "n_moral": 79,
+    "n_norm": 99,
+    "n_heads": 1920,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.53082760900259,
+     "p2_5": 1.1543172210454942,
+     "p97_5": 1.9093797177076341,
+     "share_above_1": 0.995
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.4464356416463853,
+     "p2_5": 1.124322345852852,
+     "p97_5": 1.867212960124016,
+     "share_above_1": 1.0
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.4172221809625625,
+      "p2_5": 1.1094949543476105,
+      "p97_5": 1.789177840948105,
+      "share_above_1": 1.0,
+      "n1": 32,
+      "n2": 43
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.226707763671875,
+      "p2_5": 0.805308173596859,
+      "p97_5": 1.728893092274666,
+      "share_above_1": 0.81,
+      "n1": 34,
+      "n2": 41
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.1210115540027619,
+      "p2_5": 0.825416025519371,
+      "p97_5": 1.353276488184929,
+      "share_above_1": 0.775,
+      "n1": 37,
+      "n2": 38
+     }
+    },
+    "heads_differing_full": 666,
+    "group_size_equalised": 32,
+    "heads_differing_moral_vs_norm_equalised": 283.6,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 4.25,
+     "prudential+aesthetic vs etiquette+epistemic": 7.0,
+     "prudential+epistemic vs etiquette+aesthetic": 1.2
+    },
+    "more_heads_than_any_split": true,
+    "moral_specific_heads": false
+   },
+   "B": {
+    "n_moral": 78,
+    "n_norm": 104,
+    "n_heads": 1920,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.6605998900532724,
+     "p2_5": 1.349290242791176,
+     "p97_5": 1.943166434764862,
+     "share_above_1": 0.99
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.579714468717575,
+     "p2_5": 1.2958544462919235,
+     "p97_5": 1.9179977715015413,
+     "share_above_1": 1.0
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.1438222846388817,
+      "p2_5": 0.7188893705606461,
+      "p97_5": 1.489521610736847,
+      "share_above_1": 0.79,
+      "n1": 32,
+      "n2": 46
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.4177039149403572,
+      "p2_5": 0.8936382114887238,
+      "p97_5": 2.28950287103653,
+      "share_above_1": 0.9,
+      "n1": 36,
+      "n2": 42
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 0.9372628152370452,
+      "p2_5": 0.6576208382844925,
+      "p97_5": 1.1557473331689836,
+      "share_above_1": 0.36,
+      "n1": 38,
+      "n2": 40
+     }
+    },
+    "heads_differing_full": 204,
+    "group_size_equalised": 32,
+    "heads_differing_moral_vs_norm_equalised": 29.5,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 0.05,
+     "prudential+aesthetic vs etiquette+epistemic": 0.5,
+     "prudential+epistemic vs etiquette+aesthetic": 0.85
+    },
+    "more_heads_than_any_split": true,
+    "moral_specific_heads": false
+   }
+  },
+  "Qwen2.5-3B": {
+   "A0": {
+    "n_moral": 57,
+    "n_norm": 80,
+    "n_heads": 576,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.1104040271043778,
+     "p2_5": 0.7824206739664078,
+     "p97_5": 1.3167714416980745,
+     "share_above_1": 0.815
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.145387697815895,
+     "p2_5": 0.8388834476470948,
+     "p97_5": 1.444331580400467,
+     "share_above_1": 0.81
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.2585368672013282,
+      "p2_5": 0.684015515446663,
+      "p97_5": 1.857342913746834,
+      "share_above_1": 0.785,
+      "n1": 22,
+      "n2": 38
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.31030240342021,
+      "p2_5": 0.759116305410862,
+      "p97_5": 1.9848163485527044,
+      "share_above_1": 0.865,
+      "n1": 27,
+      "n2": 33
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.1678445574641227,
+      "p2_5": 0.7699492916464805,
+      "p97_5": 1.54656280875206,
+      "share_above_1": 0.79,
+      "n1": 33,
+      "n2": 27
+     }
+    },
+    "heads_differing_full": 0,
+    "group_size_equalised": 22,
+    "heads_differing_moral_vs_norm_equalised": 0.0,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 0.0,
+     "prudential+aesthetic vs etiquette+epistemic": 0.0,
+     "prudential+epistemic vs etiquette+aesthetic": 0.0
+    },
+    "more_heads_than_any_split": false,
+    "moral_specific_heads": false
+   },
+   "A1": {
+    "n_moral": 78,
+    "n_norm": 98,
+    "n_heads": 576,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.3163596308231353,
+     "p2_5": 1.1158452153205871,
+     "p97_5": 1.5369481682777406,
+     "share_above_1": 1.0
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.1783114045858383,
+     "p2_5": 0.9481130808591842,
+     "p97_5": 1.3431238055229187,
+     "share_above_1": 0.91
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.0952831467986106,
+      "p2_5": 0.8592641979455948,
+      "p97_5": 1.3296810477972032,
+      "share_above_1": 0.75,
+      "n1": 30,
+      "n2": 44
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.342062160372734,
+      "p2_5": 1.0575065463781357,
+      "p97_5": 1.6254110485315323,
+      "share_above_1": 1.0,
+      "n1": 34,
+      "n2": 40
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.147547599375248,
+      "p2_5": 0.9574182718992233,
+      "p97_5": 1.3394757330417633,
+      "share_above_1": 0.92,
+      "n1": 36,
+      "n2": 38
+     }
+    },
+    "heads_differing_full": 31,
+    "group_size_equalised": 30,
+    "heads_differing_moral_vs_norm_equalised": 0.35,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 0.0,
+     "prudential+aesthetic vs etiquette+epistemic": 0.0,
+     "prudential+epistemic vs etiquette+aesthetic": 0.25
+    },
+    "more_heads_than_any_split": true,
+    "moral_specific_heads": false
+   },
+   "B": {
+    "n_moral": 75,
+    "n_norm": 101,
+    "n_heads": 576,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.2063313901424408,
+     "p2_5": 1.006638127565384,
+     "p97_5": 1.3731028139591217,
+     "share_above_1": 0.98
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.2714826717972756,
+     "p2_5": 1.090239229798317,
+     "p97_5": 1.4420433014631273,
+     "share_above_1": 0.995
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.1684714248776435,
+      "p2_5": 0.8985092416405678,
+      "p97_5": 1.4444219529628755,
+      "share_above_1": 0.865,
+      "n1": 30,
+      "n2": 46
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.501267539858818,
+      "p2_5": 1.1587535679340362,
+      "p97_5": 1.8219592541456222,
+      "share_above_1": 1.0,
+      "n1": 35,
+      "n2": 41
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.2515142107009887,
+      "p2_5": 0.9735255986452103,
+      "p97_5": 1.5271085768938066,
+      "share_above_1": 0.955,
+      "n1": 37,
+      "n2": 39
+     }
+    },
+    "heads_differing_full": 29,
+    "group_size_equalised": 30,
+    "heads_differing_moral_vs_norm_equalised": 1.6,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 0.0,
+     "prudential+aesthetic vs etiquette+epistemic": 0.75,
+     "prudential+epistemic vs etiquette+aesthetic": 2.15
+    },
+    "more_heads_than_any_split": false,
+    "moral_specific_heads": false
+   }
+  },
+  "Qwen2.5-3B-Instruct": {
+   "A0": {
+    "n_moral": 77,
+    "n_norm": 101,
+    "n_heads": 576,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.3827220129966735,
+     "p2_5": 1.1640723496675491,
+     "p97_5": 1.5839970529079437,
+     "share_above_1": 1.0
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.2441552770137787,
+     "p2_5": 0.9823417335748672,
+     "p97_5": 1.4687481433153153,
+     "share_above_1": 0.96
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.0277466580271721,
+      "p2_5": 0.8333341956138611,
+      "p97_5": 1.249990627169609,
+      "share_above_1": 0.595,
+      "n1": 30,
+      "n2": 46
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.4158346581459045,
+      "p2_5": 1.1019396632909775,
+      "p97_5": 1.7107188701629639,
+      "share_above_1": 1.0,
+      "n1": 35,
+      "n2": 41
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.0884026136994362,
+      "p2_5": 0.8937155500054359,
+      "p97_5": 1.2751791536808015,
+      "share_above_1": 0.805,
+      "n1": 37,
+      "n2": 39
+     }
+    },
+    "heads_differing_full": 17,
+    "group_size_equalised": 30,
+    "heads_differing_moral_vs_norm_equalised": 0.65,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 0.0,
+     "prudential+aesthetic vs etiquette+epistemic": 0.15,
+     "prudential+epistemic vs etiquette+aesthetic": 0.25
+    },
+    "more_heads_than_any_split": true,
+    "moral_specific_heads": false
+   },
+   "A1": {
+    "n_moral": 76,
+    "n_norm": 103,
+    "n_heads": 576,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.2550782442092896,
+     "p2_5": 1.0838218718767165,
+     "p97_5": 1.4076603055000305,
+     "share_above_1": 0.995
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.2658311572670937,
+     "p2_5": 1.0479206949472428,
+     "p97_5": 1.5135375767946244,
+     "share_above_1": 0.99
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 0.9592439872026444,
+      "p2_5": 0.762017497420311,
+      "p97_5": 1.1202173560857773,
+      "share_above_1": 0.35,
+      "n1": 29,
+      "n2": 46
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.2324111160635949,
+      "p2_5": 1.0131897360086441,
+      "p97_5": 1.4841559767723085,
+      "share_above_1": 0.985,
+      "n1": 35,
+      "n2": 40
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.056791518032551,
+      "p2_5": 0.8946904078125953,
+      "p97_5": 1.2075018972158431,
+      "share_above_1": 0.7,
+      "n1": 37,
+      "n2": 38
+     }
+    },
+    "heads_differing_full": 62,
+    "group_size_equalised": 29,
+    "heads_differing_moral_vs_norm_equalised": 8.15,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 0.0,
+     "prudential+aesthetic vs etiquette+epistemic": 0.1,
+     "prudential+epistemic vs etiquette+aesthetic": 0.05
+    },
+    "more_heads_than_any_split": true,
+    "moral_specific_heads": false
+   },
+   "B": {
+    "n_moral": 76,
+    "n_norm": 104,
+    "n_heads": 576,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.258448872566223,
+     "p2_5": 1.0225214928388595,
+     "p97_5": 1.4593802541494372,
+     "share_above_1": 0.985
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.1461531448364257,
+     "p2_5": 0.9668844416737556,
+     "p97_5": 1.2971569895744324,
+     "share_above_1": 0.945
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.0431513106822967,
+      "p2_5": 0.7661225259304046,
+      "p97_5": 1.3409244120121004,
+      "share_above_1": 0.605,
+      "n1": 32,
+      "n2": 46
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.2976893615722656,
+      "p2_5": 1.012419667840004,
+      "p97_5": 1.5479108721017838,
+      "share_above_1": 0.985,
+      "n1": 36,
+      "n2": 42
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.0893676960468293,
+      "p2_5": 0.896266882121563,
+      "p97_5": 1.2609307289123537,
+      "share_above_1": 0.835,
+      "n1": 38,
+      "n2": 40
+     }
+    },
+    "heads_differing_full": 61,
+    "group_size_equalised": 32,
+    "heads_differing_moral_vs_norm_equalised": 6.55,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 0.5,
+     "prudential+aesthetic vs etiquette+epistemic": 0.05,
+     "prudential+epistemic vs etiquette+aesthetic": 0.05
+    },
+    "more_heads_than_any_split": true,
+    "moral_specific_heads": false
+   }
+  },
+  "Qwen2.5-7B": {
+   "A0": {
+    "n_moral": 78,
+    "n_norm": 99,
+    "n_heads": 784,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.384167491197586,
+     "p2_5": 1.106290054321289,
+     "p97_5": 1.6136932224035263,
+     "share_above_1": 1.0
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.088365680873394,
+     "p2_5": 0.9394177615642547,
+     "p97_5": 1.2185431331396104,
+     "share_above_1": 0.86
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.1106361883878708,
+      "p2_5": 0.8501004338264465,
+      "p97_5": 1.3285374075174332,
+      "share_above_1": 0.77,
+      "n1": 30,
+      "n2": 43
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.1214966830611228,
+      "p2_5": 0.851101104915142,
+      "p97_5": 1.4675543814897538,
+      "share_above_1": 0.785,
+      "n1": 35,
+      "n2": 38
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.0977324014902115,
+      "p2_5": 0.8430180296301842,
+      "p97_5": 1.4385251939296724,
+      "share_above_1": 0.74,
+      "n1": 36,
+      "n2": 37
+     }
+    },
+    "heads_differing_full": 29,
+    "group_size_equalised": 30,
+    "heads_differing_moral_vs_norm_equalised": 1.05,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 0.0,
+     "prudential+aesthetic vs etiquette+epistemic": 0.0,
+     "prudential+epistemic vs etiquette+aesthetic": 0.0
+    },
+    "more_heads_than_any_split": true,
+    "moral_specific_heads": false
+   },
+   "A1": {
+    "n_moral": 79,
+    "n_norm": 104,
+    "n_heads": 784,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.2073156464099883,
+     "p2_5": 0.9488859564065933,
+     "p97_5": 1.4842020511627199,
+     "share_above_1": 0.935
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.2267033585906029,
+     "p2_5": 0.9721373125910759,
+     "p97_5": 1.4195493340492251,
+     "share_above_1": 0.955
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.1008820870518685,
+      "p2_5": 0.8670370668172837,
+      "p97_5": 1.4032848238945008,
+      "share_above_1": 0.73,
+      "n1": 32,
+      "n2": 45
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.3302886512875558,
+      "p2_5": 1.024151673913002,
+      "p97_5": 1.612371262907982,
+      "share_above_1": 0.985,
+      "n1": 35,
+      "n2": 42
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.195445911884308,
+      "p2_5": 0.8327718302607536,
+      "p97_5": 1.560329270362854,
+      "share_above_1": 0.84,
+      "n1": 38,
+      "n2": 39
+     }
+    },
+    "heads_differing_full": 102,
+    "group_size_equalised": 32,
+    "heads_differing_moral_vs_norm_equalised": 5.9,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 1.8,
+     "prudential+aesthetic vs etiquette+epistemic": 10.05,
+     "prudential+epistemic vs etiquette+aesthetic": 3.15
+    },
+    "more_heads_than_any_split": false,
+    "moral_specific_heads": false
+   },
+   "B": {
+    "n_moral": 77,
+    "n_norm": 107,
+    "n_heads": 784,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.4369030997157097,
+     "p2_5": 1.071178376674652,
+     "p97_5": 1.8490622937679293,
+     "share_above_1": 0.99
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.4074245342612266,
+     "p2_5": 1.0469434350728988,
+     "p97_5": 1.6848954170942307,
+     "share_above_1": 0.98
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 0.9815219035744667,
+      "p2_5": 0.6453449457883835,
+      "p97_5": 1.301023480296135,
+      "share_above_1": 0.475,
+      "n1": 33,
+      "n2": 46
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.3951986229419708,
+      "p2_5": 1.0987397700548172,
+      "p97_5": 1.8163424819707872,
+      "share_above_1": 1.0,
+      "n1": 37,
+      "n2": 42
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.1160276445746422,
+      "p2_5": 0.8024764522910118,
+      "p97_5": 1.490819212794304,
+      "share_above_1": 0.755,
+      "n1": 39,
+      "n2": 40
+     }
+    },
+    "heads_differing_full": 74,
+    "group_size_equalised": 33,
+    "heads_differing_moral_vs_norm_equalised": 4.45,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 1.35,
+     "prudential+aesthetic vs etiquette+epistemic": 0.6,
+     "prudential+epistemic vs etiquette+aesthetic": 0.8
+    },
+    "more_heads_than_any_split": true,
+    "moral_specific_heads": false
+   }
+  },
+  "Qwen2.5-7B-Instruct": {
+   "A0": {
+    "n_moral": 77,
+    "n_norm": 92,
+    "n_heads": 784,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.1931354257464408,
+     "p2_5": 0.9174467921257019,
+     "p97_5": 1.4306924790143967,
+     "share_above_1": 0.955
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.0001630768179894,
+     "p2_5": 0.7349492818117142,
+     "p97_5": 1.2347506910562516,
+     "share_above_1": 0.51
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.2034908643364906,
+      "p2_5": 0.8068524405360222,
+      "p97_5": 1.638948169350624,
+      "share_above_1": 0.78,
+      "n1": 27,
+      "n2": 40
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 0.9660797822475433,
+      "p2_5": 0.6516995579004288,
+      "p97_5": 1.3100119143724442,
+      "share_above_1": 0.395,
+      "n1": 31,
+      "n2": 36
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.2366141253709793,
+      "p2_5": 0.831272853910923,
+      "p97_5": 1.8448412507772447,
+      "share_above_1": 0.8,
+      "n1": 33,
+      "n2": 34
+     }
+    },
+    "heads_differing_full": 3,
+    "group_size_equalised": 27,
+    "heads_differing_moral_vs_norm_equalised": 0.05,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 0.1,
+     "prudential+aesthetic vs etiquette+epistemic": 0.0,
+     "prudential+epistemic vs etiquette+aesthetic": 0.0
+    },
+    "more_heads_than_any_split": false,
+    "moral_specific_heads": false
+   },
+   "A1": {
+    "n_moral": 75,
+    "n_norm": 106,
+    "n_heads": 784,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.38876459389925,
+     "p2_5": 0.9277529761195183,
+     "p97_5": 1.9240449637174608,
+     "share_above_1": 0.885
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.3313520070910454,
+     "p2_5": 1.0261732518672944,
+     "p97_5": 1.7061207473278046,
+     "share_above_1": 0.985
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.086862766444683,
+      "p2_5": 0.7971137404441834,
+      "p97_5": 1.457501894235611,
+      "share_above_1": 0.7,
+      "n1": 33,
+      "n2": 46
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.3439956013858319,
+      "p2_5": 0.8878623276948929,
+      "p97_5": 1.7374237865209579,
+      "share_above_1": 0.895,
+      "n1": 37,
+      "n2": 42
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.0624491360783577,
+      "p2_5": 0.7178578123450279,
+      "p97_5": 1.4393268257379532,
+      "share_above_1": 0.61,
+      "n1": 39,
+      "n2": 40
+     }
+    },
+    "heads_differing_full": 163,
+    "group_size_equalised": 33,
+    "heads_differing_moral_vs_norm_equalised": 52.05,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 0.0,
+     "prudential+aesthetic vs etiquette+epistemic": 0.0,
+     "prudential+epistemic vs etiquette+aesthetic": 0.0
+    },
+    "more_heads_than_any_split": true,
+    "moral_specific_heads": false
+   },
+   "B": {
+    "n_moral": 77,
+    "n_norm": 104,
+    "n_heads": 784,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.3703233727812767,
+     "p2_5": 1.076053985953331,
+     "p97_5": 1.7640437334775925,
+     "share_above_1": 0.995
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.3893623366951942,
+     "p2_5": 0.9516865849494934,
+     "p97_5": 1.9627241611480712,
+     "share_above_1": 0.95
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.0269774544239043,
+      "p2_5": 0.6446104735136032,
+      "p97_5": 1.457290929555893,
+      "share_above_1": 0.5,
+      "n1": 33,
+      "n2": 45
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.2596650829911231,
+      "p2_5": 0.8952721953392029,
+      "p97_5": 1.744750937819481,
+      "share_above_1": 0.89,
+      "n1": 36,
+      "n2": 42
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.128966760635376,
+      "p2_5": 0.8079987332224846,
+      "p97_5": 1.531198099255562,
+      "share_above_1": 0.73,
+      "n1": 39,
+      "n2": 39
+     }
+    },
+    "heads_differing_full": 55,
+    "group_size_equalised": 33,
+    "heads_differing_moral_vs_norm_equalised": 5.55,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 0.1,
+     "prudential+aesthetic vs etiquette+epistemic": 0.0,
+     "prudential+epistemic vs etiquette+aesthetic": 0.0
+    },
+    "more_heads_than_any_split": true,
+    "moral_specific_heads": false
+   }
+  },
+  "gemma-2b": {
+   "A0": {
+    "n_moral": 75,
+    "n_norm": 93,
+    "n_heads": 144,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.2384313476085662,
+     "p2_5": 1.080450889468193,
+     "p97_5": 1.3977189302444457,
+     "share_above_1": 1.0
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.2018774682283402,
+     "p2_5": 1.0443816423416137,
+     "p97_5": 1.3324748009443284,
+     "share_above_1": 1.0
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.1328118062019348,
+      "p2_5": 0.9497127518057823,
+      "p97_5": 1.329249742627144,
+      "share_above_1": 0.9,
+      "n1": 28,
+      "n2": 40
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.0791954985260963,
+      "p2_5": 0.934764350950718,
+      "p97_5": 1.230857190489769,
+      "share_above_1": 0.835,
+      "n1": 33,
+      "n2": 35
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 0.9609954902529716,
+      "p2_5": 0.8065036997199059,
+      "p97_5": 1.1058215290308,
+      "share_above_1": 0.28,
+      "n1": 35,
+      "n2": 33
+     }
+    },
+    "heads_differing_full": 14,
+    "group_size_equalised": 28,
+    "heads_differing_moral_vs_norm_equalised": 0.15,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 0.0,
+     "prudential+aesthetic vs etiquette+epistemic": 0.0,
+     "prudential+epistemic vs etiquette+aesthetic": 0.05
+    },
+    "more_heads_than_any_split": true,
+    "moral_specific_heads": false
+   },
+   "A1": {
+    "n_moral": 74,
+    "n_norm": 99,
+    "n_heads": 144,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.2154976177215575,
+     "p2_5": 1.0928959965705871,
+     "p97_5": 1.34637408554554,
+     "share_above_1": 1.0
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.1708970254659652,
+     "p2_5": 1.0476538866758347,
+     "p97_5": 1.283712849020958,
+     "share_above_1": 0.995
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.0401236766576767,
+      "p2_5": 0.9021981105208396,
+      "p97_5": 1.1878541380167007,
+      "share_above_1": 0.7,
+      "n1": 30,
+      "n2": 43
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.1298699587583543,
+      "p2_5": 0.9942398339509964,
+      "p97_5": 1.2729767858982086,
+      "share_above_1": 0.95,
+      "n1": 35,
+      "n2": 38
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.1247047474980354,
+      "p2_5": 0.9348806589841843,
+      "p97_5": 1.267807960510254,
+      "share_above_1": 0.925,
+      "n1": 36,
+      "n2": 37
+     }
+    },
+    "heads_differing_full": 10,
+    "group_size_equalised": 30,
+    "heads_differing_moral_vs_norm_equalised": 0.35,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 0.05,
+     "prudential+aesthetic vs etiquette+epistemic": 0.0,
+     "prudential+epistemic vs etiquette+aesthetic": 0.35
+    },
+    "more_heads_than_any_split": false,
+    "moral_specific_heads": false
+   },
+   "B": {
+    "n_moral": 72,
+    "n_norm": 95,
+    "n_heads": 144,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.2316297924518584,
+     "p2_5": 1.0970714867115021,
+     "p97_5": 1.405614998936653,
+     "share_above_1": 1.0
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.1458071115612984,
+     "p2_5": 1.0193139970302583,
+     "p97_5": 1.2577458411455154,
+     "share_above_1": 0.995
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.143241520822048,
+      "p2_5": 0.9822919517755508,
+      "p97_5": 1.3168157339096072,
+      "share_above_1": 0.955,
+      "n1": 26,
+      "n2": 44
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.2692861917614937,
+      "p2_5": 1.0942610830068589,
+      "p97_5": 1.4467099577188491,
+      "share_above_1": 0.995,
+      "n1": 34,
+      "n2": 36
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.0832838809490204,
+      "p2_5": 0.9340886905789375,
+      "p97_5": 1.2210761398077012,
+      "share_above_1": 0.815,
+      "n1": 36,
+      "n2": 34
+     }
+    },
+    "heads_differing_full": 13,
+    "group_size_equalised": 26,
+    "heads_differing_moral_vs_norm_equalised": 0.65,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 0.05,
+     "prudential+aesthetic vs etiquette+epistemic": 0.8,
+     "prudential+epistemic vs etiquette+aesthetic": 0.0
+    },
+    "more_heads_than_any_split": false,
+    "moral_specific_heads": false
+   }
+  },
+  "gemma-2b-it": {
+   "A0": {
+    "n_moral": 73,
+    "n_norm": 92,
+    "n_heads": 144,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.2433198240399361,
+     "p2_5": 1.0774412333965302,
+     "p97_5": 1.447706115245819,
+     "share_above_1": 0.995
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.2754242730140686,
+     "p2_5": 1.0869356751441956,
+     "p97_5": 1.454097244143486,
+     "share_above_1": 1.0
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.08293623149395,
+      "p2_5": 0.8958371773362159,
+      "p97_5": 1.2679354041814803,
+      "share_above_1": 0.845,
+      "n1": 29,
+      "n2": 40
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.1363024294376374,
+      "p2_5": 0.9725252389907837,
+      "p97_5": 1.2873184114694596,
+      "share_above_1": 0.955,
+      "n1": 32,
+      "n2": 37
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.0097907900810241,
+      "p2_5": 0.8265779986977577,
+      "p97_5": 1.2132373541593553,
+      "share_above_1": 0.5,
+      "n1": 34,
+      "n2": 35
+     }
+    },
+    "heads_differing_full": 20,
+    "group_size_equalised": 29,
+    "heads_differing_moral_vs_norm_equalised": 1.8,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 0.0,
+     "prudential+aesthetic vs etiquette+epistemic": 0.05,
+     "prudential+epistemic vs etiquette+aesthetic": 0.05
+    },
+    "more_heads_than_any_split": true,
+    "moral_specific_heads": false
+   },
+   "A1": {
+    "n_moral": 73,
+    "n_norm": 98,
+    "n_heads": 144,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.1758465147018433,
+     "p2_5": 1.0332432806491851,
+     "p97_5": 1.3270027697086335,
+     "share_above_1": 0.985
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.1328896632790566,
+     "p2_5": 0.979563607275486,
+     "p97_5": 1.2726895362138748,
+     "share_above_1": 0.96
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.022619961798191,
+      "p2_5": 0.884416601061821,
+      "p97_5": 1.1929422706365587,
+      "share_above_1": 0.61,
+      "n1": 28,
+      "n2": 43
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.5991789954900741,
+      "p2_5": 1.389662727713585,
+      "p97_5": 1.849929964542389,
+      "share_above_1": 1.0,
+      "n1": 33,
+      "n2": 38
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.098603911101818,
+      "p2_5": 0.9000042602419853,
+      "p97_5": 1.3107697039842605,
+      "share_above_1": 0.805,
+      "n1": 34,
+      "n2": 37
+     }
+    },
+    "heads_differing_full": 5,
+    "group_size_equalised": 28,
+    "heads_differing_moral_vs_norm_equalised": 0.05,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 0.0,
+     "prudential+aesthetic vs etiquette+epistemic": 3.65,
+     "prudential+epistemic vs etiquette+aesthetic": 0.0
+    },
+    "more_heads_than_any_split": false,
+    "moral_specific_heads": false
+   },
+   "B": {
+    "n_moral": 67,
+    "n_norm": 88,
+    "n_heads": 144,
+    "moral_selected_moral_over_norm": {
+     "mean": 1.2071050894260407,
+     "p2_5": 1.0409621506929398,
+     "p97_5": 1.3438494741916656,
+     "share_above_1": 0.995
+    },
+    "norm_selected_norm_over_moral": {
+     "mean": 1.0990080553293229,
+     "p2_5": 0.9435553386807441,
+     "p97_5": 1.243201419711113,
+     "share_above_1": 0.875
+    },
+    "kind_splits": {
+     "prudential+etiquette vs aesthetic+epistemic": {
+      "mean": 1.1832749986648559,
+      "p2_5": 0.9731567069888115,
+      "p97_5": 1.3832737654447556,
+      "share_above_1": 0.97,
+      "n1": 26,
+      "n2": 39
+     },
+     "prudential+aesthetic vs etiquette+epistemic": {
+      "mean": 1.36997578561306,
+      "p2_5": 1.11491140127182,
+      "p97_5": 1.6191198736429218,
+      "share_above_1": 1.0,
+      "n1": 31,
+      "n2": 34
+     },
+     "prudential+epistemic vs etiquette+aesthetic": {
+      "mean": 1.0696772634983063,
+      "p2_5": 0.8822129383683205,
+      "p97_5": 1.3003731459379197,
+      "share_above_1": 0.685,
+      "n1": 30,
+      "n2": 35
+     }
+    },
+    "heads_differing_full": 1,
+    "group_size_equalised": 26,
+    "heads_differing_moral_vs_norm_equalised": 0.05,
+    "heads_differing_norm_vs_norm_equalised": {
+     "prudential+etiquette vs aesthetic+epistemic": 0.0,
+     "prudential+aesthetic vs etiquette+epistemic": 0.2,
+     "prudential+epistemic vs etiquette+aesthetic": 0.05
+    },
+    "more_heads_than_any_split": false,
+    "moral_specific_heads": false
+   }
+  }
+ },
+ "count": {
+  "A0": {
+   "models_with_specific_heads": 0,
+   "models": 14
+  },
+  "A1": {
+   "models_with_specific_heads": 0,
+   "models": 14
+  },
+  "B": {
+   "models_with_specific_heads": 0,
+   "models": 14
+  }
+ }
+}

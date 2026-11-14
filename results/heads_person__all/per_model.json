@@ -1,0 +1,3640 @@
+[
+ {
+  "model": "Llama-3.1-8B",
+  "frame": "A1",
+  "contrast": "norm/person",
+  "n1": 104,
+  "n2": 65,
+  "mean_share_1": 0.08223339170217514,
+  "mean_share_2": 0.07303721457719803,
+  "ratio": 1.1259108781814575,
+  "ci95": [
+   1.017490439812828,
+   1.2502392156254396
+  ],
+  "ratio_within_template_types": 1.116361608567084,
+  "template_types": [
+   "FUNC 25/16",
+   "MOD 32/18",
+   "PURP 27/16",
+   "VERB 20/15"
+  ]
+ },
+ {
+  "model": "Llama-3.1-8B-Instruct",
+  "frame": "A1",
+  "contrast": "norm/person",
+  "n1": 107,
+  "n2": 64,
+  "mean_share_1": 0.10107340663671494,
+  "mean_share_2": 0.08415564149618149,
+  "ratio": 1.2010295391082764,
+  "ci95": [
+   1.0842807785887854,
+   1.3295379534402416
+  ],
+  "ratio_within_template_types": 1.1909669994461483,
+  "template_types": [
+   "FUNC 26/16",
+   "MOD 33/18",
+   "PURP 28/16",
+   "VERB 20/14"
+  ]
+ },
+ {
+  "model": "Llama-3.2-1B",
+  "frame": "A1",
+  "contrast": "norm/person",
+  "n1": 97,
+  "n2": 65,
+  "mean_share_1": 0.08201681077480316,
+  "mean_share_2": 0.09720032662153244,
+  "ratio": 0.8437914848327637,
+  "ci95": [
+   0.7778059645322629,
+   0.9148760486069609
+  ],
+  "ratio_within_template_types": 0.8379980785315941,
+  "template_types": [
+   "FUNC 24/16",
+   "MOD 31/18",
+   "PURP 22/16",
+   "VERB 20/15"
+  ]
+ },
+ {
+  "model": "Llama-3.2-1B-Instruct",
+  "frame": "A1",
+  "contrast": "norm/person",
+  "n1": 92,
+  "n2": 64,
+  "mean_share_1": 0.04256974160671234,
+  "mean_share_2": 0.03688623756170273,
+  "ratio": 1.15408194065094,
+  "ci95": [
+   1.0386044251420168,
+   1.2863169518604167
+  ],
+  "ratio_within_template_types": 1.1665978067633949,
+  "template_types": [
+   "FUNC 22/16",
+   "MOD 29/17",
+   "PURP 24/16",
+   "VERB 17/15"
+  ]
+ },
+ {
+  "model": "Llama-3.2-3B",
+  "frame": "A1",
+  "contrast": "norm/person",
+  "n1": 104,
+  "n2": 65,
+  "mean_share_1": 0.13056837022304535,
+  "mean_share_2": 0.15351249277591705,
+  "ratio": 0.8505390286445618,
+  "ci95": [
+   0.7664725424345658,
+   0.9447702379986129
+  ],
+  "ratio_within_template_types": 0.8409502171031193,
+  "template_types": [
+   "FUNC 26/16",
+   "MOD 30/18",
+   "PURP 28/16",
+   "VERB 20/15"
+  ]
+ },
+ {
+  "model": "Llama-3.2-3B-Instruct",
+  "frame": "A1",
+  "contrast": "norm/person",
+  "n1": 103,
+  "n2": 66,
+  "mean_share_1": 0.11561425775289536,
+  "mean_share_2": 0.11576047539710999,
+  "ratio": 0.9987369179725647,
+  "ci95": [
+   0.8818872037208891,
+   1.135331222023246
+  ],
+  "ratio_within_template_types": 0.9843682944717309,
+  "template_types": [
+   "FUNC 26/16",
+   "MOD 30/18",
+   "PURP 27/16",
+   "VERB 20/16"
+  ]
+ },
+ {
+  "model": "Qwen2.5-14B",
+  "frame": "A1",
+  "contrast": "norm/person",
+  "n1": 99,
+  "n2": 64,
+  "mean_share_1": 0.06014382839202881,
+  "mean_share_2": 0.04594722390174866,
+  "ratio": 1.3089762926101685,
+  "ci95": [
+   1.166572015955578,
+   1.4665129710966915
+  ],
+  "ratio_within_template_types": 1.2985539320427315,
+  "template_types": [
+   "FUNC 25/16",
+   "MOD 29/18",
+   "PURP 27/15",
+   "VERB 18/15"
+  ]
+ },
+ {
+  "model": "Qwen2.5-14B-Instruct",
+  "frame": "A1",
+  "contrast": "norm/person",
+  "n1": 99,
+  "n2": 61,
+  "mean_share_1": 0.05294468253850937,
+  "mean_share_2": 0.04106083884835243,
+  "ratio": 1.2894203662872314,
+  "ci95": [
+   1.1315678882134883,
+   1.4682972649031116
+  ],
+  "ratio_within_template_types": 1.2676761908105278,
+  "template_types": [
+   "FUNC 25/16",
+   "MOD 30/17",
+   "PURP 27/13",
+   "VERB 17/15"
+  ]
+ },
+ {
+  "model": "Qwen2.5-3B",
+  "frame": "A1",
+  "contrast": "norm/person",
+  "n1": 98,
+  "n2": 65,
+  "mean_share_1": 0.06158220395445824,
+  "mean_share_2": 0.05575362592935562,
+  "ratio": 1.1045416593551636,
+  "ci95": [
+   0.9740147530766935,
+   1.2553186935477265
+  ],
+  "ratio_within_template_types": 1.1020143739500203,
+  "template_types": [
+   "FUNC 21/16",
+   "MOD 30/18",
+   "PURP 28/15",
+   "VERB 19/16"
+  ]
+ },
+ {
+  "model": "Qwen2.5-3B-Instruct",
+  "frame": "A1",
+  "contrast": "norm/person",
+  "n1": 103,
+  "n2": 65,
+  "mean_share_1": 0.11598918586969376,
+  "mean_share_2": 0.12072565406560898,
+  "ratio": 0.9607666730880737,
+  "ci95": [
+   0.8401903389912467,
+   1.1025928321505247
+  ],
+  "ratio_within_template_types": 0.947542913634436,
+  "template_types": [
+   "FUNC 24/16",
+   "MOD 32/18",
+   "PURP 28/16",
+   "VERB 19/15"
+  ]
+ },
+ {
+  "model": "Qwen2.5-7B",
+  "frame": "A1",
+  "contrast": "norm/person",
+  "n1": 104,
+  "n2": 66,
+  "mean_share_1": 0.09048663824796677,
+  "mean_share_2": 0.07570941746234894,
+  "ratio": 1.1951833963394165,
+  "ci95": [
+   0.9913483083801622,
+   1.4392574777780598
+  ],
+  "ratio_within_template_types": 1.1984247016378347,
+  "template_types": [
+   "FUNC 24/16",
+   "MOD 32/18",
+   "PURP 28/16",
+   "VERB 20/16"
+  ]
+ },
+ {
+  "model": "Qwen2.5-7B-Instruct",
+  "frame": "A1",
+  "contrast": "norm/person",
+  "n1": 106,
+  "n2": 65,
+  "mean_share_1": 0.07509865611791611,
+  "mean_share_2": 0.05274007469415665,
+  "ratio": 1.4239391088485718,
+  "ci95": [
+   1.069577045571537,
+   1.883507522335669
+  ],
+  "ratio_within_template_types": 1.4426011479584555,
+  "template_types": [
+   "FUNC 25/16",
+   "MOD 33/18",
+   "PURP 28/15",
+   "VERB 20/16"
+  ]
+ },
+ {
+  "model": "gemma-2b",
+  "frame": "A1",
+  "contrast": "norm/person",
+  "n1": 99,
+  "n2": 66,
+  "mean_share_1": 0.20617690682411194,
+  "mean_share_2": 0.1593363732099533,
+  "ratio": 1.2939726114273071,
+  "ci95": [
+   1.1920670845408654,
+   1.4075004239538347
+  ],
+  "ratio_within_template_types": 1.2914284458886307,
+  "template_types": [
+   "FUNC 24/16",
+   "MOD 31/18",
+   "PURP 25/16",
+   "VERB 19/16"
+  ]
+ },
+ {
+  "model": "gemma-2b-it",
+  "frame": "A1",
+  "contrast": "norm/person",
+  "n1": 98,
+  "n2": 66,
+  "mean_share_1": 0.1486872285604477,
+  "mean_share_2": 0.11640629917383194,
+  "ratio": 1.2773125171661377,
+  "ci95": [
+   1.1620636267747582,
+   1.406714201248679
+  ],
+  "ratio_within_template_types": 1.2663045188773023,
+  "template_types": [
+   "FUNC 23/16",
+   "MOD 30/18",
+   "PURP 28/16",
+   "VERB 17/16"
+  ]
+ },
+ {
+  "model": "Llama-3.1-8B",
+  "frame": "A1",
+  "contrast": "moral/person",
+  "n1": 78,
+  "n2": 65,
+  "mean_share_1": 0.06828256696462631,
+  "mean_share_2": 0.07303721457719803,
+  "ratio": 0.9349009990692139,
+  "ci95": [
+   0.8352177276799256,
+   1.0568156617769195
+  ],
+  "ratio_within_template_types": 0.9315080352564125,
+  "template_types": [
+   "FUNC 15/16",
+   "MOD 19/18",
+   "PURP 24/16",
+   "VERB 20/15"
+  ]
+ },
+ {
+  "model": "Llama-3.1-8B-Instruct",
+  "frame": "A1",
+  "contrast": "moral/person",
+  "n1": 78,
+  "n2": 64,
+  "mean_share_1": 0.09056834876537323,
+  "mean_share_2": 0.08415564149618149,
+  "ratio": 1.0762006044387817,
+  "ci95": [
+   0.9581100082144117,
+   1.2109507304740568
+  ],
+  "ratio_within_template_types": 1.0769908924071996,
+  "template_types": [
+   "FUNC 15/16",
+   "MOD 19/18",
+   "PURP 24/16",
+   "VERB 20/14"
+  ]
+ },
+ {
+  "model": "Llama-3.2-1B",
+  "frame": "A1",
+  "contrast": "moral/person",
+  "n1": 78,
+  "n2": 65,
+  "mean_share_1": 0.08748005330562592,
+  "mean_share_2": 0.09720032662153244,
+  "ratio": 0.8999975323677063,
+  "ci95": [
+   0.8319251534982659,
+   0.975054069281402
+  ],
+  "ratio_within_template_types": 0.9056847823166823,
+  "template_types": [
+   "FUNC 15/16",
+   "MOD 20/18",
+   "PURP 23/16",
+   "VERB 20/15"
+  ]
+ },
+ {
+  "model": "Llama-3.2-1B-Instruct",
+  "frame": "A1",
+  "contrast": "moral/person",
+  "n1": 69,
+  "n2": 64,
+  "mean_share_1": 0.048256661742925644,
+  "mean_share_2": 0.03688623756170273,
+  "ratio": 1.3082565069198608,
+  "ci95": [
+   1.1553983488652335,
+   1.4859194539069591
+  ],
+  "ratio_within_template_types": 1.2915154404883458,
+  "template_types": [
+   "FUNC 14/16",
+   "MOD 17/17",
+   "PURP 20/16",
+   "VERB 18/15"
+  ]
+ },
+ {
+  "model": "Llama-3.2-3B",
+  "frame": "A1",
+  "contrast": "moral/person",
+  "n1": 79,
+  "n2": 65,
+  "mean_share_1": 0.12088530510663986,
+  "mean_share_2": 0.15351249277591705,
+  "ratio": 0.7874623537063599,
+  "ci95": [
+   0.7030989753343231,
+   0.8798778350239426
+  ],
+  "ratio_within_template_types": 0.796452762482806,
+  "template_types": [
+   "FUNC 15/16",
+   "MOD 21/18",
+   "PURP 23/16",
+   "VERB 20/15"
+  ]
+ },
+ {
+  "model": "Llama-3.2-3B-Instruct",
+  "frame": "A1",
+  "contrast": "moral/person",
+  "n1": 72,
+  "n2": 66,
+  "mean_share_1": 0.11238217353820801,
+  "mean_share_2": 0.11576047539710999,
+  "ratio": 0.970816433429718,
+  "ci95": [
+   0.8422604888416552,
+   1.1241003922712982
+  ],
+  "ratio_within_template_types": 0.9717057989092536,
+  "template_types": [
+   "FUNC 14/16",
+   "MOD 16/18",
+   "PURP 22/16",
+   "VERB 20/16"
+  ]
+ },
+ {
+  "model": "Qwen2.5-14B",
+  "frame": "A1",
+  "contrast": "moral/person",
+  "n1": 79,
+  "n2": 64,
+  "mean_share_1": 0.07347165048122406,
+  "mean_share_2": 0.04594722390174866,
+  "ratio": 1.5990444421768188,
+  "ci95": [
+   1.4083549724623483,
+   1.8127230186356564
+  ],
+  "ratio_within_template_types": 1.6450029098394896,
+  "template_types": [
+   "FUNC 15/16",
+   "MOD 20/18",
+   "PURP 24/15",
+   "VERB 20/15"
+  ]
+ },
+ {
+  "model": "Qwen2.5-14B-Instruct",
+  "frame": "A1",
+  "contrast": "moral/person",
+  "n1": 79,
+  "n2": 61,
+  "mean_share_1": 0.0547647550702095,
+  "mean_share_2": 0.04106083884835243,
+  "ratio": 1.3337466716766357,
+  "ci95": [
+   1.1529104128060903,
+   1.541069020418651
+  ],
+  "ratio_within_template_types": 1.358584073810677,
+  "template_types": [
+   "FUNC 15/16",
+   "MOD 20/17",
+   "PURP 24/13",
+   "VERB 20/15"
+  ]
+ },
+ {
+  "model": "Qwen2.5-3B",
+  "frame": "A1",
+  "contrast": "moral/person",
+  "n1": 78,
+  "n2": 65,
+  "mean_share_1": 0.06763486564159393,
+  "mean_share_2": 0.05575362592935562,
+  "ratio": 1.2131025791168213,
+  "ci95": [
+   1.0710204518163617,
+   1.3732348001188455
+  ],
+  "ratio_within_template_types": 1.2146351163743032,
+  "template_types": [
+   "FUNC 15/16",
+   "MOD 20/18",
+   "PURP 24/15",
+   "VERB 19/16"
+  ]
+ },
+ {
+  "model": "Qwen2.5-3B-Instruct",
+  "frame": "A1",
+  "contrast": "moral/person",
+  "n1": 76,
+  "n2": 65,
+  "mean_share_1": 0.12750519812107086,
+  "mean_share_2": 0.12072565406560898,
+  "ratio": 1.0561566352844238,
+  "ci95": [
+   0.8974244491512198,
+   1.2412282084188195
+  ],
+  "ratio_within_template_types": 1.0830653339375789,
+  "template_types": [
+   "FUNC 13/16",
+   "MOD 20/18",
+   "PURP 23/16",
+   "VERB 20/15"
+  ]
+ },
+ {
+  "model": "Qwen2.5-7B",
+  "frame": "A1",
+  "contrast": "moral/person",
+  "n1": 79,
+  "n2": 66,
+  "mean_share_1": 0.08213521540164948,
+  "mean_share_2": 0.07570941746234894,
+  "ratio": 1.0848745107650757,
+  "ci95": [
+   0.8547071090895232,
+   1.3965102655205703
+  ],
+  "ratio_within_template_types": 1.066587269406568,
+  "template_types": [
+   "FUNC 15/16",
+   "MOD 20/18",
+   "PURP 24/16",
+   "VERB 20/16"
+  ]
+ },
+ {
+  "model": "Qwen2.5-7B-Instruct",
+  "frame": "A1",
+  "contrast": "moral/person",
+  "n1": 75,
+  "n2": 65,
+  "mean_share_1": 0.06526113301515579,
+  "mean_share_2": 0.05274007469415665,
+  "ratio": 1.2374106645584106,
+  "ci95": [
+   0.8609997891496847,
+   1.7904433414176055
+  ],
+  "ratio_within_template_types": 1.2447417168947175,
+  "template_types": [
+   "FUNC 14/16",
+   "MOD 18/18",
+   "PURP 23/15",
+   "VERB 20/16"
+  ]
+ },
+ {
+  "model": "gemma-2b",
+  "frame": "A1",
+  "contrast": "moral/person",
+  "n1": 74,
+  "n2": 66,
+  "mean_share_1": 0.1909753978252411,
+  "mean_share_2": 0.1593363732099533,
+  "ratio": 1.198567509651184,
+  "ci95": [
+   1.095964874596595,
+   1.312564465387083
+  ],
+  "ratio_within_template_types": 1.193534228814662,
+  "template_types": [
+   "FUNC 15/16",
+   "MOD 18/18",
+   "PURP 22/16",
+   "VERB 19/16"
+  ]
+ },
+ {
+  "model": "gemma-2b-it",
+  "frame": "A1",
+  "contrast": "moral/person",
+  "n1": 73,
+  "n2": 66,
+  "mean_share_1": 0.1571231335401535,
+  "mean_share_2": 0.11640629917383194,
+  "ratio": 1.349782109260559,
+  "ci95": [
+   1.2113228843169586,
+   1.504894739146583
+  ],
+  "ratio_within_template_types": 1.338225216345296,
+  "template_types": [
+   "FUNC 14/16",
+   "MOD 19/18",
+   "PURP 22/16",
+   "VERB 18/16"
+  ]
+ },
+ {
+  "model": "Llama-3.1-8B",
+  "frame": "A1",
+  "contrast": "person/thing",
+  "n1": 65,
+  "n2": 38,
+  "mean_share_1": 0.07303721457719803,
+  "mean_share_2": 0.07797492295503616,
+  "ratio": 0.9366756677627563,
+  "ci95": [
+   0.8339438287398293,
+   1.0530020569233913
+  ]
+ },
+ {
+  "model": "Llama-3.1-8B-Instruct",
+  "frame": "A1",
+  "contrast": "person/thing",
+  "n1": 64,
+  "n2": 37,
+  "mean_share_1": 0.08415564149618149,
+  "mean_share_2": 0.10073330998420715,
+  "ratio": 0.8354301452636719,
+  "ci95": [
+   0.7531684083784906,
+   0.9236467369155831
+  ]
+ },
+ {
+  "model": "Llama-3.2-1B",
+  "frame": "A1",
+  "contrast": "person/thing",
+  "n1": 65,
+  "n2": 39,
+  "mean_share_1": 0.09720032662153244,
+  "mean_share_2": 0.0805351585149765,
+  "ratio": 1.20693039894104,
+  "ci95": [
+   1.1017580564751055,
+   1.3281948401461203
+  ]
+ },
+ {
+  "model": "Llama-3.2-1B-Instruct",
+  "frame": "A1",
+  "contrast": "person/thing",
+  "n1": 64,
+  "n2": 38,
+  "mean_share_1": 0.03688623756170273,
+  "mean_share_2": 0.03096749261021614,
+  "ratio": 1.1911276578903198,
+  "ci95": [
+   1.0351611262081613,
+   1.3724421162203717
+  ]
+ },
+ {
+  "model": "Llama-3.2-3B",
+  "frame": "A1",
+  "contrast": "person/thing",
+  "n1": 65,
+  "n2": 40,
+  "mean_share_1": 0.15351249277591705,
+  "mean_share_2": 0.11543376743793488,
+  "ratio": 1.329875111579895,
+  "ci95": [
+   1.179384576125602,
+   1.4951777255237433
+  ]
+ },
+ {
+  "model": "Llama-3.2-3B-Instruct",
+  "frame": "A1",
+  "contrast": "person/thing",
+  "n1": 66,
+  "n2": 39,
+  "mean_share_1": 0.11576047539710999,
+  "mean_share_2": 0.09420769661664963,
+  "ratio": 1.2287794351577759,
+  "ci95": [
+   1.0666073046707143,
+   1.4099849692022788
+  ]
+ },
+ {
+  "model": "Qwen2.5-14B",
+  "frame": "A1",
+  "contrast": "person/thing",
+  "n1": 64,
+  "n2": 36,
+  "mean_share_1": 0.04594722390174866,
+  "mean_share_2": 0.04178555682301521,
+  "ratio": 1.0995957851409912,
+  "ci95": [
+   0.9772539046797705,
+   1.2414226943548814
+  ]
+ },
+ {
+  "model": "Qwen2.5-14B-Instruct",
+  "frame": "A1",
+  "contrast": "person/thing",
+  "n1": 61,
+  "n2": 18,
+  "note": "too few included pairs: thing"
+ },
+ {
+  "model": "Qwen2.5-3B",
+  "frame": "A1",
+  "contrast": "person/thing",
+  "n1": 65,
+  "n2": 39,
+  "mean_share_1": 0.05575362592935562,
+  "mean_share_2": 0.05341193079948425,
+  "ratio": 1.0438421964645386,
+  "ci95": [
+   0.9104305293668629,
+   1.2042969027641843
+  ]
+ },
+ {
+  "model": "Qwen2.5-3B-Instruct",
+  "frame": "A1",
+  "contrast": "person/thing",
+  "n1": 65,
+  "n2": 40,
+  "mean_share_1": 0.12072565406560898,
+  "mean_share_2": 0.12560126185417175,
+  "ratio": 0.9611818790435791,
+  "ci95": [
+   0.8324877865331508,
+   1.10374274694728
+  ]
+ },
+ {
+  "model": "Qwen2.5-7B",
+  "frame": "A1",
+  "contrast": "person/thing",
+  "n1": 66,
+  "n2": 40,
+  "mean_share_1": 0.07570941746234894,
+  "mean_share_2": 0.062499117106199265,
+  "ratio": 1.2113678455352783,
+  "ci95": [
+   1.0305096830695155,
+   1.4224324209359893
+  ]
+ },
+ {
+  "model": "Qwen2.5-7B-Instruct",
+  "frame": "A1",
+  "contrast": "person/thing",
+  "n1": 65,
+  "n2": 40,
+  "mean_share_1": 0.05274007469415665,
+  "mean_share_2": 0.047502804547548294,
+  "ratio": 1.110251784324646,
+  "ci95": [
+   0.8960732400907345,
+   1.3988473001031323
+  ]
+ },
+ {
+  "model": "gemma-2b",
+  "frame": "A1",
+  "contrast": "person/thing",
+  "n1": 66,
+  "n2": 39,
+  "mean_share_1": 0.1593363732099533,
+  "mean_share_2": 0.17629048228263855,
+  "ratio": 0.9038285613059998,
+  "ci95": [
+   0.8099372747364755,
+   1.0060153959074027
+  ]
+ },
+ {
+  "model": "gemma-2b-it",
+  "frame": "A1",
+  "contrast": "person/thing",
+  "n1": 66,
+  "n2": 37,
+  "mean_share_1": 0.11640629917383194,
+  "mean_share_2": 0.12694871425628662,
+  "ratio": 0.9169553518295288,
+  "ci95": [
+   0.7993306209733116,
+   1.0577357965668162
+  ]
+ },
+ {
+  "model": "Llama-3.1-8B",
+  "frame": "A1",
+  "contrast": "norm/thing",
+  "n1": 104,
+  "n2": 38,
+  "mean_share_1": 0.08223339170217514,
+  "mean_share_2": 0.07797492295503616,
+  "ratio": 1.0546133518218994,
+  "ci95": [
+   0.9482275402999925,
+   1.1773395693570299
+  ]
+ },
+ {
+  "model": "Llama-3.1-8B-Instruct",
+  "frame": "A1",
+  "contrast": "norm/thing",
+  "n1": 107,
+  "n2": 37,
+  "mean_share_1": 0.10107340663671494,
+  "mean_share_2": 0.10073330998420715,
+  "ratio": 1.0033762454986572,
+  "ci95": [
+   0.9112528197690536,
+   1.1030801189757795
+  ]
+ },
+ {
+  "model": "Llama-3.2-1B",
+  "frame": "A1",
+  "contrast": "norm/thing",
+  "n1": 97,
+  "n2": 39,
+  "mean_share_1": 0.08201681077480316,
+  "mean_share_2": 0.0805351585149765,
+  "ratio": 1.018397569656372,
+  "ci95": [
+   0.9334446762741871,
+   1.11334212720436
+  ]
+ },
+ {
+  "model": "Llama-3.2-1B-Instruct",
+  "frame": "A1",
+  "contrast": "norm/thing",
+  "n1": 92,
+  "n2": 38,
+  "mean_share_1": 0.04256974160671234,
+  "mean_share_2": 0.03096749261021614,
+  "ratio": 1.3746589422225952,
+  "ci95": [
+   1.2119165889286312,
+   1.5646980135452466
+  ]
+ },
+ {
+  "model": "Llama-3.2-3B",
+  "frame": "A1",
+  "contrast": "norm/thing",
+  "n1": 104,
+  "n2": 40,
+  "mean_share_1": 0.13056837022304535,
+  "mean_share_2": 0.11543376743793488,
+  "ratio": 1.131110668182373,
+  "ci95": [
+   1.0095570264084708,
+   1.2703481176670985
+  ]
+ },
+ {
+  "model": "Llama-3.2-3B-Instruct",
+  "frame": "A1",
+  "contrast": "norm/thing",
+  "n1": 103,
+  "n2": 39,
+  "mean_share_1": 0.11561425775289536,
+  "mean_share_2": 0.09420769661664963,
+  "ratio": 1.2272273302078247,
+  "ci95": [
+   1.0974024645587994,
+   1.3704789543598102
+  ]
+ },
+ {
+  "model": "Qwen2.5-14B",
+  "frame": "A1",
+  "contrast": "norm/thing",
+  "n1": 99,
+  "n2": 36,
+  "mean_share_1": 0.06014382839202881,
+  "mean_share_2": 0.04178555682301521,
+  "ratio": 1.439344882965088,
+  "ci95": [
+   1.2736864480868562,
+   1.6271413953751017
+  ]
+ },
+ {
+  "model": "Qwen2.5-14B-Instruct",
+  "frame": "A1",
+  "contrast": "norm/thing",
+  "n1": 99,
+  "n2": 18,
+  "note": "too few included pairs: thing"
+ },
+ {
+  "model": "Qwen2.5-3B",
+  "frame": "A1",
+  "contrast": "norm/thing",
+  "n1": 98,
+  "n2": 39,
+  "mean_share_1": 0.06158220395445824,
+  "mean_share_2": 0.05341193079948425,
+  "ratio": 1.1529672145843506,
+  "ci95": [
+   1.00952513524475,
+   1.3225726881814064
+  ]
+ },
+ {
+  "model": "Qwen2.5-3B-Instruct",
+  "frame": "A1",
+  "contrast": "norm/thing",
+  "n1": 103,
+  "n2": 40,
+  "mean_share_1": 0.11598918586969376,
+  "mean_share_2": 0.12560126185417175,
+  "ratio": 0.9234715104103088,
+  "ci95": [
+   0.816096185384692,
+   1.0487504032735526
+  ]
+ },
+ {
+  "model": "Qwen2.5-7B",
+  "frame": "A1",
+  "contrast": "norm/thing",
+  "n1": 104,
+  "n2": 40,
+  "mean_share_1": 0.09048663824796677,
+  "mean_share_2": 0.062499117106199265,
+  "ratio": 1.447806715965271,
+  "ci95": [
+   1.202012395283067,
+   1.7380609487839185
+  ]
+ },
+ {
+  "model": "Qwen2.5-7B-Instruct",
+  "frame": "A1",
+  "contrast": "norm/thing",
+  "n1": 106,
+  "n2": 40,
+  "mean_share_1": 0.07509865611791611,
+  "mean_share_2": 0.047502804547548294,
+  "ratio": 1.5809309482574463,
+  "ci95": [
+   1.245778829245156,
+   1.9940606454297436
+  ]
+ },
+ {
+  "model": "gemma-2b",
+  "frame": "A1",
+  "contrast": "norm/thing",
+  "n1": 99,
+  "n2": 39,
+  "mean_share_1": 0.20617690682411194,
+  "mean_share_2": 0.17629048228263855,
+  "ratio": 1.1695294380187988,
+  "ci95": [
+   1.0615118788709759,
+   1.2879541847259142
+  ]
+ },
+ {
+  "model": "gemma-2b-it",
+  "frame": "A1",
+  "contrast": "norm/thing",
+  "n1": 98,
+  "n2": 37,
+  "mean_share_1": 0.1486872285604477,
+  "mean_share_2": 0.12694871425628662,
+  "ratio": 1.1712385416030884,
+  "ci95": [
+   1.0310295308408441,
+   1.3350696798077302
+  ]
+ },
+ {
+  "model": "Llama-3.1-8B",
+  "frame": "A1",
+  "contrast": "moral/thing",
+  "n1": 78,
+  "n2": 38,
+  "mean_share_1": 0.06828256696462631,
+  "mean_share_2": 0.07797492295503616,
+  "ratio": 0.8756990432739258,
+  "ci95": [
+   0.7770106500456606,
+   0.9901355710265426
+  ]
+ },
+ {
+  "model": "Llama-3.1-8B-Instruct",
+  "frame": "A1",
+  "contrast": "moral/thing",
+  "n1": 78,
+  "n2": 37,
+  "mean_share_1": 0.09056834876537323,
+  "mean_share_2": 0.10073330998420715,
+  "ratio": 0.8990903496742249,
+  "ci95": [
+   0.8033706387777746,
+   1.0047093420364055
+  ]
+ },
+ {
+  "model": "Llama-3.2-1B",
+  "frame": "A1",
+  "contrast": "moral/thing",
+  "n1": 78,
+  "n2": 39,
+  "mean_share_1": 0.08748005330562592,
+  "mean_share_2": 0.0805351585149765,
+  "ratio": 1.0862343311309814,
+  "ci95": [
+   0.9953753083810627,
+   1.1898186291989612
+  ]
+ },
+ {
+  "model": "Llama-3.2-1B-Instruct",
+  "frame": "A1",
+  "contrast": "moral/thing",
+  "n1": 69,
+  "n2": 38,
+  "mean_share_1": 0.048256661742925644,
+  "mean_share_2": 0.03096749261021614,
+  "ratio": 1.5583006143569946,
+  "ci95": [
+   1.3485822045236826,
+   1.811458880913639
+  ]
+ },
+ {
+  "model": "Llama-3.2-3B",
+  "frame": "A1",
+  "contrast": "moral/thing",
+  "n1": 79,
+  "n2": 40,
+  "mean_share_1": 0.12088530510663986,
+  "mean_share_2": 0.11543376743793488,
+  "ratio": 1.0472265481948853,
+  "ci95": [
+   0.9254397699718215,
+   1.183624640592006
+  ]
+ },
+ {
+  "model": "Llama-3.2-3B-Instruct",
+  "frame": "A1",
+  "contrast": "moral/thing",
+  "n1": 72,
+  "n2": 39,
+  "mean_share_1": 0.11238217353820801,
+  "mean_share_2": 0.09420769661664963,
+  "ratio": 1.1929192543029785,
+  "ci95": [
+   1.0501404313049856,
+   1.3596932624156408
+  ]
+ },
+ {
+  "model": "Qwen2.5-14B",
+  "frame": "A1",
+  "contrast": "moral/thing",
+  "n1": 79,
+  "n2": 36,
+  "mean_share_1": 0.07347165048122406,
+  "mean_share_2": 0.04178555682301521,
+  "ratio": 1.7583025693893433,
+  "ci95": [
+   1.5405573003865924,
+   1.9975118132061516
+  ]
+ },
+ {
+  "model": "Qwen2.5-14B-Instruct",
+  "frame": "A1",
+  "contrast": "moral/thing",
+  "n1": 79,
+  "n2": 18,
+  "note": "too few included pairs: thing"
+ },
+ {
+  "model": "Qwen2.5-3B",
+  "frame": "A1",
+  "contrast": "moral/thing",
+  "n1": 78,
+  "n2": 39,
+  "mean_share_1": 0.06763486564159393,
+  "mean_share_2": 0.05341193079948425,
+  "ratio": 1.2662875652313232,
+  "ci95": [
+   1.1109021272249469,
+   1.4419211257894873
+  ]
+ },
+ {
+  "model": "Qwen2.5-3B-Instruct",
+  "frame": "A1",
+  "contrast": "moral/thing",
+  "n1": 76,
+  "n2": 40,
+  "mean_share_1": 0.12750519812107086,
+  "mean_share_2": 0.12560126185417175,
+  "ratio": 1.0151585340499878,
+  "ci95": [
+   0.8661199376192419,
+   1.1802302561784106
+  ]
+ },
+ {
+  "model": "Qwen2.5-7B",
+  "frame": "A1",
+  "contrast": "moral/thing",
+  "n1": 79,
+  "n2": 40,
+  "mean_share_1": 0.08213521540164948,
+  "mean_share_2": 0.062499117106199265,
+  "ratio": 1.3141820430755615,
+  "ci95": [
+   1.0362451759872258,
+   1.682419576582633
+  ]
+ },
+ {
+  "model": "Qwen2.5-7B-Instruct",
+  "frame": "A1",
+  "contrast": "moral/thing",
+  "n1": 75,
+  "n2": 40,
+  "mean_share_1": 0.06526113301515579,
+  "mean_share_2": 0.047502804547548294,
+  "ratio": 1.3738374710083008,
+  "ci95": [
+   0.9996751233095644,
+   1.9288391214867409
+  ]
+ },
+ {
+  "model": "gemma-2b",
+  "frame": "A1",
+  "contrast": "moral/thing",
+  "n1": 74,
+  "n2": 39,
+  "mean_share_1": 0.1909753978252411,
+  "mean_share_2": 0.17629048228263855,
+  "ratio": 1.0832995176315308,
+  "ci95": [
+   0.9768935060171223,
+   1.1998557494715147
+  ]
+ },
+ {
+  "model": "gemma-2b-it",
+  "frame": "A1",
+  "contrast": "moral/thing",
+  "n1": 73,
+  "n2": 37,
+  "mean_share_1": 0.1571231335401535,
+  "mean_share_2": 0.12694871425628662,
+  "ratio": 1.2376898527145386,
+  "ci95": [
+   1.0801749298466028,
+   1.423543673341386
+  ]
+ },
+ {
+  "model": "Llama-3.1-8B",
+  "frame": "A1",
+  "contrast": "moral/norm",
+  "n1": 78,
+  "n2": 104,
+  "mean_share_1": 0.06828256696462631,
+  "mean_share_2": 0.08223339170217514,
+  "ratio": 0.8303508758544922,
+  "ci95": [
+   0.7442123626211963,
+   0.9255240032123857
+  ]
+ },
+ {
+  "model": "Llama-3.1-8B-Instruct",
+  "frame": "A1",
+  "contrast": "moral/norm",
+  "n1": 78,
+  "n2": 107,
+  "mean_share_1": 0.09056834876537323,
+  "mean_share_2": 0.10107340663671494,
+  "ratio": 0.8960650563240051,
+  "ci95": [
+   0.8011361258956493,
+   1.0000848889314402
+  ]
+ },
+ {
+  "model": "Llama-3.2-1B",
+  "frame": "A1",
+  "contrast": "moral/norm",
+  "n1": 78,
+  "n2": 97,
+  "mean_share_1": 0.08748005330562592,
+  "mean_share_2": 0.08201681077480316,
+  "ratio": 1.0666112899780273,
+  "ci95": [
+   0.9922150146530752,
+   1.1481585057979904
+  ]
+ },
+ {
+  "model": "Llama-3.2-1B-Instruct",
+  "frame": "A1",
+  "contrast": "moral/norm",
+  "n1": 69,
+  "n2": 92,
+  "mean_share_1": 0.048256661742925644,
+  "mean_share_2": 0.04256974160671234,
+  "ratio": 1.1335906982421875,
+  "ci95": [
+   1.0118467305279097,
+   1.2704341828712893
+  ]
+ },
+ {
+  "model": "Llama-3.2-3B",
+  "frame": "A1",
+  "contrast": "moral/norm",
+  "n1": 79,
+  "n2": 104,
+  "mean_share_1": 0.12088530510663986,
+  "mean_share_2": 0.13056837022304535,
+  "ratio": 0.9258391261100769,
+  "ci95": [
+   0.8295582467020611,
+   1.0351761963540758
+  ]
+ },
+ {
+  "model": "Llama-3.2-3B-Instruct",
+  "frame": "A1",
+  "contrast": "moral/norm",
+  "n1": 72,
+  "n2": 103,
+  "mean_share_1": 0.11238217353820801,
+  "mean_share_2": 0.11561425775289536,
+  "ratio": 0.9720442295074463,
+  "ci95": [
+   0.8644071048304437,
+   1.094090333022319
+  ]
+ },
+ {
+  "model": "Qwen2.5-14B",
+  "frame": "A1",
+  "contrast": "moral/norm",
+  "n1": 79,
+  "n2": 99,
+  "mean_share_1": 0.07347165048122406,
+  "mean_share_2": 0.06014382839202881,
+  "ratio": 1.2215992212295532,
+  "ci95": [
+   1.0756265122720814,
+   1.381112478592402
+  ]
+ },
+ {
+  "model": "Qwen2.5-14B-Instruct",
+  "frame": "A1",
+  "contrast": "moral/norm",
+  "n1": 79,
+  "n2": 99,
+  "mean_share_1": 0.0547647550702095,
+  "mean_share_2": 0.05294468253850937,
+  "ratio": 1.034376859664917,
+  "ci95": [
+   0.8924606999155054,
+   1.1936472708847754
+  ]
+ },
+ {
+  "model": "Qwen2.5-3B",
+  "frame": "A1",
+  "contrast": "moral/norm",
+  "n1": 78,
+  "n2": 98,
+  "mean_share_1": 0.06763486564159393,
+  "mean_share_2": 0.06158220395445824,
+  "ratio": 1.0982859134674072,
+  "ci95": [
+   0.9764671174443529,
+   1.2367888250615524
+  ]
+ },
+ {
+  "model": "Qwen2.5-3B-Instruct",
+  "frame": "A1",
+  "contrast": "moral/norm",
+  "n1": 76,
+  "n2": 103,
+  "mean_share_1": 0.12750519812107086,
+  "mean_share_2": 0.11598918586969376,
+  "ratio": 1.0992852449417114,
+  "ci95": [
+   0.9449725868644899,
+   1.27429507704337
+  ]
+ },
+ {
+  "model": "Qwen2.5-7B",
+  "frame": "A1",
+  "contrast": "moral/norm",
+  "n1": 79,
+  "n2": 104,
+  "mean_share_1": 0.08213521540164948,
+  "mean_share_2": 0.09048663824796677,
+  "ratio": 0.9077054858207703,
+  "ci95": [
+   0.7019103711866426,
+   1.1841727366488513
+  ]
+ },
+ {
+  "model": "Qwen2.5-7B-Instruct",
+  "frame": "A1",
+  "contrast": "moral/norm",
+  "n1": 75,
+  "n2": 106,
+  "mean_share_1": 0.06526113301515579,
+  "mean_share_2": 0.07509865611791611,
+  "ratio": 0.8690053224563599,
+  "ci95": [
+   0.5979604474871536,
+   1.2698775604373773
+  ]
+ },
+ {
+  "model": "gemma-2b",
+  "frame": "A1",
+  "contrast": "moral/norm",
+  "n1": 74,
+  "n2": 99,
+  "mean_share_1": 0.1909753978252411,
+  "mean_share_2": 0.20617690682411194,
+  "ratio": 0.9262695908546448,
+  "ci95": [
+   0.858945221318395,
+   0.9977980986129967
+  ]
+ },
+ {
+  "model": "gemma-2b-it",
+  "frame": "A1",
+  "contrast": "moral/norm",
+  "n1": 73,
+  "n2": 98,
+  "mean_share_1": 0.1571231335401535,
+  "mean_share_2": 0.1486872285604477,
+  "ratio": 1.056735873222351,
+  "ci95": [
+   0.9619169508023778,
+   1.1637843212614873
+  ]
+ },
+ {
+  "model": "Llama-3.1-8B",
+  "frame": "B",
+  "contrast": "norm/person",
+  "n1": 104,
+  "n2": 66,
+  "mean_share_1": 0.06640312075614929,
+  "mean_share_2": 0.08153790980577469,
+  "ratio": 0.8143833875656128,
+  "ci95": [
+   0.6999651140247974,
+   0.9548335459213291
+  ],
+  "ratio_within_template_types": 0.7976205306951977,
+  "template_types": [
+   "FUNC 25/16",
+   "MOD 32/18",
+   "PURP 28/16",
+   "VERB 19/16"
+  ]
+ },
+ {
+  "model": "Llama-3.1-8B-Instruct",
+  "frame": "B",
+  "contrast": "norm/person",
+  "n1": 103,
+  "n2": 65,
+  "mean_share_1": 0.06454095989465714,
+  "mean_share_2": 0.054427776485681534,
+  "ratio": 1.1858092546463013,
+  "ci95": [
+   1.0207867297556772,
+   1.3826635870040362
+  ],
+  "ratio_within_template_types": 1.1653307901721859,
+  "template_types": [
+   "FUNC 25/16",
+   "MOD 32/17",
+   "PURP 28/16",
+   "VERB 18/16"
+  ]
+ },
+ {
+  "model": "Llama-3.2-1B",
+  "frame": "B",
+  "contrast": "norm/person",
+  "n1": 91,
+  "n2": 64,
+  "mean_share_1": 0.07575584948062897,
+  "mean_share_2": 0.08917766064405441,
+  "ratio": 0.8494935631752014,
+  "ci95": [
+   0.7744864144454774,
+   0.9294857283194278
+  ],
+  "ratio_within_template_types": 0.8439480397727376,
+  "template_types": [
+   "FUNC 25/16",
+   "MOD 28/18",
+   "PURP 21/16",
+   "VERB 17/14"
+  ]
+ },
+ {
+  "model": "Llama-3.2-1B-Instruct",
+  "frame": "B",
+  "contrast": "norm/person",
+  "n1": 95,
+  "n2": 66,
+  "mean_share_1": 0.041990965604782104,
+  "mean_share_2": 0.04051247984170914,
+  "ratio": 1.0364946126937866,
+  "ci95": [
+   0.9211300491370232,
+   1.175054986832405
+  ],
+  "ratio_within_template_types": 1.0394865132484652,
+  "template_types": [
+   "FUNC 24/16",
+   "MOD 28/18",
+   "PURP 24/16",
+   "VERB 19/16"
+  ]
+ },
+ {
+  "model": "Llama-3.2-3B",
+  "frame": "B",
+  "contrast": "norm/person",
+  "n1": 100,
+  "n2": 66,
+  "mean_share_1": 0.09211727976799011,
+  "mean_share_2": 0.11382502317428589,
+  "ratio": 0.809288501739502,
+  "ci95": [
+   0.7093766160756304,
+   0.9246979114474249
+  ],
+  "ratio_within_template_types": 0.7901119444087695,
+  "template_types": [
+   "FUNC 25/16",
+   "MOD 29/18",
+   "PURP 27/16",
+   "VERB 19/16"
+  ]
+ },
+ {
+  "model": "Llama-3.2-3B-Instruct",
+  "frame": "B",
+  "contrast": "norm/person",
+  "n1": 103,
+  "n2": 66,
+  "mean_share_1": 0.0804666206240654,
+  "mean_share_2": 0.07976948469877243,
+  "ratio": 1.0087393522262573,
+  "ci95": [
+   0.8845325530550066,
+   1.1535943794198784
+  ],
+  "ratio_within_template_types": 0.9869093854148793,
+  "template_types": [
+   "FUNC 25/16",
+   "MOD 31/18",
+   "PURP 27/16",
+   "VERB 20/16"
+  ]
+ },
+ {
+  "model": "Qwen2.5-14B",
+  "frame": "B",
+  "contrast": "norm/person",
+  "n1": 106,
+  "n2": 66,
+  "mean_share_1": 0.038848500698804855,
+  "mean_share_2": 0.03072178363800049,
+  "ratio": 1.2645262479782104,
+  "ci95": [
+   1.0927352034558557,
+   1.4662827595604264
+  ],
+  "ratio_within_template_types": 1.2356858062974978,
+  "template_types": [
+   "FUNC 25/16",
+   "MOD 33/18",
+   "PURP 28/16",
+   "VERB 20/16"
+  ]
+ },
+ {
+  "model": "Qwen2.5-14B-Instruct",
+  "frame": "B",
+  "contrast": "norm/person",
+  "n1": 104,
+  "n2": 65,
+  "mean_share_1": 0.033530768007040024,
+  "mean_share_2": 0.029338538646697998,
+  "ratio": 1.142891526222229,
+  "ci95": [
+   1.0032504371663897,
+   1.3023776244316467
+  ],
+  "ratio_within_template_types": 1.1172379716794103,
+  "template_types": [
+   "FUNC 25/15",
+   "MOD 32/18",
+   "PURP 28/16",
+   "VERB 19/16"
+  ]
+ },
+ {
+  "model": "Qwen2.5-3B",
+  "frame": "B",
+  "contrast": "norm/person",
+  "n1": 101,
+  "n2": 65,
+  "mean_share_1": 0.07005185633897781,
+  "mean_share_2": 0.06823945045471191,
+  "ratio": 1.0265594720840454,
+  "ci95": [
+   0.9065776159694586,
+   1.1657418836008209
+  ],
+  "ratio_within_template_types": 1.0154558950131092,
+  "template_types": [
+   "FUNC 24/16",
+   "MOD 30/18",
+   "PURP 28/15",
+   "VERB 19/16"
+  ]
+ },
+ {
+  "model": "Qwen2.5-3B-Instruct",
+  "frame": "B",
+  "contrast": "norm/person",
+  "n1": 104,
+  "n2": 65,
+  "mean_share_1": 0.10798989981412888,
+  "mean_share_2": 0.10670918971300125,
+  "ratio": 1.012001872062683,
+  "ci95": [
+   0.8721580277288651,
+   1.1798776991963837
+  ],
+  "ratio_within_template_types": 0.9845918579688394,
+  "template_types": [
+   "FUNC 26/16",
+   "MOD 32/18",
+   "PURP 27/15",
+   "VERB 19/16"
+  ]
+ },
+ {
+  "model": "Qwen2.5-7B",
+  "frame": "B",
+  "contrast": "norm/person",
+  "n1": 107,
+  "n2": 66,
+  "mean_share_1": 0.09641604870557785,
+  "mean_share_2": 0.09280792623758316,
+  "ratio": 1.0388773679733276,
+  "ci95": [
+   0.8419389254771508,
+   1.296280527045211
+  ],
+  "ratio_within_template_types": 1.0347691793183686,
+  "template_types": [
+   "FUNC 26/16",
+   "MOD 33/18",
+   "PURP 28/16",
+   "VERB 20/16"
+  ]
+ },
+ {
+  "model": "Qwen2.5-7B-Instruct",
+  "frame": "B",
+  "contrast": "norm/person",
+  "n1": 104,
+  "n2": 65,
+  "mean_share_1": 0.06419417262077332,
+  "mean_share_2": 0.06959149241447449,
+  "ratio": 0.9224427938461304,
+  "ci95": [
+   0.6686221732321925,
+   1.304856485414017
+  ],
+  "ratio_within_template_types": 0.9455086680912869,
+  "template_types": [
+   "FUNC 26/16",
+   "MOD 32/17",
+   "PURP 28/16",
+   "VERB 18/16"
+  ]
+ },
+ {
+  "model": "gemma-2b",
+  "frame": "B",
+  "contrast": "norm/person",
+  "n1": 95,
+  "n2": 65,
+  "mean_share_1": 0.21182289719581604,
+  "mean_share_2": 0.17005570232868195,
+  "ratio": 1.245608925819397,
+  "ci95": [
+   1.143232333203375,
+   1.3609239661850219
+  ],
+  "ratio_within_template_types": 1.2306290911616526,
+  "template_types": [
+   "FUNC 23/16",
+   "MOD 29/18",
+   "PURP 26/15",
+   "VERB 17/16"
+  ]
+ },
+ {
+  "model": "gemma-2b-it",
+  "frame": "B",
+  "contrast": "norm/person",
+  "n1": 88,
+  "n2": 65,
+  "mean_share_1": 0.16354747116565704,
+  "mean_share_2": 0.15899790823459625,
+  "ratio": 1.0286139249801636,
+  "ci95": [
+   0.9317754015642732,
+   1.1338598483044438
+  ],
+  "ratio_within_template_types": 1.0197833711455155,
+  "template_types": [
+   "FUNC 23/16",
+   "MOD 27/18",
+   "PURP 24/15",
+   "VERB 14/16"
+  ]
+ },
+ {
+  "model": "Llama-3.1-8B",
+  "frame": "B",
+  "contrast": "moral/person",
+  "n1": 77,
+  "n2": 66,
+  "mean_share_1": 0.05720550939440727,
+  "mean_share_2": 0.08153790980577469,
+  "ratio": 0.7015817761421204,
+  "ci95": [
+   0.5971731687210728,
+   0.8324285825090967
+  ],
+  "ratio_within_template_types": 0.6869624532897745,
+  "template_types": [
+   "FUNC 15/16",
+   "MOD 19/18",
+   "PURP 23/16",
+   "VERB 20/16"
+  ]
+ },
+ {
+  "model": "Llama-3.1-8B-Instruct",
+  "frame": "B",
+  "contrast": "moral/person",
+  "n1": 78,
+  "n2": 65,
+  "mean_share_1": 0.05529084429144859,
+  "mean_share_2": 0.054427776485681534,
+  "ratio": 1.0158571004867554,
+  "ci95": [
+   0.865686482575422,
+   1.2004986089282335
+  ],
+  "ratio_within_template_types": 1.0009925995945848,
+  "template_types": [
+   "FUNC 15/16",
+   "MOD 19/17",
+   "PURP 24/16",
+   "VERB 20/16"
+  ]
+ },
+ {
+  "model": "Llama-3.2-1B",
+  "frame": "B",
+  "contrast": "moral/person",
+  "n1": 73,
+  "n2": 64,
+  "mean_share_1": 0.08187136799097061,
+  "mean_share_2": 0.08917766064405441,
+  "ratio": 0.918070375919342,
+  "ci95": [
+   0.840997095840814,
+   1.0040057359044396
+  ],
+  "ratio_within_template_types": 0.9213143304223971,
+  "template_types": [
+   "FUNC 15/16",
+   "MOD 19/18",
+   "PURP 22/16",
+   "VERB 17/14"
+  ]
+ },
+ {
+  "model": "Llama-3.2-1B-Instruct",
+  "frame": "B",
+  "contrast": "moral/person",
+  "n1": 72,
+  "n2": 66,
+  "mean_share_1": 0.04345984011888504,
+  "mean_share_2": 0.04051247984170914,
+  "ratio": 1.0727518796920776,
+  "ci95": [
+   0.926353714677984,
+   1.2533304446571194
+  ],
+  "ratio_within_template_types": 1.0598978918511461,
+  "template_types": [
+   "FUNC 13/16",
+   "MOD 19/18",
+   "PURP 21/16",
+   "VERB 19/16"
+  ]
+ },
+ {
+  "model": "Llama-3.2-3B",
+  "frame": "B",
+  "contrast": "moral/person",
+  "n1": 78,
+  "n2": 66,
+  "mean_share_1": 0.08106356114149094,
+  "mean_share_2": 0.11382502317428589,
+  "ratio": 0.7121769785881042,
+  "ci95": [
+   0.6212271174812356,
+   0.8141886478324275
+  ],
+  "ratio_within_template_types": 0.7134872711851177,
+  "template_types": [
+   "FUNC 14/16",
+   "MOD 21/18",
+   "PURP 23/16",
+   "VERB 20/16"
+  ]
+ },
+ {
+  "model": "Llama-3.2-3B-Instruct",
+  "frame": "B",
+  "contrast": "moral/person",
+  "n1": 69,
+  "n2": 66,
+  "mean_share_1": 0.06488052010536194,
+  "mean_share_2": 0.07976948469877243,
+  "ratio": 0.8133501410484314,
+  "ci95": [
+   0.7112954019147315,
+   0.9319073830730519
+  ],
+  "ratio_within_template_types": 0.8173394714327933,
+  "template_types": [
+   "FUNC 13/16",
+   "MOD 16/18",
+   "PURP 20/16",
+   "VERB 20/16"
+  ]
+ },
+ {
+  "model": "Qwen2.5-14B",
+  "frame": "B",
+  "contrast": "moral/person",
+  "n1": 79,
+  "n2": 66,
+  "mean_share_1": 0.0355391688644886,
+  "mean_share_2": 0.03072178363800049,
+  "ratio": 1.1568068265914917,
+  "ci95": [
+   0.9737033883503453,
+   1.3652411136549638
+  ],
+  "ratio_within_template_types": 1.1650787056631382,
+  "template_types": [
+   "FUNC 15/16",
+   "MOD 20/18",
+   "PURP 24/16",
+   "VERB 20/16"
+  ]
+ },
+ {
+  "model": "Qwen2.5-14B-Instruct",
+  "frame": "B",
+  "contrast": "moral/person",
+  "n1": 78,
+  "n2": 65,
+  "mean_share_1": 0.02927556447684765,
+  "mean_share_2": 0.029338538646697998,
+  "ratio": 0.9978535175323486,
+  "ci95": [
+   0.848461122812457,
+   1.1682121353810297
+  ],
+  "ratio_within_template_types": 1.0002340261086395,
+  "template_types": [
+   "FUNC 15/15",
+   "MOD 19/18",
+   "PURP 24/16",
+   "VERB 20/16"
+  ]
+ },
+ {
+  "model": "Qwen2.5-3B",
+  "frame": "B",
+  "contrast": "moral/person",
+  "n1": 75,
+  "n2": 65,
+  "mean_share_1": 0.058535538613796234,
+  "mean_share_2": 0.06823945045471191,
+  "ratio": 0.8577961325645447,
+  "ci95": [
+   0.7559219228375832,
+   0.9729913205162521
+  ],
+  "ratio_within_template_types": 0.8597414995571591,
+  "template_types": [
+   "FUNC 14/16",
+   "MOD 19/18",
+   "PURP 23/15",
+   "VERB 19/16"
+  ]
+ },
+ {
+  "model": "Qwen2.5-3B-Instruct",
+  "frame": "B",
+  "contrast": "moral/person",
+  "n1": 76,
+  "n2": 65,
+  "mean_share_1": 0.11144860088825226,
+  "mean_share_2": 0.10670918971300125,
+  "ratio": 1.0444142818450928,
+  "ci95": [
+   0.9095750841742741,
+   1.2041423559376205
+  ],
+  "ratio_within_template_types": 1.0459280797816732,
+  "template_types": [
+   "FUNC 14/16",
+   "MOD 20/18",
+   "PURP 22/15",
+   "VERB 20/16"
+  ]
+ },
+ {
+  "model": "Qwen2.5-7B",
+  "frame": "B",
+  "contrast": "moral/person",
+  "n1": 77,
+  "n2": 66,
+  "mean_share_1": 0.06772182881832123,
+  "mean_share_2": 0.09280792623758316,
+  "ratio": 0.7296987771987915,
+  "ci95": [
+   0.5858050797808313,
+   0.9247443737529563
+  ],
+  "ratio_within_template_types": 0.7348954718546137,
+  "template_types": [
+   "FUNC 15/16",
+   "MOD 20/18",
+   "PURP 22/16",
+   "VERB 20/16"
+  ]
+ },
+ {
+  "model": "Qwen2.5-7B-Instruct",
+  "frame": "B",
+  "contrast": "moral/person",
+  "n1": 77,
+  "n2": 65,
+  "mean_share_1": 0.055667389184236526,
+  "mean_share_2": 0.06959149241447449,
+  "ratio": 0.7999165654182434,
+  "ci95": [
+   0.5548728023620885,
+   1.1775780921467522
+  ],
+  "ratio_within_template_types": 0.7912982366750226,
+  "template_types": [
+   "FUNC 15/16",
+   "MOD 20/17",
+   "PURP 22/16",
+   "VERB 20/16"
+  ]
+ },
+ {
+  "model": "gemma-2b",
+  "frame": "B",
+  "contrast": "moral/person",
+  "n1": 72,
+  "n2": 65,
+  "mean_share_1": 0.1924435943365097,
+  "mean_share_2": 0.17005570232868195,
+  "ratio": 1.1316503286361694,
+  "ci95": [
+   1.0184547276925846,
+   1.2542419309376984
+  ],
+  "ratio_within_template_types": 1.1196490738945688,
+  "template_types": [
+   "FUNC 15/16",
+   "MOD 18/18",
+   "PURP 21/15",
+   "VERB 18/16"
+  ]
+ },
+ {
+  "model": "gemma-2b-it",
+  "frame": "B",
+  "contrast": "moral/person",
+  "n1": 67,
+  "n2": 65,
+  "mean_share_1": 0.16162218153476715,
+  "mean_share_2": 0.15899790823459625,
+  "ratio": 1.0165051221847534,
+  "ci95": [
+   0.9060080112387837,
+   1.138434769239323
+  ],
+  "ratio_within_template_types": 1.015609723778103,
+  "template_types": [
+   "FUNC 13/16",
+   "MOD 20/18",
+   "PURP 17/15",
+   "VERB 17/16"
+  ]
+ },
+ {
+  "model": "Llama-3.1-8B",
+  "frame": "B",
+  "contrast": "person/thing",
+  "n1": 66,
+  "n2": 40,
+  "mean_share_1": 0.08153790980577469,
+  "mean_share_2": 0.056315064430236816,
+  "ratio": 1.4478880167007446,
+  "ci95": [
+   1.2134618530812475,
+   1.7053408378159556
+  ]
+ },
+ {
+  "model": "Llama-3.1-8B-Instruct",
+  "frame": "B",
+  "contrast": "person/thing",
+  "n1": 65,
+  "n2": 40,
+  "mean_share_1": 0.054427776485681534,
+  "mean_share_2": 0.05445703864097595,
+  "ratio": 0.9994626641273499,
+  "ci95": [
+   0.8404785703836518,
+   1.179169308752305
+  ]
+ },
+ {
+  "model": "Llama-3.2-1B",
+  "frame": "B",
+  "contrast": "person/thing",
+  "n1": 64,
+  "n2": 35,
+  "mean_share_1": 0.08917766064405441,
+  "mean_share_2": 0.0664069652557373,
+  "ratio": 1.3428962230682373,
+  "ci95": [
+   1.1998487050700846,
+   1.5092217362048028
+  ]
+ },
+ {
+  "model": "Llama-3.2-1B-Instruct",
+  "frame": "B",
+  "contrast": "person/thing",
+  "n1": 66,
+  "n2": 37,
+  "mean_share_1": 0.04051247984170914,
+  "mean_share_2": 0.029582733288407326,
+  "ratio": 1.3694636821746826,
+  "ci95": [
+   1.1682571874221928,
+   1.6122646367515878
+  ]
+ },
+ {
+  "model": "Llama-3.2-3B",
+  "frame": "B",
+  "contrast": "person/thing",
+  "n1": 66,
+  "n2": 40,
+  "mean_share_1": 0.11382502317428589,
+  "mean_share_2": 0.09245278686285019,
+  "ratio": 1.2311692237854004,
+  "ci95": [
+   1.0696712985329198,
+   1.4215370565406056
+  ]
+ },
+ {
+  "model": "Llama-3.2-3B-Instruct",
+  "frame": "B",
+  "contrast": "person/thing",
+  "n1": 66,
+  "n2": 39,
+  "mean_share_1": 0.07976948469877243,
+  "mean_share_2": 0.07611957937479019,
+  "ratio": 1.0479496717453003,
+  "ci95": [
+   0.9023886913932653,
+   1.2094229696970182
+  ]
+ },
+ {
+  "model": "Qwen2.5-14B",
+  "frame": "B",
+  "contrast": "person/thing",
+  "n1": 66,
+  "n2": 40,
+  "mean_share_1": 0.03072178363800049,
+  "mean_share_2": 0.029610831290483475,
+  "ratio": 1.0375185012817383,
+  "ci95": [
+   0.884007248855017,
+   1.211066632246399
+  ]
+ },
+ {
+  "model": "Qwen2.5-14B-Instruct",
+  "frame": "B",
+  "contrast": "person/thing",
+  "n1": 65,
+  "n2": 40,
+  "mean_share_1": 0.029338538646697998,
+  "mean_share_2": 0.023509016260504723,
+  "ratio": 1.247969627380371,
+  "ci95": [
+   1.0928507170546953,
+   1.4216871153096486
+  ]
+ },
+ {
+  "model": "Qwen2.5-3B",
+  "frame": "B",
+  "contrast": "person/thing",
+  "n1": 65,
+  "n2": 40,
+  "mean_share_1": 0.06823945045471191,
+  "mean_share_2": 0.05789204686880112,
+  "ratio": 1.1787362098693848,
+  "ci95": [
+   1.0332714486907542,
+   1.3415688046564067
+  ]
+ },
+ {
+  "model": "Qwen2.5-3B-Instruct",
+  "frame": "B",
+  "contrast": "person/thing",
+  "n1": 65,
+  "n2": 40,
+  "mean_share_1": 0.10670918971300125,
+  "mean_share_2": 0.10426640510559082,
+  "ratio": 1.0234283208847046,
+  "ci95": [
+   0.857533313893524,
+   1.2190650772227283
+  ]
+ },
+ {
+  "model": "Qwen2.5-7B",
+  "frame": "B",
+  "contrast": "person/thing",
+  "n1": 66,
+  "n2": 40,
+  "mean_share_1": 0.09280792623758316,
+  "mean_share_2": 0.07053409516811371,
+  "ratio": 1.3157881498336792,
+  "ci95": [
+   1.0429855216147224,
+   1.6503810528975722
+  ]
+ },
+ {
+  "model": "Qwen2.5-7B-Instruct",
+  "frame": "B",
+  "contrast": "person/thing",
+  "n1": 65,
+  "n2": 40,
+  "mean_share_1": 0.06959149241447449,
+  "mean_share_2": 0.04537150636315346,
+  "ratio": 1.5338149070739746,
+  "ci95": [
+   1.0958981998086161,
+   2.088033142673543
+  ]
+ },
+ {
+  "model": "gemma-2b",
+  "frame": "B",
+  "contrast": "person/thing",
+  "n1": 65,
+  "n2": 40,
+  "mean_share_1": 0.17005570232868195,
+  "mean_share_2": 0.16671839356422424,
+  "ratio": 1.0200176239013672,
+  "ci95": [
+   0.9015364210307616,
+   1.1480731800658723
+  ]
+ },
+ {
+  "model": "gemma-2b-it",
+  "frame": "B",
+  "contrast": "person/thing",
+  "n1": 65,
+  "n2": 34,
+  "mean_share_1": 0.15899790823459625,
+  "mean_share_2": 0.15324148535728455,
+  "ratio": 1.0375643968582153,
+  "ci95": [
+   0.9210201058621884,
+   1.1672124482223258
+  ]
+ },
+ {
+  "model": "Llama-3.1-8B",
+  "frame": "B",
+  "contrast": "norm/thing",
+  "n1": 104,
+  "n2": 40,
+  "mean_share_1": 0.06640312075614929,
+  "mean_share_2": 0.056315064430236816,
+  "ratio": 1.179136037826538,
+  "ci95": [
+   1.0298520720633397,
+   1.3496377938643274
+  ]
+ },
+ {
+  "model": "Llama-3.1-8B-Instruct",
+  "frame": "B",
+  "contrast": "norm/thing",
+  "n1": 103,
+  "n2": 40,
+  "mean_share_1": 0.06454095989465714,
+  "mean_share_2": 0.05445703864097595,
+  "ratio": 1.1851720809936523,
+  "ci95": [
+   1.034786791859842,
+   1.3549364544932982
+  ]
+ },
+ {
+  "model": "Llama-3.2-1B",
+  "frame": "B",
+  "contrast": "norm/thing",
+  "n1": 91,
+  "n2": 35,
+  "mean_share_1": 0.07575584948062897,
+  "mean_share_2": 0.0664069652557373,
+  "ratio": 1.1407816410064697,
+  "ci95": [
+   1.0211522578225152,
+   1.2785829245450735
+  ]
+ },
+ {
+  "model": "Llama-3.2-1B-Instruct",
+  "frame": "B",
+  "contrast": "norm/thing",
+  "n1": 95,
+  "n2": 37,
+  "mean_share_1": 0.041990965604782104,
+  "mean_share_2": 0.029582733288407326,
+  "ratio": 1.4194416999816895,
+  "ci95": [
+   1.2362586922334375,
+   1.64251408015902
+  ]
+ },
+ {
+  "model": "Llama-3.2-3B",
+  "frame": "B",
+  "contrast": "norm/thing",
+  "n1": 100,
+  "n2": 40,
+  "mean_share_1": 0.09211727976799011,
+  "mean_share_2": 0.09245278686285019,
+  "ratio": 0.9963710308074951,
+  "ci95": [
+   0.8696597594909202,
+   1.1463260863887272
+  ]
+ },
+ {
+  "model": "Llama-3.2-3B-Instruct",
+  "frame": "B",
+  "contrast": "norm/thing",
+  "n1": 103,
+  "n2": 39,
+  "mean_share_1": 0.0804666206240654,
+  "mean_share_2": 0.07611957937479019,
+  "ratio": 1.0571080446243286,
+  "ci95": [
+   0.927647874583851,
+   1.2032248702380055
+  ]
+ },
+ {
+  "model": "Qwen2.5-14B",
+  "frame": "B",
+  "contrast": "norm/thing",
+  "n1": 106,
+  "n2": 40,
+  "mean_share_1": 0.038848500698804855,
+  "mean_share_2": 0.029610831290483475,
+  "ratio": 1.31196928024292,
+  "ci95": [
+   1.1460191777177624,
+   1.5050340533072843
+  ]
+ },
+ {
+  "model": "Qwen2.5-14B-Instruct",
+  "frame": "B",
+  "contrast": "norm/thing",
+  "n1": 104,
+  "n2": 40,
+  "mean_share_1": 0.033530768007040024,
+  "mean_share_2": 0.023509016260504723,
+  "ratio": 1.426293969154358,
+  "ci95": [
+   1.2630565658609945,
+   1.6191761382391558
+  ]
+ },
+ {
+  "model": "Qwen2.5-3B",
+  "frame": "B",
+  "contrast": "norm/thing",
+  "n1": 101,
+  "n2": 40,
+  "mean_share_1": 0.07005185633897781,
+  "mean_share_2": 0.05789204686880112,
+  "ratio": 1.2100428342819214,
+  "ci95": [
+   1.0681930157123176,
+   1.3751308960720043
+  ]
+ },
+ {
+  "model": "Qwen2.5-3B-Instruct",
+  "frame": "B",
+  "contrast": "norm/thing",
+  "n1": 104,
+  "n2": 40,
+  "mean_share_1": 0.10798989981412888,
+  "mean_share_2": 0.10426640510559082,
+  "ratio": 1.035711407661438,
+  "ci95": [
+   0.8809247010234573,
+   1.2227477182037845
+  ]
+ },
+ {
+  "model": "Qwen2.5-7B",
+  "frame": "B",
+  "contrast": "norm/thing",
+  "n1": 107,
+  "n2": 40,
+  "mean_share_1": 0.09641604870557785,
+  "mean_share_2": 0.07053409516811371,
+  "ratio": 1.3669424057006836,
+  "ci95": [
+   1.1321588671625804,
+   1.6607104552767296
+  ]
+ },
+ {
+  "model": "Qwen2.5-7B-Instruct",
+  "frame": "B",
+  "contrast": "norm/thing",
+  "n1": 104,
+  "n2": 40,
+  "mean_share_1": 0.06419417262077332,
+  "mean_share_2": 0.04537150636315346,
+  "ratio": 1.4148565530776978,
+  "ci95": [
+   1.124915138587503,
+   1.7748594725547877
+  ]
+ },
+ {
+  "model": "gemma-2b",
+  "frame": "B",
+  "contrast": "norm/thing",
+  "n1": 95,
+  "n2": 40,
+  "mean_share_1": 0.21182289719581604,
+  "mean_share_2": 0.16671839356422424,
+  "ratio": 1.270543098449707,
+  "ci95": [
+   1.1389217079164633,
+   1.4130652977607125
+  ]
+ },
+ {
+  "model": "gemma-2b-it",
+  "frame": "B",
+  "contrast": "norm/thing",
+  "n1": 88,
+  "n2": 34,
+  "mean_share_1": 0.16354747116565704,
+  "mean_share_2": 0.15324148535728455,
+  "ratio": 1.0672532320022583,
+  "ci95": [
+   0.9619390677449943,
+   1.1807135489514127
+  ]
+ },
+ {
+  "model": "Llama-3.1-8B",
+  "frame": "B",
+  "contrast": "moral/thing",
+  "n1": 77,
+  "n2": 40,
+  "mean_share_1": 0.05720550939440727,
+  "mean_share_2": 0.056315064430236816,
+  "ratio": 1.015811800956726,
+  "ci95": [
+   0.874255213454558,
+   1.1761187725063047
+  ]
+ },
+ {
+  "model": "Llama-3.1-8B-Instruct",
+  "frame": "B",
+  "contrast": "moral/thing",
+  "n1": 78,
+  "n2": 40,
+  "mean_share_1": 0.05529084429144859,
+  "mean_share_2": 0.05445703864097595,
+  "ratio": 1.0153112411499023,
+  "ci95": [
+   0.8785528627623532,
+   1.1721534104802362
+  ]
+ },
+ {
+  "model": "Llama-3.2-1B",
+  "frame": "B",
+  "contrast": "moral/thing",
+  "n1": 73,
+  "n2": 35,
+  "mean_share_1": 0.08187136799097061,
+  "mean_share_2": 0.0664069652557373,
+  "ratio": 1.2328732013702393,
+  "ci95": [
+   1.1009618082955204,
+   1.3838452630032299
+  ]
+ },
+ {
+  "model": "Llama-3.2-1B-Instruct",
+  "frame": "B",
+  "contrast": "moral/thing",
+  "n1": 72,
+  "n2": 37,
+  "mean_share_1": 0.04345984011888504,
+  "mean_share_2": 0.029582733288407326,
+  "ratio": 1.4690948724746704,
+  "ci95": [
+   1.250583263873595,
+   1.7361855747548351
+  ]
+ },
+ {
+  "model": "Llama-3.2-3B",
+  "frame": "B",
+  "contrast": "moral/thing",
+  "n1": 78,
+  "n2": 40,
+  "mean_share_1": 0.08106356114149094,
+  "mean_share_2": 0.09245278686285019,
+  "ratio": 0.8768103718757629,
+  "ci95": [
+   0.760011610978712,
+   1.0075244864244688
+  ]
+ },
+ {
+  "model": "Llama-3.2-3B-Instruct",
+  "frame": "B",
+  "contrast": "moral/thing",
+  "n1": 69,
+  "n2": 39,
+  "mean_share_1": 0.06488052010536194,
+  "mean_share_2": 0.07611957937479019,
+  "ratio": 0.8523499369621277,
+  "ci95": [
+   0.7476046980474425,
+   0.9752846784086698
+  ]
+ },
+ {
+  "model": "Qwen2.5-14B",
+  "frame": "B",
+  "contrast": "moral/thing",
+  "n1": 79,
+  "n2": 40,
+  "mean_share_1": 0.0355391688644886,
+  "mean_share_2": 0.029610831290483475,
+  "ratio": 1.2002084255218506,
+  "ci95": [
+   1.0171343771938075,
+   1.405656145860748
+  ]
+ },
+ {
+  "model": "Qwen2.5-14B-Instruct",
+  "frame": "B",
+  "contrast": "moral/thing",
+  "n1": 78,
+  "n2": 40,
+  "mean_share_1": 0.02927556447684765,
+  "mean_share_2": 0.023509016260504723,
+  "ratio": 1.2452908754348755,
+  "ci95": [
+   1.066024479538588,
+   1.4520713946348087
+  ]
+ },
+ {
+  "model": "Qwen2.5-3B",
+  "frame": "B",
+  "contrast": "moral/thing",
+  "n1": 75,
+  "n2": 40,
+  "mean_share_1": 0.058535538613796234,
+  "mean_share_2": 0.05789204686880112,
+  "ratio": 1.0111154317855835,
+  "ci95": [
+   0.8897480515823356,
+   1.1474088412575958
+  ]
+ },
+ {
+  "model": "Qwen2.5-3B-Instruct",
+  "frame": "B",
+  "contrast": "moral/thing",
+  "n1": 76,
+  "n2": 40,
+  "mean_share_1": 0.11144860088825226,
+  "mean_share_2": 0.10426640510559082,
+  "ratio": 1.0688831806182861,
+  "ci95": [
+   0.9184381586653436,
+   1.2516491481279395
+  ]
+ },
+ {
+  "model": "Qwen2.5-7B",
+  "frame": "B",
+  "contrast": "moral/thing",
+  "n1": 77,
+  "n2": 40,
+  "mean_share_1": 0.06772182881832123,
+  "mean_share_2": 0.07053409516811371,
+  "ratio": 0.9601289629936218,
+  "ci95": [
+   0.7884414806895743,
+   1.1896875015125197
+  ]
+ },
+ {
+  "model": "Qwen2.5-7B-Instruct",
+  "frame": "B",
+  "contrast": "moral/thing",
+  "n1": 77,
+  "n2": 40,
+  "mean_share_1": 0.055667389184236526,
+  "mean_share_2": 0.04537150636315346,
+  "ratio": 1.226923942565918,
+  "ci95": [
+   0.9240142465768473,
+   1.620149221761559
+  ]
+ },
+ {
+  "model": "gemma-2b",
+  "frame": "B",
+  "contrast": "moral/thing",
+  "n1": 72,
+  "n2": 40,
+  "mean_share_1": 0.1924435943365097,
+  "mean_share_2": 0.16671839356422424,
+  "ratio": 1.1543033123016357,
+  "ci95": [
+   1.0227536861282156,
+   1.3016199205130603
+  ]
+ },
+ {
+  "model": "gemma-2b-it",
+  "frame": "B",
+  "contrast": "moral/thing",
+  "n1": 67,
+  "n2": 34,
+  "mean_share_1": 0.16162218153476715,
+  "mean_share_2": 0.15324148535728455,
+  "ratio": 1.0546895265579224,
+  "ci95": [
+   0.9344140774729766,
+   1.1849019551725557
+  ]
+ },
+ {
+  "model": "Llama-3.1-8B",
+  "frame": "B",
+  "contrast": "moral/norm",
+  "n1": 77,
+  "n2": 104,
+  "mean_share_1": 0.05720550939440727,
+  "mean_share_2": 0.06640312075614929,
+  "ratio": 0.8614882826805115,
+  "ci95": [
+   0.7564220757953473,
+   0.9802215126542593
+  ]
+ },
+ {
+  "model": "Llama-3.1-8B-Instruct",
+  "frame": "B",
+  "contrast": "moral/norm",
+  "n1": 78,
+  "n2": 103,
+  "mean_share_1": 0.05529084429144859,
+  "mean_share_2": 0.06454095989465714,
+  "ratio": 0.8566783666610718,
+  "ci95": [
+   0.7549973034217728,
+   0.9706910466833771
+  ]
+ },
+ {
+  "model": "Llama-3.2-1B",
+  "frame": "B",
+  "contrast": "moral/norm",
+  "n1": 73,
+  "n2": 91,
+  "mean_share_1": 0.08187136799097061,
+  "mean_share_2": 0.07575584948062897,
+  "ratio": 1.0807267427444458,
+  "ci95": [
+   0.9930388716941261,
+   1.179595665985145
+  ]
+ },
+ {
+  "model": "Llama-3.2-1B-Instruct",
+  "frame": "B",
+  "contrast": "moral/norm",
+  "n1": 72,
+  "n2": 95,
+  "mean_share_1": 0.04345984011888504,
+  "mean_share_2": 0.041990965604782104,
+  "ratio": 1.0349807739257812,
+  "ci95": [
+   0.9081775745604751,
+   1.1774275092554651
+  ]
+ },
+ {
+  "model": "Llama-3.2-3B",
+  "frame": "B",
+  "contrast": "moral/norm",
+  "n1": 78,
+  "n2": 100,
+  "mean_share_1": 0.08106356114149094,
+  "mean_share_2": 0.09211727976799011,
+  "ratio": 0.8800038695335388,
+  "ci95": [
+   0.7731058116512418,
+   1.003472870121099
+  ]
+ },
+ {
+  "model": "Llama-3.2-3B-Instruct",
+  "frame": "B",
+  "contrast": "moral/norm",
+  "n1": 69,
+  "n2": 103,
+  "mean_share_1": 0.06488052010536194,
+  "mean_share_2": 0.0804666206240654,
+  "ratio": 0.8063035011291504,
+  "ci95": [
+   0.7164773212928143,
+   0.9103036425174524
+  ]
+ },
+ {
+  "model": "Qwen2.5-14B",
+  "frame": "B",
+  "contrast": "moral/norm",
+  "n1": 79,
+  "n2": 106,
+  "mean_share_1": 0.0355391688644886,
+  "mean_share_2": 0.038848500698804855,
+  "ratio": 0.9148144125938416,
+  "ci95": [
+   0.7844889556582251,
+   1.0597290618278943
+  ]
+ },
+ {
+  "model": "Qwen2.5-14B-Instruct",
+  "frame": "B",
+  "contrast": "moral/norm",
+  "n1": 78,
+  "n2": 104,
+  "mean_share_1": 0.02927556447684765,
+  "mean_share_2": 0.033530768007040024,
+  "ratio": 0.8730955719947815,
+  "ci95": [
+   0.74956649065251,
+   1.0171735287067003
+  ]
+ },
+ {
+  "model": "Qwen2.5-3B",
+  "frame": "B",
+  "contrast": "moral/norm",
+  "n1": 75,
+  "n2": 101,
+  "mean_share_1": 0.058535538613796234,
+  "mean_share_2": 0.07005185633897781,
+  "ratio": 0.8356029391288757,
+  "ci95": [
+   0.7395820228244089,
+   0.9440656828831487
+  ]
+ },
+ {
+  "model": "Qwen2.5-3B-Instruct",
+  "frame": "B",
+  "contrast": "moral/norm",
+  "n1": 76,
+  "n2": 104,
+  "mean_share_1": 0.11144860088825226,
+  "mean_share_2": 0.10798989981412888,
+  "ratio": 1.0320279598236084,
+  "ci95": [
+   0.9138197073294995,
+   1.168354047359727
+  ]
+ },
+ {
+  "model": "Qwen2.5-7B",
+  "frame": "B",
+  "contrast": "moral/norm",
+  "n1": 77,
+  "n2": 107,
+  "mean_share_1": 0.06772182881832123,
+  "mean_share_2": 0.09641604870557785,
+  "ratio": 0.7023916840553284,
+  "ci95": [
+   0.5829480687144175,
+   0.8476676725960424
+  ]
+ },
+ {
+  "model": "Qwen2.5-7B-Instruct",
+  "frame": "B",
+  "contrast": "moral/norm",
+  "n1": 77,
+  "n2": 104,
+  "mean_share_1": 0.055667389184236526,
+  "mean_share_2": 0.06419417262077332,
+  "ratio": 0.8671720027923584,
+  "ci95": [
+   0.6458657796103127,
+   1.154357947616679
+  ]
+ },
+ {
+  "model": "gemma-2b",
+  "frame": "B",
+  "contrast": "moral/norm",
+  "n1": 72,
+  "n2": 95,
+  "mean_share_1": 0.1924435943365097,
+  "mean_share_2": 0.21182289719581604,
+  "ratio": 0.908511757850647,
+  "ci95": [
+   0.8320132847170597,
+   0.9915010947146367
+  ]
+ },
+ {
+  "model": "gemma-2b-it",
+  "frame": "B",
+  "contrast": "moral/norm",
+  "n1": 67,
+  "n2": 88,
+  "mean_share_1": 0.16162218153476715,
+  "mean_share_2": 0.16354747116565704,
+  "ratio": 0.9882279634475708,
+  "ci95": [
+   0.8930864879345521,
+   1.0898088437230002
+  ]
+ },
+ {
+  "model": "Llama-3.1-8B",
+  "frame": "A0",
+  "contrast": "norm/person",
+  "n1": 98,
+  "n2": 0,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "Llama-3.1-8B-Instruct",
+  "frame": "A0",
+  "contrast": "norm/person",
+  "n1": 104,
+  "n2": 0,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "Llama-3.2-1B",
+  "frame": "A0",
+  "contrast": "norm/person",
+  "n1": 82,
+  "n2": 0,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "Llama-3.2-1B-Instruct",
+  "frame": "A0",
+  "contrast": "norm/person",
+  "n1": 86,
+  "n2": 0,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "Llama-3.2-3B",
+  "frame": "A0",
+  "contrast": "norm/person",
+  "n1": 90,
+  "n2": 0,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "Llama-3.2-3B-Instruct",
+  "frame": "A0",
+  "contrast": "norm/person",
+  "n1": 95,
+  "n2": 0,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "Qwen2.5-14B",
+  "frame": "A0",
+  "contrast": "norm/person",
+  "n1": 101,
+  "n2": 0,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "Qwen2.5-14B-Instruct",
+  "frame": "A0",
+  "contrast": "norm/person",
+  "n1": 95,
+  "n2": 0,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "Qwen2.5-3B",
+  "frame": "A0",
+  "contrast": "norm/person",
+  "n1": 80,
+  "n2": 0,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "Qwen2.5-3B-Instruct",
+  "frame": "A0",
+  "contrast": "norm/person",
+  "n1": 101,
+  "n2": 0,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "Qwen2.5-7B",
+  "frame": "A0",
+  "contrast": "norm/person",
+  "n1": 99,
+  "n2": 0,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "Qwen2.5-7B-Instruct",
+  "frame": "A0",
+  "contrast": "norm/person",
+  "n1": 92,
+  "n2": 0,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "gemma-2b",
+  "frame": "A0",
+  "contrast": "norm/person",
+  "n1": 93,
+  "n2": 0,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "gemma-2b-it",
+  "frame": "A0",
+  "contrast": "norm/person",
+  "n1": 92,
+  "n2": 0,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "Llama-3.1-8B",
+  "frame": "A0",
+  "contrast": "moral/person",
+  "n1": 78,
+  "n2": 0,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "Llama-3.1-8B-Instruct",
+  "frame": "A0",
+  "contrast": "moral/person",
+  "n1": 77,
+  "n2": 0,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "Llama-3.2-1B",
+  "frame": "A0",
+  "contrast": "moral/person",
+  "n1": 74,
+  "n2": 0,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "Llama-3.2-1B-Instruct",
+  "frame": "A0",
+  "contrast": "moral/person",
+  "n1": 72,
+  "n2": 0,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "Llama-3.2-3B",
+  "frame": "A0",
+  "contrast": "moral/person",
+  "n1": 78,
+  "n2": 0,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "Llama-3.2-3B-Instruct",
+  "frame": "A0",
+  "contrast": "moral/person",
+  "n1": 77,
+  "n2": 0,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "Qwen2.5-14B",
+  "frame": "A0",
+  "contrast": "moral/person",
+  "n1": 80,
+  "n2": 0,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "Qwen2.5-14B-Instruct",
+  "frame": "A0",
+  "contrast": "moral/person",
+  "n1": 80,
+  "n2": 0,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "Qwen2.5-3B",
+  "frame": "A0",
+  "contrast": "moral/person",
+  "n1": 57,
+  "n2": 0,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "Qwen2.5-3B-Instruct",
+  "frame": "A0",
+  "contrast": "moral/person",
+  "n1": 77,
+  "n2": 0,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "Qwen2.5-7B",
+  "frame": "A0",
+  "contrast": "moral/person",
+  "n1": 78,
+  "n2": 0,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "Qwen2.5-7B-Instruct",
+  "frame": "A0",
+  "contrast": "moral/person",
+  "n1": 77,
+  "n2": 0,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "gemma-2b",
+  "frame": "A0",
+  "contrast": "moral/person",
+  "n1": 75,
+  "n2": 0,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "gemma-2b-it",
+  "frame": "A0",
+  "contrast": "moral/person",
+  "n1": 73,
+  "n2": 0,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "Llama-3.1-8B",
+  "frame": "A0",
+  "contrast": "person/thing",
+  "n1": 0,
+  "n2": 31,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "Llama-3.1-8B-Instruct",
+  "frame": "A0",
+  "contrast": "person/thing",
+  "n1": 0,
+  "n2": 30,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "Llama-3.2-1B",
+  "frame": "A0",
+  "contrast": "person/thing",
+  "n1": 0,
+  "n2": 27,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "Llama-3.2-1B-Instruct",
+  "frame": "A0",
+  "contrast": "person/thing",
+  "n1": 0,
+  "n2": 24,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "Llama-3.2-3B",
+  "frame": "A0",
+  "contrast": "person/thing",
+  "n1": 0,
+  "n2": 25,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "Llama-3.2-3B-Instruct",
+  "frame": "A0",
+  "contrast": "person/thing",
+  "n1": 0,
+  "n2": 30,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "Qwen2.5-14B",
+  "frame": "A0",
+  "contrast": "person/thing",
+  "n1": 0,
+  "n2": 32,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "Qwen2.5-14B-Instruct",
+  "frame": "A0",
+  "contrast": "person/thing",
+  "n1": 0,
+  "n2": 32,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "Qwen2.5-3B",
+  "frame": "A0",
+  "contrast": "person/thing",
+  "n1": 0,
+  "n2": 3,
+  "note": "too few included pairs: person, thing"
+ },
+ {
+  "model": "Qwen2.5-3B-Instruct",
+  "frame": "A0",
+  "contrast": "person/thing",
+  "n1": 0,
+  "n2": 36,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "Qwen2.5-7B",
+  "frame": "A0",
+  "contrast": "person/thing",
+  "n1": 0,
+  "n2": 28,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "Qwen2.5-7B-Instruct",
+  "frame": "A0",
+  "contrast": "person/thing",
+  "n1": 0,
+  "n2": 28,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "gemma-2b",
+  "frame": "A0",
+  "contrast": "person/thing",
+  "n1": 0,
+  "n2": 34,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "gemma-2b-it",
+  "frame": "A0",
+  "contrast": "person/thing",
+  "n1": 0,
+  "n2": 21,
+  "note": "too few included pairs: person"
+ },
+ {
+  "model": "Llama-3.1-8B",
+  "frame": "A0",
+  "contrast": "norm/thing",
+  "n1": 98,
+  "n2": 31,
+  "mean_share_1": 0.06263644993305206,
+  "mean_share_2": 0.05447467416524887,
+  "ratio": 1.149827003479004,
+  "ci95": [
+   1.0248187388694894,
+   1.2921490227395847
+  ]
+ },
+ {
+  "model": "Llama-3.1-8B-Instruct",
+  "frame": "A0",
+  "contrast": "norm/thing",
+  "n1": 104,
+  "n2": 30,
+  "mean_share_1": 0.08016856014728546,
+  "mean_share_2": 0.06377977877855301,
+  "ratio": 1.2569588422775269,
+  "ci95": [
+   1.1051654851869355,
+   1.447312985108594
+  ]
+ },
+ {
+  "model": "Llama-3.2-1B",
+  "frame": "A0",
+  "contrast": "norm/thing",
+  "n1": 82,
+  "n2": 27,
+  "mean_share_1": 0.07216436415910721,
+  "mean_share_2": 0.07354765385389328,
+  "ratio": 0.9811919331550598,
+  "ci95": [
+   0.8883307097117555,
+   1.094238209927139
+  ]
+ },
+ {
+  "model": "Llama-3.2-1B-Instruct",
+  "frame": "A0",
+  "contrast": "norm/thing",
+  "n1": 86,
+  "n2": 24,
+  "mean_share_1": 0.051124926656484604,
+  "mean_share_2": 0.0459866039454937,
+  "ratio": 1.111735224723816,
+  "ci95": [
+   0.962328318678937,
+   1.2975748569813117
+  ]
+ },
+ {
+  "model": "Llama-3.2-3B",
+  "frame": "A0",
+  "contrast": "norm/thing",
+  "n1": 90,
+  "n2": 25,
+  "mean_share_1": 0.09588143974542618,
+  "mean_share_2": 0.0844467282295227,
+  "ratio": 1.1354074478149414,
+  "ci95": [
+   1.0001569777560453,
+   1.2953930936216878
+  ]
+ },
+ {
+  "model": "Llama-3.2-3B-Instruct",
+  "frame": "A0",
+  "contrast": "norm/thing",
+  "n1": 95,
+  "n2": 30,
+  "mean_share_1": 0.10233265906572342,
+  "mean_share_2": 0.0785241574048996,
+  "ratio": 1.3031997680664062,
+  "ci95": [
+   1.1358228547352915,
+   1.5053628015191847
+  ]
+ },
+ {
+  "model": "Qwen2.5-14B",
+  "frame": "A0",
+  "contrast": "norm/thing",
+  "n1": 101,
+  "n2": 32,
+  "mean_share_1": 0.037443194538354874,
+  "mean_share_2": 0.03445301577448845,
+  "ratio": 1.0867900848388672,
+  "ci95": [
+   0.929511298444734,
+   1.2793362017678882
+  ]
+ },
+ {
+  "model": "Qwen2.5-14B-Instruct",
+  "frame": "A0",
+  "contrast": "norm/thing",
+  "n1": 95,
+  "n2": 32,
+  "mean_share_1": 0.033729080110788345,
+  "mean_share_2": 0.03069358691573143,
+  "ratio": 1.0988966226577759,
+  "ci95": [
+   0.9046645488251818,
+   1.340415811573305
+  ]
+ },
+ {
+  "model": "Qwen2.5-3B",
+  "frame": "A0",
+  "contrast": "norm/thing",
+  "n1": 80,
+  "n2": 3,
+  "note": "too few included pairs: thing"
+ },
+ {
+  "model": "Qwen2.5-3B-Instruct",
+  "frame": "A0",
+  "contrast": "norm/thing",
+  "n1": 101,
+  "n2": 36,
+  "mean_share_1": 0.07952792197465897,
+  "mean_share_2": 0.07402923703193665,
+  "ratio": 1.0742771625518799,
+  "ci95": [
+   0.9510832963619112,
+   1.222582748976464
+  ]
+ },
+ {
+  "model": "Qwen2.5-7B",
+  "frame": "A0",
+  "contrast": "norm/thing",
+  "n1": 99,
+  "n2": 28,
+  "mean_share_1": 0.07518274337053299,
+  "mean_share_2": 0.05510624125599861,
+  "ratio": 1.364323616027832,
+  "ci95": [
+   1.1657214056518495,
+   1.5999682182951203
+  ]
+ },
+ {
+  "model": "Qwen2.5-7B-Instruct",
+  "frame": "A0",
+  "contrast": "norm/thing",
+  "n1": 92,
+  "n2": 28,
+  "mean_share_1": 0.05839956924319267,
+  "mean_share_2": 0.05103424936532974,
+  "ratio": 1.144321084022522,
+  "ci95": [
+   0.9107733357137157,
+   1.4394450727567394
+  ]
+ },
+ {
+  "model": "gemma-2b",
+  "frame": "A0",
+  "contrast": "norm/thing",
+  "n1": 93,
+  "n2": 34,
+  "mean_share_1": 0.20784267783164978,
+  "mean_share_2": 0.196573406457901,
+  "ratio": 1.0573285818099976,
+  "ci95": [
+   0.9577826802546617,
+   1.1687949109013043
+  ]
+ },
+ {
+  "model": "gemma-2b-it",
+  "frame": "A0",
+  "contrast": "norm/thing",
+  "n1": 92,
+  "n2": 21,
+  "mean_share_1": 0.1620176136493683,
+  "mean_share_2": 0.14656662940979004,
+  "ratio": 1.1054195165634155,
+  "ci95": [
+   0.9927727145439833,
+   1.2378370985805265
+  ]
+ },
+ {
+  "model": "Llama-3.1-8B",
+  "frame": "A0",
+  "contrast": "moral/thing",
+  "n1": 78,
+  "n2": 31,
+  "mean_share_1": 0.07937978208065033,
+  "mean_share_2": 0.05447467416524887,
+  "ratio": 1.4571869373321533,
+  "ci95": [
+   1.2609661161677426,
+   1.678993828296539
+  ]
+ },
+ {
+  "model": "Llama-3.1-8B-Instruct",
+  "frame": "A0",
+  "contrast": "moral/thing",
+  "n1": 77,
+  "n2": 30,
+  "mean_share_1": 0.10210475325584412,
+  "mean_share_2": 0.06377977877855301,
+  "ratio": 1.6008954048156738,
+  "ci95": [
+   1.3665438084758375,
+   1.8790840328247336
+  ]
+ },
+ {
+  "model": "Llama-3.2-1B",
+  "frame": "A0",
+  "contrast": "moral/thing",
+  "n1": 74,
+  "n2": 27,
+  "mean_share_1": 0.0732409656047821,
+  "mean_share_2": 0.07354765385389328,
+  "ratio": 0.9958300590515137,
+  "ci95": [
+   0.8982297014698798,
+   1.1109391717833115
+  ]
+ },
+ {
+  "model": "Llama-3.2-1B-Instruct",
+  "frame": "A0",
+  "contrast": "moral/thing",
+  "n1": 72,
+  "n2": 24,
+  "mean_share_1": 0.06291088461875916,
+  "mean_share_2": 0.0459866039454937,
+  "ratio": 1.3680263757705688,
+  "ci95": [
+   1.1811035377942927,
+   1.599216871418597
+  ]
+ },
+ {
+  "model": "Llama-3.2-3B",
+  "frame": "A0",
+  "contrast": "moral/thing",
+  "n1": 78,
+  "n2": 25,
+  "mean_share_1": 0.10663400590419769,
+  "mean_share_2": 0.0844467282295227,
+  "ratio": 1.2627369165420532,
+  "ci95": [
+   1.1015605965810793,
+   1.4438983548814708
+  ]
+ },
+ {
+  "model": "Llama-3.2-3B-Instruct",
+  "frame": "A0",
+  "contrast": "moral/thing",
+  "n1": 77,
+  "n2": 30,
+  "mean_share_1": 0.10496979206800461,
+  "mean_share_2": 0.0785241574048996,
+  "ratio": 1.3367834091186523,
+  "ci95": [
+   1.1642471836242023,
+   1.5390999499842934
+  ]
+ },
+ {
+  "model": "Qwen2.5-14B",
+  "frame": "A0",
+  "contrast": "moral/thing",
+  "n1": 80,
+  "n2": 32,
+  "mean_share_1": 0.04526364058256149,
+  "mean_share_2": 0.03445301577448845,
+  "ratio": 1.3137787580490112,
+  "ci95": [
+   1.0920722797162952,
+   1.578766804578294
+  ]
+ },
+ {
+  "model": "Qwen2.5-14B-Instruct",
+  "frame": "A0",
+  "contrast": "moral/thing",
+  "n1": 80,
+  "n2": 32,
+  "mean_share_1": 0.041965387761592865,
+  "mean_share_2": 0.03069358691573143,
+  "ratio": 1.3672363758087158,
+  "ci95": [
+   1.115508470801656,
+   1.6805122595393431
+  ]
+ },
+ {
+  "model": "Qwen2.5-3B",
+  "frame": "A0",
+  "contrast": "moral/thing",
+  "n1": 57,
+  "n2": 3,
+  "note": "too few included pairs: thing"
+ },
+ {
+  "model": "Qwen2.5-3B-Instruct",
+  "frame": "A0",
+  "contrast": "moral/thing",
+  "n1": 77,
+  "n2": 36,
+  "mean_share_1": 0.08938930183649063,
+  "mean_share_2": 0.07402923703193665,
+  "ratio": 1.2074865102767944,
+  "ci95": [
+   1.0239581884346818,
+   1.4205749074667353
+  ]
+ },
+ {
+  "model": "Qwen2.5-7B",
+  "frame": "A0",
+  "contrast": "moral/thing",
+  "n1": 78,
+  "n2": 28,
+  "mean_share_1": 0.06910350173711777,
+  "mean_share_2": 0.05510624125599861,
+  "ratio": 1.254004955291748,
+  "ci95": [
+   1.0940266323003585,
+   1.4352925826013723
+  ]
+ },
+ {
+  "model": "Qwen2.5-7B-Instruct",
+  "frame": "A0",
+  "contrast": "moral/thing",
+  "n1": 77,
+  "n2": 28,
+  "mean_share_1": 0.06479968875646591,
+  "mean_share_2": 0.05103424936532974,
+  "ratio": 1.269729495048523,
+  "ci95": [
+   1.0034603770884623,
+   1.61606174819697
+  ]
+ },
+ {
+  "model": "gemma-2b",
+  "frame": "A0",
+  "contrast": "moral/thing",
+  "n1": 75,
+  "n2": 34,
+  "mean_share_1": 0.2095392942428589,
+  "mean_share_2": 0.196573406457901,
+  "ratio": 1.0659595727920532,
+  "ci95": [
+   0.9601436109859198,
+   1.1857652846438964
+  ]
+ },
+ {
+  "model": "gemma-2b-it",
+  "frame": "A0",
+  "contrast": "moral/thing",
+  "n1": 73,
+  "n2": 21,
+  "mean_share_1": 0.1652744561433792,
+  "mean_share_2": 0.14656662940979004,
+  "ratio": 1.1276403665542603,
+  "ci95": [
+   1.0014999627186867,
+   1.2756209802005936
+  ]
+ },
+ {
+  "model": "Llama-3.1-8B",
+  "frame": "A0",
+  "contrast": "moral/norm",
+  "n1": 78,
+  "n2": 98,
+  "mean_share_1": 0.07937978208065033,
+  "mean_share_2": 0.06263644993305206,
+  "ratio": 1.2673096656799316,
+  "ci95": [
+   1.113216292465728,
+   1.4332227672751154
+  ]
+ },
+ {
+  "model": "Llama-3.1-8B-Instruct",
+  "frame": "A0",
+  "contrast": "moral/norm",
+  "n1": 77,
+  "n2": 104,
+  "mean_share_1": 0.10210475325584412,
+  "mean_share_2": 0.08016856014728546,
+  "ratio": 1.2736258506774902,
+  "ci95": [
+   1.1198590422004484,
+   1.436985653450499
+  ]
+ },
+ {
+  "model": "Llama-3.2-1B",
+  "frame": "A0",
+  "contrast": "moral/norm",
+  "n1": 74,
+  "n2": 82,
+  "mean_share_1": 0.0732409656047821,
+  "mean_share_2": 0.07216436415910721,
+  "ratio": 1.0149186849594116,
+  "ci95": [
+   0.9388304212320583,
+   1.0978716890377498
+  ]
+ },
+ {
+  "model": "Llama-3.2-1B-Instruct",
+  "frame": "A0",
+  "contrast": "moral/norm",
+  "n1": 72,
+  "n2": 86,
+  "mean_share_1": 0.06291088461875916,
+  "mean_share_2": 0.051124926656484604,
+  "ratio": 1.2305325269699097,
+  "ci95": [
+   1.1244948010662241,
+   1.347644515682967
+  ]
+ },
+ {
+  "model": "Llama-3.2-3B",
+  "frame": "A0",
+  "contrast": "moral/norm",
+  "n1": 78,
+  "n2": 90,
+  "mean_share_1": 0.10663400590419769,
+  "mean_share_2": 0.09588143974542618,
+  "ratio": 1.1121443510055542,
+  "ci95": [
+   0.9944094536490169,
+   1.2425606331104757
+  ]
+ },
+ {
+  "model": "Llama-3.2-3B-Instruct",
+  "frame": "A0",
+  "contrast": "moral/norm",
+  "n1": 77,
+  "n2": 95,
+  "mean_share_1": 0.10496979206800461,
+  "mean_share_2": 0.10233265906572342,
+  "ratio": 1.0257701873779297,
+  "ci95": [
+   0.9296731336516509,
+   1.1340039049516055
+  ]
+ },
+ {
+  "model": "Qwen2.5-14B",
+  "frame": "A0",
+  "contrast": "moral/norm",
+  "n1": 80,
+  "n2": 101,
+  "mean_share_1": 0.04526364058256149,
+  "mean_share_2": 0.037443194538354874,
+  "ratio": 1.2088615894317627,
+  "ci95": [
+   1.033934734173364,
+   1.4063645368961242
+  ]
+ },
+ {
+  "model": "Qwen2.5-14B-Instruct",
+  "frame": "A0",
+  "contrast": "moral/norm",
+  "n1": 80,
+  "n2": 95,
+  "mean_share_1": 0.041965387761592865,
+  "mean_share_2": 0.033729080110788345,
+  "ratio": 1.2441900968551636,
+  "ci95": [
+   1.0478238979824452,
+   1.4630577145478876
+  ]
+ },
+ {
+  "model": "Qwen2.5-3B",
+  "frame": "A0",
+  "contrast": "moral/norm",
+  "n1": 57,
+  "n2": 80,
+  "mean_share_1": 0.07265710085630417,
+  "mean_share_2": 0.06318138539791107,
+  "ratio": 1.149976372718811,
+  "ci95": [
+   0.9762725628042767,
+   1.3479853392799213
+  ]
+ },
+ {
+  "model": "Qwen2.5-3B-Instruct",
+  "frame": "A0",
+  "contrast": "moral/norm",
+  "n1": 77,
+  "n2": 101,
+  "mean_share_1": 0.08938930183649063,
+  "mean_share_2": 0.07952792197465897,
+  "ratio": 1.123998999595642,
+  "ci95": [
+   0.9686611633497665,
+   1.294708484354195
+  ]
+ },
+ {
+  "model": "Qwen2.5-7B",
+  "frame": "A0",
+  "contrast": "moral/norm",
+  "n1": 78,
+  "n2": 99,
+  "mean_share_1": 0.06910350173711777,
+  "mean_share_2": 0.07518274337053299,
+  "ratio": 0.9191404581069946,
+  "ci95": [
+   0.7778350402816618,
+   1.0887160387190788
+  ]
+ },
+ {
+  "model": "Qwen2.5-7B-Instruct",
+  "frame": "A0",
+  "contrast": "moral/norm",
+  "n1": 77,
+  "n2": 92,
+  "mean_share_1": 0.06479968875646591,
+  "mean_share_2": 0.05839956924319267,
+  "ratio": 1.1095918416976929,
+  "ci95": [
+   0.9090534487743234,
+   1.3469637692702374
+  ]
+ },
+ {
+  "model": "gemma-2b",
+  "frame": "A0",
+  "contrast": "moral/norm",
+  "n1": 75,
+  "n2": 93,
+  "mean_share_1": 0.2095392942428589,
+  "mean_share_2": 0.20784267783164978,
+  "ratio": 1.0081629753112793,
+  "ci95": [
+   0.9362460229156999,
+   1.0858799304148155
+  ]
+ },
+ {
+  "model": "gemma-2b-it",
+  "frame": "A0",
+  "contrast": "moral/norm",
+  "n1": 73,
+  "n2": 92,
+  "mean_share_1": 0.1652744561433792,
+  "mean_share_2": 0.1620176136493683,
+  "ratio": 1.02010178565979,
+  "ci95": [
+   0.9283585178861323,
+   1.1149645110717277
+  ]
+ }
+]

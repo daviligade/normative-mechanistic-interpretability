@@ -1,0 +1,1124 @@
+{
+ "dp_v03": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"matter of luck, no conduct judged\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "matter of luck, no conduct judged"
+  }
+ },
+ "dp_v01": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"an outcome of luck, not a judged action\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "an outcome of luck, not a judged action"
+  }
+ },
+ "dp_v02": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 1, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"pure luck, no conduct judged\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 1,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "pure luck, no conduct judged"
+  }
+ },
+ "dp_p13": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"condition of the water, no one's conduct is judged\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "condition of the water, no one's conduct is judged"
+  }
+ },
+ "dp_o02": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"circumstance/situation, not a judged action\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "circumstance/situation, not a judged action"
+  }
+ },
+ "dp_p05": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"situation outside of someone's conduct\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "situation outside of someone's conduct"
+  }
+ },
+ "dp_o11": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"just the weather, no conduct judged\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "just the weather, no conduct judged"
+  }
+ },
+ "dp_f01": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"health condition, no one's conduct is judged\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "health condition, no one's conduct is judged"
+  }
+ },
+ "dp_o07": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"pure luck/outcome, no conduct or choice is being judged\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "pure luck/outcome, no conduct or choice is being judged"
+  }
+ },
+ "dp_o01": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 1, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"weather condition, no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 1,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "weather condition, no one's conduct is judged"
+  }
+ },
+ "dp_f10": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"circumstances of birth, not an action\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "circumstances of birth, not an action"
+  }
+ },
+ "dp_f14": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 1, \"prudential\": 2, \"etiquette\": 3, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"disturbing others is an etiquette issue, also unpleasant for the doer\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 1,
+   "prudential": 2,
+   "etiquette": 3,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "disturbing others is an etiquette issue, also unpleasant for the doer"
+  }
+ },
+ "dp_f15": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"health outcome, no conduct judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "health outcome, no conduct judged"
+  }
+ },
+ "dp_f11": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a situation or condition, no one's conduct is judged\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a situation or condition, no one's conduct is judged"
+  }
+ },
+ "dp_p14": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describing a situation, not a judged action\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describing a situation, not a judged action"
+  }
+ },
+ "dp_f07": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"a medical condition, no action judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "a medical condition, no action judged"
+  }
+ },
+ "dp_v13": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a person's condition or experience rather than a judged conduct\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a person's condition or experience rather than a judged conduct"
+  }
+ },
+ "dp_p09": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"state of the weather/view, no conduct judged\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "state of the weather/view, no conduct judged"
+  }
+ },
+ "dp_o06": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a situation, not a person's conduct\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a situation, not a person's conduct"
+  }
+ },
+ "dp_p01": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"the difference is just the outcome or situation\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "the difference is just the outcome or situation"
+  }
+ },
+ "dp_v05": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"weather condition, no conduct judged\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "weather condition, no conduct judged"
+  }
+ },
+ "dp_v07": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"personal experience and well-being\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "personal experience and well-being"
+  }
+ },
+ "dp_v12": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 1, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"just experiencing a time change, no one's conduct is judged\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 1,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "just experiencing a time change, no one's conduct is judged"
+  }
+ },
+ "dp_f05": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a situation/condition, no conduct is judged\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a situation/condition, no conduct is judged"
+  }
+ },
+ "dp_f13": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a medical condition or state, not a choice\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a medical condition or state, not a choice"
+  }
+ },
+ "dp_p06": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"health condition, no conduct judged\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "health condition, no conduct judged"
+  }
+ },
+ "dp_f03": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"physiological condition, not conduct being judged\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "physiological condition, not conduct being judged"
+  }
+ },
+ "dp_p02": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"medical outcome, no one's conduct is judged\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "medical outcome, no one's conduct is judged"
+  }
+ },
+ "dp_v11": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 2, \"prudential\": 0, \"etiquette\": 2, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": true, \"comment\": \"Context-dependent; if the news is bad, smiling is callous or inappropriate.\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 2,
+   "prudential": 0,
+   "etiquette": 2,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": true,
+   "comment": "Context-dependent; if the news is bad, smiling is callous or inappropriate."
+  }
+ },
+ "dp_o04": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"a condition or experience, not necessarily a deliberate action\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "a condition or experience, not necessarily a deliberate action"
+  }
+ },
+ "dp_f12": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a physical condition\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a physical condition"
+  }
+ },
+ "dp_p11": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a situation encountered, no one's conduct is being judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a situation encountered, no one's conduct is being judged"
+  }
+ },
+ "dp_v15": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a situation or condition, no conduct judged\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a situation or condition, no conduct judged"
+  }
+ },
+ "dp_f08": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"the difference describes a situation or experience, not someone's conduct\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "the difference describes a situation or experience, not someone's conduct"
+  }
+ },
+ "dp_p04": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"just a situation that happens to someone\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "just a situation that happens to someone"
+  }
+ },
+ "dp_o12": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a situation, not evaluating conduct\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a situation, not evaluating conduct"
+  }
+ },
+ "dp_f02": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"a medical condition, nobody's conduct is being judged\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "a medical condition, nobody's conduct is being judged"
+  }
+ },
+ "dp_o17": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes an outcome or state of affairs, no conduct is judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes an outcome or state of affairs, no conduct is judged"
+  }
+ },
+ "dp_o14": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"situation outside of doer's control\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "situation outside of doer's control"
+  }
+ },
+ "dp_o13": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own comfort and safety\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own comfort and safety"
+  }
+ },
+ "dp_p10": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a situation/state of a thing\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a situation/state of a thing"
+  }
+ },
+ "dp_o09": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"situation described, no conduct judged\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "situation described, no conduct judged"
+  }
+ },
+ "dp_o03": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"just a situation/condition\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "just a situation/condition"
+  }
+ },
+ "dp_p07": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"just a better situation, no conduct judged\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "just a better situation, no conduct judged"
+  }
+ },
+ "dp_f09": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own comfort and safety\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own comfort and safety"
+  }
+ },
+ "dp_f04": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own comfort and physical well-being\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own comfort and physical well-being"
+  }
+ },
+ "dp_v10": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a physical state or experience, not a chosen action\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a physical state or experience, not a chosen action"
+  }
+ },
+ "dp_v04": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a situation/weather outcome\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a situation/weather outcome"
+  }
+ },
+ "dp_v08": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes the state of a plant, nobody's conduct is judged\"}",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes the state of a plant, nobody's conduct is judged"
+  }
+ },
+ "dp_o08": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"a condition, not a choice or action\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "a condition, not a choice or action"
+  }
+ },
+ "dp_v09": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a condition or state, no conduct is judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a condition or state, no conduct is judged"
+  }
+ },
+ "dp_p08": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a situation, no one's conduct is judged\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a situation, no one's conduct is judged"
+  }
+ },
+ "dp_v16": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a health state\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a health state"
+  }
+ },
+ "dp_p03": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"difference is just the weather\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "difference is just the weather"
+  }
+ },
+ "dp_p15": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a situation/condition, no conduct is judged\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a situation/condition, no conduct is judged"
+  }
+ },
+ "dp_v06": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own happiness and experience\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own happiness and experience"
+  }
+ },
+ "dp_p12": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"the state of the apples is judged, not someone's conduct\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "the state of the apples is judged, not someone's conduct"
+  }
+ },
+ "dp_p16": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 1, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"the difference is just the weather\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 1,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "the difference is just the weather"
+  }
+ },
+ "dp_o15": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a situation, not a choice or action\"}",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a situation, not a choice or action"
+  }
+ },
+ "dp_o05": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"condition, not an action\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "condition, not an action"
+  }
+ },
+ "dp_v14": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"outcome of a random draw, no conduct judged\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "outcome of a random draw, no conduct judged"
+  }
+ },
+ "dp_f16": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"Y\", \"moral\": 0, \"prudential\": 3, \"etiquette\": 0, \"aesthetic\": 0, \"epistemic\": 0, \"unclear\": false, \"comment\": \"own safety and comfort\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "Y",
+   "moral": 0,
+   "prudential": 3,
+   "etiquette": 0,
+   "aesthetic": 0,
+   "epistemic": 0,
+   "unclear": false,
+   "comment": "own safety and comfort"
+  }
+ },
+ "dp_o10": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"just a situation\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "just a situation"
+  }
+ },
+ "dp_o16": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 1,
+  "raw": "```json\n{\"q1\": 1, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"weather condition, no conduct judged\"}\n```",
+  "parsed": {
+   "q1": 1,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "weather condition, no conduct judged"
+  }
+ },
+ "dp_o18": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 3, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"describes a situation, not a choice or conduct\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 3,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "describes a situation, not a choice or conduct"
+  }
+ },
+ "dp_f06": {
+  "model": "gemini-3.1-pro-preview",
+  "side": 2,
+  "raw": "```json\n{\"q1\": 2, \"q2\": 2, \"q3\": \"N\", \"moral\": null, \"prudential\": null, \"etiquette\": null, \"aesthetic\": null, \"epistemic\": null, \"unclear\": false, \"comment\": \"condition, not an action or choice\"}\n```",
+  "parsed": {
+   "q1": 2,
+   "q2": 2,
+   "q3": "N",
+   "moral": null,
+   "prudential": null,
+   "etiquette": null,
+   "aesthetic": null,
+   "epistemic": null,
+   "unclear": false,
+   "comment": "condition, not an action or choice"
+  }
+ }
+}
