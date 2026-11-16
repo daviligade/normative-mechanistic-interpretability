@@ -6,6 +6,8 @@ EXTRA = {
     "A0s": lambda stem: f"{stem} is socially",
     "A1s": lambda stem: f"{common.PRIME}{stem} is socially",
     "B0c": lambda stem: f"{stem} is considered",
+    "A0e": lambda stem: f"{stem} is ethically",
+    "A1e": lambda stem: f"{common.PRIME}{stem} is ethically",
 }
 
 
