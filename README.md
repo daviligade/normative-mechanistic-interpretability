@@ -1,6 +1,6 @@
 # Normative mechanistic interpretability
 
-Code and data for the paper *Disambiguating Moral Circuits and Moral Features in Language Models*.
+Code and data for the paper [*Disambiguating Moral Circuits and Moral Features in Language Models*](https://arxiv.org/abs/2611.21705). The pairs and annotations are also a Hugging Face dataset (https://huggingface.co/datasets/davideliga/normative-minimal-pairs); the trained SAE dictionaries are at https://huggingface.co/davideliga/normative-sae-dictionaries.
 
 The paper asks whether attention heads and sparse-autoencoder (SAE) features that change a model's answer to a moral prompt respond to moral content, to the judgment of conduct by any norm, or to the word "morally" in the prompt. It tests them on minimal pairs of short phrases that differ in a moral standard, in another kind of norm (prudence, etiquette, aesthetics, evidence) or in a descriptive quality, in 14 open-weight models.
 
@@ -27,9 +27,10 @@ pip install -r requirements.txt
 
 The models are loaded from Hugging Face (the Llama and Gemma models need an accepted licence on Hugging Face). All runs of the paper used one Apple M2 Max computer with 96 GB of memory (`DEVICE=mps`, float32); `DEVICE=cuda` or `DEVICE=cpu` also work.
 
-The feature scripts need the SAE dictionaries in `dictionaries/<dictionary>/` (released separately). The Llama-3.1-8B dictionary is Llama Scope:
+The feature scripts need the SAE dictionaries in `dictionaries/<dictionary>/`. The 13 trained dictionaries and the Llama Scope dictionary of Llama-3.1-8B:
 
 ```
+hf download davideliga/normative-sae-dictionaries --local-dir dictionaries
 huggingface-cli download fnlp/Llama3_1-8B-Base-LXR-8x --include 'Llama3_1-8B-Base-L12R-8x/*' --local-dir dictionaries
 ```
 
@@ -54,6 +55,21 @@ python3 annotation_llm/compare_with_humans.py --llm annotation_llm/answers/calib
 ```
 
 Each model run writes to `runs/`, each analysis to `results/`. A run that is complete is skipped when a script is started again. The model runs take from minutes (1B models) to several hours (14B models) per script on the computer above; the analyses run on a CPU.
+
+## Citation
+
+If you use this material, please cite the paper:
+
+```bibtex
+@misc{liga2026disambiguating,
+  title         = {Disambiguating Moral Circuits and Moral Features in Language Models: Moral content, normative judgment or cue words? Evidence from 14 models},
+  author        = {Liga, Davide and Yu, Liuwen and Magnini, Matteo},
+  year          = {2026},
+  eprint        = {2611.21705},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2611.21705}
+}
+```
 
 ## Licence
 
