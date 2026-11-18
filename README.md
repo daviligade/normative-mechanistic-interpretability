@@ -67,6 +67,7 @@ If you use this material, please cite the paper:
   year          = {2026},
   eprint        = {2611.21705},
   archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
   url           = {https://arxiv.org/abs/2611.21705}
 }
 ```
